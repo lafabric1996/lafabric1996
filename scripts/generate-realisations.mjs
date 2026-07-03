@@ -4,8 +4,7 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const CONTENT_DIR = path.resolve(ROOT, "..", "content", "photos");
-const PUBLIC_DIR = path.join(ROOT, "public", "realisations");
+const CONTENT_DIR = path.resolve(ROOT, "..", "public", "realisations");
 const OUTPUT_FILE = path.join(ROOT, "src", "data", "realisations.json");
 
 const WEB_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
