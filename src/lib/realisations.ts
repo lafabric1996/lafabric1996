@@ -68,9 +68,10 @@ const featuredProjectsConfig = [
 ] as const;
 
 export function getFeaturedProjects(): RealisationProject[] {
-  return featuredProjectsConfig.flatMap(({ slug, title }) => {
-    const project = getProjectBySlug(slug);
+  return featuredProjectsConfig.flatMap((entry) => {
+    const project = getProjectBySlug(entry.slug);
     if (!project) return [];
+    const title = "title" in entry ? entry.title : undefined;
     return [title ? { ...project, title } : project];
   });
 }
