@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "siteName": "La Fab'ric 1996",
+    "defaultTitle": "La Fab'ric 1996 | Premium Woodworking & Renovation",
+    "defaultDescription": "Quebec company specializing in cabinet refacing, kitchen renovation, bathrooms, built-in furniture, custom woodworking and premium residential projects.",
+    "titleSuffix": "Premium Woodworking & Renovation",
+    "home": {
+      "title": "Home",
+      "description": "La Fab'ric 1996 — Woodworking, cabinet refacing, kitchen and bathroom renovation in Quebec."
+    },
+    "realisations": {
+      "title": "Projects",
+      "description": "Discover La Fab'ric 1996 projects in kitchens, bathrooms, built-in furniture and custom woodworking."
+    },
+    "cuisine": {
+      "title": "Kitchen",
+      "description": "Cabinet refacing and custom kitchen renovation by La Fab'ric 1996, a premium Quebec company."
+    },
+    "salleDeBain": {
+      "title": "Bathroom",
+      "description": "Custom bathroom renovation and design by La Fab'ric 1996, a specialized Quebec company."
+    },
+    "mobilierIntegre": {
+      "title": "Built-in Furniture",
+      "description": "Custom built-in furniture to optimize your living spaces. La Fab'ric 1996, Quebec woodworking."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Discover all La Fab'ric 1996 services: refacing, renovation, custom woodworking and premium residential projects."
+    },
+    "aPropos": {
+      "title": "About",
+      "description": "Discover La Fab'ric 1996, a Quebec company specializing in premium woodworking and renovation for nearly 30 years."
+    },
+    "temoignages": {
+      "title": "Testimonials",
+      "description": "Client testimonials for La Fab'ric 1996. Reviews and feedback on our renovation and woodworking projects."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contact La Fab'ric 1996 to discuss your kitchen, bathroom, built-in furniture or custom woodworking project."
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "realisations": "Projects",
+    "cuisine": "Kitchen",
+    "salleDeBain": "Bathroom",
+    "mobilierIntegre": "Built-in Furniture",
+    "services": "Services",
+    "aPropos": "About",
+    "temoignages": "Testimonials",
+    "contact": "Contact",
+    "main": "Main navigation",
+    "mobile": "Mobile navigation",
+    "footer": "Navigation",
+    "expertises": "Expertise",
+    "contactUs": "Contact us →"
+  },
+  "header": {
+    "homeAriaLabel": "La Fab'ric 1996 — Home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "requestQuote": "Request a quote"
+  },
+  "footer": {
+    "tagline": "Quebec company specializing in refacing, renovation and custom woodworking for nearly 30 years.",
+    "coordinates": "Contact Information",
+    "coordinatesPlaceholder": "Company contact details will be added soon.",
+    "rights": "All rights reserved.",
+    "location": "Quebec, Canada"
+  },
+  "common": {
+    "photoComingSoon": "Photo coming soon",
+    "mainPhotoComingSoon": "Main photo coming soon",
+    "contentComingSoon": "Content coming soon",
+    "comingSoon": "Coming soon",
+    "learnMore": "Learn more →",
+    "viewAll": "View all",
+    "photoSuffix": "— photo coming soon",
+    "before": "Before",
+    "after": "After"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Woodworking & Renovation — Quebec",
+      "title": "Excellence in woodworking and renovation",
+      "subtitle": "Quebec company specializing for nearly 30 years in cabinet refacing, kitchen renovation, bathrooms, built-in furniture and custom woodworking.",
+      "primaryCta": "Get a quote",
+      "secondaryCta": "View our projects",
+      "imageLabel": "Main photo coming soon"
+    },
+    "services": {
+      "eyebrow": "Our Expertise",
+      "title": "Services designed for your interior",
+      "description": "From cabinet refacing to custom woodworking, we support your residential projects with rigour and careful finishing.",
+      "items": {
+        "kitchen": {
+          "title": "Custom kitchens",
+          "description": "Kitchens designed, built and installed with precision for high-end residential projects.",
+          "imageAlt": "Custom kitchen — YH2 Maison Aubé"
+        },
+        "builtIn": {
+          "title": "Built-in furniture",
+          "description": "Libraries, walk-ins, offices, pantries and all furniture designed specifically for each residence.",
+          "imageAlt": "Built-in furniture — YH2 Les blocs de bois"
+        },
+        "architectural": {
+          "title": "Architectural woodworking",
+          "description": "Collaboration with architects and designers to deliver unique projects where every detail is mastered.",
+          "imageAlt": "Architectural woodworking — MU Architecture L'Albatros"
+        }
+      }
+    },
+    "whyChoose": {
+      "eyebrow": "Our Difference",
+      "title": "Why choose La Fab'ric 1996",
+      "description": "A Quebec company combining experience, artisan know-how and attention to detail.",
+      "reasons": {
+        "experience": {
+          "title": "Nearly 30 years of experience",
+          "description": "Quebec expertise built over decades in renovation and woodworking."
+        },
+        "expertise": {
+          "title": "Complete expertise",
+          "description": "Refacing, kitchens, bathrooms, built-in furniture and custom woodworking — all under one roof."
+        },
+        "craftsmanship": {
+          "title": "Artisan know-how",
+          "description": "Every project is carried out with the care and precision of a trade mastered over the years."
+        },
+        "finishing": {
+          "title": "Premium finishes",
+          "description": "A constant focus on detail, material quality and the final result."
+        }
+      }
+    },
+    "video": {
+      "eyebrow": "Featured",
+      "caption": "Marie-Mai presents La Fab'ric 1996",
+      "quote": "Discover our craftsmanship through this video feature.",
+      "play": "Play video",
+      "close": "Close",
+      "ariaLabel": "Marie-Mai promotional video",
+      "placeholder": "Add content/marie-mai-poster.jpg then run npm run sync:video"
+    },
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Featured projects",
+      "description": "A selection of our recent projects."
+    },
+    "finalCta": {
+      "title": "Ready to bring your project to life?",
+      "description": "Contact us to discuss your space and receive a personalized quote.",
+      "primaryButton": "Get a quote",
+      "secondaryButton": "View our projects"
+    }
+  },
+  "servicesGrid": {
+    "eyebrow": "Our Expertise",
+    "title": "Complete know-how for your projects",
+    "description": "From kitchens to bathrooms, including built-in furniture and custom woodworking.",
+    "items": {
+      "resurfacing": {
+        "title": "Cabinet Refacing",
+        "description": "Give new life to your existing cabinets with a durable, elegant finish — without full demolition."
+      },
+      "kitchen": {
+        "title": "Kitchen Renovation",
+        "description": "Design and build custom kitchens tailored to your daily life and space."
+      },
+      "bathroom": {
+        "title": "Bathrooms",
+        "description": "Functional, refined layouts from initial planning to final finishing."
+      },
+      "builtIn": {
+        "title": "Built-in Furniture",
+        "description": "Custom solutions to optimize every corner of your interior."
+      },
+      "customWoodwork": {
+        "title": "Custom Woodworking",
+        "description": "Artisan fabrication of unique pieces adapted to your needs."
+      },
+      "residential": {
+        "title": "Residential Projects",
+        "description": "Full support for premium home renovations."
+      }
+    }
+  },
+  "featuredProjects": {
+    "eyebrow": "Portfolio",
+    "title": "Projects",
+    "description": "Discover a selection of projects. Photos will be added soon."
+  },
+  "aboutPreview": {
+    "eyebrow": "About",
+    "title": "Nearly 30 years of Quebec expertise",
+    "paragraph1": "La Fab'ric 1996 is a recognized Quebec company for quality work in cabinet refacing, kitchen renovation, bathrooms, built-in furniture and custom woodworking.",
+    "paragraph2": "Every project is approached with rigour, attention to detail and a constant focus on premium finishing.",
+    "cta": "Discover our story",
+    "workshopPhoto": "Workshop photo coming soon"
+  },
+  "cta": {
+    "defaultTitle": "Ready to transform your space?",
+    "defaultDescription": "Contact us to discuss your project and receive a personalized quote.",
+    "defaultButton": "Request a quote",
+    "contactUs": "Contact us"
+  },
+  "serviceLayout": {
+    "approachEyebrow": "Our Approach",
+    "approachTitle": "Quality and Finishing",
+    "approachDescription": "Detailed content to be completed based on your projects and expertise."
+  },
+  "realisations": {
+    "eyebrow": "Portfolio",
+    "title": "Our Projects",
+    "description": "Discover a selection of residential projects by La Fab'ric 1996 in kitchens, bathrooms and built-in furniture.",
+    "backToGallery": "Back to projects",
+    "emptyFilter": "No projects in this category yet.",
+    "categories": {
+      "all": "All",
+      "cuisine": "Kitchen",
+      "salle-de-bain": "Bathroom",
+      "mobilier-integre": "Built-in Furniture",
+      "resurfacage": "Refacing",
+      "residential": "Residential Project"
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "Services",
+    "title": "Complete support, from concept to finishing",
+    "description": "La Fab'ric 1996 offers a full range of services for your premium residential projects in Quebec.",
+    "heroPhoto": "Services — photo coming soon",
+    "processEyebrow": "Process",
+    "processTitle": "Our Working Method",
+    "processDescription": "A structured process to ensure quality at every stage of your project.",
+    "steps": {
+      "consultation": {
+        "title": "Consultation",
+        "description": "Discussion of your needs, space and expectations to define the project scope."
+      },
+      "design": {
+        "title": "Design",
+        "description": "Plan development and material selection based on your vision."
+      },
+      "fabrication": {
+        "title": "Fabrication",
+        "description": "Artisan production with a constant focus on quality and precision."
+      },
+      "installation": {
+        "title": "Installation",
+        "description": "On-site installation and finishing for an impeccable, lasting result."
+      }
+    }
+  },
+  "cuisinePage": {
+    "eyebrow": "Kitchen",
+    "title": "Custom kitchens and refacing",
+    "description": "Revitalize your kitchen or design an entirely new space, with a constant focus on quality and finishing.",
+    "ctaTitle": "Have a kitchen project in mind?",
+    "ctaDescription": "Tell us about your space and expectations. We will guide you to the best solution.",
+    "blocks": {
+      "resurfacing": {
+        "title": "Cabinet Refacing",
+        "imageLabel": "Refacing — photo coming soon",
+        "p1": "Refacing transforms the appearance of your existing cabinets without replacing them entirely.",
+        "p2": "This solution offers a durable, elegant result while preserving your current kitchen structure."
+      },
+      "renovation": {
+        "title": "Full Renovation",
+        "imageLabel": "Kitchen renovation — photo coming soon",
+        "p1": "For renovation projects, we support every step from design to final installation.",
+        "p2": "Each kitchen is designed to harmonize with your lifestyle and the architecture of your space."
+      },
+      "finishes": {
+        "title": "Premium Finishes",
+        "imageLabel": "Finishes — photo coming soon",
+        "p1": "Materials, hardware and finishing details are carefully selected for a refined result.",
+        "p2": "Detailed content for this section will be completed based on your available products and finishes."
+      }
+    }
+  },
+  "salleDeBainPage": {
+    "eyebrow": "Bathroom",
+    "title": "Refined and functional bathrooms",
+    "description": "Create a relaxing space combining aesthetics, ergonomics and careful finishing.",
+    "ctaTitle": "Renovating your bathroom?",
+    "ctaDescription": "Contact us to discuss your project and receive a tailored quote.",
+    "blocks": {
+      "design": {
+        "title": "Custom Design",
+        "imageLabel": "Bathroom design — photo coming soon",
+        "p1": "Each bathroom is planned according to your needs, available space and style.",
+        "p2": "The layout is optimized to combine ease of use with premium aesthetics."
+      },
+      "vanity": {
+        "title": "Vanities and Storage",
+        "imageLabel": "Custom vanity — photo coming soon",
+        "p1": "We design vanities and integrated storage solutions to maximize every inch.",
+        "p2": "Custom furniture ensures a cohesive, durable result."
+      },
+      "materials": {
+        "title": "Finishes and Materials",
+        "imageLabel": "Bathroom materials — photo coming soon",
+        "p1": "Material and finish selection is essential for an elegant, durable result.",
+        "p2": "Specific details will be added based on your product offering."
+      }
+    }
+  },
+  "mobilierIntegrePage": {
+    "eyebrow": "Built-in Furniture",
+    "title": "Custom solutions for every space",
+    "description": "Optimize your interior with built-in furniture designed and built to your exact dimensions.",
+    "ctaTitle": "Need custom furniture?",
+    "ctaDescription": "Tell us about your project and we will propose a solution adapted to your space.",
+    "blocks": {
+      "storage": {
+        "title": "Smart Storage",
+        "imageLabel": "Built-in storage — photo coming soon",
+        "p1": "Custom closets, bookcases, desks and storage integrate harmoniously into your décor.",
+        "p2": "Each piece is built to meet a specific need while maintaining a refined aesthetic."
+      },
+      "integration": {
+        "title": "Architectural Integration",
+        "imageLabel": "Architectural furniture — photo coming soon",
+        "p1": "Built-in furniture adapts to the architectural constraints of your space.",
+        "p2": "We ensure every element harmonizes with existing volumes and materials."
+      },
+      "craftsmanship": {
+        "title": "Artisan Fabrication",
+        "imageLabel": "Workshop — photo coming soon",
+        "p1": "Our woodworking expertise ensures careful fabrication and durable finishes.",
+        "p2": "Project examples will be added to this section soon."
+      }
+    }
+  },
+  "aProposPage": {
+    "eyebrow": "About",
+    "title": "A Quebec company committed to excellence",
+    "description": "For nearly 30 years, La Fab'ric 1996 has put its expertise at the service of premium residential projects across Quebec.",
+    "storyTitle": "Our Story",
+    "storyP1": "La Fab'ric 1996 is a recognized Quebec company for its expertise in cabinet refacing, kitchen renovation, bathrooms, built-in furniture and custom woodworking.",
+    "storyP2": "Over the decades, we have developed artisan know-how serving discerning clients who seek careful finishes and lasting results.",
+    "storyP3": "Detailed content about our story will be completed soon.",
+    "teamPhoto": "Team photo coming soon",
+    "valuesEyebrow": "Our Values",
+    "valuesTitle": "What Guides Us",
+    "valuesDescription": "Fundamental principles that guide each of our projects.",
+    "workshopPhoto": "Workshop — photo coming soon",
+    "projectPhoto": "Project — photo coming soon",
+    "values": {
+      "quality": {
+        "title": "Quality",
+        "description": "Every project is carried out with rigour, from material selection to final finishing."
+      },
+      "craftsmanship": {
+        "title": "Craftsmanship",
+        "description": "Woodworking know-how passed down and perfected over the years."
+      },
+      "listening": {
+        "title": "Listening",
+        "description": "Your needs and vision guide every decision, from initial plan to delivery."
+      },
+      "durability": {
+        "title": "Durability",
+        "description": "Projects designed to last, with quality finishes and materials."
+      }
+    }
+  },
+  "temoignagesPage": {
+    "eyebrow": "Testimonials",
+    "title": "Our clients speak",
+    "description": "Client testimonials will be published soon. This section will feature authentic feedback on our renovation and woodworking projects.",
+    "placeholderQuote": "Client reviews will appear here once collected and validated.",
+    "placeholderNote": "Temporary content — no fictitious testimonials are displayed.",
+    "experienceEyebrow": "Your Experience",
+    "experienceTitle": "Have you worked with us?",
+    "experienceDescription": "Your feedback matters. Contact us to share your experience.",
+    "ctaTitle": "Have a project in progress or completed?",
+    "ctaDescription": "Feel free to contact us to share your experience or discuss a new project."
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Let's talk about your project",
+    "description": "Fill out the form below or use our contact details to reach us. We will respond as soon as possible.",
+    "form": {
+      "firstName": "First name",
+      "firstNamePlaceholder": "Your first name",
+      "lastName": "Last name",
+      "lastNamePlaceholder": "Your last name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "(000) 000-0000",
+      "projectType": "Project type",
+      "selectService": "Select a service",
+      "options": {
+        "kitchen": "Kitchen",
+        "bathroom": "Bathroom",
+        "builtIn": "Built-in Furniture",
+        "resurfacing": "Cabinet Refacing",
+        "other": "Other"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Describe your project...",
+      "disclaimer": "This form is a mockup. Message delivery will be configured later.",
+      "submit": "Send message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "description": "Full company contact details (address, phone, email and business hours) will be added soon.",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business hours"
+    }
+  },
+  "jsonLd": {
+    "areaServed": "Quebec",
+    "knowsAbout": [
+      "Cabinet refacing",
+      "Kitchen renovation",
+      "Bathrooms",
+      "Built-in furniture",
+      "Custom woodworking"
+    ]
+  }
+}

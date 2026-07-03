@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "siteName": "La Fab'ric 1996",
+    "defaultTitle": "La Fab'ric 1996 | Ébénisterie et rénovation haut de gamme",
+    "defaultDescription": "Entreprise québécoise spécialisée dans le resurfaçage d'armoires de cuisine, la rénovation de cuisines, les salles de bain, le mobilier intégré, l'ébénisterie sur mesure et les projets résidentiels haut de gamme.",
+    "titleSuffix": "Ébénisterie et rénovation haut de gamme",
+    "home": {
+      "title": "Accueil",
+      "description": "La Fab'ric 1996 — Ébénisterie, resurfaçage d'armoires, rénovation de cuisines et salles de bain au Québec."
+    },
+    "realisations": {
+      "title": "Réalisations",
+      "description": "Découvrez les projets de La Fab'ric 1996 en cuisine, salle de bain, mobilier intégré et ébénisterie sur mesure."
+    },
+    "cuisine": {
+      "title": "Cuisine",
+      "description": "Resurfaçage d'armoires et rénovation de cuisines sur mesure par La Fab'ric 1996, entreprise québécoise haut de gamme."
+    },
+    "salleDeBain": {
+      "title": "Salle de bain",
+      "description": "Rénovation et aménagement de salles de bain sur mesure par La Fab'ric 1996, entreprise québécoise spécialisée."
+    },
+    "mobilierIntegre": {
+      "title": "Mobilier intégré",
+      "description": "Mobilier intégré sur mesure pour optimiser vos espaces de vie. La Fab'ric 1996, ébénisterie québécoise."
+    },
+    "services": {
+      "title": "Services",
+      "description": "Découvrez l'ensemble des services de La Fab'ric 1996 : resurfaçage, rénovation, ébénisterie sur mesure et projets résidentiels haut de gamme."
+    },
+    "aPropos": {
+      "title": "À propos",
+      "description": "Découvrez La Fab'ric 1996, entreprise québécoise spécialisée en ébénisterie et rénovation haut de gamme depuis près de 30 ans."
+    },
+    "temoignages": {
+      "title": "Témoignages",
+      "description": "Témoignages de clients de La Fab'ric 1996. Avis et retours d'expérience sur nos projets de rénovation et ébénisterie."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "Contactez La Fab'ric 1996 pour discuter de votre projet de cuisine, salle de bain, mobilier intégré ou ébénisterie sur mesure."
+    }
+  },
+  "nav": {
+    "home": "Accueil",
+    "realisations": "Réalisations",
+    "cuisine": "Cuisine",
+    "salleDeBain": "Salle de bain",
+    "mobilierIntegre": "Mobilier intégré",
+    "services": "Services",
+    "aPropos": "À propos",
+    "temoignages": "Témoignages",
+    "contact": "Contact",
+    "main": "Navigation principale",
+    "mobile": "Navigation mobile",
+    "footer": "Navigation",
+    "expertises": "Expertises",
+    "contactUs": "Nous contacter →"
+  },
+  "header": {
+    "homeAriaLabel": "La Fab'ric 1996 — Accueil",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu",
+    "requestQuote": "Demander une soumission"
+  },
+  "footer": {
+    "tagline": "Entreprise québécoise spécialisée en resurfaçage, rénovation et ébénisterie sur mesure depuis près de 30 ans.",
+    "coordinates": "Coordonnées",
+    "coordinatesPlaceholder": "Les coordonnées de l'entreprise seront ajoutées prochainement.",
+    "rights": "Tous droits réservés.",
+    "location": "Québec, Canada"
+  },
+  "common": {
+    "photoComingSoon": "Photo à venir",
+    "mainPhotoComingSoon": "Photo principale à venir",
+    "contentComingSoon": "Contenu à venir",
+    "comingSoon": "À venir",
+    "learnMore": "En savoir plus →",
+    "viewAll": "Voir tout",
+    "photoSuffix": "— photo à venir",
+    "before": "Avant",
+    "after": "Après"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Ébénisterie & rénovation — Québec",
+      "title": "L'excellence en ébénisterie et rénovation",
+      "subtitle": "Entreprise québécoise spécialisée depuis près de 30 ans dans le resurfaçage d'armoires, la rénovation de cuisines, les salles de bain, le mobilier intégré et l'ébénisterie sur mesure.",
+      "primaryCta": "Obtenir une soumission",
+      "secondaryCta": "Voir nos réalisations",
+      "imageLabel": "Photo principale à venir"
+    },
+    "services": {
+      "eyebrow": "Nos expertises",
+      "title": "Des services pensés pour votre intérieur",
+      "description": "Du resurfaçage d'armoires à l'ébénisterie sur mesure, nous accompagnons vos projets résidentiels avec rigueur et finition.",
+      "items": {
+        "kitchen": {
+          "title": "Cuisines sur mesure",
+          "description": "Des cuisines pensées, fabriquées et installées avec précision pour des projets résidentiels haut de gamme.",
+          "imageAlt": "Cuisine sur mesure — YH2 Maison Aubé"
+        },
+        "builtIn": {
+          "title": "Mobilier intégré",
+          "description": "Bibliothèques, walk-in, bureaux, celliers et tout mobilier conçu spécifiquement pour chaque résidence.",
+          "imageAlt": "Mobilier intégré — YH2 Les blocs de bois"
+        },
+        "architectural": {
+          "title": "Ébénisterie architecturale",
+          "description": "Collaboration avec architectes et designers pour réaliser des projets uniques où chaque détail est maîtrisé.",
+          "imageAlt": "Ébénisterie architecturale — MU Architecture L'Albatros"
+        }
+      }
+    },
+    "whyChoose": {
+      "eyebrow": "Notre différence",
+      "title": "Pourquoi choisir La Fab'ric 1996",
+      "description": "Une entreprise québécoise qui allie expérience, savoir-faire artisanal et attention aux détails.",
+      "reasons": {
+        "experience": {
+          "title": "Près de 30 ans d'expérience",
+          "description": "Une expertise québécoise forgée au fil des décennies dans la rénovation et l'ébénisterie."
+        },
+        "expertise": {
+          "title": "Expertise complète",
+          "description": "Resurfaçage, cuisines, salles de bain, mobilier intégré et ébénisterie sur mesure, sous un même toit."
+        },
+        "craftsmanship": {
+          "title": "Savoir-faire artisanal",
+          "description": "Chaque projet est réalisé avec le soin et la précision d'un métier maîtrisé depuis des années."
+        },
+        "finishing": {
+          "title": "Finitions haut de gamme",
+          "description": "Un souci constant du détail, de la qualité des matériaux et du rendu final."
+        }
+      }
+    },
+    "video": {
+      "eyebrow": "En vedette",
+      "caption": "Marie-Mai présente La Fab'ric 1996",
+      "quote": "Découvrez notre savoir-faire à travers cette capsule vidéo.",
+      "play": "Lire la vidéo",
+      "close": "Fermer",
+      "ariaLabel": "Vidéo promotionnelle Marie-Mai",
+      "placeholder": "Ajoutez content/marie-mai-poster.jpg puis lancez npm run sync:video"
+    },
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Réalisations vedettes",
+      "description": "Une sélection de nos projets récents."
+    },
+    "finalCta": {
+      "title": "Prêt à donner vie à votre projet ?",
+      "description": "Contactez-nous pour discuter de votre espace et obtenir une soumission personnalisée.",
+      "primaryButton": "Obtenir une soumission",
+      "secondaryButton": "Voir nos réalisations"
+    }
+  },
+  "servicesGrid": {
+    "eyebrow": "Nos expertises",
+    "title": "Un savoir-faire complet pour vos projets",
+    "description": "De la cuisine à la salle de bain, en passant par le mobilier intégré et l'ébénisterie sur mesure.",
+    "items": {
+      "resurfacing": {
+        "title": "Resurfaçage d'armoires",
+        "description": "Redonnez vie à vos armoires existantes avec un fini durable et élégant, sans démolition complète."
+      },
+      "kitchen": {
+        "title": "Rénovation de cuisines",
+        "description": "Conception et réalisation de cuisines sur mesure, pensées pour votre quotidien et votre espace."
+      },
+      "bathroom": {
+        "title": "Salles de bain",
+        "description": "Aménagements fonctionnels et raffinés, du plan initial à la finition."
+      },
+      "builtIn": {
+        "title": "Mobilier intégré",
+        "description": "Solutions sur mesure pour optimiser chaque recoin de votre intérieur."
+      },
+      "customWoodwork": {
+        "title": "Ébénisterie sur mesure",
+        "description": "Fabrication artisanale de pièces uniques, adaptées à vos besoins."
+      },
+      "residential": {
+        "title": "Projets résidentiels",
+        "description": "Accompagnement complet pour des rénovations haut de gamme à domicile."
+      }
+    }
+  },
+  "featuredProjects": {
+    "eyebrow": "Portfolio",
+    "title": "Réalisations",
+    "description": "Découvrez une sélection de projets. Les photos seront ajoutées prochainement."
+  },
+  "aboutPreview": {
+    "eyebrow": "À propos",
+    "title": "Près de 30 ans d'expertise québécoise",
+    "paragraph1": "La Fab'ric 1996 est une entreprise québécoise reconnue pour la qualité de son travail en resurfaçage d'armoires, rénovation de cuisines, salles de bain, mobilier intégré et ébénisterie sur mesure.",
+    "paragraph2": "Chaque projet est abordé avec rigueur, attention aux détails et un souci constant de la finition haut de gamme.",
+    "cta": "Découvrir notre histoire",
+    "workshopPhoto": "Photo de l'atelier à venir"
+  },
+  "cta": {
+    "defaultTitle": "Prêt à transformer votre espace ?",
+    "defaultDescription": "Contactez-nous pour discuter de votre projet et obtenir une soumission personnalisée.",
+    "defaultButton": "Demander une soumission",
+    "contactUs": "Nous contacter"
+  },
+  "serviceLayout": {
+    "approachEyebrow": "Notre approche",
+    "approachTitle": "Qualité et finition",
+    "approachDescription": "Contenu détaillé à compléter selon vos projets et votre expertise."
+  },
+  "realisations": {
+    "eyebrow": "Portfolio",
+    "title": "Nos réalisations",
+    "description": "Découvrez une sélection de projets résidentiels réalisés par La Fab'ric 1996 en cuisine, salle de bain et mobilier intégré.",
+    "backToGallery": "Retour aux réalisations",
+    "emptyFilter": "Aucun projet dans cette catégorie pour le moment.",
+    "categories": {
+      "all": "Tous",
+      "cuisine": "Cuisine",
+      "salle-de-bain": "Salle de bain",
+      "mobilier-integre": "Mobilier intégré",
+      "resurfacage": "Resurfaçage",
+      "residential": "Projet résidentiel"
+    }
+  },
+  "servicesPage": {
+    "eyebrow": "Services",
+    "title": "Un accompagnement complet, du concept à la finition",
+    "description": "La Fab'ric 1996 offre une gamme complète de services pour vos projets résidentiels haut de gamme au Québec.",
+    "heroPhoto": "Services — photo à venir",
+    "processEyebrow": "Processus",
+    "processTitle": "Notre méthode de travail",
+    "processDescription": "Un processus structuré pour garantir la qualité à chaque étape de votre projet.",
+    "steps": {
+      "consultation": {
+        "title": "Consultation",
+        "description": "Échange sur vos besoins, votre espace et vos attentes pour définir la portée du projet."
+      },
+      "design": {
+        "title": "Conception",
+        "description": "Élaboration du plan et sélection des matériaux en fonction de votre vision."
+      },
+      "fabrication": {
+        "title": "Fabrication",
+        "description": "Réalisation artisanale avec un souci constant de la qualité et de la précision."
+      },
+      "installation": {
+        "title": "Installation",
+        "description": "Pose et finition sur place pour un résultat impeccable et durable."
+      }
+    }
+  },
+  "cuisinePage": {
+    "eyebrow": "Cuisine",
+    "title": "Cuisines sur mesure et resurfaçage",
+    "description": "Redonnez vie à votre cuisine ou concevez un espace entièrement neuf, avec un souci constant de la qualité et de la finition.",
+    "ctaTitle": "Un projet de cuisine en tête ?",
+    "ctaDescription": "Parlez-nous de votre espace et de vos attentes. Nous vous guiderons vers la meilleure solution.",
+    "blocks": {
+      "resurfacing": {
+        "title": "Resurfaçage d'armoires",
+        "imageLabel": "Resurfaçage — photo à venir",
+        "p1": "Le resurfaçage permet de transformer l'apparence de vos armoires existantes sans les remplacer entièrement.",
+        "p2": "Cette solution offre un résultat durable et élégant, tout en respectant la structure de votre cuisine actuelle."
+      },
+      "renovation": {
+        "title": "Rénovation complète",
+        "imageLabel": "Rénovation cuisine — photo à venir",
+        "p1": "Pour les projets de rénovation, nous accompagnons chaque étape, de la conception à la pose finale.",
+        "p2": "Chaque cuisine est pensée pour s'harmoniser avec votre mode de vie et l'architecture de votre espace."
+      },
+      "finishes": {
+        "title": "Finitions haut de gamme",
+        "imageLabel": "Finitions — photo à venir",
+        "p1": "Matériaux, quincaillerie et détails de finition sont sélectionnés avec soin pour un rendu raffiné.",
+        "p2": "Le contenu détaillé de cette section sera complété selon vos produits et finitions disponibles."
+      }
+    }
+  },
+  "salleDeBainPage": {
+    "eyebrow": "Salle de bain",
+    "title": "Salles de bain raffinées et fonctionnelles",
+    "description": "Créez un espace de détente alliant esthétique, ergonomie et finitions soignées.",
+    "ctaTitle": "Rénover votre salle de bain ?",
+    "ctaDescription": "Contactez-nous pour discuter de votre projet et obtenir une soumission adaptée.",
+    "blocks": {
+      "design": {
+        "title": "Conception sur mesure",
+        "imageLabel": "Conception salle de bain — photo à venir",
+        "p1": "Chaque salle de bain est planifiée en fonction de vos besoins, de l'espace disponible et de votre style.",
+        "p2": "L'agencement est optimisé pour allier confort d'utilisation et esthétique haut de gamme."
+      },
+      "vanity": {
+        "title": "Vanités et rangement",
+        "imageLabel": "Vanité sur mesure — photo à venir",
+        "p1": "Nous concevons des vanités et solutions de rangement intégrées pour maximiser chaque centimètre.",
+        "p2": "Le mobilier sur mesure permet d'obtenir un rendu cohérent et durable."
+      },
+      "materials": {
+        "title": "Finitions et matériaux",
+        "imageLabel": "Matériaux salle de bain — photo à venir",
+        "p1": "Le choix des matériaux et des finitions est essentiel pour un résultat élégant et résistant.",
+        "p2": "Les détails spécifiques seront ajoutés selon votre offre de produits."
+      }
+    }
+  },
+  "mobilierIntegrePage": {
+    "eyebrow": "Mobilier intégré",
+    "title": "Des solutions sur mesure pour chaque espace",
+    "description": "Optimisez votre intérieur avec du mobilier intégré conçu et fabriqué selon vos dimensions exactes.",
+    "ctaTitle": "Besoin de mobilier sur mesure ?",
+    "ctaDescription": "Expliquez-nous votre projet et nous vous proposerons une solution adaptée à votre espace.",
+    "blocks": {
+      "storage": {
+        "title": "Rangements intelligents",
+        "imageLabel": "Rangement intégré — photo à venir",
+        "p1": "Placards, bibliothèques, bureaux et rangements sur mesure s'intègrent harmonieusement à votre décor.",
+        "p2": "Chaque pièce est fabriquée pour répondre à un besoin précis tout en conservant une esthétique raffinée."
+      },
+      "integration": {
+        "title": "Intégration architecturale",
+        "imageLabel": "Mobilier architectural — photo à venir",
+        "p1": "Le mobilier intégré s'adapte aux contraintes architecturales de votre espace.",
+        "p2": "Nous veillons à ce que chaque élément s'harmonise avec les volumes et les matériaux existants."
+      },
+      "craftsmanship": {
+        "title": "Fabrication artisanale",
+        "imageLabel": "Atelier — photo à venir",
+        "p1": "Notre expertise en ébénisterie garantit une fabrication soignée et des finitions durables.",
+        "p2": "Des exemples de réalisations seront ajoutés à cette section prochainement."
+      }
+    }
+  },
+  "aProposPage": {
+    "eyebrow": "À propos",
+    "title": "Une entreprise québécoise au service de l'excellence",
+    "description": "Depuis près de 30 ans, La Fab'ric 1996 met son expertise au service de projets résidentiels haut de gamme à travers le Québec.",
+    "storyTitle": "Notre histoire",
+    "storyP1": "La Fab'ric 1996 est une entreprise québécoise reconnue pour son expertise en resurfaçage d'armoires de cuisine, rénovation de cuisines, salles de bain, mobilier intégré et ébénisterie sur mesure.",
+    "storyP2": "Au fil des décennies, nous avons développé un savoir-faire artisanal au service de clients exigeants qui recherchent des finitions soignées et des résultats durables.",
+    "storyP3": "Le contenu détaillé de notre histoire sera complété prochainement.",
+    "teamPhoto": "Photo de l'équipe à venir",
+    "valuesEyebrow": "Nos valeurs",
+    "valuesTitle": "Ce qui nous guide",
+    "valuesDescription": "Des principes fondamentaux qui orientent chacun de nos projets.",
+    "workshopPhoto": "Atelier — photo à venir",
+    "projectPhoto": "Réalisation — photo à venir",
+    "values": {
+      "quality": {
+        "title": "Qualité",
+        "description": "Chaque projet est réalisé avec rigueur, du choix des matériaux à la finition finale."
+      },
+      "craftsmanship": {
+        "title": "Artisanat",
+        "description": "Un savoir-faire en ébénisterie transmis et perfectionné au fil des années."
+      },
+      "listening": {
+        "title": "Écoute",
+        "description": "Vos besoins et votre vision guident chaque décision, du plan initial à la livraison."
+      },
+      "durability": {
+        "title": "Durabilité",
+        "description": "Des réalisations conçues pour durer, avec des finitions et des matériaux de qualité."
+      }
+    }
+  },
+  "temoignagesPage": {
+    "eyebrow": "Témoignages",
+    "title": "La parole à nos clients",
+    "description": "Les témoignages de nos clients seront publiés prochainement. Cette section accueillera les retours authentiques sur nos projets de rénovation et d'ébénisterie.",
+    "placeholderQuote": "Les avis de nos clients apparaîtront ici une fois recueillis et validés.",
+    "placeholderNote": "Contenu temporaire — aucun témoignage fictif n'est affiché.",
+    "experienceEyebrow": "Votre expérience",
+    "experienceTitle": "Vous avez travaillé avec nous ?",
+    "experienceDescription": "Votre retour est important. Contactez-nous pour partager votre expérience.",
+    "ctaTitle": "Un projet en cours ou terminé ?",
+    "ctaDescription": "N'hésitez pas à nous contacter pour partager votre expérience ou discuter d'un nouveau projet."
+  },
+  "contactPage": {
+    "eyebrow": "Contact",
+    "title": "Parlons de votre projet",
+    "description": "Remplissez le formulaire ci-dessous ou utilisez nos coordonnées pour nous joindre. Nous vous répondrons dans les meilleurs délais.",
+    "form": {
+      "firstName": "Prénom",
+      "firstNamePlaceholder": "Votre prénom",
+      "lastName": "Nom",
+      "lastNamePlaceholder": "Votre nom",
+      "email": "Courriel",
+      "emailPlaceholder": "votre@courriel.com",
+      "phone": "Téléphone",
+      "phonePlaceholder": "(000) 000-0000",
+      "projectType": "Type de projet",
+      "selectService": "Sélectionnez un service",
+      "options": {
+        "kitchen": "Cuisine",
+        "bathroom": "Salle de bain",
+        "builtIn": "Mobilier intégré",
+        "resurfacing": "Resurfaçage d'armoires",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Décrivez votre projet...",
+      "disclaimer": "Ce formulaire est une maquette. L'envoi des messages sera configuré ultérieurement.",
+      "submit": "Envoyer le message"
+    },
+    "info": {
+      "title": "Coordonnées",
+      "description": "Les coordonnées complètes de l'entreprise (adresse, téléphone, courriel et heures d'ouverture) seront ajoutées prochainement.",
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Courriel",
+      "hours": "Heures d'ouverture"
+    }
+  },
+  "jsonLd": {
+    "areaServed": "Québec",
+    "knowsAbout": [
+      "Resurfaçage d'armoires de cuisine",
+      "Rénovation de cuisines",
+      "Salles de bain",
+      "Mobilier intégré",
+      "Ébénisterie sur mesure"
+    ]
+  }
+}
