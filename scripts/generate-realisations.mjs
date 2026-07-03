@@ -237,12 +237,12 @@ function copyProjectImage(file, targetDir, slug, folderName, order) {
 }
 
 function collectProjects() {
-  if (!fs.existsSync(CONTENT_DIR)) {
-    throw new Error(`Content directory not found: ${CONTENT_DIR}`);
+  if (!fs.existsSync(PUBLIC_DIR)) {
+    throw new Error(`Content directory not found: ${PUBLIC_DIR}`);
   }
 
   const projectDirs = fs
-    .readdirSync(CONTENT_DIR, { withFileTypes: true })
+    .readdirSync(PUBLIC_DIR, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name)
     .sort((a, b) => a.localeCompare(b, "fr"));
@@ -250,7 +250,7 @@ function collectProjects() {
   const projects = [];
 
   for (const folderName of projectDirs) {
-    const sourceDir = path.join(CONTENT_DIR, folderName);
+    const sourceDir = path.join(PUBLIC_DIR, folderName);
     const slug = slugify(folderName);
     const targetDir = path.join(PUBLIC_DIR, slug);
 
