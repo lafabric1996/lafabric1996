@@ -2,9 +2,9 @@
   "available": true,
   "src": "/videos/marie-mai.mp4",
   "posterSrc": "/videos/marie-mai-poster.jpg",
-  "sourceFile": "RÉNOS_CUISINE_v2_coupé.mp4",
-  "posterSource": "marie-mai-poster.jpg",
+  "sourceFile": null,
+  "posterSource": null,
   "extension": ".mp4",
-  "posterMethod": "manual",
-  "syncedAt": "2026-07-03T15:08:28.116Z"
+  "posterMethod": "existing",
+  "syncedAt": "2026-07-06T22:26:25.314Z"
 }

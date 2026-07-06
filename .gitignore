@@ -36,6 +36,12 @@ yarn-error.log*
 # vercel
 .vercel
 
+# vidéos locales trop volumineuses pour GitHub (>100MB) — voir sync:video
+/public/videos/*.mp4
+/public/videos/*.mov
+/public/videos/*.webm
+/public/videos/*.m4v
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

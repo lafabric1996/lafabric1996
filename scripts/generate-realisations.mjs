@@ -4,6 +4,10 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
+
+// Dossier source : les photos brutes par projet (jamais touché/supprimé par ce script)
+const SOURCE_DIR = path.resolve(ROOT, "..", "content", "photos");
+// Dossier de sortie généré : peut être vidé et régénéré sans risque à chaque run
 const PUBLIC_DIR = path.resolve(ROOT, "public", "realisations");
 const OUTPUT_FILE = path.join(ROOT, "src", "data", "realisations.json");
 
@@ -237,12 +241,12 @@ function copyProjectImage(file, targetDir, slug, folderName, order) {
 }
 
 function collectProjects() {
-  if (!fs.existsSync(PUBLIC_DIR)) {
-    throw new Error(`Content directory not found: ${PUBLIC_DIR}`);
+  if (!fs.existsSync(SOURCE_DIR)) {
+    throw new Error(`Content directory not found: ${SOURCE_DIR}`);
   }
 
   const projectDirs = fs
-    .readdirSync(PUBLIC_DIR, { withFileTypes: true })
+    .readdirSync(SOURCE_DIR, { withFileTypes: true })
     .filter((entry) => entry.isDirectory())
     .map((entry) => entry.name)
     .sort((a, b) => a.localeCompare(b, "fr"));
@@ -250,7 +254,7 @@ function collectProjects() {
   const projects = [];
 
   for (const folderName of projectDirs) {
-    const sourceDir = path.join(PUBLIC_DIR, folderName);
+    const sourceDir = path.join(SOURCE_DIR, folderName);
     const slug = slugify(folderName);
     const targetDir = path.join(PUBLIC_DIR, slug);
 
@@ -310,9 +314,13 @@ function collectProjects() {
 }
 
 function main() {
+  // public/realisations est un dossier généré : on le vide entièrement
+  // avant de le régénérer depuis content/photos (la vraie source), qui
+  // n'est jamais supprimé par ce script.
   if (fs.existsSync(PUBLIC_DIR)) {
     fs.rmSync(PUBLIC_DIR, { recursive: true, force: true });
   }
+  fs.mkdirSync(PUBLIC_DIR, { recursive: true });
 
   const projects = collectProjects();
   const payload = {
