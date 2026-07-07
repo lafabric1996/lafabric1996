@@ -402,8 +402,14 @@
       },
       "message": "Message",
       "messagePlaceholder": "Describe your project...",
-      "disclaimer": "This form is a mockup. Message delivery will be configured later.",
-      "submit": "Send message"
+      "submit": "Send message",
+      "submitting": "Sending...",
+      "successMessage": "Thank you! Your message has been sent. We'll get back to you shortly.",
+      "errors": {
+        "missingFields": "Please fill in all required fields.",
+        "invalidEmail": "Please enter a valid email address.",
+        "serverError": "Something went wrong while sending. Please try again or reach us by phone."
+      }
     },
     "info": {
       "title": "Contact Information",

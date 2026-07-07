@@ -402,8 +402,14 @@
       },
       "message": "Message",
       "messagePlaceholder": "Décrivez votre projet...",
-      "disclaimer": "Ce formulaire est une maquette. L'envoi des messages sera configuré ultérieurement.",
-      "submit": "Envoyer le message"
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "successMessage": "Merci! Votre message a été envoyé. Nous vous répondrons sous peu.",
+      "errors": {
+        "missingFields": "Veuillez remplir tous les champs obligatoires.",
+        "invalidEmail": "Veuillez entrer une adresse courriel valide.",
+        "serverError": "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous joindre par téléphone."
+      }
     },
     "info": {
       "title": "Coordonnées",
