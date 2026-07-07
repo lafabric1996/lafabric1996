@@ -66,7 +66,6 @@
   "footer": {
     "tagline": "Quebec company specializing in refacing, renovation and custom woodworking for nearly 30 years.",
     "coordinates": "Contact Information",
-    "coordinatesPlaceholder": "Company contact details will be added soon.",
     "rights": "All rights reserved.",
     "location": "Quebec, Canada"
   },
@@ -408,11 +407,17 @@
     },
     "info": {
       "title": "Contact Information",
-      "description": "Full company contact details (address, phone, email and business hours) will be added soon.",
+      "description": "You can also reach us directly using the details below.",
       "address": "Address",
+      "addressValue": "5804 Boulevard Labelle, Val-Morin, QC J0T 2R0",
       "phone": "Phone",
+      "phoneValue": "(819) 322-1041",
+      "phoneResurfacingValue": "(819) 507-1041 — Refacing",
       "email": "Email",
-      "hours": "Business hours"
+      "emailValue": "info@lafabric.ca",
+      "hours": "Business hours",
+      "hoursValue": "Monday to Friday, 8am to 5pm",
+      "hoursNote": "Closed for lunch from noon to 1pm. Appointments recommended before visiting."
     }
   },
   "jsonLd": {

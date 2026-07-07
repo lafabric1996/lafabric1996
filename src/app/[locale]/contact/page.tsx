@@ -23,7 +23,6 @@ export default async function ContactPage({ params }: LocalePageProps) {
   const { locale } = await params;
   setRequestLocale(asLocale(locale));
   const t = await getTranslations("contactPage");
-  const tCommon = await getTranslations("common");
 
   return (
     <>
@@ -168,18 +167,62 @@ export default async function ContactPage({ params }: LocalePageProps) {
               </p>
 
               <div className="mt-8 space-y-6">
-                {(["address", "phone", "email", "hours"] as const).map(
-                  (field) => (
-                    <div key={field}>
-                      <p className="text-xs font-medium uppercase tracking-[0.15em] text-wood">
-                        {t(`info.${field}`)}
-                      </p>
-                      <p className="mt-2 text-sm text-muted">
-                        {tCommon("comingSoon")}
-                      </p>
-                    </div>
-                  ),
-                )}
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-[0.15em] text-wood">
+                    {t("info.address")}
+                  </p>
+                  <p className="mt-2 text-sm text-muted">
+                    {t("info.addressValue")}
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-[0.15em] text-wood">
+                    {t("info.phone")}
+                  </p>
+                  <p className="mt-2 text-sm text-muted">
+                    <a
+                      href="tel:+18193221041"
+                      className="transition-colors hover:text-foreground"
+                    >
+                      {t("info.phoneValue")}
+                    </a>
+                  </p>
+                  <p className="mt-1 text-sm text-muted">
+                    <a
+                      href="tel:+18195071041"
+                      className="transition-colors hover:text-foreground"
+                    >
+                      {t("info.phoneResurfacingValue")}
+                    </a>
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-[0.15em] text-wood">
+                    {t("info.email")}
+                  </p>
+                  <p className="mt-2 text-sm text-muted">
+                    <a
+                      href={`mailto:${t("info.emailValue")}`}
+                      className="transition-colors hover:text-foreground"
+                    >
+                      {t("info.emailValue")}
+                    </a>
+                  </p>
+                </div>
+
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-[0.15em] text-wood">
+                    {t("info.hours")}
+                  </p>
+                  <p className="mt-2 text-sm text-muted">
+                    {t("info.hoursValue")}
+                  </p>
+                  <p className="mt-1 text-sm text-muted">
+                    {t("info.hoursNote")}
+                  </p>
+                </div>
               </div>
             </div>
           </AnimatedReveal>

@@ -10,6 +10,7 @@ export function Footer() {
   const tNav = useTranslations("nav");
   const tFooter = useTranslations("footer");
   const tMeta = useTranslations("metadata");
+  const tContact = useTranslations("contactPage");
   const currentYear = new Date().getFullYear();
 
   return (
@@ -70,9 +71,25 @@ export function Footer() {
             <h3 className="text-xs font-medium uppercase tracking-[0.2em] text-wood-light">
               {tFooter("coordinates")}
             </h3>
-            <p className="mt-6 text-sm leading-relaxed text-white/60">
-              {tFooter("coordinatesPlaceholder")}
-            </p>
+            <div className="mt-6 space-y-2 text-sm leading-relaxed text-white/60">
+              <p>{tContact("info.addressValue")}</p>
+              <p>
+                <a
+                  href="tel:+18193221041"
+                  className="transition-colors hover:text-white"
+                >
+                  {tContact("info.phoneValue")}
+                </a>
+              </p>
+              <p>
+                <a
+                  href={`mailto:${tContact("info.emailValue")}`}
+                  className="transition-colors hover:text-white"
+                >
+                  {tContact("info.emailValue")}
+                </a>
+              </p>
+            </div>
             <Link
               href="/contact"
               className="mt-4 inline-block text-sm font-medium text-wood-light transition-colors hover:text-white"

@@ -66,7 +66,6 @@
   "footer": {
     "tagline": "Entreprise québécoise spécialisée en resurfaçage, rénovation et ébénisterie sur mesure depuis près de 30 ans.",
     "coordinates": "Coordonnées",
-    "coordinatesPlaceholder": "Les coordonnées de l'entreprise seront ajoutées prochainement.",
     "rights": "Tous droits réservés.",
     "location": "Québec, Canada"
   },
@@ -83,9 +82,9 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Ébénisterie & rénovation — Québec",
-      "title": "L'excellence en ébénisterie et rénovation",
-      "subtitle": "Entreprise québécoise spécialisée depuis près de 30 ans dans le resurfaçage d'armoires, la rénovation de cuisines, les salles de bain, le mobilier intégré et l'ébénisterie sur mesure.",
+      "eyebrow": "",
+      "title": "L'excellence en ébénisterie et resurfaçage haut de gamme",
+      "subtitle": "Atelier d'ébénisterie familiale québécoise, nous concevons et fabriquons des réalisations sur mesure depuis plus de 30 ans. De la cuisine au mobilier intégré, jusqu'à l'aménagement architectural complet de résidences haut de gamme, notre savoir-faire se distingue par la qualité, la précision et le souci du détail.",
       "primaryCta": "Obtenir une soumission",
       "secondaryCta": "Voir nos réalisations",
       "imageLabel": "Photo principale à venir"
@@ -118,8 +117,8 @@
       "description": "Une entreprise québécoise qui allie expérience, savoir-faire artisanal et attention aux détails.",
       "reasons": {
         "experience": {
-          "title": "Près de 30 ans d'expérience",
-          "description": "Une expertise québécoise forgée au fil des décennies dans la rénovation et l'ébénisterie."
+          "title": "Plus de 30 ans",
+          "description": "Au service de projets sur mesure et d'un savoir-faire reconnu."
         },
         "expertise": {
           "title": "Expertise complète",
@@ -408,11 +407,17 @@
     },
     "info": {
       "title": "Coordonnées",
-      "description": "Les coordonnées complètes de l'entreprise (adresse, téléphone, courriel et heures d'ouverture) seront ajoutées prochainement.",
+      "description": "Vous pouvez aussi nous joindre directement avec les coordonnées ci-dessous.",
       "address": "Adresse",
+      "addressValue": "5804 Boulevard Labelle, Val-Morin, QC J0T 2R0",
       "phone": "Téléphone",
+      "phoneValue": "(819) 322-1041",
+      "phoneResurfacingValue": "(819) 507-1041 — Resurfaçage",
       "email": "Courriel",
-      "hours": "Heures d'ouverture"
+      "emailValue": "info@lafabric.ca",
+      "hours": "Heures d'ouverture",
+      "hoursValue": "Lundi au vendredi, 8h à 17h",
+      "hoursNote": "Fermé de midi à 13h. Rendez-vous suggéré avant de vous déplacer."
     }
   },
   "jsonLd": {
