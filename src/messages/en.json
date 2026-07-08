@@ -121,16 +121,16 @@
           "description": "Quebec expertise built over decades in renovation and woodworking."
         },
         "expertise": {
-          "title": "Complete expertise",
-          "description": "Refacing, kitchens, bathrooms, built-in furniture and custom woodworking — all under one roof."
+          "title": "Custom-made fabrication",
+          "description": "Every project is designed and built around your needs, your space and your way of living."
         },
         "craftsmanship": {
-          "title": "Artisan know-how",
-          "description": "Every project is carried out with the care and precision of a trade mastered over the years."
+          "title": "Lasting quality",
+          "description": "Carefully selected materials and a finish built to stand the test of time."
         },
         "finishing": {
-          "title": "Premium finishes",
-          "description": "A constant focus on detail, material quality and the final result."
+          "title": "Personalized support",
+          "description": "A team that listens, from the first sketch to the final installation."
         }
       }
     },

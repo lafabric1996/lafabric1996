@@ -121,16 +121,16 @@
           "description": "Au service de projets sur mesure et d'un savoir-faire reconnu."
         },
         "expertise": {
-          "title": "Expertise complète",
-          "description": "Resurfaçage, cuisines, salles de bain, mobilier intégré et ébénisterie sur mesure, sous un même toit."
+          "title": "Fabrication sur mesure",
+          "description": "Chaque projet est conçu et fabriqué selon vos besoins, votre espace et votre façon de vivre."
         },
         "craftsmanship": {
-          "title": "Savoir-faire artisanal",
-          "description": "Chaque projet est réalisé avec le soin et la précision d'un métier maîtrisé depuis des années."
+          "title": "Qualité durable",
+          "description": "Des matériaux soigneusement sélectionnés et une finition pensée pour traverser les années."
         },
         "finishing": {
-          "title": "Finitions haut de gamme",
-          "description": "Un souci constant du détail, de la qualité des matériaux et du rendu final."
+          "title": "Accompagnement personnalisé",
+          "description": "Une équipe à l'écoute, du premier croquis jusqu'à l'installation."
         }
       }
     },
