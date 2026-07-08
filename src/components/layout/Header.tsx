@@ -33,19 +33,34 @@ export function Header() {
   }, [pathname]);
 
   useEffect(() => {
+    const mainEl = document.querySelector("main");
+    const footerEl = document.querySelector("footer");
+
     document.body.style.overflow = isOpen ? "hidden" : "";
+    if (isOpen) {
+      mainEl?.setAttribute("inert", "");
+      footerEl?.setAttribute("inert", "");
+    } else {
+      mainEl?.removeAttribute("inert");
+      footerEl?.removeAttribute("inert");
+    }
+
     return () => {
       document.body.style.overflow = "";
+      mainEl?.removeAttribute("inert");
+      footerEl?.removeAttribute("inert");
     };
   }, [isOpen]);
 
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-50 transition-all duration-300",
-        isScrolled || isOpen
-          ? "border-b border-border/60 bg-background/95 backdrop-blur-md"
-          : "bg-transparent",
+        "fixed inset-x-0 top-0 z-[9999] transition-all duration-300",
+        isOpen
+          ? "bg-[#FAF8F5]"
+          : isScrolled
+            ? "border-b border-border/60 bg-background/95 backdrop-blur-md"
+            : "bg-transparent",
       )}
     >
       <Container as="div" className="flex h-20 items-center justify-between gap-4">
@@ -122,11 +137,12 @@ export function Header() {
       <div
         id="mobile-menu"
         className={cn(
-          "fixed inset-0 z-40 bg-background transition-all duration-500 xl:hidden",
+          "fixed inset-0 z-[9999] bg-[#FAF8F5] transition-opacity duration-500 xl:hidden",
           isOpen
             ? "pointer-events-auto opacity-100"
             : "pointer-events-none opacity-0",
         )}
+        aria-hidden={!isOpen}
       >
         <Container className="flex h-full flex-col justify-center pb-24 pt-28">
           <nav className="flex flex-col gap-6" aria-label={t("mobile")}>
