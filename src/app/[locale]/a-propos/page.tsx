@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { PageHeader } from "@/components/sections/PageHeader";
@@ -79,7 +80,15 @@ export default async function AProposPage({ params }: LocalePageProps) {
       </Section>
 
       <Section>
-        <ImagePlaceholder aspectRatio="wide" label={t("workshopPhoto")} />
+        <div className="relative aspect-[21/9] overflow-hidden">
+          <Image
+            src="/images/atelier.png"
+            alt={t("workshopPhotoAlt")}
+            fill
+            sizes="100vw"
+            className="object-cover"
+          />
+        </div>
       </Section>
 
       <CTABanner />
