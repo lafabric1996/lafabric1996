@@ -104,11 +104,8 @@ export function ContactForm() {
           <option value="" disabled>
             {t("selectService")}
           </option>
-          <option value="cuisine">{t("options.kitchen")}</option>
-          <option value="salle-de-bain">{t("options.bathroom")}</option>
-          <option value="mobilier">{t("options.builtIn")}</option>
+          <option value="ebenisterie">{t("options.woodworking")}</option>
           <option value="resurfacage">{t("options.resurfacing")}</option>
-          <option value="autre">{t("options.other")}</option>
         </select>
       </div>
 

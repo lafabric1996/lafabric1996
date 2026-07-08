@@ -489,11 +489,8 @@
       "projectType": "Project type",
       "selectService": "Select a service",
       "options": {
-        "kitchen": "Kitchen",
-        "bathroom": "Bathroom",
-        "builtIn": "Built-in Furniture",
-        "resurfacing": "Cabinet Refacing",
-        "other": "Other"
+        "woodworking": "Woodworking",
+        "resurfacing": "Refacing"
       },
       "message": "Message",
       "messagePlaceholder": "Describe your project...",

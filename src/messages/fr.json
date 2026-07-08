@@ -489,11 +489,8 @@
       "projectType": "Type de projet",
       "selectService": "Sélectionnez un service",
       "options": {
-        "kitchen": "Cuisine",
-        "bathroom": "Salle de bain",
-        "builtIn": "Mobilier intégré",
-        "resurfacing": "Resurfaçage d'armoires",
-        "other": "Autre"
+        "woodworking": "Ébénisterie",
+        "resurfacing": "Resurfaçage"
       },
       "message": "Message",
       "messagePlaceholder": "Décrivez votre projet...",
