@@ -79,10 +79,7 @@ export default async function AProposPage({ params }: LocalePageProps) {
       </Section>
 
       <Section>
-        <div className="grid gap-6 md:grid-cols-2">
-          <ImagePlaceholder aspectRatio="video" label={t("workshopPhoto")} />
-          <ImagePlaceholder aspectRatio="video" label={t("projectPhoto")} />
-        </div>
+        <ImagePlaceholder aspectRatio="wide" label={t("workshopPhoto")} />
       </Section>
 
       <CTABanner />
