@@ -12,6 +12,10 @@
       "title": "Projects",
       "description": "Discover La Fab'ric 1996 projects in kitchens, bathrooms, built-in furniture and custom woodworking."
     },
+    "resurfacage": {
+      "title": "Refacing",
+      "description": "Cabinet refacing by La Fab'ric 1996: give your kitchen a fresh new look without a full renovation."
+    },
     "cuisine": {
       "title": "Kitchen",
       "description": "Cabinet refacing and custom kitchen renovation by La Fab'ric 1996, a premium Quebec company."
@@ -44,6 +48,7 @@
   "nav": {
     "home": "Home",
     "realisations": "Projects",
+    "resurfacage": "Refacing",
     "cuisine": "Kitchen",
     "salleDeBain": "Bathroom",
     "mobilierIntegre": "Built-in Furniture",
@@ -249,6 +254,33 @@
       "installation": {
         "title": "Installation",
         "description": "On-site installation and finishing for an impeccable, lasting result."
+      }
+    }
+  },
+  "resurfacagePage": {
+    "eyebrow": "Refacing",
+    "title": "Kitchen Cabinet Refacing",
+    "description": "Give your kitchen a fresh new look without a full renovation, thanks to careful, lasting refacing work.",
+    "ctaTitle": "Have a refacing project in mind?",
+    "ctaDescription": "Tell us about your current cabinets. We'll suggest the solution best suited to your budget and taste.",
+    "blocks": {
+      "process": {
+        "title": "Our process",
+        "imageLabel": "Refacing process — photo coming soon",
+        "p1": "We remove the existing doors and fronts and replace them with new materials, while keeping your cabinets' existing structure.",
+        "p2": "This approach delivers a result comparable to new cabinets, at a fraction of the cost and timeline of a full renovation."
+      },
+      "materials": {
+        "title": "Materials and colours",
+        "imageLabel": "Materials and colours — photo coming soon",
+        "p1": "A wide choice of finishes, colours and hardware is available to personalize your kitchen to your taste.",
+        "p2": "Every material is selected for its durability and resistance to daily use."
+      },
+      "advantages": {
+        "title": "Why choose refacing",
+        "imageLabel": "Refaced kitchen — photo coming soon",
+        "p1": "Refacing is an economical, fast way to modernize your kitchen without the drawbacks of a full renovation.",
+        "p2": "It's also a greener choice, since your cabinets' existing structure is preserved rather than replaced."
       }
     }
   },

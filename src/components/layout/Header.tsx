@@ -7,6 +7,7 @@ import type { NavItem } from "@/lib/navigation";
 
 const headerNavigation: NavItem[] = [
   { labelKey: "realisations", href: "/realisations" },
+  { labelKey: "resurfacage", href: "/resurfacage" },
   { labelKey: "aPropos", href: "/a-propos" },
 ];
 import { cn } from "@/lib/utils";

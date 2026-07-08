@@ -3,6 +3,7 @@ import type { Pathname, StaticPathname } from "@/i18n/routing";
 export type NavLabelKey =
   | "home"
   | "realisations"
+  | "resurfacage"
   | "cuisine"
   | "salleDeBain"
   | "mobilierIntegre"
@@ -19,6 +20,7 @@ export type NavItem = {
 export const mainNavigation: NavItem[] = [
   { labelKey: "home", href: "/" },
   { labelKey: "realisations", href: "/realisations" },
+  { labelKey: "resurfacage", href: "/resurfacage" },
   { labelKey: "cuisine", href: "/cuisine" },
   { labelKey: "salleDeBain", href: "/salle-de-bain" },
   { labelKey: "mobilierIntegre", href: "/mobilier-integre" },

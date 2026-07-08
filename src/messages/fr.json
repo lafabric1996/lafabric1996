@@ -12,6 +12,10 @@
       "title": "Réalisations",
       "description": "Découvrez les projets de La Fab'ric 1996 en cuisine, salle de bain, mobilier intégré et ébénisterie sur mesure."
     },
+    "resurfacage": {
+      "title": "Resurfaçage",
+      "description": "Resurfaçage d'armoires de cuisine par La Fab'ric 1996 : redonnez une allure neuve à votre cuisine sans rénovation complète."
+    },
     "cuisine": {
       "title": "Cuisine",
       "description": "Resurfaçage d'armoires et rénovation de cuisines sur mesure par La Fab'ric 1996, entreprise québécoise haut de gamme."
@@ -44,6 +48,7 @@
   "nav": {
     "home": "Accueil",
     "realisations": "Réalisations",
+    "resurfacage": "Resurfaçage",
     "cuisine": "Cuisine",
     "salleDeBain": "Salle de bain",
     "mobilierIntegre": "Mobilier intégré",
@@ -249,6 +254,33 @@
       "installation": {
         "title": "Installation",
         "description": "Pose et finition sur place pour un résultat impeccable et durable."
+      }
+    }
+  },
+  "resurfacagePage": {
+    "eyebrow": "Resurfaçage",
+    "title": "Resurfaçage d'armoires de cuisine",
+    "description": "Redonnez une allure neuve à votre cuisine sans une rénovation complète, grâce à un resurfaçage soigné et durable.",
+    "ctaTitle": "Un projet de resurfaçage en tête ?",
+    "ctaDescription": "Parlez-nous de vos armoires actuelles. Nous vous proposerons la solution la mieux adaptée à votre budget et à vos goûts.",
+    "blocks": {
+      "process": {
+        "title": "Notre procédé",
+        "imageLabel": "Procédé de resurfaçage — photo à venir",
+        "p1": "Nous retirons les portes et façades existantes pour les remplacer par de nouveaux matériaux, tout en conservant la structure de vos armoires.",
+        "p2": "Cette approche permet d'obtenir un résultat comparable à des armoires neuves, à une fraction du coût et du délai d'une rénovation complète."
+      },
+      "materials": {
+        "title": "Matériaux et couleurs",
+        "imageLabel": "Matériaux et couleurs — photo à venir",
+        "p1": "Un large choix de finis, de couleurs et de quincaillerie est disponible pour personnaliser votre cuisine selon vos goûts.",
+        "p2": "Chaque matériau est sélectionné pour sa durabilité et sa résistance à l'usage quotidien."
+      },
+      "advantages": {
+        "title": "Pourquoi choisir le resurfaçage",
+        "imageLabel": "Cuisine resurfacée — photo à venir",
+        "p1": "Le resurfaçage est une solution économique et rapide pour moderniser votre cuisine sans les inconvénients d'une rénovation complète.",
+        "p2": "C'est aussi un choix plus écologique, puisque la structure existante de vos armoires est préservée plutôt que remplacée."
       }
     }
   },

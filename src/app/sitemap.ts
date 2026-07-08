@@ -8,6 +8,7 @@ const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://lafabric1996.ca";
 const staticPathnames = [
   "/",
   "/realisations",
+  "/resurfacage",
   "/cuisine",
   "/salle-de-bain",
   "/mobilier-integre",
