@@ -106,7 +106,7 @@ export function PromoVideoCard({
     isMounted &&
     createPortal(
       <div
-        className="fixed inset-0 z-[200] overflow-hidden bg-black"
+        className="fixed inset-0 z-[20000] overflow-hidden bg-black"
         role="dialog"
         aria-modal="true"
         aria-labelledby={titleId}
@@ -118,7 +118,7 @@ export function PromoVideoCard({
         <button
           type="button"
           onClick={closeModal}
-          className="absolute right-4 top-4 z-[210] flex h-10 w-10 items-center justify-center text-white/80 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 sm:right-6 sm:top-6"
+          className="absolute right-4 top-4 z-[20010] flex h-10 w-10 items-center justify-center text-white/80 transition-colors hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/50 sm:right-6 sm:top-6"
           aria-label={closeLabel}
         >
           <svg
