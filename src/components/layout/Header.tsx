@@ -106,7 +106,7 @@ export function Header() {
           <LanguageSwitcher />
           <button
             type="button"
-            className="relative z-50 flex h-10 w-10 flex-col items-center justify-center gap-1.5"
+            className="relative z-[10000] flex h-10 w-10 flex-col items-center justify-center gap-1.5"
             onClick={() => setIsOpen((prev) => !prev)}
             aria-expanded={isOpen}
             aria-controls="mobile-menu"
