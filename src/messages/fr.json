@@ -258,30 +258,94 @@
     }
   },
   "resurfacagePage": {
-    "eyebrow": "Resurfaçage",
-    "title": "Resurfaçage d'armoires de cuisine",
-    "description": "Redonnez une allure neuve à votre cuisine sans une rénovation complète, grâce à un resurfaçage soigné et durable.",
-    "ctaTitle": "Un projet de resurfaçage en tête ?",
-    "ctaDescription": "Parlez-nous de vos armoires actuelles. Nous vous proposerons la solution la mieux adaptée à votre budget et à vos goûts.",
-    "blocks": {
-      "process": {
-        "title": "Notre procédé",
-        "imageLabel": "Procédé de resurfaçage — photo à venir",
-        "p1": "Nous retirons les portes et façades existantes pour les remplacer par de nouveaux matériaux, tout en conservant la structure de vos armoires.",
-        "p2": "Cette approche permet d'obtenir un résultat comparable à des armoires neuves, à une fraction du coût et du délai d'une rénovation complète."
-      },
-      "materials": {
-        "title": "Matériaux et couleurs",
-        "imageLabel": "Matériaux et couleurs — photo à venir",
-        "p1": "Un large choix de finis, de couleurs et de quincaillerie est disponible pour personnaliser votre cuisine selon vos goûts.",
-        "p2": "Chaque matériau est sélectionné pour sa durabilité et sa résistance à l'usage quotidien."
-      },
-      "advantages": {
-        "title": "Pourquoi choisir le resurfaçage",
-        "imageLabel": "Cuisine resurfacée — photo à venir",
-        "p1": "Le resurfaçage est une solution économique et rapide pour moderniser votre cuisine sans les inconvénients d'une rénovation complète.",
-        "p2": "C'est aussi un choix plus écologique, puisque la structure existante de vos armoires est préservée plutôt que remplacée."
+    "hero": {
+      "beforeLabel": "Avant",
+      "afterLabel": "Après",
+      "sliderHint": "Glissez le curseur pour découvrir la transformation.",
+      "sliderAriaLabel": "Comparateur avant après : glissez pour comparer",
+      "title": "Redonnez une nouvelle vie à votre cuisine.",
+      "description": "Transformez l'apparence de votre cuisine en conservant sa structure existante. Une solution durable, élégante et économique, sans entreprendre une rénovation complète.",
+      "primaryCta": "Voir les transformations",
+      "secondaryCta": "Demander une soumission"
+    },
+    "transformations": {
+      "eyebrow": "Nos transformations",
+      "title": "Chaque cuisine a son histoire",
+      "captions": [
+        "Des armoires sombres, transformées en cuisine lumineuse et intemporelle.",
+        "Le coin cuisson, méconnaissable.",
+        "L'îlot central, entre confort et style.",
+        "Un nouveau caractère, sans tout démolir.",
+        "Le même espace, une toute nouvelle ambiance."
+      ]
+    },
+    "why": {
+      "eyebrow": "Pourquoi le resurfaçage",
+      "title": "Pourquoi choisir le resurfaçage",
+      "cards": {
+        "economical": {
+          "title": "Plus économique",
+          "description": "Jusqu'à deux fois moins cher qu'une rénovation complète."
+        },
+        "durable": {
+          "title": "Qualité durable",
+          "description": "Matériaux et finitions pensés pour traverser les années."
+        },
+        "fast": {
+          "title": "Transformation rapide",
+          "description": "Quelques jours suffisent, pas des semaines."
+        },
+        "responsible": {
+          "title": "Solution responsable",
+          "description": "Vos armoires existantes sont conservées, pas jetées."
+        }
       }
+    },
+    "process": {
+      "eyebrow": "Comment ça fonctionne",
+      "title": "Comment ça fonctionne",
+      "steps": {
+        "consultation": {
+          "title": "Consultation",
+          "description": "On visite votre cuisine et prend vos mesures."
+        },
+        "selection": {
+          "title": "Sélection",
+          "description": "Vous choisissez finis, couleurs et quincaillerie."
+        },
+        "fabrication": {
+          "title": "Fabrication",
+          "description": "Vos nouvelles façades sont fabriquées sur mesure."
+        },
+        "installation": {
+          "title": "Installation",
+          "description": "Pose soignée, votre cuisine transformée en quelques jours."
+        }
+      }
+    },
+    "gallery": {
+      "eyebrow": "Galerie",
+      "title": "Nos réalisations en images",
+      "loadMore": "Voir plus"
+    },
+    "testimonials": {
+      "eyebrow": "Témoignages",
+      "title": "Ce qu'en disent nos clients",
+      "items": {
+        "isabelle": {
+          "quote": "Louis-David a livré tel que promis ! Nous avons opté pour le resurfaçage, lui et son équipe ont livré un produit de qualité haut de gamme à un coût raisonnable ! Aucun compromis, satisfaction garantie.",
+          "name": "Isabelle Gauthier"
+        },
+        "rachel": {
+          "quote": "Louis David et son équipe nous ont offert un service impeccable. Le résultat du resurfaçage des armoires de notre salle de bain et de la salle de lavage est impressionnant et magnifique ! J'étais sceptique au départ, mais le projet a été très concluant.",
+          "name": "Rachel Dubois"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Vous aimez cette transformation ?",
+      "description": "Nous pouvons faire la même chose avec votre cuisine.",
+      "cta": "Obtenir une estimation gratuite"
     }
   },
   "cuisinePage": {

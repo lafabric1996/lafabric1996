@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "generate:realisations": "node scripts/generate-realisations.mjs",
+    "generate:resurfacage": "node scripts/generate-resurfacage.mjs",
     "sync:video": "node scripts/sync-promo-video.mjs"
   },
   "dependencies": {

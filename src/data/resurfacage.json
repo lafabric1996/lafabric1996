@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-07-08T01:47:42.967Z",
+  "projectCount": 1,
+  "pairCount": 5,
+  "projects": [
+    {
+      "slug": "christian-simon",
+      "name": "Christian Simon",
+      "pairs": [
+        {
+          "before": "/resurfacage/christian-simon/avant-1.jpg",
+          "after": "/resurfacage/christian-simon/apres-1.jpg"
+        },
+        {
+          "before": "/resurfacage/christian-simon/avant-2.jpg",
+          "after": "/resurfacage/christian-simon/apres-2.jpg"
+        },
+        {
+          "before": "/resurfacage/christian-simon/avant-3.jpg",
+          "after": "/resurfacage/christian-simon/apres-3.jpg"
+        },
+        {
+          "before": "/resurfacage/christian-simon/avant-4.jpg",
+          "after": "/resurfacage/christian-simon/apres-4.jpg"
+        },
+        {
+          "before": "/resurfacage/christian-simon/avant-5.jpg",
+          "after": "/resurfacage/christian-simon/apres-5.jpg"
+        }
+      ]
+    }
+  ]
+}

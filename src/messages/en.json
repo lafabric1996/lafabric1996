@@ -258,30 +258,94 @@
     }
   },
   "resurfacagePage": {
-    "eyebrow": "Refacing",
-    "title": "Kitchen Cabinet Refacing",
-    "description": "Give your kitchen a fresh new look without a full renovation, thanks to careful, lasting refacing work.",
-    "ctaTitle": "Have a refacing project in mind?",
-    "ctaDescription": "Tell us about your current cabinets. We'll suggest the solution best suited to your budget and taste.",
-    "blocks": {
-      "process": {
-        "title": "Our process",
-        "imageLabel": "Refacing process — photo coming soon",
-        "p1": "We remove the existing doors and fronts and replace them with new materials, while keeping your cabinets' existing structure.",
-        "p2": "This approach delivers a result comparable to new cabinets, at a fraction of the cost and timeline of a full renovation."
-      },
-      "materials": {
-        "title": "Materials and colours",
-        "imageLabel": "Materials and colours — photo coming soon",
-        "p1": "A wide choice of finishes, colours and hardware is available to personalize your kitchen to your taste.",
-        "p2": "Every material is selected for its durability and resistance to daily use."
-      },
-      "advantages": {
-        "title": "Why choose refacing",
-        "imageLabel": "Refaced kitchen — photo coming soon",
-        "p1": "Refacing is an economical, fast way to modernize your kitchen without the drawbacks of a full renovation.",
-        "p2": "It's also a greener choice, since your cabinets' existing structure is preserved rather than replaced."
+    "hero": {
+      "beforeLabel": "Before",
+      "afterLabel": "After",
+      "sliderHint": "Drag the slider to reveal the transformation.",
+      "sliderAriaLabel": "Before and after comparison: drag to compare",
+      "title": "Give your kitchen a whole new life.",
+      "description": "Transform the look of your kitchen while keeping its existing structure. A lasting, elegant and affordable solution, without a full renovation.",
+      "primaryCta": "See the transformations",
+      "secondaryCta": "Request a quote"
+    },
+    "transformations": {
+      "eyebrow": "Our transformations",
+      "title": "Every kitchen has a story",
+      "captions": [
+        "Dark cabinets, transformed into a bright, timeless kitchen.",
+        "The cooking area, unrecognizable.",
+        "The central island, comfort meets style.",
+        "A whole new character, without tearing anything down.",
+        "Same space, brand new feel."
+      ]
+    },
+    "why": {
+      "eyebrow": "Why refacing",
+      "title": "Why choose refacing",
+      "cards": {
+        "economical": {
+          "title": "More affordable",
+          "description": "Up to twice as affordable as a full renovation."
+        },
+        "durable": {
+          "title": "Lasting quality",
+          "description": "Materials and finishes built to stand the test of time."
+        },
+        "fast": {
+          "title": "Fast turnaround",
+          "description": "A few days is all it takes, not weeks."
+        },
+        "responsible": {
+          "title": "A responsible choice",
+          "description": "Your existing cabinets are kept, not thrown out."
+        }
       }
+    },
+    "process": {
+      "eyebrow": "How it works",
+      "title": "How it works",
+      "steps": {
+        "consultation": {
+          "title": "Consultation",
+          "description": "We visit your kitchen and take measurements."
+        },
+        "selection": {
+          "title": "Selection",
+          "description": "You choose finishes, colours and hardware."
+        },
+        "fabrication": {
+          "title": "Fabrication",
+          "description": "Your new fronts are custom-built."
+        },
+        "installation": {
+          "title": "Installation",
+          "description": "Careful installation, your kitchen transformed in days."
+        }
+      }
+    },
+    "gallery": {
+      "eyebrow": "Gallery",
+      "title": "Our work in pictures",
+      "loadMore": "Load more"
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What our clients say",
+      "items": {
+        "isabelle": {
+          "quote": "Louis-David delivered as promised! We chose refacing, and he and his team delivered a high-end quality product at a reasonable cost. No compromises, satisfaction guaranteed.",
+          "name": "Isabelle Gauthier"
+        },
+        "rachel": {
+          "quote": "Louis David and his team gave us impeccable service. The result of refacing our bathroom and laundry room cabinets is impressive and beautiful! I was skeptical at first, but the project turned out great.",
+          "name": "Rachel Dubois"
+        }
+      }
+    },
+    "finalCta": {
+      "title": "Like this transformation?",
+      "description": "We can do the same with your kitchen.",
+      "cta": "Get a free estimate"
     }
   },
   "cuisinePage": {
