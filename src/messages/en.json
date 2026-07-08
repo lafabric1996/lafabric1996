@@ -344,25 +344,25 @@
     "teamPhoto": "Team photo coming soon",
     "valuesEyebrow": "Our Values",
     "valuesTitle": "What Guides Us",
-    "valuesDescription": "Fundamental principles that guide each of our projects.",
+    "valuesDescription": "Values that guide every one of our projects, from design to installation.",
     "workshopPhoto": "Workshop — photo coming soon",
     "projectPhoto": "Project — photo coming soon",
     "values": {
       "quality": {
         "title": "Quality",
-        "description": "Every project is carried out with rigour, from material selection to final finishing."
+        "description": "Every project is carried out with rigour, from material selection to the final finish."
       },
       "craftsmanship": {
-        "title": "Craftsmanship",
-        "description": "Woodworking know-how passed down and perfected over the years."
+        "title": "Custom-made",
+        "description": "Every project is designed around your needs, your space and your way of living."
       },
       "listening": {
         "title": "Listening",
-        "description": "Your needs and vision guide every decision, from initial plan to delivery."
+        "description": "We take the time to understand your vision so we can design a project that truly reflects you."
       },
       "durability": {
         "title": "Durability",
-        "description": "Projects designed to last, with quality finishes and materials."
+        "description": "Projects designed to stand the test of time, with quality materials and finishes."
       }
     }
   },

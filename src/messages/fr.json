@@ -344,25 +344,25 @@
     "teamPhoto": "Photo de l'équipe à venir",
     "valuesEyebrow": "Nos valeurs",
     "valuesTitle": "Ce qui nous guide",
-    "valuesDescription": "Des principes fondamentaux qui orientent chacun de nos projets.",
+    "valuesDescription": "Des valeurs qui orientent chacune de nos réalisations, de la conception à l'installation.",
     "workshopPhoto": "Atelier — photo à venir",
     "projectPhoto": "Réalisation — photo à venir",
     "values": {
       "quality": {
         "title": "Qualité",
-        "description": "Chaque projet est réalisé avec rigueur, du choix des matériaux à la finition finale."
+        "description": "Chaque projet est réalisé avec rigueur, du choix des matériaux jusqu'à la finition."
       },
       "craftsmanship": {
-        "title": "Artisanat",
-        "description": "Un savoir-faire en ébénisterie transmis et perfectionné au fil des années."
+        "title": "Sur mesure",
+        "description": "Chaque réalisation est pensée selon vos besoins, votre espace et votre façon de vivre."
       },
       "listening": {
         "title": "Écoute",
-        "description": "Vos besoins et votre vision guident chaque décision, du plan initial à la livraison."
+        "description": "Nous prenons le temps de comprendre votre vision afin de concevoir un projet qui vous ressemble."
       },
       "durability": {
         "title": "Durabilité",
-        "description": "Des réalisations conçues pour durer, avec des finitions et des matériaux de qualité."
+        "description": "Des réalisations conçues pour traverser les années, avec des matériaux et des finitions de qualité."
       }
     }
   },
