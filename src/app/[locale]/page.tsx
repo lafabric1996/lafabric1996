@@ -1,5 +1,6 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { ContactSection } from "@/components/sections/ContactSection";
 import { PromoVideoCard } from "@/components/sections/PromoVideoCard";
 import { ProjectCard } from "@/components/realisations/ProjectCard";
 import { RealisationImage } from "@/components/realisations/RealisationImage";
@@ -83,9 +84,12 @@ export default async function HomePage({ params }: LocalePageProps) {
               {t("hero.subtitle")}
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
-              <Button href="/contact" size="lg" variant="secondary">
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center border border-transparent bg-wood px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-wood-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
+              >
                 {t("hero.primaryCta")}
-              </Button>
+              </a>
               <Button
                 href="/realisations"
                 size="lg"
@@ -243,9 +247,12 @@ export default async function HomePage({ params }: LocalePageProps) {
               {t("finalCta.description")}
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-              <Button href="/contact" variant="secondary" size="lg">
+              <a
+                href="#contact"
+                className="inline-flex items-center justify-center border border-transparent bg-wood px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-wood-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
+              >
                 {t("finalCta.primaryButton")}
-              </Button>
+              </a>
               <Button
                 href="/realisations"
                 variant="outline"
@@ -258,6 +265,9 @@ export default async function HomePage({ params }: LocalePageProps) {
           </AnimatedReveal>
         </div>
       </Section>
+
+      {/* 7. Formulaire de contact */}
+      <ContactSection />
     </>
   );
 }

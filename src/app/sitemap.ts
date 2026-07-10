@@ -15,7 +15,6 @@ const staticPathnames = [
   "/services",
   "/a-propos",
   "/temoignages",
-  "/contact",
 ] as const satisfies readonly StaticPathname[];
 
 export default function sitemap(): MetadataRoute.Sitemap {
