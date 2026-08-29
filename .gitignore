@@ -37,12 +37,13 @@ yarn-error.log*
 .vercel
 
 # vidéos locales trop volumineuses pour GitHub (>100MB) — voir sync:video
-# marie-mai.mp4 est explicitement autorisé ci-dessous car compressé (~21MB)
+# marie-mai.mp4 et hero.mp4 sont explicitement autorisés ci-dessous (à garder compressés, <100MB)
 /public/videos/*.mp4
 /public/videos/*.mov
 /public/videos/*.webm
 /public/videos/*.m4v
 !/public/videos/marie-mai.mp4
+!/public/videos/hero.mp4
 
 # typescript
 *.tsbuildinfo

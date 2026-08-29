@@ -92,7 +92,7 @@
       "subtitle": "La Fab'ric 1996 is a Quebec family woodworking shop that designs and builds custom work for over 30 years. From kitchens to built-in furniture, to the complete architectural fit-out of residences, our craftsmanship stands out through quality, precision and attention to detail.",
       "primaryCta": "Get a quote",
       "secondaryCta": "View our projects",
-      "imageLabel": "Main photo coming soon"
+      "imageLabel": "Main video coming soon"
     },
     "services": {
       "eyebrow": "Our Expertise",
@@ -489,8 +489,11 @@
       "projectType": "Project type",
       "selectService": "Select a service",
       "options": {
-        "woodworking": "Woodworking",
-        "resurfacing": "Refacing"
+        "kitchen": "Kitchen",
+        "bathroom": "Bathroom",
+        "builtIn": "Built-in furniture",
+        "resurfacing": "Refacing",
+        "woodworking": "Custom woodworking"
       },
       "message": "Message",
       "messagePlaceholder": "Describe your project...",

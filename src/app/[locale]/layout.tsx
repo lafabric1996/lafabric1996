@@ -49,6 +49,7 @@ export default async function LocaleLayout({
     <html
       lang={locale === "fr" ? "fr-CA" : "en-CA"}
       className={`${cormorant.variable} ${dmSans.variable} h-full scroll-smooth`}
+      data-scroll-behavior="smooth"
     >
       <body className="flex min-h-full flex-col bg-background font-sans text-foreground antialiased">
         <NextIntlClientProvider messages={messages}>

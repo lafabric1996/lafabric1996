@@ -2,6 +2,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { PromoVideoCard } from "@/components/sections/PromoVideoCard";
+import { ScrollToContact } from "@/components/sections/ScrollToContact";
 import { ProjectCard } from "@/components/realisations/ProjectCard";
 import { RealisationImage } from "@/components/realisations/RealisationImage";
 import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
@@ -15,6 +16,7 @@ import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
 import { getFeaturedProjects, type ProjectCategory } from "@/lib/realisations";
 import { getPromoVideo } from "@/lib/promo-video";
+import { getHeroVideo } from "@/lib/hero-video";
 
 export async function generateMetadata({ params }: LocalePageProps) {
   const { locale } = await params;
@@ -56,17 +58,33 @@ export default async function HomePage({ params }: LocalePageProps) {
   const tRealisations = await getTranslations("realisations");
   const featuredProjects = getFeaturedProjects();
   const promoVideo = getPromoVideo();
+  const heroVideo = getHeroVideo();
 
   return (
     <>
+      <ScrollToContact />
       {/* 1. Hero pleine largeur */}
       <section className="relative min-h-[92vh] overflow-hidden pt-20">
         <div className="absolute inset-0">
-          <ImagePlaceholder
-            aspectRatio="hero"
-            label={t("hero.imageLabel")}
-            className="h-full min-h-[92vh] w-full aspect-auto"
-          />
+          {heroVideo.available && heroVideo.src ? (
+            <video
+              className="h-full min-h-[92vh] w-full object-cover"
+              src={heroVideo.src}
+              poster={heroVideo.posterSrc ?? undefined}
+              autoPlay
+              muted
+              loop
+              playsInline
+              aria-hidden="true"
+            />
+          ) : (
+            <ImagePlaceholder
+              aspectRatio="hero"
+              label={t("hero.imageLabel")}
+              className="h-full min-h-[92vh] w-full aspect-auto"
+              labelPosition="top"
+            />
+          )}
           <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-black/20" />
         </div>
 

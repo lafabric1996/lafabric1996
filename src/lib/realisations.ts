@@ -24,6 +24,7 @@ export type BeforeAfterPair = {
 export type RealisationProject = {
   slug: string;
   title: string;
+  description?: string | null;
   category: ProjectCategory;
   cover: string;
   imageCount: number;
@@ -61,18 +62,16 @@ export function getProjectsByCategory(
   return realisations.filter((project) => project.category === category);
 }
 
-const featuredProjectsConfig = [
-  { slug: "entre-4-murs-projet-takacsy" },
-  { slug: "mu-architecture-l-albatros", title: "L'Albatros" },
-  { slug: "yh2-maison-aube", title: "YH2 – Maison Aubé" },
+const featuredProjectSlugs = [
+  "entre-4-murs-projet-takacsy",
+  "mu-architecture-l-albatros",
+  "yh2-maison-aube",
 ] as const;
 
 export function getFeaturedProjects(): RealisationProject[] {
-  return featuredProjectsConfig.flatMap((entry) => {
-    const project = getProjectBySlug(entry.slug);
-    if (!project) return [];
-    const title = "title" in entry ? entry.title : undefined;
-    return [title ? { ...project, title } : project];
+  return featuredProjectSlugs.flatMap((slug) => {
+    const project = getProjectBySlug(slug);
+    return project ? [project] : [];
   });
 }
 

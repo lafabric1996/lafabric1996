@@ -44,11 +44,11 @@ export const serviceNavigation: NavItem[] = [
 ];
 
 export const serviceGridItems = [
-  { key: "resurfacing", href: "/cuisine" as const },
+  { key: "resurfacing", href: "/resurfacage" as const },
   { key: "kitchen", href: "/cuisine" as const },
   { key: "bathroom", href: "/salle-de-bain" as const },
   { key: "builtIn", href: "/mobilier-integre" as const },
-  { key: "customWoodwork", href: "/services" as const },
+  { key: "customWoodwork", href: "/realisations" as const },
   { key: "residential", href: "/realisations" as const },
 ] as const;
 

@@ -6,17 +6,35 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const CONTENT_DIR = path.resolve(ROOT, "..", "content");
 const PUBLIC_VIDEO_DIR = path.join(ROOT, "public", "videos");
-const OUTPUT_FILE = path.join(ROOT, "src", "data", "promo-video.json");
-const PUBLIC_FILENAME = "marie-mai";
-const POSTER_BASENAME = "marie-mai-poster";
 
 const VIDEO_EXTENSIONS = new Set([".mp4", ".mov", ".webm", ".m4v"]);
 const IMAGE_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp"];
 
-const POSTER_FILENAMES = [
-  "marie-mai-poster",
-  "poster",
-  "thumbnail",
+// Chaque rôle correspond à un emplacement vidéo distinct sur le site.
+// Pour ajouter une vidéo : déposez le fichier dans content/ (n'importe où,
+// sauf dans content/photos) avec un des mots-clés dans son nom de fichier,
+// puis lancez `npm run sync:video`.
+const VIDEO_ROLES = [
+  {
+    name: "marie-mai",
+    outputFile: path.join(ROOT, "src", "data", "promo-video.json"),
+    publicFilename: "marie-mai",
+    posterBasename: "marie-mai-poster",
+    keywords: ["marie", "promo"],
+    posterFilenames: ["marie-mai-poster", "poster", "thumbnail"],
+    missingMessage:
+      "Aucune vidéo Marie-Mai trouvée dans content/. Ajoutez un fichier .mp4, .mov, .webm ou .m4v (nom contenant « marie » ou « promo ») et relancez.",
+  },
+  {
+    name: "hero",
+    outputFile: path.join(ROOT, "src", "data", "hero-video.json"),
+    publicFilename: "hero",
+    posterBasename: "hero-poster",
+    keywords: ["hero", "accueil", "principale"],
+    posterFilenames: ["hero-poster", "accueil-poster", "poster", "thumbnail"],
+    missingMessage:
+      "Aucune vidéo d'accueil trouvée dans content/. Ajoutez un fichier .mp4, .mov, .webm ou .m4v (nom contenant « hero », « accueil » ou « principale ») et relancez.",
+  },
 ];
 
 function walkVideos(dir, results = []) {
@@ -44,34 +62,36 @@ function walkVideos(dir, results = []) {
   return results;
 }
 
-function scoreVideoCandidate(candidate) {
+function scoreVideoCandidate(candidate, role) {
   const normalized = candidate.relativePath.toLowerCase();
   let score = 0;
 
-  if (normalized.includes("marie")) score += 100;
-  if (normalized.includes("promo")) score += 50;
+  for (const keyword of role.keywords) {
+    if (normalized.includes(keyword)) score += 50;
+  }
   if (normalized.includes("video")) score += 25;
-  if (normalized.startsWith(`videos${path.sep}`)) score += 40;
+  if (normalized.startsWith(`videos${path.sep}`)) score += 10;
   if (!normalized.includes(`${path.sep}photos${path.sep}`)) score += 10;
 
   return score;
 }
 
-function selectVideo(candidates) {
-  if (candidates.length === 0) return null;
-  return [...candidates].sort((a, b) => scoreVideoCandidate(b) - scoreVideoCandidate(a))[0];
+function selectVideo(candidates, role) {
+  const scored = candidates
+    .map((candidate) => ({ candidate, score: scoreVideoCandidate(candidate, role) }))
+    .filter(({ score }) => score > 0)
+    .sort((a, b) => b.score - a.score);
+
+  return scored.length > 0 ? scored[0].candidate : null;
 }
 
-function findManualPoster() {
-  const searchDirs = [
-    CONTENT_DIR,
-    path.join(CONTENT_DIR, "videos"),
-  ];
+function findManualPoster(role) {
+  const searchDirs = [CONTENT_DIR, path.join(CONTENT_DIR, "videos")];
 
   for (const dir of searchDirs) {
     if (!fs.existsSync(dir)) continue;
 
-    for (const basename of POSTER_FILENAMES) {
+    for (const basename of role.posterFilenames) {
       for (const extension of IMAGE_EXTENSIONS) {
         const candidate = path.join(dir, `${basename}${extension}`);
         if (fs.existsSync(candidate)) {
@@ -88,11 +108,11 @@ function findManualPoster() {
   return null;
 }
 
-function getExistingPublicPoster() {
+function getExistingPublicPoster(role) {
   if (!fs.existsSync(PUBLIC_VIDEO_DIR)) return null;
 
   for (const file of fs.readdirSync(PUBLIC_VIDEO_DIR)) {
-    if (!file.startsWith(`${POSTER_BASENAME}.`)) continue;
+    if (!file.startsWith(`${role.posterBasename}.`)) continue;
     const extension = path.extname(file).toLowerCase();
     if (IMAGE_EXTENSIONS.includes(extension)) {
       return {
@@ -105,11 +125,11 @@ function getExistingPublicPoster() {
   return null;
 }
 
-function syncPoster(publicPosterBasename) {
-  const manualPoster = findManualPoster();
+function syncPoster(role) {
+  const manualPoster = findManualPoster(role);
 
   if (manualPoster) {
-    const publicName = `${publicPosterBasename}${manualPoster.extension}`;
+    const publicName = `${role.posterBasename}${manualPoster.extension}`;
     const publicPath = path.join(PUBLIC_VIDEO_DIR, publicName);
     fs.copyFileSync(manualPoster.absolutePath, publicPath);
     return {
@@ -120,7 +140,7 @@ function syncPoster(publicPosterBasename) {
     };
   }
 
-  const existingPoster = getExistingPublicPoster();
+  const existingPoster = getExistingPublicPoster(role);
   if (existingPoster) {
     return {
       posterSrc: `/videos/${existingPoster.publicName}`,
@@ -130,55 +150,50 @@ function syncPoster(publicPosterBasename) {
     };
   }
 
-  return {
-    posterSrc: null,
-    posterSource: null,
-    posterMethod: null,
-    publicName: null,
-  };
+  return { posterSrc: null, posterSource: null, posterMethod: null, publicName: null };
 }
 
-function writeMetadata(payload) {
-  fs.mkdirSync(path.dirname(OUTPUT_FILE), { recursive: true });
-  fs.writeFileSync(OUTPUT_FILE, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
+function writeMetadata(outputFile, payload) {
+  fs.mkdirSync(path.dirname(outputFile), { recursive: true });
+  fs.writeFileSync(outputFile, `${JSON.stringify(payload, null, 2)}\n`, "utf8");
 }
 
-function cleanupPublicVideo() {
+function cleanupPublicVideo(role) {
   if (!fs.existsSync(PUBLIC_VIDEO_DIR)) return;
 
   for (const file of fs.readdirSync(PUBLIC_VIDEO_DIR)) {
     const extension = path.extname(file).toLowerCase();
-    if (file.startsWith(`${PUBLIC_FILENAME}.`) && VIDEO_EXTENSIONS.has(extension)) {
+    if (file.startsWith(`${role.publicFilename}.`) && VIDEO_EXTENSIONS.has(extension)) {
       fs.unlinkSync(path.join(PUBLIC_VIDEO_DIR, file));
     }
   }
 }
 
-function cleanupPublicPosters(keepPublicName) {
+function cleanupPublicPosters(role, keepPublicName) {
   if (!fs.existsSync(PUBLIC_VIDEO_DIR)) return;
 
   for (const file of fs.readdirSync(PUBLIC_VIDEO_DIR)) {
-    if (!file.startsWith(`${POSTER_BASENAME}.`)) continue;
+    if (!file.startsWith(`${role.posterBasename}.`)) continue;
     if (file === keepPublicName) continue;
     fs.unlinkSync(path.join(PUBLIC_VIDEO_DIR, file));
   }
 }
 
-function main() {
+function syncRole(role) {
   const candidates = walkVideos(CONTENT_DIR);
-  const selected = selectVideo(candidates);
+  const selected = selectVideo(candidates, role);
 
   if (!selected) {
     const existingVideo = fs.existsSync(PUBLIC_VIDEO_DIR)
       ? fs.readdirSync(PUBLIC_VIDEO_DIR).find(
           (file) =>
-            file.startsWith(`${PUBLIC_FILENAME}.`) &&
+            file.startsWith(`${role.publicFilename}.`) &&
             VIDEO_EXTENSIONS.has(path.extname(file).toLowerCase()),
         )
       : null;
 
     if (!existingVideo) {
-      writeMetadata({
+      writeMetadata(role.outputFile, {
         available: false,
         src: null,
         posterSrc: null,
@@ -188,16 +203,14 @@ function main() {
         posterMethod: null,
         syncedAt: new Date().toISOString(),
       });
-      console.warn(
-        "No promotional video found in content/. Add a .mp4, .mov, .webm or .m4v file and re-run.",
-      );
+      console.warn(`[${role.name}] ${role.missingMessage}`);
       return;
     }
 
-    const poster = syncPoster(POSTER_BASENAME);
-    if (poster.publicName) cleanupPublicPosters(poster.publicName);
+    const poster = syncPoster(role);
+    if (poster.publicName) cleanupPublicPosters(role, poster.publicName);
 
-    writeMetadata({
+    writeMetadata(role.outputFile, {
       available: true,
       src: `/videos/${existingVideo}`,
       posterSrc: poster.posterSrc,
@@ -207,24 +220,24 @@ function main() {
       posterMethod: poster.posterMethod,
       syncedAt: new Date().toISOString(),
     });
-    console.log(`No source video in content — using existing public file: ${existingVideo}`);
+    console.log(`[${role.name}] No source video in content — using existing public file: ${existingVideo}`);
     if (!poster.posterSrc) {
-      console.warn("No manual poster found. Add content/marie-mai-poster.jpg and re-run.");
+      console.warn(`[${role.name}] No manual poster found. Add content/${role.posterBasename}.jpg and re-run.`);
     }
     return;
   }
 
   fs.mkdirSync(PUBLIC_VIDEO_DIR, { recursive: true });
-  cleanupPublicVideo();
+  cleanupPublicVideo(role);
 
-  const publicName = `${PUBLIC_FILENAME}${selected.extension}`;
+  const publicName = `${role.publicFilename}${selected.extension}`;
   const publicPath = path.join(PUBLIC_VIDEO_DIR, publicName);
 
   fs.copyFileSync(selected.absolutePath, publicPath);
-  const poster = syncPoster(POSTER_BASENAME);
-  if (poster.publicName) cleanupPublicPosters(poster.publicName);
+  const poster = syncPoster(role);
+  if (poster.publicName) cleanupPublicPosters(role, poster.publicName);
 
-  writeMetadata({
+  writeMetadata(role.outputFile, {
     available: true,
     src: `/videos/${publicName}`,
     posterSrc: poster.posterSrc,
@@ -236,13 +249,19 @@ function main() {
   });
 
   const sizeMb = (fs.statSync(publicPath).size / 1024 / 1024).toFixed(1);
-  console.log(`Synced promo video: ${selected.relativePath} → public/videos/${publicName} (${sizeMb} MB)`);
+  console.log(`[${role.name}] Synced: ${selected.relativePath} → public/videos/${publicName} (${sizeMb} MB)`);
   if (poster.posterSrc) {
-    console.log(`Poster synced (${poster.posterMethod}) → public/videos/${poster.publicName}`);
+    console.log(`[${role.name}] Poster synced (${poster.posterMethod}) → public/videos/${poster.publicName}`);
   } else {
     console.warn(
-      "No manual poster found. Add content/marie-mai-poster.jpg (or .png) and re-run sync:video.",
+      `[${role.name}] No manual poster found. Add content/${role.posterBasename}.jpg (or .png) and re-run sync:video.`,
     );
+  }
+}
+
+function main() {
+  for (const role of VIDEO_ROLES) {
+    syncRole(role);
   }
 }
 

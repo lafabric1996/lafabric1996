@@ -5,7 +5,7 @@
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
-      "title": "Ann Prud'homme Designer Projet La Lumineuse",
+      "title": "Projet La Lumineuse — Ann Prud'homme Designer",
       "category": "cuisine",
       "cover": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/cover.png",
       "imageCount": 5,
@@ -39,11 +39,12 @@
           "order": 4
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "ann-prud-homme-designer-projet-sa",
-      "title": "Ann Prud'homme Designer projet SA",
+      "title": "Projet SA — Ann Prud'homme Designer",
       "category": "cuisine",
       "cover": "/realisations/ann-prud-homme-designer-projet-sa/cover.png",
       "imageCount": 4,
@@ -70,11 +71,12 @@
           "order": 3
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "construction-mad-projet-circle",
-      "title": "Construction MAD projet Circle",
+      "title": "Projet Circle — Construction MAD",
       "category": "residential",
       "cover": "/realisations/construction-mad-projet-circle/cover.jpg",
       "imageCount": 14,
@@ -171,11 +173,12 @@
           "order": 13
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "dany-courchesne-architecte-projet-eric-bergevin",
-      "title": "Dany Courchesne architecte projet Éric Bergevin",
+      "title": "Projet Bergevin — Dany Courchesne Architecte",
       "category": "residential",
       "cover": "/realisations/dany-courchesne-architecte-projet-eric-bergevin/cover.jpg",
       "imageCount": 10,
@@ -265,11 +268,12 @@
           "after": "/realisations/dany-courchesne-architecte-projet-eric-bergevin/BoisclairHR_CLavallee-4.jpg",
           "enabled": false
         }
-      ]
+      ],
+      "description": null
     },
     {
       "slug": "divers",
-      "title": "Divers",
+      "title": "Réalisations diverses",
       "category": "residential",
       "cover": "/realisations/divers/cover.png",
       "imageCount": 7,
@@ -317,11 +321,12 @@
           "order": 6
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "entre-4-murs-projet-takacsy",
-      "title": "Entre 4 Murs projet Takacsy",
+      "title": "Projet Takacsy — Entre 4 Murs",
       "category": "residential",
       "cover": "/realisations/entre-4-murs-projet-takacsy/cover.jpg",
       "imageCount": 58,
@@ -726,11 +731,12 @@
           "order": 57
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "la-shed-architecture-maison-dans-les-bois",
-      "title": "La Shed Architecture Maison dans les bois",
+      "title": "Maison dans les bois — La Shed Architecture",
       "category": "cuisine",
       "cover": "/realisations/la-shed-architecture-maison-dans-les-bois/cover.png",
       "imageCount": 16,
@@ -841,11 +847,12 @@
           "order": 15
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "metric-kenauk-montebello",
-      "title": "Metric Kenauk Montebello",
+      "title": "Projet Kenauk — Metric, Montebello",
       "category": "cuisine",
       "cover": "/realisations/metric-kenauk-montebello/cover.png",
       "imageCount": 6,
@@ -886,11 +893,12 @@
           "order": 5
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "mr-foucault",
-      "title": "Mr Foucault",
+      "title": "Projet Foucault",
       "category": "residential",
       "cover": "/realisations/mr-foucault/cover.jpg",
       "imageCount": 8,
@@ -945,11 +953,12 @@
           "order": 7
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "mu-architecture-l-albatros",
-      "title": "Mu Architecture L'Albatros",
+      "title": "L'Albatros — Mu Architecture",
       "category": "residential",
       "cover": "/realisations/mu-architecture-l-albatros/cover.jpg",
       "imageCount": 19,
@@ -1081,11 +1090,12 @@
           "order": 18
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "mu-architecture-the-lantern",
-      "title": "Mu Architecture The Lantern",
+      "title": "The Lantern — Mu Architecture",
       "category": "residential",
       "cover": "/realisations/mu-architecture-the-lantern/cover.jpg",
       "imageCount": 3,
@@ -1105,11 +1115,12 @@
           "order": 2
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "projet-constantineau-tremblant",
-      "title": "Projet Constantineau Tremblant",
+      "title": "Projet Constantineau — Mont-Tremblant",
       "category": "residential",
       "cover": "/realisations/projet-constantineau-tremblant/cover.jpeg",
       "imageCount": 4,
@@ -1136,11 +1147,12 @@
           "order": 3
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yh2-contre-jour",
-      "title": "Yh2 Contre-Jour",
+      "title": "Contre-Jour — YH2",
       "category": "mobilier-integre",
       "cover": "/realisations/yh2-contre-jour/cover.png",
       "imageCount": 7,
@@ -1188,11 +1200,12 @@
           "order": 6
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yh2-dunford",
-      "title": "Yh2 Dunford",
+      "title": "Dunford — YH2",
       "category": "mobilier-integre",
       "cover": "/realisations/yh2-dunford/cover.png",
       "imageCount": 6,
@@ -1233,11 +1246,12 @@
           "order": 5
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yh2-la-luge",
-      "title": "Yh2 La Luge",
+      "title": "La Luge — YH2",
       "category": "mobilier-integre",
       "cover": "/realisations/yh2-la-luge/cover.png",
       "imageCount": 4,
@@ -1264,11 +1278,12 @@
           "order": 3
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yh2-lac-superieur",
-      "title": "Yh2 Lac Supérieur",
+      "title": "Projet Lac-Supérieur — YH2",
       "category": "cuisine",
       "cover": "/realisations/yh2-lac-superieur/cover.png",
       "imageCount": 4,
@@ -1295,11 +1310,12 @@
           "order": 3
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yh2-les-blocs-de-bois",
-      "title": "Yh2 Les blocs de bois",
+      "title": "Les Blocs de Bois — YH2",
       "category": "mobilier-integre",
       "cover": "/realisations/yh2-les-blocs-de-bois/cover.png",
       "imageCount": 5,
@@ -1333,11 +1349,12 @@
           "order": 4
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yh2-maison-aube",
-      "title": "Yh2 Maison Aube",
+      "title": "Maison Aubé — YH2",
       "category": "residential",
       "cover": "/realisations/yh2-maison-aube/cover.png",
       "imageCount": 12,
@@ -1420,11 +1437,12 @@
           "order": 11
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yh2-triptyque",
-      "title": "Yh2 Triptyque",
+      "title": "Triptyque — YH2",
       "category": "cuisine",
       "cover": "/realisations/yh2-triptyque/cover.png",
       "imageCount": 3,
@@ -1444,11 +1462,12 @@
           "order": 2
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     },
     {
       "slug": "yves-a-lefebvre-projet-la-pointe",
-      "title": "Yves A. Lefebvre projet La Pointe",
+      "title": "Projet La Pointe — Yves A. Lefebvre",
       "category": "mobilier-integre",
       "cover": "/realisations/yves-a-lefebvre-projet-la-pointe/cover.png",
       "imageCount": 5,
@@ -1482,7 +1501,8 @@
           "order": 4
         }
       ],
-      "beforeAfterPairs": []
+      "beforeAfterPairs": [],
+      "description": null
     }
   ]
 }

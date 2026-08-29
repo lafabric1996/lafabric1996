@@ -69,6 +69,11 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
           <h1 className="mt-4 max-w-4xl font-display text-5xl leading-tight tracking-tight md:text-6xl">
             {project.title}
           </h1>
+          {project.description && (
+            <p className="mt-6 max-w-2xl text-base leading-relaxed text-muted">
+              {project.description}
+            </p>
+          )}
         </Container>
 
         <div className="relative aspect-[21/9] w-full bg-surface">

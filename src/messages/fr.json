@@ -92,7 +92,7 @@
       "subtitle": "La Fab'ric 1996 est un atelier d'ébénisterie familiale québécoise qui conçoit et fabrique des réalisations sur mesure depuis plus de 30 ans. De la cuisine au mobilier intégré, jusqu'à l'aménagement architectural complet de résidences, notre savoir-faire se distingue par la qualité, la précision et le souci du détail.",
       "primaryCta": "Obtenir une soumission",
       "secondaryCta": "Voir nos réalisations",
-      "imageLabel": "Photo principale à venir"
+      "imageLabel": "Vidéo principale à venir"
     },
     "services": {
       "eyebrow": "Nos expertises",
@@ -489,8 +489,11 @@
       "projectType": "Type de projet",
       "selectService": "Sélectionnez un service",
       "options": {
-        "woodworking": "Ébénisterie",
-        "resurfacing": "Resurfaçage"
+        "kitchen": "Cuisine",
+        "bathroom": "Salle de bain",
+        "builtIn": "Mobilier intégré",
+        "resurfacing": "Resurfaçage",
+        "woodworking": "Ébénisterie sur mesure"
       },
       "message": "Message",
       "messagePlaceholder": "Décrivez votre projet...",

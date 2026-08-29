@@ -10,6 +10,27 @@ const SOURCE_DIR = path.resolve(ROOT, "..", "content", "photos");
 // Dossier de sortie généré : peut être vidé et régénéré sans risque à chaque run
 const PUBLIC_DIR = path.resolve(ROOT, "public", "realisations");
 const OUTPUT_FILE = path.join(ROOT, "src", "data", "realisations.json");
+// Titres publics choisis pour chaque projet (par slug), à défaut du nom brut du dossier
+const TITLE_OVERRIDES_FILE = path.join(
+  ROOT,
+  "src",
+  "data",
+  "project-title-overrides.json",
+);
+const titleOverrides = fs.existsSync(TITLE_OVERRIDES_FILE)
+  ? JSON.parse(fs.readFileSync(TITLE_OVERRIDES_FILE, "utf8"))
+  : {};
+// Courts textes de présentation (2-3 phrases) par projet, écrits à la main.
+// Absents par défaut : ne jamais générer ce texte automatiquement (voir AGENTS.md).
+const DESCRIPTIONS_FILE = path.join(
+  ROOT,
+  "src",
+  "data",
+  "project-descriptions.json",
+);
+const descriptions = fs.existsSync(DESCRIPTIONS_FILE)
+  ? JSON.parse(fs.readFileSync(DESCRIPTIONS_FILE, "utf8"))
+  : {};
 
 const WEB_EXTENSIONS = new Set([".jpg", ".jpeg", ".png", ".webp"]);
 const COVER_EXTENSION_ORDER = [".jpg", ".jpeg", ".png", ".webp"];
@@ -301,7 +322,8 @@ function collectProjects() {
 
     projects.push({
       slug,
-      title: folderName,
+      title: titleOverrides[slug] ?? folderName,
+      description: descriptions[slug] ?? null,
       category,
       cover: coverImage.src,
       imageCount: 1 + galleryImages.length,
