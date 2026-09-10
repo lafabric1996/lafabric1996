@@ -3,16 +3,25 @@ import { getPathname } from "@/i18n/navigation";
 import type { Locale, StaticPathname } from "@/i18n/routing";
 import { routing } from "@/i18n/routing";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://lafabric1996.ca";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://lafabric.ca";
+
+type ProjectPathnameWithParams = {
+  pathname: "/realisations/[slug]";
+  params: { slug: string };
+};
+
+type PathnameOption = StaticPathname | ProjectPathnameWithParams;
 
 type PageMetadataOptions = {
   locale: Locale | string;
   title?: string;
   description?: string;
-  pathname?: StaticPathname;
+  pathname?: PathnameOption;
+  /** Root-relative path (e.g. project.cover) resolved against metadataBase for og:image. */
+  image?: string;
 };
 
-function getLocalizedUrl(locale: Locale | string, pathname: StaticPathname = "/"): string {
+function getLocalizedUrl(locale: Locale | string, pathname: PathnameOption = "/"): string {
   const path = getPathname({ locale: locale as Locale, href: pathname });
   return `${BASE_URL}${path}`;
 }
@@ -22,6 +31,7 @@ export function createPageMetadata({
   title,
   description,
   pathname = "/",
+  image,
 }: PageMetadataOptions): Metadata {
   const resolvedLocale = locale as Locale;
   const pageTitle = title
@@ -52,11 +62,13 @@ export function createPageMetadata({
       siteName: "La Fab'ric 1996",
       locale: resolvedLocale === "fr" ? "fr_CA" : "en_CA",
       type: "website",
+      images: image ? [{ url: image }] : undefined,
     },
     twitter: {
       card: "summary_large_image",
       title: pageTitle,
       description,
+      images: image ? [image] : undefined,
     },
     robots: {
       index: true,
