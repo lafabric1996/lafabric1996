@@ -107,7 +107,7 @@ export default async function HomePage({ params }: LocalePageProps) {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center border border-transparent bg-wood-dark px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
+                className="inline-flex items-center justify-center border border-transparent bg-wood-dark px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:opacity-85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
               >
                 {t("hero.primaryCta")}
               </a>
@@ -270,7 +270,7 @@ export default async function HomePage({ params }: LocalePageProps) {
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center border border-transparent bg-wood-dark px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
+                className="inline-flex items-center justify-center border border-transparent bg-wood-dark px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:opacity-85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
               >
                 {t("finalCta.primaryButton")}
               </a>
