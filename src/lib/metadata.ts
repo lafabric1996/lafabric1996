@@ -3,7 +3,7 @@ import { getPathname } from "@/i18n/navigation";
 import type { Locale, StaticPathname } from "@/i18n/routing";
 import { routing } from "@/i18n/routing";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://lafabric.ca";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.lafabric.ca";
 
 type ProjectPathnameWithParams = {
   pathname: "/realisations/[slug]";

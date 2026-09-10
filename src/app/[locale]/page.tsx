@@ -8,7 +8,6 @@ import { RealisationImage } from "@/components/realisations/RealisationImage";
 import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { createPageMetadata } from "@/lib/metadata";
@@ -29,6 +28,10 @@ export async function generateMetadata({ params }: LocalePageProps) {
     pathname: "/",
   });
 }
+
+/** Seule photo du fonds en résolution suffisante pour un plein écran (6036×4024). */
+const HERO_IMAGE =
+  "/realisations/dany-courchesne-architecte-projet-eric-bergevin/BoisclairHR_CLavallee-4.jpg";
 
 const whyChooseKeys = ["experience", "expertise", "craftsmanship", "finishing"] as const;
 
@@ -78,11 +81,11 @@ export default async function HomePage({ params }: LocalePageProps) {
               aria-hidden="true"
             />
           ) : (
-            <ImagePlaceholder
-              aspectRatio="hero"
-              label={t("hero.imageLabel")}
-              className="h-full min-h-[92vh] w-full aspect-auto"
-              labelPosition="top"
+            <RealisationImage
+              src={HERO_IMAGE}
+              alt={t("hero.imageAlt")}
+              priority
+              sizes="100vw"
             />
           )}
           <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-black/20" />
@@ -104,7 +107,7 @@ export default async function HomePage({ params }: LocalePageProps) {
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center border border-transparent bg-wood px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-wood-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
+                className="inline-flex items-center justify-center border border-transparent bg-wood-dark px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
               >
                 {t("hero.primaryCta")}
               </a>
@@ -267,7 +270,7 @@ export default async function HomePage({ params }: LocalePageProps) {
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <a
                 href="#contact"
-                className="inline-flex items-center justify-center border border-transparent bg-wood px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-wood-dark focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
+                className="inline-flex items-center justify-center border border-transparent bg-wood-dark px-9 py-4 text-sm font-medium uppercase tracking-[0.2em] text-white transition-all duration-300 hover:bg-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood focus-visible:ring-offset-2"
               >
                 {t("finalCta.primaryButton")}
               </a>

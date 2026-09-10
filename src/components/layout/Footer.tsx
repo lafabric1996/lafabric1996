@@ -82,7 +82,9 @@ export function Footer() {
           <p className="text-xs text-white/40">
             © {currentYear} {tMeta("siteName")}. {tFooter("rights")}
           </p>
-          <p className="text-xs text-white/40">{tFooter("location")}</p>
+          <p className="text-xs tracking-[0.08em] text-white/55">
+            {tFooter("rbq")}
+          </p>
         </div>
       </Container>
     </footer>

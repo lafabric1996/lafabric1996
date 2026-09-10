@@ -3,7 +3,7 @@ import { getPathname } from "@/i18n/navigation";
 import { routing, type StaticPathname } from "@/i18n/routing";
 import { realisations } from "@/lib/realisations";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://lafabric1996.ca";
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.lafabric.ca";
 
 const staticPathnames = [
   "/",
@@ -14,7 +14,6 @@ const staticPathnames = [
   "/mobilier-integre",
   "/services",
   "/a-propos",
-  "/temoignages",
 ] as const satisfies readonly StaticPathname[];
 
 export default function sitemap(): MetadataRoute.Sitemap {
