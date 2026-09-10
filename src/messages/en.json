@@ -82,57 +82,44 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "Woodworking & Renovation — Quebec",
-      "title": "Excellence in woodworking and renovation",
-      "subtitle": "La Fab'ric 1996 is a Quebec family woodworking shop that designs and builds custom work for over 30 years. From kitchens to built-in furniture, to the complete architectural fit-out of residences, our craftsmanship stands out through quality, precision and attention to detail.",
+      "eyebrow": "Woodworking & refacing · Val-Morin, Laurentians",
+      "title": "Built in our own workshop since 1996",
+      "subtitle": "Custom kitchens, bathrooms and built-in furniture. Plus cabinet refacing, to transform your kitchen without replacing everything.",
       "primaryCta": "Get a quote",
       "secondaryCta": "View our projects",
       "imageAlt": "Custom oak kitchen — Bergevin project, architect Dany Courchesne"
     },
-    "services": {
-      "eyebrow": "Our Expertise",
-      "title": "Services designed for your interior",
-      "description": "From cabinet refacing to custom woodworking, we support your residential projects with rigour and careful finishing.",
+    "proof": {
+      "ariaLabel": "Key facts about the company",
       "items": {
-        "kitchen": {
-          "title": "Custom kitchens",
-          "description": "Kitchens designed, built and installed with precision for high-end residential projects.",
-          "imageAlt": "Custom kitchen — YH2 Maison Aubé"
-        },
-        "builtIn": {
-          "title": "Built-in furniture",
-          "description": "Libraries, walk-ins, offices, pantries and all furniture designed specifically for each residence.",
-          "imageAlt": "Built-in furniture — YH2 Les blocs de bois"
-        },
-        "architectural": {
-          "title": "Architectural woodworking",
-          "description": "Collaboration with architects and designers to deliver unique projects where every detail is mastered.",
-          "imageAlt": "Architectural woodworking — MU Architecture L'Albatros"
-        }
+        "founded": "Family workshop since 1996",
+        "rbq": "RBQ licence 8102-5306-27",
+        "architects": "Projects with YH2, La Shed and MU Architecture",
+        "marieMai": "Featured by Marie-Mai"
       }
     },
-    "whyChoose": {
-      "eyebrow": "Our Difference",
-      "title": "Why choose La Fab'ric 1996",
-      "description": "A family business combining experience, craftsmanship and attention to detail.",
-      "reasons": {
-        "experience": {
-          "title": "Nearly 30 years of experience",
-          "description": "Quebec expertise built over decades in renovation and woodworking."
-        },
-        "expertise": {
-          "title": "Custom-made fabrication",
-          "description": "Every project is designed and built around your needs, your space and your way of living."
-        },
-        "craftsmanship": {
-          "title": "Lasting quality",
-          "description": "Carefully selected materials and a finish built to stand the test of time."
-        },
-        "finishing": {
-          "title": "Personalized support",
-          "description": "A team that listens, from the first sketch to the final installation."
-        }
+    "trades": {
+      "eyebrow": "Our two trades",
+      "title": "Build new, or transform what's already there",
+      "description": "Two ways to approach your kitchen, depending on your project and your budget.",
+      "custom": {
+        "title": "Custom woodworking",
+        "description": "Kitchens, bathrooms, built-in furniture and architectural woodworking, drawn and built for your space.",
+        "cta": "View the projects",
+        "imageAlt": "Custom kitchen — L'Albatros, Mu Architecture"
+      },
+      "refacing": {
+        "title": "Cabinet refacing",
+        "description": "We keep your kitchen's structure and replace the fronts. A few days is all it takes, not weeks.",
+        "cta": "Discover refacing",
+        "sliderHint": "Drag to compare"
       }
+    },
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Recent projects",
+      "description": "Work carried out with architects and designers across Quebec.",
+      "viewAll": "View all 20 projects"
     },
     "video": {
       "eyebrow": "Featured",
@@ -143,16 +130,41 @@
       "ariaLabel": "Marie-Mai promotional video",
       "placeholder": "Video coming soon"
     },
-    "featured": {
-      "eyebrow": "Portfolio",
-      "title": "Featured projects",
-      "description": "A selection of our recent projects."
+    "process": {
+      "eyebrow": "How it works",
+      "title": "From the first meeting to installation",
+      "description": "Every custom project follows the same four steps, from sketch to fitting.",
+      "steps": {
+        "meeting": {
+          "title": "Meeting",
+          "description": "We visit your space, take measurements and talk through your needs."
+        },
+        "design": {
+          "title": "Design",
+          "description": "Plans, materials, finishes and hardware, chosen together."
+        },
+        "build": {
+          "title": "Fabrication",
+          "description": "Everything is built in our Val-Morin workshop, never subcontracted."
+        },
+        "install": {
+          "title": "Installation",
+          "description": "Fitting and finishing on site, down to the last detail."
+        }
+      }
     },
-    "finalCta": {
-      "title": "Ready to bring your project to life?",
-      "description": "Contact us to discuss your space and receive a personalized quote.",
-      "primaryButton": "Get a quote",
-      "secondaryButton": "View our projects"
+    "workshop": {
+      "eyebrow": "The workshop",
+      "title": "A family business, a single workshop",
+      "paragraph1": "Since 1996, La Fab'ric has designed and built custom work in Val-Morin, in the Laurentians.",
+      "paragraph2": "Drawing, fabrication and finishing all happen under one roof. That is what lets us answer for every detail, from the first sketch to installation.",
+      "cta": "More about us",
+      "imageAlt": "La Fab'ric 1996 workshop in Val-Morin"
+    },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What our clients say",
+      "source": "Google review"
     }
   },
   "servicesGrid": {

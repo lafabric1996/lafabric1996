@@ -62,9 +62,14 @@ export function getProjectsByCategory(
   return realisations.filter((project) => project.category === category);
 }
 
+/**
+ * Le premier sert de visuel pleine largeur sur l'accueil : il lui faut une
+ * couverture en haute résolution et une composition qui montre une pièce
+ * complète.
+ */
 const featuredProjectSlugs = [
-  "entre-4-murs-projet-takacsy",
   "mu-architecture-l-albatros",
+  "construction-mad-projet-circle",
   "yh2-maison-aube",
 ] as const;
 

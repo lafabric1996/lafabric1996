@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useCallback, useEffect, useId, useRef, useState } from "react";
 import { createPortal } from "react-dom";
+import { cn } from "@/lib/utils";
 
 type PromoVideoCardProps = {
   videoSrc: string;
@@ -11,6 +12,9 @@ type PromoVideoCardProps = {
   playLabel: string;
   closeLabel: string;
   ariaLabel: string;
+  className?: string;
+  /** À désactiver quand le titre est déjà affiché à côté de la carte. */
+  showCaption?: boolean;
 };
 
 function lockPageScroll() {
@@ -55,6 +59,8 @@ export function PromoVideoCard({
   playLabel,
   closeLabel,
   ariaLabel,
+  className,
+  showCaption = true,
 }: PromoVideoCardProps) {
   const titleId = useId();
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -151,7 +157,7 @@ export function PromoVideoCard({
 
   return (
     <>
-      <article className="mx-auto w-full max-w-[700px]">
+      <article className={cn("mx-auto w-full max-w-[700px]", className)}>
         <button
           type="button"
           onClick={openModal}
@@ -173,9 +179,11 @@ export function PromoVideoCard({
           </span>
         </button>
 
-        <p className="mt-6 text-center font-display text-xl tracking-tight text-foreground sm:text-2xl">
-          {title}
-        </p>
+        {showCaption && (
+          <p className="mt-6 text-center font-display text-xl tracking-tight sm:text-2xl">
+            {title}
+          </p>
+        )}
       </article>
 
       {modal}

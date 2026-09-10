@@ -82,57 +82,44 @@
   },
   "home": {
     "hero": {
-      "eyebrow": "",
-      "title": "L'excellence en ébénisterie et resurfaçage haut de gamme",
-      "subtitle": "La Fab'ric 1996 est un atelier d'ébénisterie familiale québécoise qui conçoit et fabrique des réalisations sur mesure depuis plus de 30 ans. De la cuisine au mobilier intégré, jusqu'à l'aménagement architectural complet de résidences, notre savoir-faire se distingue par la qualité, la précision et le souci du détail.",
+      "eyebrow": "Ébénisterie et resurfaçage · Val-Morin, Laurentides",
+      "title": "Fabriqué dans notre atelier depuis 1996",
+      "subtitle": "Cuisines, salles de bain et mobilier intégré sur mesure. Et le resurfaçage d'armoires, pour transformer votre cuisine sans tout remplacer.",
       "primaryCta": "Obtenir une soumission",
       "secondaryCta": "Voir nos réalisations",
       "imageAlt": "Cuisine en chêne sur mesure — Projet Bergevin, Dany Courchesne architecte"
     },
-    "services": {
-      "eyebrow": "Nos expertises",
-      "title": "Des services pensés pour votre intérieur",
-      "description": "Du resurfaçage d'armoires à l'ébénisterie sur mesure, nous accompagnons vos projets résidentiels avec rigueur et finition.",
+    "proof": {
+      "ariaLabel": "Repères sur l'entreprise",
       "items": {
-        "kitchen": {
-          "title": "Cuisines sur mesure",
-          "description": "Des cuisines pensées, fabriquées et installées avec précision pour des projets résidentiels haut de gamme.",
-          "imageAlt": "Cuisine sur mesure — YH2 Maison Aubé"
-        },
-        "builtIn": {
-          "title": "Mobilier intégré",
-          "description": "Bibliothèques, walk-in, bureaux, celliers et tout mobilier conçu spécifiquement pour chaque résidence.",
-          "imageAlt": "Mobilier intégré — YH2 Les blocs de bois"
-        },
-        "architectural": {
-          "title": "Ébénisterie architecturale",
-          "description": "Collaboration avec architectes et designers pour réaliser des projets uniques où chaque détail est maîtrisé.",
-          "imageAlt": "Ébénisterie architecturale — MU Architecture L'Albatros"
-        }
+        "founded": "Atelier familial depuis 1996",
+        "rbq": "Licence RBQ 8102-5306-27",
+        "architects": "Projets avec YH2, La Shed et MU Architecture",
+        "marieMai": "Présenté par Marie-Mai"
       }
     },
-    "whyChoose": {
-      "eyebrow": "Notre différence",
-      "title": "Pourquoi choisir La Fab'ric 1996",
-      "description": "Une entreprise familiale qui allie expérience, savoir-faire et souci du détail.",
-      "reasons": {
-        "experience": {
-          "title": "Plus de 30 ans",
-          "description": "Au service de projets sur mesure et d'un savoir-faire reconnu."
-        },
-        "expertise": {
-          "title": "Fabrication sur mesure",
-          "description": "Chaque projet est conçu et fabriqué selon vos besoins, votre espace et votre façon de vivre."
-        },
-        "craftsmanship": {
-          "title": "Qualité durable",
-          "description": "Des matériaux soigneusement sélectionnés et une finition pensée pour traverser les années."
-        },
-        "finishing": {
-          "title": "Accompagnement personnalisé",
-          "description": "Une équipe à l'écoute, du premier croquis jusqu'à l'installation."
-        }
+    "trades": {
+      "eyebrow": "Nos deux métiers",
+      "title": "Construire du neuf, ou transformer l'existant",
+      "description": "Deux façons de travailler votre cuisine, selon votre projet et votre budget.",
+      "custom": {
+        "title": "Ébénisterie sur mesure",
+        "description": "Cuisines, salles de bain, mobilier intégré et ébénisterie architecturale, dessinés et fabriqués pour votre espace.",
+        "cta": "Voir les réalisations",
+        "imageAlt": "Cuisine sur mesure — L'Albatros, Mu Architecture"
+      },
+      "refacing": {
+        "title": "Resurfaçage d'armoires",
+        "description": "On garde la structure de votre cuisine et on remplace les façades. Quelques jours suffisent, pas des semaines.",
+        "cta": "Découvrir le resurfaçage",
+        "sliderHint": "Glissez pour comparer"
       }
+    },
+    "featured": {
+      "eyebrow": "Portfolio",
+      "title": "Réalisations récentes",
+      "description": "Des projets menés avec des architectes et des designers du Québec.",
+      "viewAll": "Voir les 20 réalisations"
     },
     "video": {
       "eyebrow": "En vedette",
@@ -143,16 +130,41 @@
       "ariaLabel": "Vidéo promotionnelle Marie-Mai",
       "placeholder": "Capsule vidéo à venir"
     },
-    "featured": {
-      "eyebrow": "Portfolio",
-      "title": "Réalisations vedettes",
-      "description": "Une sélection de nos projets récents."
+    "process": {
+      "eyebrow": "Comment ça se passe",
+      "title": "De la première rencontre à l'installation",
+      "description": "Un projet sur mesure suit toujours les mêmes quatre étapes, du croquis à la pose.",
+      "steps": {
+        "meeting": {
+          "title": "Rencontre",
+          "description": "On visite votre espace, on prend les mesures et on discute de vos besoins."
+        },
+        "design": {
+          "title": "Conception",
+          "description": "Plans, choix des matériaux, des teintes et de la quincaillerie, avec vous."
+        },
+        "build": {
+          "title": "Fabrication",
+          "description": "Tout est fabriqué dans notre atelier de Val-Morin, pas sous-traité."
+        },
+        "install": {
+          "title": "Installation",
+          "description": "Pose et finition sur place, jusqu'au dernier ajustement."
+        }
+      }
     },
-    "finalCta": {
-      "title": "Prêt à donner vie à votre projet ?",
-      "description": "Contactez-nous pour discuter de votre espace et obtenir une soumission personnalisée.",
-      "primaryButton": "Obtenir une soumission",
-      "secondaryButton": "Voir nos réalisations"
+    "workshop": {
+      "eyebrow": "L'atelier",
+      "title": "Une entreprise familiale, un seul atelier",
+      "paragraph1": "Depuis 1996, La Fab'ric conçoit et fabrique sur mesure à Val-Morin, dans les Laurentides.",
+      "paragraph2": "Le dessin, la fabrication et la finition passent par le même atelier. C'est ce qui nous permet de répondre de chaque détail, du premier croquis à l'installation.",
+      "cta": "En savoir plus sur nous",
+      "imageAlt": "L'atelier de La Fab'ric 1996 à Val-Morin"
+    },
+    "testimonials": {
+      "eyebrow": "Témoignages",
+      "title": "Ce qu'en disent nos clients",
+      "source": "Avis Google"
     }
   },
   "servicesGrid": {
