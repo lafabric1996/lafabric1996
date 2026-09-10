@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
@@ -68,15 +69,19 @@ export function Header() {
       <Container as="div" className="flex h-20 items-center justify-between gap-4">
         <Link
           href="/"
-          className="group flex shrink-0 flex-col leading-none"
+          className="shrink-0 transition-opacity hover:opacity-80"
           aria-label={tHeader("homeAriaLabel")}
         >
-          <span className="font-display text-2xl tracking-wide text-foreground transition-colors group-hover:text-wood md:text-3xl">
-            La Fab&apos;ric
-          </span>
-          <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.35em] text-muted">
-            1996
-          </span>
+          <Image
+            src="/images/logo-lafabric.png"
+            /* Le lien porte déjà son libellé accessible : alt vide pour ne pas
+               annoncer deux fois la même chose. */
+            alt=""
+            width={579}
+            height={181}
+            priority
+            className="h-9 w-auto md:h-11"
+          />
         </Link>
 
         <nav

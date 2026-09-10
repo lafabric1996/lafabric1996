@@ -36,10 +36,6 @@
       "title": "À propos",
       "description": "Découvrez La Fab'ric 1996, entreprise québécoise spécialisée en ébénisterie et rénovation haut de gamme depuis près de 30 ans."
     },
-    "temoignages": {
-      "title": "Témoignages",
-      "description": "Témoignages de clients de La Fab'ric 1996. Avis et retours d'expérience sur nos projets de rénovation et ébénisterie."
-    },
     "contact": {
       "title": "Contact",
       "description": "Contactez La Fab'ric 1996 pour discuter de votre projet de cuisine, salle de bain, mobilier intégré ou ébénisterie sur mesure."
@@ -54,7 +50,6 @@
     "mobilierIntegre": "Mobilier intégré",
     "services": "Services",
     "aPropos": "À propos",
-    "temoignages": "Témoignages",
     "contact": "Contact",
     "main": "Navigation principale",
     "mobile": "Navigation mobile",
@@ -72,7 +67,7 @@
     "tagline": "Plus de 30 ans d'expérience en ébénisterie sur mesure et en resurfaçage de cuisines, au service de projets qui traversent le temps.",
     "coordinates": "Coordonnées",
     "rights": "Tous droits réservés.",
-    "location": "Québec, Canada"
+    "rbq": "Licence RBQ 8102-5306-27"
   },
   "common": {
     "photoComingSoon": "Photo à venir",
@@ -92,7 +87,7 @@
       "subtitle": "La Fab'ric 1996 est un atelier d'ébénisterie familiale québécoise qui conçoit et fabrique des réalisations sur mesure depuis plus de 30 ans. De la cuisine au mobilier intégré, jusqu'à l'aménagement architectural complet de résidences, notre savoir-faire se distingue par la qualité, la précision et le souci du détail.",
       "primaryCta": "Obtenir une soumission",
       "secondaryCta": "Voir nos réalisations",
-      "imageLabel": "Vidéo principale à venir"
+      "imageAlt": "Cuisine en chêne sur mesure — Projet Bergevin, Dany Courchesne architecte"
     },
     "services": {
       "eyebrow": "Nos expertises",
@@ -146,7 +141,7 @@
       "play": "Lire la vidéo",
       "close": "Fermer",
       "ariaLabel": "Vidéo promotionnelle Marie-Mai",
-      "placeholder": "Ajoutez content/marie-mai-poster.jpg puis lancez npm run sync:video"
+      "placeholder": "Capsule vidéo à venir"
     },
     "featured": {
       "eyebrow": "Portfolio",
@@ -371,7 +366,7 @@
         "title": "Finitions haut de gamme",
         "imageLabel": "Finitions — photo à venir",
         "p1": "Matériaux, quincaillerie et détails de finition sont sélectionnés avec soin pour un rendu raffiné.",
-        "p2": "Le contenu détaillé de cette section sera complété selon vos produits et finitions disponibles."
+        "p2": "Les essences, les teintes et la quincaillerie sont choisies avec vous, selon votre espace et l'usage que vous en faites."
       }
     }
   },
@@ -460,18 +455,6 @@
         "description": "Des réalisations conçues pour traverser les années, avec des matériaux et des finitions de qualité."
       }
     }
-  },
-  "temoignagesPage": {
-    "eyebrow": "Témoignages",
-    "title": "La parole à nos clients",
-    "description": "Les témoignages de nos clients seront publiés prochainement. Cette section accueillera les retours authentiques sur nos projets de rénovation et d'ébénisterie.",
-    "placeholderQuote": "Les avis de nos clients apparaîtront ici une fois recueillis et validés.",
-    "placeholderNote": "Contenu temporaire — aucun témoignage fictif n'est affiché.",
-    "experienceEyebrow": "Votre expérience",
-    "experienceTitle": "Vous avez travaillé avec nous ?",
-    "experienceDescription": "Votre retour est important. Contactez-nous pour partager votre expérience.",
-    "ctaTitle": "Un projet en cours ou terminé ?",
-    "ctaDescription": "N'hésitez pas à nous contacter pour partager votre expérience ou discuter d'un nouveau projet."
   },
   "contactPage": {
     "eyebrow": "Contact",

@@ -40,7 +40,7 @@ export function LanguageSwitcher() {
       >
         FR
       </Link>
-      <span className="text-border" aria-hidden="true">
+      <span className="text-muted/50" aria-hidden="true">
         |
       </span>
       <Link

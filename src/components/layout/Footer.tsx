@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { footerNavigation } from "@/lib/navigation";
@@ -15,13 +16,19 @@ export function Footer() {
       <Container className="py-16 lg:py-20">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div className="lg:col-span-1">
-            <Link href="/" className="inline-block">
-              <span className="font-display text-3xl tracking-wide">
-                La Fab&apos;ric
-              </span>
-              <span className="mt-1 block text-[10px] font-medium uppercase tracking-[0.35em] text-white/50">
-                1996
-              </span>
+            <Link
+              href="/"
+              className="inline-block transition-opacity hover:opacity-80"
+            >
+              <Image
+                src="/images/logo-lafabric.png"
+                alt="La Fab'ric 1996 — Ébénisterie"
+                width={579}
+                height={181}
+                /* Le logo est dessiné pour fond clair : sur le pied de page
+                   presque noir, on le rend en blanc plein. */
+                className="h-12 w-auto brightness-0 invert"
+              />
             </Link>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/60">
               {tFooter("tagline")}
@@ -82,7 +89,9 @@ export function Footer() {
           <p className="text-xs text-white/40">
             © {currentYear} {tMeta("siteName")}. {tFooter("rights")}
           </p>
-          <p className="text-xs text-white/40">{tFooter("location")}</p>
+          <p className="text-xs tracking-[0.08em] text-white/55">
+            {tFooter("rbq")}
+          </p>
         </div>
       </Container>
     </footer>

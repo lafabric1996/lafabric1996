@@ -10,7 +10,7 @@ export async function JsonLd() {
     "@type": "HomeAndConstructionBusiness",
     name: t("siteName"),
     description: t("defaultDescription"),
-    url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://lafabric1996.ca",
+    url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.lafabric.ca",
     telephone: "+1-819-322-1041",
     email: tContact("info.emailValue"),
     address: {

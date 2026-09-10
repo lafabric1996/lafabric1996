@@ -35,10 +35,6 @@ export const routing = defineRouting({
       fr: "/a-propos",
       en: "/about",
     },
-    "/temoignages": {
-      fr: "/temoignages",
-      en: "/testimonials",
-    },
     "/contact": "/contact",
   },
 });

@@ -3,9 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #0a0a0a;
-  --wood: #b8956a;
-  --wood-light: #d9c4a8;
-  --wood-dark: #7a5c3a;
+  /* ESSAI — accent noir. Le jeu de jetons reste nommé "wood" pour ne rien
+     casser, mais l'accent est désormais monochrome : la couleur vient des
+     photos et du rouge du logo, pas de l'interface. */
+  --wood: #0a0a0a;
+  --wood-light: #d4d0cb;
+  --wood-dark: #0a0a0a;
   --muted: #6b6560;
   --border: #e8e2da;
   --surface: #faf9f7;

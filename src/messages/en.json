@@ -36,10 +36,6 @@
       "title": "About",
       "description": "Discover La Fab'ric 1996, a Quebec company specializing in premium woodworking and renovation for nearly 30 years."
     },
-    "temoignages": {
-      "title": "Testimonials",
-      "description": "Client testimonials for La Fab'ric 1996. Reviews and feedback on our renovation and woodworking projects."
-    },
     "contact": {
       "title": "Contact",
       "description": "Contact La Fab'ric 1996 to discuss your kitchen, bathroom, built-in furniture or custom woodworking project."
@@ -54,7 +50,6 @@
     "mobilierIntegre": "Built-in Furniture",
     "services": "Services",
     "aPropos": "About",
-    "temoignages": "Testimonials",
     "contact": "Contact",
     "main": "Main navigation",
     "mobile": "Mobile navigation",
@@ -72,7 +67,7 @@
     "tagline": "Over 30 years of experience in custom woodworking and kitchen refacing, dedicated to projects built to last.",
     "coordinates": "Contact Information",
     "rights": "All rights reserved.",
-    "location": "Quebec, Canada"
+    "rbq": "RBQ licence 8102-5306-27"
   },
   "common": {
     "photoComingSoon": "Photo coming soon",
@@ -92,7 +87,7 @@
       "subtitle": "La Fab'ric 1996 is a Quebec family woodworking shop that designs and builds custom work for over 30 years. From kitchens to built-in furniture, to the complete architectural fit-out of residences, our craftsmanship stands out through quality, precision and attention to detail.",
       "primaryCta": "Get a quote",
       "secondaryCta": "View our projects",
-      "imageLabel": "Main video coming soon"
+      "imageAlt": "Custom oak kitchen — Bergevin project, architect Dany Courchesne"
     },
     "services": {
       "eyebrow": "Our Expertise",
@@ -146,7 +141,7 @@
       "play": "Play video",
       "close": "Close",
       "ariaLabel": "Marie-Mai promotional video",
-      "placeholder": "Add content/marie-mai-poster.jpg then run npm run sync:video"
+      "placeholder": "Video coming soon"
     },
     "featured": {
       "eyebrow": "Portfolio",
@@ -371,7 +366,7 @@
         "title": "Premium Finishes",
         "imageLabel": "Finishes — photo coming soon",
         "p1": "Materials, hardware and finishing details are carefully selected for a refined result.",
-        "p2": "Detailed content for this section will be completed based on your available products and finishes."
+        "p2": "Wood species, finishes and hardware are chosen with you, based on your space and how you use it."
       }
     }
   },
@@ -460,18 +455,6 @@
         "description": "Projects designed to stand the test of time, with quality materials and finishes."
       }
     }
-  },
-  "temoignagesPage": {
-    "eyebrow": "Testimonials",
-    "title": "Our clients speak",
-    "description": "Client testimonials will be published soon. This section will feature authentic feedback on our renovation and woodworking projects.",
-    "placeholderQuote": "Client reviews will appear here once collected and validated.",
-    "placeholderNote": "Temporary content — no fictitious testimonials are displayed.",
-    "experienceEyebrow": "Your Experience",
-    "experienceTitle": "Have you worked with us?",
-    "experienceDescription": "Your feedback matters. Contact us to share your experience.",
-    "ctaTitle": "Have a project in progress or completed?",
-    "ctaDescription": "Feel free to contact us to share your experience or discuss a new project."
   },
   "contactPage": {
     "eyebrow": "Contact",
