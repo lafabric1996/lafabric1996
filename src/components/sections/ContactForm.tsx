@@ -98,17 +98,15 @@ export function ContactForm() {
         <select
           id="service"
           name="service"
+          required
           className="w-full border border-border bg-background px-4 py-3 text-foreground transition-colors focus:border-wood focus:outline-none"
           defaultValue=""
         >
           <option value="" disabled>
             {t("selectService")}
           </option>
-          <option value="cuisine">{t("options.kitchen")}</option>
-          <option value="salle-de-bain">{t("options.bathroom")}</option>
-          <option value="mobilier-integre">{t("options.builtIn")}</option>
-          <option value="resurfacage">{t("options.resurfacing")}</option>
           <option value="ebenisterie">{t("options.woodworking")}</option>
+          <option value="resurfacage">{t("options.resurfacing")}</option>
         </select>
       </div>
 

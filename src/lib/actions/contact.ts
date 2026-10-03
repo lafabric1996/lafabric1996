@@ -2,7 +2,16 @@
 
 import { Resend } from "resend";
 
-const CONTACT_EMAIL = "info@lafabric.ca";
+const CONTACT_SERVICES = {
+  ebenisterie: {
+    label: "Ébénisterie",
+    recipients: ["info@lafabric.ca"],
+  },
+  resurfacage: {
+    label: "Resurfaçage",
+    recipients: ["info@lafabric.ca", "louis@lafabric.ca"],
+  },
+};
 const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export type ContactFormState = {
@@ -29,6 +38,11 @@ export async function sendContactMessage(
     return { status: "error", errorKey: "invalidEmail" };
   }
 
+  if (service !== "ebenisterie" && service !== "resurfacage") {
+    return { status: "error", errorKey: "missingFields" };
+  }
+
+  const selectedService = CONTACT_SERVICES[service];
   const apiKey = process.env.RESEND_API_KEY;
   if (!apiKey) {
     console.error("RESEND_API_KEY manquant : impossible d'envoyer le courriel du formulaire de contact.");
@@ -40,15 +54,15 @@ export async function sendContactMessage(
   try {
     const { error } = await resend.emails.send({
       from: process.env.CONTACT_FROM_EMAIL ?? "Site La Fab'ric 1996 <onboarding@resend.dev>",
-      to: CONTACT_EMAIL,
+      to: selectedService.recipients,
       replyTo: email,
-      subject: `Nouvelle demande de soumission — ${firstName} ${lastName}`,
+      subject: `Nouvelle demande de soumission — ${selectedService.label} — ${firstName} ${lastName}`,
       text: [
         `Prénom : ${firstName}`,
         `Nom : ${lastName}`,
         `Courriel : ${email}`,
         `Téléphone : ${phone || "Non fourni"}`,
-        `Type de projet : ${service || "Non précisé"}`,
+        `Type de projet : ${selectedService.label}`,
         "",
         "Message :",
         message,
