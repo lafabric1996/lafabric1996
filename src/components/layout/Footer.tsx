@@ -20,15 +20,29 @@ export function Footer() {
               href="/"
               className="inline-block transition-opacity hover:opacity-80"
             >
-              <Image
-                src="/images/logo-lafabric.png"
-                alt="La Fab'ric 1996 — Ébénisterie"
-                width={579}
-                height={181}
-                /* Le logo est dessiné pour fond clair : sur le pied de page
-                   presque noir, on le rend en blanc plein. */
-                className="h-12 w-auto brightness-0 invert"
-              />
+              <span className="relative block">
+                <Image
+                  src="/images/logo-lafabric.png"
+                  alt="La Fab'ric 1996 — Ébénisterie"
+                  width={579}
+                  height={181}
+                  className="h-12 w-auto brightness-0 invert"
+                />
+                {/* Superpose les parties rouges du logo original sur sa
+                    version blanche : LA à gauche et ÉBÉNISTERIE en bas. */}
+                <Image
+                  src="/images/logo-lafabric.png"
+                  alt=""
+                  aria-hidden="true"
+                  width={579}
+                  height={181}
+                  className="absolute inset-0 h-12 w-auto"
+                  style={{
+                    clipPath:
+                      "polygon(0 0, 27% 0, 27% 70%, 100% 70%, 100% 100%, 0 100%)",
+                  }}
+                />
+              </span>
             </Link>
             <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/60">
               {tFooter("tagline")}
