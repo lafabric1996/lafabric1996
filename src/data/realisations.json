@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
-  "projectCount": 20,
-  "imageCount": 192,
+  "projectCount": 21,
+  "imageCount": 198,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -1454,6 +1454,59 @@
       ],
       "beforeAfterPairs": [],
       "description": null
+    },
+    {
+      "slug": "projet-lantier",
+      "title": "Projet Lantier",
+      "description": null,
+      "category": "cuisine",
+      "cover": "/realisations/projet-lantier/cuisine-3.jpg",
+      "imageCount": 6,
+      "images": [
+        {
+          "src": "/realisations/projet-lantier/cuisine-1.jpg",
+          "filename": "cuisine-1.jpg",
+          "alt": "Projet Lantier",
+          "category": "cuisine",
+          "order": 1
+        },
+        {
+          "src": "/realisations/projet-lantier/cuisine-2.jpg",
+          "filename": "cuisine-2.jpg",
+          "alt": "Projet Lantier",
+          "category": "cuisine",
+          "order": 2
+        },
+        {
+          "src": "/realisations/projet-lantier/cuisine-3.jpg",
+          "filename": "cuisine-3.jpg",
+          "alt": "Projet Lantier",
+          "category": "cuisine",
+          "order": 3
+        },
+        {
+          "src": "/realisations/projet-lantier/cuisine-4.jpg",
+          "filename": "cuisine-4.jpg",
+          "alt": "Projet Lantier",
+          "category": "cuisine",
+          "order": 4
+        },
+        {
+          "src": "/realisations/projet-lantier/pantry-1.jpg",
+          "filename": "pantry-1.jpg",
+          "alt": "Projet Lantier",
+          "category": "cuisine",
+          "order": 5
+        },
+        {
+          "src": "/realisations/projet-lantier/pantry-2.jpg",
+          "filename": "pantry-2.jpg",
+          "alt": "Projet Lantier",
+          "category": "cuisine",
+          "order": 6
+        }
+      ],
+      "beforeAfterPairs": []
     }
   ]
 }
