@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 20,
-  "imageCount": 200,
+  "imageCount": 192,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -78,99 +78,50 @@
       "slug": "construction-mad-projet-circle",
       "title": "Projet Circle — Construction MAD",
       "category": "residential",
-      "cover": "/realisations/construction-mad-projet-circle/cover.jpg",
-      "imageCount": 14,
+      "cover": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.jpg",
+      "imageCount": 6,
       "images": [
         {
-          "src": "/realisations/construction-mad-projet-circle/552169586_788599474004493_487298004012325156_n.jpg",
-          "filename": "552169586_788599474004493_487298004012325156_n.jpg",
-          "alt": "Construction MAD projet Circle",
+          "src": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.jpg",
+          "filename": "cuisine-vue-ensemble.jpg",
+          "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 1
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/566342486_842740801633454_1590900061355850753_n.jpg",
-          "filename": "566342486_842740801633454_1590900061355850753_n.jpg",
-          "alt": "Construction MAD projet Circle",
+          "src": "/realisations/construction-mad-projet-circle/apres/cuisine-ilot.jpg",
+          "filename": "cuisine-ilot.jpg",
+          "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 2
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/566386823_1163388855737481_110169413830266904_n.jpg",
-          "filename": "566386823_1163388855737481_110169413830266904_n.jpg",
-          "alt": "Construction MAD projet Circle",
+          "src": "/realisations/construction-mad-projet-circle/apres/ilot-tiroirs.jpg",
+          "filename": "ilot-tiroirs.jpg",
+          "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 3
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/566399785_1470238827425099_6437890239598724820_n.jpg",
-          "filename": "566399785_1470238827425099_6437890239598724820_n.jpg",
-          "alt": "Construction MAD projet Circle",
+          "src": "/realisations/construction-mad-projet-circle/apres/rangement-chene.jpg",
+          "filename": "rangement-chene.jpg",
+          "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 4
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/566522715_1364290088750714_5162298324286176759_n.jpg",
-          "filename": "566522715_1364290088750714_5162298324286176759_n.jpg",
-          "alt": "Construction MAD projet Circle",
+          "src": "/realisations/construction-mad-projet-circle/apres/niche-bar.jpg",
+          "filename": "niche-bar.jpg",
+          "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 5
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/566529152_1094591296082733_1677194073561763172_n.jpg",
-          "filename": "566529152_1094591296082733_1677194073561763172_n.jpg",
-          "alt": "Construction MAD projet Circle",
+          "src": "/realisations/construction-mad-projet-circle/apres/passage-chene.jpg",
+          "filename": "passage-chene.jpg",
+          "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 6
-        },
-        {
-          "src": "/realisations/construction-mad-projet-circle/566529237_1084534183574948_1201184773172863128_n.jpg",
-          "filename": "566529237_1084534183574948_1201184773172863128_n.jpg",
-          "alt": "Construction MAD projet Circle",
-          "category": null,
-          "order": 7
-        },
-        {
-          "src": "/realisations/construction-mad-projet-circle/566541508_1187262473299666_3937179118378751351_n.jpg",
-          "filename": "566541508_1187262473299666_3937179118378751351_n.jpg",
-          "alt": "Construction MAD projet Circle",
-          "category": null,
-          "order": 8
-        },
-        {
-          "src": "/realisations/construction-mad-projet-circle/566548746_1329744051980322_1073422048037287924_n.jpg",
-          "filename": "566548746_1329744051980322_1073422048037287924_n.jpg",
-          "alt": "Construction MAD projet Circle",
-          "category": null,
-          "order": 9
-        },
-        {
-          "src": "/realisations/construction-mad-projet-circle/566557006_24651866991182089_2092756857367744002_n.jpg",
-          "filename": "566557006_24651866991182089_2092756857367744002_n.jpg",
-          "alt": "Construction MAD projet Circle",
-          "category": null,
-          "order": 10
-        },
-        {
-          "src": "/realisations/construction-mad-projet-circle/566601515_2609570899413165_8984562608562383338_n.jpg",
-          "filename": "566601515_2609570899413165_8984562608562383338_n.jpg",
-          "alt": "Construction MAD projet Circle",
-          "category": null,
-          "order": 11
-        },
-        {
-          "src": "/realisations/construction-mad-projet-circle/566619283_837135832226111_2989806897702443210_n.jpg",
-          "filename": "566619283_837135832226111_2989806897702443210_n.jpg",
-          "alt": "Construction MAD projet Circle",
-          "category": null,
-          "order": 12
-        },
-        {
-          "src": "/realisations/construction-mad-projet-circle/567256003_1459975121770881_5146178285588801258_n.jpg",
-          "filename": "567256003_1459975121770881_5146178285588801258_n.jpg",
-          "alt": "Construction MAD projet Circle",
-          "category": null,
-          "order": 13
         }
       ],
       "beforeAfterPairs": [],
