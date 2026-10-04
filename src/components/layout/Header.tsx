@@ -55,6 +55,8 @@ export function Header() {
     };
   }, [isOpen]);
 
+  const isOverHero = pathname === "/" && !isScrolled && !isOpen;
+
   return (
     <header
       className={cn(
@@ -93,8 +95,12 @@ export function Header() {
               key={item.href}
               href={item.href}
               className={cn(
-                "text-xs font-medium uppercase tracking-[0.15em] transition-colors hover:text-wood",
-                pathname === item.href ? "text-wood" : "text-foreground/80",
+                "text-xs font-medium uppercase tracking-[0.15em] transition-colors",
+                isOverHero
+                  ? "text-white hover:text-white/80"
+                  : pathname === item.href
+                    ? "text-wood hover:text-wood"
+                    : "text-foreground/80 hover:text-wood",
               )}
             >
               {t(item.labelKey)}
@@ -103,14 +109,19 @@ export function Header() {
         </nav>
 
         <div className="hidden items-center gap-6 xl:flex">
-          <LanguageSwitcher />
-          <Button href="/contact" size="sm">
+          <LanguageSwitcher light={isOverHero} />
+          <Button
+            href="/contact"
+            size="sm"
+            variant={isOverHero ? "ghost" : "primary"}
+            className={isOverHero ? "text-white! hover:text-white/80!" : undefined}
+          >
             {t("contact")}
           </Button>
         </div>
 
         <div className="flex items-center gap-4 xl:hidden">
-          <LanguageSwitcher />
+          <LanguageSwitcher light={isOverHero} />
           <button
             type="button"
             className="relative z-[10000] flex h-10 w-10 flex-col items-center justify-center gap-1.5"
@@ -121,19 +132,22 @@ export function Header() {
           >
             <span
               className={cn(
-                "h-px w-6 bg-foreground transition-all duration-300",
+                "h-px w-6 transition-all duration-300",
+                isOverHero ? "bg-white" : "bg-foreground",
                 isOpen && "translate-y-[5px] rotate-45",
               )}
             />
             <span
               className={cn(
-                "h-px w-6 bg-foreground transition-all duration-300",
+                "h-px w-6 transition-all duration-300",
+                isOverHero ? "bg-white" : "bg-foreground",
                 isOpen && "opacity-0",
               )}
             />
             <span
               className={cn(
-                "h-px w-6 bg-foreground transition-all duration-300",
+                "h-px w-6 transition-all duration-300",
+                isOverHero ? "bg-white" : "bg-foreground",
                 isOpen && "-translate-y-[5px] -rotate-45",
               )}
             />
