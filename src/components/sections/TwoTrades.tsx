@@ -5,7 +5,6 @@ import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
 import { BeforeAfterSlider } from "@/components/ui/BeforeAfterSlider";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
-import { getAllResurfacagePairs } from "@/lib/resurfacage";
 
 const CUSTOM_IMAGE = "/realisations/mu-architecture-l-albatros/cover.jpg";
 
@@ -18,7 +17,10 @@ const CUSTOM_IMAGE = "/realisations/mu-architecture-l-albatros/cover.jpg";
 export async function TwoTrades() {
   const t = await getTranslations("home.trades");
   const tCommon = await getTranslations("common");
-  const pair = getAllResurfacagePairs()[0];
+  const pair = {
+    before: "/resurfacage/accueil/avant.webp",
+    after: "/resurfacage/accueil/apres.webp",
+  };
 
   return (
     <Section>
