@@ -1460,47 +1460,47 @@
       "title": "Projet Lantier",
       "description": null,
       "category": "cuisine",
-      "cover": "/realisations/projet-lantier/cuisine-3.jpg",
+      "cover": "/realisations/projet-lantier/selection-20261004/photo-01.webp",
       "imageCount": 6,
       "images": [
         {
-          "src": "/realisations/projet-lantier/cuisine-1.jpg",
-          "filename": "cuisine-1.jpg",
+          "src": "/realisations/projet-lantier/selection-20261004/photo-01.webp",
+          "filename": "Warm Oak Minimalist Kitchen.png",
           "alt": "Projet Lantier",
           "category": "cuisine",
           "order": 1
         },
         {
-          "src": "/realisations/projet-lantier/cuisine-2.jpg",
-          "filename": "cuisine-2.jpg",
+          "src": "/realisations/projet-lantier/selection-20261004/photo-02.webp",
+          "filename": "Modern Oak Kitchen Island.png",
           "alt": "Projet Lantier",
           "category": "cuisine",
           "order": 2
         },
         {
-          "src": "/realisations/projet-lantier/cuisine-3.jpg",
-          "filename": "cuisine-3.jpg",
+          "src": "/realisations/projet-lantier/selection-20261004/photo-03.webp",
+          "filename": "Scandinavian Kitchen with Warm Oak Tones.png",
           "alt": "Projet Lantier",
           "category": "cuisine",
           "order": 3
         },
         {
-          "src": "/realisations/projet-lantier/cuisine-4.jpg",
-          "filename": "cuisine-4.jpg",
+          "src": "/realisations/projet-lantier/selection-20261004/photo-04.webp",
+          "filename": "Warm Minimalist Oak Kitchen Interior.png",
           "alt": "Projet Lantier",
           "category": "cuisine",
           "order": 4
         },
         {
-          "src": "/realisations/projet-lantier/pantry-1.jpg",
-          "filename": "pantry-1.jpg",
+          "src": "/realisations/projet-lantier/selection-20261004/photo-05.webp",
+          "filename": "Modern Oak Pantry and Wine Alcove.png",
           "alt": "Projet Lantier",
           "category": "cuisine",
           "order": 5
         },
         {
-          "src": "/realisations/projet-lantier/pantry-2.jpg",
-          "filename": "pantry-2.jpg",
+          "src": "/realisations/projet-lantier/selection-20261004/photo-06.webp",
+          "filename": "Modern Walnut Pantry with Quartz Counters.png",
           "alt": "Projet Lantier",
           "category": "cuisine",
           "order": 6
