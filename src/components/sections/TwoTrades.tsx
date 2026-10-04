@@ -6,7 +6,7 @@ import { BeforeAfterSlider } from "@/components/ui/BeforeAfterSlider";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
-const CUSTOM_IMAGE = "/images/cuisine-sur-mesure.webp";
+const CUSTOM_IMAGE = "/images/cuisine-sur-mesure-20261004.webp";
 
 /**
  * La bifurcation principale du site : neuf sur mesure d'un côté, resurfaçage
