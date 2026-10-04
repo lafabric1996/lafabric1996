@@ -1,9 +1,9 @@
+import Image from "next/image";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { PageHeader } from "@/components/sections/PageHeader";
 import { ServicesGrid } from "@/components/sections/ServicesGrid";
 import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { createPageMetadata } from "@/lib/metadata";
@@ -41,7 +41,16 @@ export default async function ServicesPage({ params }: LocalePageProps) {
         title={t("title")}
         description={t("description")}
       />
-      <ImagePlaceholder aspectRatio="wide" label={t("heroPhoto")} />
+      <div className="relative aspect-[4/3] overflow-hidden md:aspect-[21/9]">
+        <Image
+          src="/images/services-consultation.webp"
+          alt={t("heroPhoto")}
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover object-[center_35%]"
+        />
+      </div>
 
       <ServicesGrid />
 
