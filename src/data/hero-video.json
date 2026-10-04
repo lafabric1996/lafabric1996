@@ -1,10 +1,10 @@
 {
-  "available": false,
-  "src": null,
-  "posterSrc": null,
-  "sourceFile": null,
-  "posterSource": null,
-  "extension": null,
-  "posterMethod": null,
-  "syncedAt": null
+  "available": true,
+  "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IZCVhD5lIku9vjF0MByV79a6yf/71a2d756-1326-4c06-856a-261448245774.mp4",
+  "posterSrc": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IZCVhD5lIku9vjF0MByV79a6yf/5dd58322-8ac6-43f1-ad1a-8d87d7db5ecd.jpg",
+  "sourceFile": "hf_20261004_184527_cf137b99-a1d4-4ecf-966e-7704b821ff25.mp4",
+  "posterSource": "generated from source video at 0.25s",
+  "extension": ".mp4",
+  "posterMethod": "ffmpeg-frame",
+  "syncedAt": "2026-10-04T19:38:00Z"
 }
