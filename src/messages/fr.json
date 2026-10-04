@@ -170,11 +170,12 @@
   "servicesGrid": {
     "eyebrow": "Nos expertises",
     "title": "Un savoir-faire complet pour vos projets",
-    "description": "De la cuisine à la salle de bain, en passant par le mobilier intégré et l'ébénisterie sur mesure.",
+    "description": "Ébénisterie sur mesure, resurfaçage d’armoires et accompagnement de votre projet, du concept à l’installation.",
     "items": {
       "resurfacing": {
-        "title": "Resurfaçage d'armoires",
-        "description": "Redonnez vie à vos armoires existantes avec un fini durable et élégant, sans démolition complète."
+        "title": "Resurfaçage d’armoires",
+        "description": "Redonnez vie à vos armoires existantes avec un fini durable et élégant, sans démolition complète.",
+        "cta": "Découvrir le resurfaçage"
       },
       "kitchen": {
         "title": "Rénovation de cuisines",
@@ -190,11 +191,17 @@
       },
       "customWoodwork": {
         "title": "Ébénisterie sur mesure",
-        "description": "Fabrication artisanale de pièces uniques, adaptées à vos besoins."
+        "description": "Cuisines, salles de bain et mobilier intégré : nous fabriquons des aménagements sur mesure, adaptés à votre espace, à vos besoins et à votre style.",
+        "cta": "Voir nos réalisations"
       },
       "residential": {
         "title": "Projets résidentiels",
         "description": "Accompagnement complet pour des rénovations haut de gamme à domicile."
+      },
+      "projectSupport": {
+        "title": "Accompagnement du projet",
+        "description": "Nous vous accompagnons dans la préparation de votre projet : compréhension de vos besoins, conception des plans, choix des matériaux et coordination de la fabrication et de l’installation. Nous collaborons également avec votre designer, architecte ou entrepreneur.",
+        "cta": "Discutons de votre projet"
       }
     }
   },

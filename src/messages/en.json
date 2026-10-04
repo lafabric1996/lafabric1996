@@ -170,11 +170,12 @@
   "servicesGrid": {
     "eyebrow": "Our Expertise",
     "title": "Complete know-how for your projects",
-    "description": "From kitchens to bathrooms, including built-in furniture and custom woodworking.",
+    "description": "Custom cabinetry, cabinet refacing and project support, from concept to installation.",
     "items": {
       "resurfacing": {
         "title": "Cabinet Refacing",
-        "description": "Give new life to your existing cabinets with a durable, elegant finish — without full demolition."
+        "description": "Give new life to your existing cabinets with a durable, elegant finish, without full demolition.",
+        "cta": "Explore cabinet refacing"
       },
       "kitchen": {
         "title": "Kitchen Renovation",
@@ -189,12 +190,18 @@
         "description": "Custom solutions to optimize every corner of your interior."
       },
       "customWoodwork": {
-        "title": "Custom Woodworking",
-        "description": "Artisan fabrication of unique pieces adapted to your needs."
+        "title": "Custom Cabinetry",
+        "description": "Kitchens, bathrooms and built-in furniture: we create custom cabinetry tailored to your space, needs and style.",
+        "cta": "View our projects"
       },
       "residential": {
         "title": "Residential Projects",
         "description": "Full support for premium home renovations."
+      },
+      "projectSupport": {
+        "title": "Project Support",
+        "description": "We guide you through preparing your project: understanding your needs, designing plans, selecting materials, and coordinating fabrication and installation. We also collaborate with your designer, architect or contractor.",
+        "cta": "Let’s discuss your project"
       }
     }
   },
