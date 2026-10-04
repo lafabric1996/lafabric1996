@@ -43,7 +43,7 @@ export default async function ServicesPage({ params }: LocalePageProps) {
       />
       <div className="relative aspect-[4/3] overflow-hidden md:aspect-[21/9]">
         <Image
-          src="/images/services-consultation.webp"
+          src="/images/services-consultation-manches-longues.webp"
           alt={t("heroPhoto")}
           fill
           priority
