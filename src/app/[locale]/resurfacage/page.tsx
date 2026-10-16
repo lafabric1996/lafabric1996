@@ -78,7 +78,11 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
       before: "/resurfacage/accueil/avant.webp",
       after: "/resurfacage/accueil/apres.webp",
     },
-    ...pairs.slice(4),
+    ...pairs.slice(4).map((pair) =>
+      pair.before === "/resurfacage/christian-simon/avant-5.jpg"
+        ? { ...pair, after: "/resurfacage/transformation-finale-20261016/apres.webp" }
+        : pair,
+    ),
   ];
   const heroPair = {
     before: "/resurfacage/hero-20261016/avant.webp",
