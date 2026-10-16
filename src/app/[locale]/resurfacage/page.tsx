@@ -206,7 +206,11 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
       <Section variant="surface">
         <SectionHeader align="center" eyebrow={t("gallery.eyebrow")} title={t("gallery.title")} />
         <ResurfacageGallery
-          images={pairs.map((pair) => pair.after)}
+          images={[
+            "/resurfacage/galerie-20261016/cuisine.webp",
+            "/resurfacage/galerie-20261016/coin-repas.webp",
+            ...pairs.map((pair) => pair.after),
+          ]}
           altPrefix={t("hero.afterLabel")}
           loadMoreLabel={t("gallery.loadMore")}
         />
