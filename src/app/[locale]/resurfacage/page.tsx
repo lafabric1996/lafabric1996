@@ -74,7 +74,11 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
       before: "/resurfacage/transformation-04-20261016/avant.webp",
       after: "/resurfacage/transformation-04-20261016/apres.webp",
     },
-    ...pairs.slice(3),
+    {
+      before: "/resurfacage/accueil/avant.webp",
+      after: "/resurfacage/accueil/apres.webp",
+    },
+    ...pairs.slice(4),
   ];
   const heroPair = {
     before: "/resurfacage/hero-20261016/avant.webp",
