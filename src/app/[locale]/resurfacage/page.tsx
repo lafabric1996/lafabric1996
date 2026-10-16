@@ -67,8 +67,8 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
       after: "/resurfacage/transformation-20261016/apres.webp",
     },
     {
-      before: "/resurfacage/transformation-03-20261016/avant.webp",
-      after: "/resurfacage/transformation-03-20261016/apres.webp",
+      before: "/resurfacage/transformation-03-20261016/apres.webp",
+      after: "/resurfacage/transformation-03-20261016/avant.webp",
     },
     {
       before: "/resurfacage/transformation-04-20261016/avant.webp",
