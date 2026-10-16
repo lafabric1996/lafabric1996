@@ -61,6 +61,13 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
   const tCommon = await getTranslations("common");
 
   const pairs = getAllResurfacagePairs();
+  const transformationPairs = [
+    {
+      before: "/resurfacage/transformation-20261016/avant.webp",
+      after: "/resurfacage/transformation-20261016/apres.webp",
+    },
+    ...pairs.slice(1),
+  ];
   const heroPair = {
     before: "/resurfacage/hero-20261016/avant.webp",
     after: "/resurfacage/hero-20261016/apres.webp",
@@ -125,7 +132,7 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
           title={t("transformations.title")}
         />
         <div className="mx-auto mt-16 max-w-4xl space-y-16">
-          {pairs.map((pair, index) => (
+          {transformationPairs.map((pair, index) => (
             <AnimatedReveal key={pair.before} delay={(index % 3) * 80}>
               <BeforeAfterSlider
                 beforeSrc={pair.before}
