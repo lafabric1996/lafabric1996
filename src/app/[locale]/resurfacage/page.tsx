@@ -61,7 +61,10 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
   const tCommon = await getTranslations("common");
 
   const pairs = getAllResurfacagePairs();
-  const heroPair = pairs[0];
+  const heroPair = {
+    before: "/resurfacage/hero-20261016/avant.webp",
+    after: "/resurfacage/hero-20261016/apres.webp",
+  };
   const captions = t.raw("transformations.captions") as string[];
   const beforeLabel = t("hero.beforeLabel");
   const afterLabel = t("hero.afterLabel");
