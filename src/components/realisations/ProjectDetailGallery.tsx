@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import type { RealisationImage as RealisationImageType } from "@/lib/realisations";
 import { RealisationImage } from "./RealisationImage";
+import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 
 type ProjectDetailGalleryProps = {
   images: RealisationImageType[];
@@ -16,10 +17,11 @@ const controlClass = "flex h-12 w-12 shrink-0 items-center justify-center rounde
 
 export function ProjectDetailGallery({ images, projectTitle, cover, variant = "grid" }: ProjectDetailGalleryProps) {
   const t = useTranslations("realisations.lightbox");
+  const tCommon = useTranslations("common");
   const dialogRef = useRef<HTMLDialogElement>(null);
   const touchStart = useRef<{ x: number; y: number } | null>(null);
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
-  const photos = Array.from(new Set([cover, ...images.map((image) => image.src)]));
+  const photos = Array.from(new Set([cover, ...images.map((image) => image.src)].filter(Boolean)));
   const activePhoto = activeIndex === null ? null : photos[activeIndex];
   const isOpen = activeIndex !== null;
 
@@ -41,6 +43,12 @@ export function ProjectDetailGallery({ images, projectTitle, cover, variant = "g
   }
 
   function close() { dialogRef.current?.close(); }
+
+  if (photos.length === 0) {
+    return variant === "cover"
+      ? <ImagePlaceholder aspectRatio="wide" label={tCommon("photoComingSoon")} />
+      : null;
+  }
 
   return (
     <>

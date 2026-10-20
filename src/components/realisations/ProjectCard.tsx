@@ -1,3 +1,5 @@
+import { useTranslations } from "next-intl";
+import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { Link } from "@/i18n/navigation";
 import type { ProjectCategory, RealisationProject } from "@/lib/realisations";
 import { cn } from "@/lib/utils";
@@ -14,6 +16,7 @@ export function ProjectCard({
   categoryLabel,
   priority = false,
 }: ProjectCardProps) {
+  const tCommon = useTranslations("common");
   return (
     <Link
       href={{ pathname: "/realisations/[slug]", params: { slug: project.slug } }}
@@ -21,13 +24,13 @@ export function ProjectCard({
     >
       <article>
         <div className="relative aspect-[4/5] overflow-hidden bg-surface">
-          <RealisationImage
+          {project.cover ? <RealisationImage
             src={project.cover}
             alt={project.title}
             priority={priority}
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             className="transition-transform duration-700 group-hover:scale-[1.03]"
-          />
+          /> : <ImagePlaceholder className="h-full w-full" aspectRatio="portrait" label={tCommon("photoComingSoon")} />}
           <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/5" />
         </div>
         <div className="mt-4">
