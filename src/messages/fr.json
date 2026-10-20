@@ -242,6 +242,15 @@
       "mobilier-integre": "Mobilier intégré",
       "resurfacage": "Resurfaçage",
       "residential": "Projet résidentiel"
+    },
+    "lightbox": {
+      "open": "Agrandir la photo {number}",
+      "enlarge": "Agrandir",
+      "title": "Photos — {project}",
+      "close": "Fermer les photos",
+      "previous": "Photo précédente",
+      "next": "Photo suivante",
+      "counter": "{current} / {total}"
     }
   },
   "servicesPage": {

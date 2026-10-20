@@ -242,6 +242,15 @@
       "mobilier-integre": "Built-in Furniture",
       "resurfacage": "Refacing",
       "residential": "Residential Project"
+    },
+    "lightbox": {
+      "open": "Enlarge photo {number}",
+      "enlarge": "Enlarge",
+      "title": "Photos — {project}",
+      "close": "Close photos",
+      "previous": "Previous photo",
+      "next": "Next photo",
+      "counter": "{current} / {total}"
     }
   },
   "servicesPage": {

@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { ProjectDetailGallery } from "@/components/realisations/ProjectDetailGallery";
-import { RealisationImage } from "@/components/realisations/RealisationImage";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
@@ -77,18 +76,16 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
           )}
         </Container>
 
-        <div className="relative aspect-[21/9] w-full bg-surface">
-          <RealisationImage
-            src={project.cover}
-            alt={project.title}
-            priority
-            sizes="100vw"
-          />
-        </div>
+        <ProjectDetailGallery
+          images={project.images}
+          projectTitle={project.title}
+          cover={project.cover}
+          variant="cover"
+        />
       </section>
 
       <Section>
-        <ProjectDetailGallery images={project.images} projectTitle={project.title} />
+        <ProjectDetailGallery images={project.images} projectTitle={project.title} cover={project.cover} />
       </Section>
 
       <CTABanner />

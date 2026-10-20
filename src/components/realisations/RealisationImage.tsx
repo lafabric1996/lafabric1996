@@ -8,6 +8,7 @@ type RealisationImageProps = {
   className?: string;
   sizes?: string;
   fill?: boolean;
+  objectFit?: "cover" | "contain";
 };
 
 export function RealisationImage({
@@ -17,6 +18,7 @@ export function RealisationImage({
   className,
   sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
   fill = true,
+  objectFit = "cover",
 }: RealisationImageProps) {
   return (
     <Image
@@ -25,7 +27,7 @@ export function RealisationImage({
       fill={fill}
       priority={priority}
       sizes={sizes}
-      className={cn("object-cover", className)}
+      className={cn(objectFit === "contain" ? "object-contain" : "object-cover", className)}
     />
   );
 }
