@@ -1,42 +1,63 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 21,
-  "imageCount": 196,
+  "imageCount": 198,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
       "title": "Projet La Lumineuse — Ann Prud'homme Designer",
       "category": "cuisine",
-      "cover": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/cover.png",
-      "imageCount": 5,
+      "cover": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-01.webp",
+      "imageCount": 7,
       "images": [
         {
-          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/Cuisine-2.png",
-          "filename": "Cuisine 2.png",
-          "alt": "Ann Prud'homme Designer Projet La Lumineuse",
+          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-01.webp",
+          "filename": "photo-01.webp",
+          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 1
         },
         {
-          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/Cuisine-3.png",
-          "filename": "Cuisine 3.png",
-          "alt": "Ann Prud'homme Designer Projet La Lumineuse",
+          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-03.webp",
+          "filename": "photo-03.webp",
+          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 2
         },
         {
-          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/Cuisine-4.png",
-          "filename": "Cuisine 4.png",
-          "alt": "Ann Prud'homme Designer Projet La Lumineuse",
+          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-04.webp",
+          "filename": "photo-04.webp",
+          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 3
         },
         {
-          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/Cuisine-5.png",
-          "filename": "Cuisine 5.png",
-          "alt": "Ann Prud'homme Designer Projet La Lumineuse",
+          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-05.webp",
+          "filename": "photo-05.webp",
+          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 4
+        },
+        {
+          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-06.webp",
+          "filename": "photo-06.webp",
+          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "category": "cuisine",
+          "order": 5
+        },
+        {
+          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-07.webp",
+          "filename": "photo-07.webp",
+          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "category": "cuisine",
+          "order": 6
+        },
+        {
+          "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-08.webp",
+          "filename": "photo-08.webp",
+          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "category": "cuisine",
+          "order": 7
         }
       ],
       "beforeAfterPairs": [],
