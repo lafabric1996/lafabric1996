@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 21,
-  "imageCount": 140,
+  "imageCount": 151,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -279,9 +279,87 @@
       "slug": "entre-4-murs-projet-takacsy",
       "title": "Projet Takacsy — Entre 4 Murs",
       "category": "residential",
-      "cover": "",
-      "imageCount": 0,
-      "images": [],
+      "cover": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-01.webp",
+      "imageCount": 11,
+      "images": [
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-01.webp",
+          "filename": "Reference.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Reference",
+          "category": "cuisine",
+          "order": 1
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-02.webp",
+          "filename": "Warm Oak Kitchen and Glass Entryway.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Warm Oak Kitchen and Glass Entryway",
+          "category": "cuisine",
+          "order": 2
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-03.webp",
+          "filename": "Entrée.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Entrée",
+          "category": "mobilier-integre",
+          "order": 3
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-04.webp",
+          "filename": "Bar.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Bar",
+          "category": "mobilier-integre",
+          "order": 4
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-05.webp",
+          "filename": "Mudroom.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Mudroom",
+          "category": "mobilier-integre",
+          "order": 5
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-06.webp",
+          "filename": "Vanite maitre.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Vanite maitre",
+          "category": "salle-de-bain",
+          "order": 6
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-07.webp",
+          "filename": "chambre.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — chambre",
+          "category": "mobilier-integre",
+          "order": 7
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-08.webp",
+          "filename": "Salle eau.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Salle eau",
+          "category": "salle-de-bain",
+          "order": 8
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-09.webp",
+          "filename": "Rangement.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Rangement",
+          "category": "mobilier-integre",
+          "order": 9
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-10.webp",
+          "filename": "TV.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — TV",
+          "category": "mobilier-integre",
+          "order": 10
+        },
+        {
+          "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-11.webp",
+          "filename": "Bunk bed.png",
+          "alt": "Projet Takacsy — Entre 4 Murs — Bunk bed",
+          "category": "mobilier-integre",
+          "order": 11
+        }
+      ],
       "beforeAfterPairs": [],
       "description": null
     },
