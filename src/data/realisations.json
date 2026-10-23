@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
-  "projectCount": 21,
-  "imageCount": 140,
+  "projectCount": 19,
+  "imageCount": 130,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -770,52 +770,6 @@
       "description": null
     },
     {
-      "slug": "yh2-dunford",
-      "title": "Dunford — YH2",
-      "category": "mobilier-integre",
-      "cover": "/realisations/yh2-dunford/cover.png",
-      "imageCount": 6,
-      "images": [
-        {
-          "src": "/realisations/yh2-dunford/Cuisine.png",
-          "filename": "Cuisine.png",
-          "alt": "Yh2 Dunford",
-          "category": "cuisine",
-          "order": 1
-        },
-        {
-          "src": "/realisations/yh2-dunford/Salle-de-bain.png",
-          "filename": "Salle de bain.png",
-          "alt": "Yh2 Dunford",
-          "category": "salle-de-bain",
-          "order": 2
-        },
-        {
-          "src": "/realisations/yh2-dunford/Bureau.png",
-          "filename": "Bureau.png",
-          "alt": "Yh2 Dunford",
-          "category": "mobilier-integre",
-          "order": 3
-        },
-        {
-          "src": "/realisations/yh2-dunford/Chambre-2.png",
-          "filename": "Chambre 2.png",
-          "alt": "Yh2 Dunford",
-          "category": "mobilier-integre",
-          "order": 4
-        },
-        {
-          "src": "/realisations/yh2-dunford/Chambre.png",
-          "filename": "Chambre.png",
-          "alt": "Yh2 Dunford",
-          "category": "mobilier-integre",
-          "order": 5
-        }
-      ],
-      "beforeAfterPairs": [],
-      "description": null
-    },
-    {
       "slug": "yh2-la-luge",
       "title": "La Luge — YH2",
       "category": "mobilier-integre",
@@ -841,38 +795,6 @@
           "filename": "Entrée.png",
           "alt": "Yh2 La Luge",
           "category": "mobilier-integre",
-          "order": 3
-        }
-      ],
-      "beforeAfterPairs": [],
-      "description": null
-    },
-    {
-      "slug": "yh2-lac-superieur",
-      "title": "Projet Lac-Supérieur — YH2",
-      "category": "cuisine",
-      "cover": "/realisations/yh2-lac-superieur/cover.png",
-      "imageCount": 4,
-      "images": [
-        {
-          "src": "/realisations/yh2-lac-superieur/Cuisine2-.png",
-          "filename": "Cuisine2 .png",
-          "alt": "Yh2 Lac Supérieur",
-          "category": "cuisine",
-          "order": 1
-        },
-        {
-          "src": "/realisations/yh2-lac-superieur/Cuisine3-.png",
-          "filename": "Cuisine3 .png",
-          "alt": "Yh2 Lac Supérieur",
-          "category": "cuisine",
-          "order": 2
-        },
-        {
-          "src": "/realisations/yh2-lac-superieur/Vanite-.png",
-          "filename": "Vanite .png",
-          "alt": "Yh2 Lac Supérieur",
-          "category": "salle-de-bain",
           "order": 3
         }
       ],
