@@ -3,7 +3,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { PageHeader } from "@/components/sections/PageHeader";
 import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import { RealisationImage } from "@/components/realisations/RealisationImage";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { createPageMetadata } from "@/lib/metadata";
@@ -40,7 +40,14 @@ export default async function AProposPage({ params }: LocalePageProps) {
       <Section className="pt-0">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <AnimatedReveal>
-            <ImagePlaceholder aspectRatio="portrait" label={t("teamPhoto")} />
+            <div className="relative aspect-[4/3] overflow-hidden">
+              <RealisationImage
+                src="/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0933.webp"
+                alt="Maison dans les bois — La Shed Architecture"
+                priority
+                sizes="(max-width: 1023px) 100vw, 50vw"
+              />
+            </div>
           </AnimatedReveal>
           <AnimatedReveal delay={150}>
             <h2 className="font-display text-4xl tracking-tight md:text-5xl">
