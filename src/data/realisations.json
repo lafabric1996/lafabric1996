@@ -883,36 +883,43 @@
       "slug": "yh2-les-blocs-de-bois",
       "title": "Les Blocs de Bois — YH2",
       "category": "mobilier-integre",
-      "cover": "/realisations/yh2-les-blocs-de-bois/cover.png",
+      "cover": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-9.webp",
       "imageCount": 5,
       "images": [
         {
-          "src": "/realisations/yh2-les-blocs-de-bois/Salle-de-bain.png",
-          "filename": "Salle de bain.png",
-          "alt": "Yh2 Les blocs de bois",
-          "category": "salle-de-bain",
+          "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-9.webp",
+          "filename": "Les_blocs_de_bois_yh2_9.png",
+          "alt": "Les Blocs de Bois — YH2",
+          "category": "cuisine",
           "order": 1
         },
         {
-          "src": "/realisations/yh2-les-blocs-de-bois/lits.png",
-          "filename": "lits.png",
-          "alt": "Yh2 Les blocs de bois",
+          "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-10.webp",
+          "filename": "Les_blocs_de_bois_yh2_10.png",
+          "alt": "Les Blocs de Bois — YH2",
           "category": "mobilier-integre",
           "order": 2
         },
         {
-          "src": "/realisations/yh2-les-blocs-de-bois/Passage.png",
-          "filename": "Passage.png",
-          "alt": "Yh2 Les blocs de bois",
+          "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-7.webp",
+          "filename": "Les_blocs_de_bois_yh2_7.png",
+          "alt": "Les Blocs de Bois — YH2",
           "category": "mobilier-integre",
           "order": 3
         },
         {
-          "src": "/realisations/yh2-les-blocs-de-bois/Salon.png",
-          "filename": "Salon.png",
-          "alt": "Yh2 Les blocs de bois",
-          "category": "mobilier-integre",
+          "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-11.webp",
+          "filename": "Les_blocs_de_bois_yh2_11.png",
+          "alt": "Les Blocs de Bois — YH2",
+          "category": "salle-de-bain",
           "order": 4
+        },
+        {
+          "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-15.webp",
+          "filename": "Les_blocs_de_bois_yh2_15.png",
+          "alt": "Les Blocs de Bois — YH2",
+          "category": "mobilier-integre",
+          "order": 5
         }
       ],
       "beforeAfterPairs": [],
