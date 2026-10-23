@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 21,
-  "imageCount": 140,
+  "imageCount": 141,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -930,84 +930,91 @@
       "title": "Maison Aubé — YH2",
       "category": "residential",
       "cover": "/realisations/yh2-maison-aube/cover.png",
-      "imageCount": 12,
+      "imageCount": 13,
       "images": [
         {
-          "src": "/realisations/yh2-maison-aube/Cuisine-2.png",
-          "filename": "Cuisine 2.png",
-          "alt": "Yh2 Maison Aube",
+          "src": "/realisations/yh2-maison-aube/selection-20261023/photo-230.webp",
+          "filename": "230-Maison_Aubé.png",
+          "alt": "Maison Aubé — YH2",
           "category": "cuisine",
           "order": 1
         },
         {
-          "src": "/realisations/yh2-maison-aube/vanite.png",
-          "filename": "vanite.png",
-          "alt": "Yh2 Maison Aube",
+          "src": "/realisations/yh2-maison-aube/selection-20261023/photo-715.webp",
+          "filename": "715-Maison_Aubé.png",
+          "alt": "Maison Aubé — YH2",
           "category": "salle-de-bain",
           "order": 2
         },
         {
-          "src": "/realisations/yh2-maison-aube/chambre.png",
-          "filename": "chambre.png",
-          "alt": "Yh2 Maison Aube",
-          "category": "mobilier-integre",
+          "src": "/realisations/yh2-maison-aube/selection-20261023/photo-722.webp",
+          "filename": "722-Maison_Aubé.png",
+          "alt": "Maison Aubé — YH2",
+          "category": "cuisine",
           "order": 3
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6538.JPEG",
-          "filename": "IMG_6538.JPEG",
-          "alt": "Yh2 Maison Aube",
-          "category": null,
+          "src": "/realisations/yh2-maison-aube/selection-20261023/photo-762.webp",
+          "filename": "762-Maison_Aubé.png",
+          "alt": "Maison Aubé — YH2",
+          "category": "mobilier-integre",
           "order": 4
+        },
+        {
+          "src": "/realisations/yh2-maison-aube/selection-20261023/photo-549.webp",
+          "filename": "549-Maison_Aubé(1).png",
+          "alt": "Maison Aubé — YH2",
+          "category": "mobilier-integre",
+          "order": 5
         },
         {
           "src": "/realisations/yh2-maison-aube/IMG_6539.JPEG",
           "filename": "IMG_6539.JPEG",
           "alt": "Yh2 Maison Aube",
           "category": null,
-          "order": 5
+          "order": 6
         },
         {
           "src": "/realisations/yh2-maison-aube/IMG_6540.JPEG",
           "filename": "IMG_6540.JPEG",
           "alt": "Yh2 Maison Aube",
           "category": null,
-          "order": 6
+          "order": 7
         },
         {
           "src": "/realisations/yh2-maison-aube/IMG_6541.JPEG",
           "filename": "IMG_6541.JPEG",
           "alt": "Yh2 Maison Aube",
           "category": null,
-          "order": 7
+          "order": 8
         },
         {
           "src": "/realisations/yh2-maison-aube/IMG_6542.JPEG",
           "filename": "IMG_6542.JPEG",
           "alt": "Yh2 Maison Aube",
           "category": null,
-          "order": 8
+          "order": 9
         },
         {
           "src": "/realisations/yh2-maison-aube/IMG_6543.JPEG",
           "filename": "IMG_6543.JPEG",
           "alt": "Yh2 Maison Aube",
           "category": null,
-          "order": 9
+          "order": 10
         },
         {
           "src": "/realisations/yh2-maison-aube/IMG_6544.JPEG",
           "filename": "IMG_6544.JPEG",
           "alt": "Yh2 Maison Aube",
           "category": null,
-          "order": 10
+          "order": 11
         },
         {
           "src": "/realisations/yh2-maison-aube/IMG_6547.JPEG",
           "filename": "IMG_6547.JPEG",
           "alt": "Yh2 Maison Aube",
           "category": null,
-          "order": 11
+          "order": 12
         }
       ],
       "beforeAfterPairs": [],
