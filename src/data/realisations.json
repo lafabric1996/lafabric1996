@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 21,
-  "imageCount": 143,
+  "imageCount": 142,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -547,8 +547,8 @@
       "slug": "mu-architecture-l-albatros",
       "title": "L'Albatros — Mu Architecture",
       "category": "residential",
-      "cover": "/realisations/mu-architecture-l-albatros/cover.jpg",
-      "imageCount": 19,
+      "cover": "/realisations/mu-architecture-l-albatros/retouches-20261023/cover.webp",
+      "imageCount": 18,
       "images": [
         {
           "src": "/realisations/mu-architecture-l-albatros/IMG_4835.jpg",
@@ -558,22 +558,22 @@
           "order": 1
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4837.jpg",
-          "filename": "IMG_4837.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4837.webp",
+          "filename": "IMG_4837.webp",
           "alt": "Mu Architecture L'Albatros",
           "category": null,
           "order": 2
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4838.jpg",
-          "filename": "IMG_4838.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4838.webp",
+          "filename": "IMG_4838.webp",
           "alt": "Mu Architecture L'Albatros",
           "category": null,
           "order": 3
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4839.jpg",
-          "filename": "IMG_4839.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4839.webp",
+          "filename": "IMG_4839.webp",
           "alt": "Mu Architecture L'Albatros",
           "category": null,
           "order": 4
@@ -593,8 +593,8 @@
           "order": 6
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4842.jpg",
-          "filename": "IMG_4842.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4842.webp",
+          "filename": "IMG_4842.webp",
           "alt": "Mu Architecture L'Albatros",
           "category": null,
           "order": 7
@@ -628,8 +628,8 @@
           "order": 11
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4847.jpg",
-          "filename": "IMG_4847.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4847.webp",
+          "filename": "IMG_4847.webp",
           "alt": "Mu Architecture L'Albatros",
           "category": null,
           "order": 12
@@ -642,8 +642,8 @@
           "order": 13
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4849.jpg",
-          "filename": "IMG_4849.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4849.webp",
+          "filename": "IMG_4849.webp",
           "alt": "Mu Architecture L'Albatros",
           "category": null,
           "order": 14
@@ -663,18 +663,11 @@
           "order": 16
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4852.jpg",
-          "filename": "IMG_4852.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4852.webp",
+          "filename": "IMG_4852.webp",
           "alt": "Mu Architecture L'Albatros",
           "category": null,
           "order": 17
-        },
-        {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4853.jpg",
-          "filename": "IMG_4853.jpg",
-          "alt": "Mu Architecture L'Albatros",
-          "category": null,
-          "order": 18
         }
       ],
       "beforeAfterPairs": [],
