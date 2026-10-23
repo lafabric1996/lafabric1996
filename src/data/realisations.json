@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 21,
-  "imageCount": 140,
+  "imageCount": 143,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -367,50 +367,71 @@
       "slug": "la-shed-architecture-maison-dans-les-bois",
       "title": "Maison dans les bois — La Shed Architecture",
       "category": "cuisine",
-      "cover": "",
-      "imageCount": 6,
+      "cover": "/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0933.webp",
+      "imageCount": 9,
       "images": [
+        {
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0933.webp",
+          "filename": "IMG_0933.png",
+          "alt": "Maison dans les bois — La Shed Architecture — cuisine",
+          "category": "cuisine",
+          "order": 1
+        },
+        {
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0934.webp",
+          "filename": "IMG_0934.png",
+          "alt": "Maison dans les bois — La Shed Architecture — cuisine",
+          "category": "cuisine",
+          "order": 2
+        },
+        {
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0935.webp",
+          "filename": "IMG_0935.png",
+          "alt": "Maison dans les bois — La Shed Architecture — cuisine",
+          "category": "cuisine",
+          "order": 3
+        },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0927.png",
           "filename": "IMG_0927.png",
           "alt": "La Shed Architecture Maison dans les bois",
           "category": null,
-          "order": 1
+          "order": 4
         },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0929.png",
           "filename": "IMG_0929.png",
           "alt": "La Shed Architecture Maison dans les bois",
           "category": null,
-          "order": 2
+          "order": 5
         },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0930.png",
           "filename": "IMG_0930.png",
           "alt": "La Shed Architecture Maison dans les bois",
           "category": null,
-          "order": 3
+          "order": 6
         },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0936.png",
           "filename": "IMG_0936.png",
           "alt": "La Shed Architecture Maison dans les bois",
           "category": null,
-          "order": 4
+          "order": 7
         },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0937.png",
           "filename": "IMG_0937.png",
           "alt": "La Shed Architecture Maison dans les bois",
           "category": null,
-          "order": 5
+          "order": 8
         },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0938.png",
           "filename": "IMG_0938.png",
           "alt": "La Shed Architecture Maison dans les bois",
           "category": null,
-          "order": 6
+          "order": 9
         }
       ],
       "beforeAfterPairs": [],
