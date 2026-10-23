@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { cn } from "@/lib/utils";
 
+// Landscape photos need extra pixels when cropped into portrait cards.
+export const portraitImageSizes = "(max-width: 768px) 200vw, (max-width: 1200px) 100vw, 67vw";
+
 type RealisationImageProps = {
   src: string;
   alt: string;
@@ -16,7 +19,7 @@ export function RealisationImage({
   alt,
   priority = false,
   className,
-  sizes = "(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw",
+  sizes = portraitImageSizes,
   fill = true,
   objectFit = "cover",
 }: RealisationImageProps) {
@@ -27,6 +30,7 @@ export function RealisationImage({
       fill={fill}
       priority={priority}
       sizes={sizes}
+      quality={90}
       className={cn(objectFit === "contain" ? "object-contain" : "object-cover", className)}
     />
   );

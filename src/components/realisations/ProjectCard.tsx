@@ -3,7 +3,7 @@ import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { Link } from "@/i18n/navigation";
 import type { ProjectCategory, RealisationProject } from "@/lib/realisations";
 import { cn } from "@/lib/utils";
-import { RealisationImage } from "./RealisationImage";
+import { RealisationImage, portraitImageSizes } from "./RealisationImage";
 
 type ProjectCardProps = {
   project: RealisationProject;
@@ -28,7 +28,7 @@ export function ProjectCard({
             src={project.cover}
             alt={project.title}
             priority={priority}
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            sizes={portraitImageSizes}
             className="transition-transform duration-700 group-hover:scale-[1.03]"
           /> : <ImagePlaceholder className="h-full w-full" aspectRatio="portrait" label={tCommon("photoComingSoon")} />}
           <div className="absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/5" />

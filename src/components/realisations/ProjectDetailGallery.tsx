@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import type { RealisationImage as RealisationImageType } from "@/lib/realisations";
-import { RealisationImage } from "./RealisationImage";
+import { RealisationImage, portraitImageSizes } from "./RealisationImage";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 
 type ProjectDetailGalleryProps = {
@@ -64,7 +64,7 @@ export function ProjectDetailGallery({ images, projectTitle, cover, variant = "g
             <button type="button" key={image.src} onClick={() => openPhoto(image.src)} aria-label={t("open", { number: index + 1 })} aria-haspopup="dialog"
               className="group relative aspect-[4/5] cursor-zoom-in overflow-hidden bg-surface focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground">
               <RealisationImage src={image.src} alt={image.alt || projectTitle} priority={index < 2}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                sizes={portraitImageSizes}
                 className="transition-transform duration-300 motion-safe:group-hover:scale-[1.02]" />
               <span className="absolute right-3 bottom-3 bg-black/65 px-3 py-2 text-sm text-white" aria-hidden="true">{t("enlarge")}</span>
             </button>
