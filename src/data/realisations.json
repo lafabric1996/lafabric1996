@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 21,
-  "imageCount": 141,
+  "imageCount": 140,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -1024,21 +1024,21 @@
       "slug": "yh2-triptyque",
       "title": "Triptyque — YH2",
       "category": "cuisine",
-      "cover": "/realisations/yh2-triptyque/cover.png",
-      "imageCount": 3,
+      "cover": "/realisations/yh2-triptyque/selection-20261023/photo-4.webp",
+      "imageCount": 2,
       "images": [
         {
-          "src": "/realisations/yh2-triptyque/Cuisine.png",
-          "filename": "Cuisine.png",
-          "alt": "Yh2 Triptyque",
+          "src": "/realisations/yh2-triptyque/selection-20261023/photo-4.webp",
+          "filename": "Triptyque_YH2-4 (1).png",
+          "alt": "Triptyque — YH2",
           "category": "cuisine",
           "order": 1
         },
         {
-          "src": "/realisations/yh2-triptyque/Entree.png",
-          "filename": "Entrée.png",
-          "alt": "Yh2 Triptyque",
-          "category": "mobilier-integre",
+          "src": "/realisations/yh2-triptyque/selection-20261023/photo-5.webp",
+          "filename": "Triptyque_YH2-5 (1).png",
+          "alt": "Triptyque — YH2",
+          "category": "cuisine",
           "order": 2
         }
       ],
