@@ -44,7 +44,7 @@ export function ProjectDetailGallery({ images, projectTitle, cover, variant = "g
 
   function close() { dialogRef.current?.close(); }
 
-  if (photos.length === 0) {
+  if (photos.length === 0 || (variant === "cover" && !cover)) {
     return variant === "cover"
       ? <ImagePlaceholder aspectRatio="wide" label={tCommon("photoComingSoon")} />
       : null;
