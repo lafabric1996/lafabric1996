@@ -3,7 +3,7 @@ import { getPathname } from "@/i18n/navigation";
 import { routing, type StaticPathname } from "@/i18n/routing";
 import { realisations } from "@/lib/realisations";
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.lafabric.ca";
+const BASE_URL = "https://www.lafabric.ca";
 
 const staticPathnames = [
   "/",
@@ -25,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ]),
     );
 
+    languages["x-default"] = languages["fr-CA"];
     return routing.locales.map((locale) => ({
       url: `${BASE_URL}${getPathname({ locale, href: pathname })}`,
       changeFrequency: pathname === "/" ? ("weekly" as const) : ("monthly" as const),
@@ -46,6 +47,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ]),
     );
 
+    languages["x-default"] = languages["fr-CA"];
     return routing.locales.map((locale) => ({
       url: `${BASE_URL}${getPathname({ locale, href })}`,
       changeFrequency: "monthly" as const,

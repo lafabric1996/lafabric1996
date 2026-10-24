@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const nextConfig: NextConfig = {
   async redirects() {
-    return [
+    const legacy = [
       { source: "/contact", destination: "/#contact", permanent: true },
       { source: "/fr/contact", destination: "/#contact", permanent: true },
       { source: "/en/contact", destination: "/en#contact", permanent: true },
@@ -17,6 +17,18 @@ const nextConfig: NextConfig = {
       { source: "/historique-1", destination: "/a-propos", permanent: true },
       { source: "/sitemap.website.xml", destination: "/sitemap.xml", permanent: true },
     ];
+    return [
+      ...legacy.map((rule) => ({ ...rule, has: [{ type: "host" as const, value: "lafabric.ca" }], destination: `https://www.lafabric.ca${rule.destination}` })),
+      ...legacy,
+      { source: "/:path*", has: [{ type: "host" as const, value: "lafabric.ca" }], destination: "https://www.lafabric.ca/:path*", permanent: true },
+    ];
+  },
+  async headers() {
+    return [{
+      source: "/:path*",
+      missing: [{ type: "host" as const, value: "www.lafabric.ca" }],
+      headers: [{ key: "X-Robots-Tag", value: "noindex, follow" }],
+    }];
   },
   images: {
     qualities: [75, 90],
