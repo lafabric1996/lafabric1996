@@ -1,10 +1,10 @@
 {
   "available": true,
-  "src": "https://d2ol7oe51mr4n9.cloudfront.net/user_3IZCVhD5lIku9vjF0MByV79a6yf/be1fc82e-936f-4417-9adf-5cbc3e442304.mp4",
-  "posterSrc": "/images/hero-atelier-20261016.jpg",
-  "sourceFile": "hf_20261005_181953_952bd96a-4a3c-470c-9b2c-73ef8201c643 (1).mp4",
-  "posterSource": "generated from source video at 0.25s",
+  "src": "/videos/hero-atelier-20261024.mp4",
+  "posterSrc": "/images/hero-atelier-20261024.jpg",
+  "sourceFile": "hf_video_final.mp4",
+  "posterSource": "generated from approved video at 1s",
   "extension": ".mp4",
   "posterMethod": "ffmpeg-frame",
-  "syncedAt": "2026-10-16T18:38:44.879Z"
+  "syncedAt": "2026-10-24T21:10:00Z"
 }
