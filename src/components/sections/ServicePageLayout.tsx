@@ -1,14 +1,15 @@
 import { useTranslations } from "next-intl";
 import { PageHeader } from "@/components/sections/PageHeader";
 import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
-import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
+import Image from "next/image";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 
 type ContentBlockProps = {
   title: string;
   paragraphs: string[];
-  imageLabel?: string;
+  imageLabel: string;
+  imageSrc: string;
   reversed?: boolean;
 };
 
@@ -16,9 +17,9 @@ export function ContentBlock({
   title,
   paragraphs,
   imageLabel,
+  imageSrc,
   reversed = false,
 }: ContentBlockProps) {
-  const tCommon = useTranslations("common");
 
   return (
     <div
@@ -27,10 +28,9 @@ export function ContentBlock({
       }`}
     >
       <AnimatedReveal>
-        <ImagePlaceholder
-          aspectRatio="portrait"
-          label={imageLabel ?? tCommon("photoComingSoon")}
-        />
+        <div className="relative aspect-[4/5] overflow-hidden">
+          <Image src={imageSrc} alt={imageLabel} fill sizes="(max-width: 1024px) 100vw, 50vw" className="object-cover" />
+        </div>
       </AnimatedReveal>
       <AnimatedReveal delay={150}>
         <h3 className="font-display text-3xl tracking-tight md:text-4xl">
@@ -51,6 +51,7 @@ type ServicePageContentProps = {
   title: string;
   description: string;
   blocks: ContentBlockProps[];
+  heroSrc: string;
 };
 
 export function ServicePageLayout({
@@ -58,17 +59,16 @@ export function ServicePageLayout({
   title,
   description,
   blocks,
+  heroSrc,
 }: ServicePageContentProps) {
   const t = useTranslations("serviceLayout");
-  const tCommon = useTranslations("common");
 
   return (
     <>
       <PageHeader eyebrow={eyebrow} title={title} description={description} />
-      <ImagePlaceholder
-        aspectRatio="wide"
-        label={`${title} ${tCommon("photoSuffix")}`}
-      />
+      <div className="relative aspect-[16/9] overflow-hidden lg:aspect-[21/9]">
+        <Image src={heroSrc} alt={title} fill sizes="100vw" priority className="object-cover" />
+      </div>
 
       <Section>
         <SectionHeader

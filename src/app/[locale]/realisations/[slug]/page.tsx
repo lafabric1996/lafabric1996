@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: ProjectPageProps) {
   return createPageMetadata({
     locale,
     title: project.title,
-    description: t("description"),
+    description: t("projectDescription", { project: project.title }),
     pathname: { pathname: "/realisations/[slug]", params: { slug: project.slug } },
     image: project.cover,
   });

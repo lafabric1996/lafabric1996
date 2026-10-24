@@ -27,7 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return routing.locales.map((locale) => ({
       url: `${BASE_URL}${getPathname({ locale, href: pathname })}`,
-      lastModified: new Date(),
       changeFrequency: pathname === "/" ? ("weekly" as const) : ("monthly" as const),
       priority: pathname === "/" ? 1 : 0.8,
       alternates: { languages },
@@ -49,7 +48,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     return routing.locales.map((locale) => ({
       url: `${BASE_URL}${getPathname({ locale, href })}`,
-      lastModified: new Date(),
       changeFrequency: "monthly" as const,
       priority: 0.7,
       alternates: { languages },

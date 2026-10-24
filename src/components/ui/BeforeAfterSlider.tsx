@@ -42,7 +42,7 @@ export function BeforeAfterSlider({
   }, []);
 
   useEffect(() => {
-    if (!autoDemo) return undefined;
+    if (!autoDemo || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return undefined;
 
     const total = 1100;
     const from = 50;

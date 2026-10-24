@@ -16,6 +16,10 @@ export function ContactForm() {
 
   return (
     <form className="space-y-6" action={formAction}>
+      <div aria-hidden="true" className="hidden">
+        <label htmlFor="website">Website</label>
+        <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
+      </div>
       <div className="grid gap-6 sm:grid-cols-2">
         <div>
           <label
@@ -28,6 +32,7 @@ export function ContactForm() {
             type="text"
             id="prenom"
             name="prenom"
+            maxLength={100}
             required
             autoComplete="given-name"
             className="w-full border border-border bg-background px-4 py-3 text-foreground transition-colors focus:border-wood focus:outline-none"
@@ -45,6 +50,7 @@ export function ContactForm() {
             type="text"
             id="nom"
             name="nom"
+            maxLength={100}
             required
             autoComplete="family-name"
             className="w-full border border-border bg-background px-4 py-3 text-foreground transition-colors focus:border-wood focus:outline-none"
@@ -64,6 +70,7 @@ export function ContactForm() {
           type="email"
           id="courriel"
           name="courriel"
+            maxLength={254}
           required
           autoComplete="email"
           className="w-full border border-border bg-background px-4 py-3 text-foreground transition-colors focus:border-wood focus:outline-none"
@@ -82,6 +89,7 @@ export function ContactForm() {
           type="tel"
           id="telephone"
           name="telephone"
+            maxLength={50}
           autoComplete="tel"
           className="w-full border border-border bg-background px-4 py-3 text-foreground transition-colors focus:border-wood focus:outline-none"
           placeholder={t("phonePlaceholder")}
@@ -120,6 +128,7 @@ export function ContactForm() {
         <textarea
           id="message"
           name="message"
+            maxLength={5000}
           rows={6}
           required
           className="w-full resize-y border border-border bg-background px-4 py-3 text-foreground transition-colors focus:border-wood focus:outline-none"
@@ -133,6 +142,9 @@ export function ContactForm() {
           t(`errors.${state.errorKey ?? "serverError"}`)}
       </p>
 
+      {state.status === "error" ? <p className="text-sm">
+        {t("fallback")} <a className="underline" href="mailto:info@lafabric.ca">info@lafabric.ca</a> · <a className="underline" href="tel:+18193221041">819 322-1041</a>
+      </p> : null}
       <Button type="submit" size="lg" disabled={pending}>
         {pending ? t("submitting") : t("submit")}
       </Button>

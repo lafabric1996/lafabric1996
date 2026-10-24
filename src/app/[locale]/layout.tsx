@@ -4,6 +4,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { Footer } from "@/components/layout/Footer";
 import { Header } from "@/components/layout/Header";
+import { AnalyticsConsent } from "@/components/seo/AnalyticsConsent";
 import { JsonLd } from "@/components/seo/JsonLd";
 import { asLocale } from "@/lib/i18n-server";
 import { routing, type Locale } from "@/i18n/routing";
@@ -57,6 +58,7 @@ export default async function LocaleLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <AnalyticsConsent />
         </NextIntlClientProvider>
       </body>
     </html>

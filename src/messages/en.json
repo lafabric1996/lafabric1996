@@ -1,40 +1,41 @@
 {
   "metadata": {
     "siteName": "La Fab'ric 1996",
-    "defaultTitle": "La Fab'ric 1996 | Premium Woodworking & Renovation",
-    "defaultDescription": "Quebec company specializing in cabinet refacing, kitchen renovation, bathrooms, built-in furniture, custom woodworking and premium residential projects.",
-    "titleSuffix": "Premium Woodworking & Renovation",
+    "defaultTitle": "Cabinetmaking in the Laurentians | La Fab’ric 1996",
+    "defaultDescription": "Custom cabinetmaking in Val-Morin, in the Laurentians: kitchen cabinets, vanities, built-in furniture and cabinet refacing. Discover La Fab’ric since 1996.",
+    "titleSuffix": "Custom Cabinetmaking",
     "home": {
-      "title": "Home",
-      "description": "La Fab'ric 1996 — Woodworking, cabinet refacing, kitchen and bathroom renovation in Quebec."
+      "title": "Cabinetmaking in the Laurentians",
+      "description": "Custom cabinetmaking in Val-Morin, in the Laurentians: kitchen cabinets, vanities, built-in furniture and cabinet refacing. Discover La Fab’ric since 1996."
     },
     "realisations": {
-      "title": "Projects",
-      "description": "Discover La Fab'ric 1996 projects in kitchens, bathrooms, built-in furniture and custom woodworking."
+      "title": "Custom Cabinetmaking Projects",
+      "description": "Explore custom kitchens, vanities and built-in furniture made with architects and designers. View La Fab’ric projects and photo galleries.",
+      "projectDescription": "{project}: explore this La Fab’ric 1996 project in photos and discover our custom cabinetmaking work."
     },
     "resurfacage": {
-      "title": "Refacing",
-      "description": "Cabinet refacing by La Fab'ric 1996: give your kitchen a fresh new look without a full renovation."
+      "title": "Cabinet Refacing in the Laurentians",
+      "description": "Transform kitchen or bathroom cabinets while keeping their existing structure. Discover cabinet refacing by La Fab’ric in the Laurentians."
     },
     "cuisine": {
-      "title": "Kitchen",
-      "description": "Cabinet refacing and custom kitchen renovation by La Fab'ric 1996, a premium Quebec company."
+      "title": "Custom Kitchen Cabinets",
+      "description": "Kitchen cabinets designed and built to measure in our Val-Morin workshop. Planning, materials, storage and installation with La Fab’ric."
     },
     "salleDeBain": {
-      "title": "Bathroom",
-      "description": "Custom bathroom renovation and design by La Fab'ric 1996, a specialized Quebec company."
+      "title": "Bathroom Vanities & Cabinetry",
+      "description": "Custom bathroom vanities and storage. La Fab’ric designs and builds your cabinetry in its Laurentians workshop."
     },
     "mobilierIntegre": {
-      "title": "Built-in Furniture",
-      "description": "Custom built-in furniture to optimize your living spaces. La Fab'ric 1996, Quebec woodworking."
+      "title": "Custom Built-in Furniture",
+      "description": "Built-in shelving, desks and storage designed for your space. Discover custom cabinetmaking by La Fab’ric in Val-Morin, in the Laurentians."
     },
     "services": {
-      "title": "Services",
-      "description": "Discover all La Fab'ric 1996 services: refacing, renovation, custom woodworking and premium residential projects."
+      "title": "Cabinetmaking & Refacing",
+      "description": "Custom cabinetmaking and cabinet refacing: La Fab’ric supports your project from material selection to installation, in the Laurentians and across Quebec."
     },
     "aPropos": {
-      "title": "About",
-      "description": "Discover La Fab'ric 1996, a Quebec company specializing in premium woodworking and renovation for nearly 30 years."
+      "title": "Our Val-Morin Workshop Since 1996",
+      "description": "Meet La Fab’ric, a family cabinetmaking business in Val-Morin since 1996. Over 30 years of experience in custom cabinetry and refacing."
     },
     "contact": {
       "title": "Contact",
@@ -119,7 +120,7 @@
       "eyebrow": "Portfolio",
       "title": "Recent projects",
       "description": "Work carried out with architects and designers across Quebec.",
-      "viewAll": "View all 20 projects"
+      "viewAll": "View all {count} projects"
     },
     "video": {
       "eyebrow": "Featured",
@@ -145,7 +146,7 @@
         },
         "build": {
           "title": "Fabrication",
-          "description": "Everything is built in our Val-Morin workshop, never subcontracted."
+          "description": "Your furniture and cabinets are built to measure in our Val-Morin workshop."
         },
         "install": {
           "title": "Installation",
@@ -157,7 +158,7 @@
       "eyebrow": "The workshop",
       "title": "A family business, a single workshop",
       "paragraph1": "Since 1996, La Fab'ric has designed and built custom work in Val-Morin, in the Laurentians.",
-      "paragraph2": "Drawing, fabrication and finishing all happen under one roof. That is what lets us answer for every detail, from the first sketch to installation.",
+      "paragraph2": "We design and build your cabinetry, then coordinate finishing and installation. Every stage matters, from the first sketch to the final adjustment.",
       "cta": "More about us",
       "imageAlt": "La Fab'ric 1996 workshop in Val-Morin"
     },
@@ -212,7 +213,7 @@
   },
   "aboutPreview": {
     "eyebrow": "About",
-    "title": "Nearly 30 years of Quebec expertise",
+    "title": "Over 30 years of Quebec expertise",
     "paragraph1": "La Fab'ric 1996 is a recognized Quebec company for quality work in cabinet refacing, kitchen renovation, bathrooms, built-in furniture and custom woodworking.",
     "paragraph2": "Every project is approached with rigour, attention to detail and a constant focus on premium finishing.",
     "cta": "Discover our story",
@@ -227,7 +228,7 @@
   "serviceLayout": {
     "approachEyebrow": "Our Approach",
     "approachTitle": "Quality and Finishing",
-    "approachDescription": "Detailed content to be completed based on your projects and expertise."
+    "approachDescription": "Your needs and the dimensions of your space guide the plans, materials and details of your cabinetry."
   },
   "realisations": {
     "eyebrow": "Portfolio",
@@ -272,7 +273,7 @@
       },
       "fabrication": {
         "title": "Fabrication",
-        "description": "Artisan production with a constant focus on quality and precision."
+        "description": "Custom fabrication in our workshop, with close attention to quality and precision."
       },
       "installation": {
         "title": "Installation",
@@ -380,19 +381,19 @@
     "blocks": {
       "resurfacing": {
         "title": "Cabinet Refacing",
-        "imageLabel": "Refacing — photo coming soon",
+        "imageLabel": "Cabinet Refacing",
         "p1": "Refacing transforms the appearance of your existing cabinets without replacing them entirely.",
         "p2": "This solution offers a durable, elegant result while preserving your current kitchen structure."
       },
       "renovation": {
-        "title": "Full Renovation",
-        "imageLabel": "Kitchen renovation — photo coming soon",
-        "p1": "For renovation projects, we support every step from design to final installation.",
+        "title": "A kitchen built for you",
+        "imageLabel": "A kitchen built for you",
+        "p1": "We design and build your new cabinets around your dimensions, storage needs and daily routines.",
         "p2": "Each kitchen is designed to harmonize with your lifestyle and the architecture of your space."
       },
       "finishes": {
         "title": "Premium Finishes",
-        "imageLabel": "Finishes — photo coming soon",
+        "imageLabel": "Premium Finishes",
         "p1": "Materials, hardware and finishing details are carefully selected for a refined result.",
         "p2": "Wood species, finishes and hardware are chosen with you, based on your space and how you use it."
       }
@@ -400,28 +401,28 @@
   },
   "salleDeBainPage": {
     "eyebrow": "Bathroom",
-    "title": "Refined and functional bathrooms",
-    "description": "Create a relaxing space combining aesthetics, ergonomics and careful finishing.",
-    "ctaTitle": "Renovating your bathroom?",
+    "title": "Custom vanities and storage",
+    "description": "Vanities and storage designed for your bathroom, with close attention to dimensions and everyday use.",
+    "ctaTitle": "Planning a custom vanity?",
     "ctaDescription": "Contact us to discuss your project and receive a tailored quote.",
     "blocks": {
       "design": {
         "title": "Custom Design",
-        "imageLabel": "Bathroom design — photo coming soon",
+        "imageLabel": "Custom Design",
         "p1": "Each bathroom is planned according to your needs, available space and style.",
         "p2": "The layout is optimized to combine ease of use with premium aesthetics."
       },
       "vanity": {
         "title": "Vanities and Storage",
-        "imageLabel": "Custom vanity — photo coming soon",
+        "imageLabel": "Vanities and Storage",
         "p1": "We design vanities and integrated storage solutions to maximize every inch.",
         "p2": "Custom furniture ensures a cohesive, durable result."
       },
       "materials": {
         "title": "Finishes and Materials",
-        "imageLabel": "Bathroom materials — photo coming soon",
+        "imageLabel": "Finishes and Materials",
         "p1": "Material and finish selection is essential for an elegant, durable result.",
-        "p2": "Specific details will be added based on your product offering."
+        "p2": "We help you select surfaces, colours and hardware to suit the way you use your cabinetry."
       }
     }
   },
@@ -434,28 +435,28 @@
     "blocks": {
       "storage": {
         "title": "Smart Storage",
-        "imageLabel": "Built-in storage — photo coming soon",
+        "imageLabel": "Smart Storage",
         "p1": "Custom closets, bookcases, desks and storage integrate harmoniously into your décor.",
         "p2": "Each piece is built to meet a specific need while maintaining a refined aesthetic."
       },
       "integration": {
         "title": "Architectural Integration",
-        "imageLabel": "Architectural furniture — photo coming soon",
+        "imageLabel": "Architectural Integration",
         "p1": "Built-in furniture adapts to the architectural constraints of your space.",
         "p2": "We ensure every element harmonizes with existing volumes and materials."
       },
       "craftsmanship": {
-        "title": "Artisan Fabrication",
-        "imageLabel": "Workshop — photo coming soon",
+        "title": "Custom fabrication",
+        "imageLabel": "Custom fabrication",
         "p1": "Our woodworking expertise ensures careful fabrication and durable finishes.",
-        "p2": "Project examples will be added to this section soon."
+        "p2": "Explore our projects to see how built-in furniture fits a range of spaces and architectural designs."
       }
     }
   },
   "aProposPage": {
     "eyebrow": "About",
     "title": "A Quebec company committed to excellence",
-    "description": "For nearly 30 years, La Fab'ric 1996 has put its expertise at the service of premium residential projects across Quebec.",
+    "description": "For over 30 years, La Fab'ric 1996 has put its expertise at the service of premium residential projects across Quebec.",
     "storyTitle": "Over 30 years of expertise for your projects",
     "storyP1": "For over 30 years, La Fab'ric 1996 has put its expertise to work on custom woodworking projects and kitchen refacing.",
     "storyP2": "As a family business, we design, build and transform spaces made to last, with particular care given to material quality, finishing details and customer satisfaction.",
@@ -514,8 +515,10 @@
       "errors": {
         "missingFields": "Please fill in all required fields.",
         "invalidEmail": "Please enter a valid email address.",
-        "serverError": "Something went wrong while sending. Please try again or reach us by phone."
-      }
+        "serverError": "Something went wrong while sending. Please try again or reach us by phone.",
+        "tooLong": "Please shorten your entries: the message is limited to 5,000 characters."
+      },
+      "fallback": "You can also email or call us directly."
     },
     "info": {
       "title": "Contact Information",
@@ -541,5 +544,17 @@
       "Built-in furniture",
       "Custom woodworking"
     ]
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "This page does not exist or has moved. Explore our projects or contact us about yours.",
+    "home": "Back to home",
+    "projects": "View projects"
+  },
+  "analyticsConsent": {
+    "text": "With your permission, we use Google Analytics to measure visits to this website. You can decline and continue browsing.",
+    "accept": "Accept",
+    "decline": "Decline",
+    "settings": "Privacy preferences"
   }
 }

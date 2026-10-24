@@ -16,13 +16,14 @@ const EMAIL_REGEX = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
 export type ContactFormState = {
   status: "idle" | "success" | "error";
-  errorKey?: "missingFields" | "invalidEmail" | "serverError";
+  errorKey?: "missingFields" | "invalidEmail" | "serverError" | "tooLong";
 };
 
 export async function sendContactMessage(
   _prevState: ContactFormState,
   formData: FormData,
 ): Promise<ContactFormState> {
+  if (String(formData.get("website") ?? "").trim()) return { status: "success" };
   const firstName = String(formData.get("prenom") ?? "").trim();
   const lastName = String(formData.get("nom") ?? "").trim();
   const email = String(formData.get("courriel") ?? "").trim();
@@ -41,6 +42,8 @@ export async function sendContactMessage(
   if (service !== "ebenisterie" && service !== "resurfacage") {
     return { status: "error", errorKey: "missingFields" };
   }
+
+  if (firstName.length > 100 || lastName.length > 100 || email.length > 254 || phone.length > 50 || message.length > 5000) return { status: "error", errorKey: "tooLong" };
 
   const selectedService = CONTACT_SERVICES[service];
   const apiKey = process.env.RESEND_API_KEY;

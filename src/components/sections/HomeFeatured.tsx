@@ -4,7 +4,7 @@ import { RealisationImage } from "@/components/realisations/RealisationImage";
 import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
-import { getFeaturedProjects } from "@/lib/realisations";
+import { getFeaturedProjects, realisations } from "@/lib/realisations";
 
 /**
  * Le premier projet occupe toute la largeur, les deux suivants se partagent la
@@ -77,7 +77,7 @@ export async function HomeFeatured() {
           href="/realisations"
           className="text-xs font-medium uppercase tracking-[0.15em] text-foreground transition-opacity hover:opacity-70"
         >
-          {t("viewAll")} →
+          {t("viewAll", { count: realisations.length })} →
         </Link>
       </div>
     </Section>

@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { Link, usePathname } from "@/i18n/navigation";
 import type { NavItem } from "@/lib/navigation";
 
@@ -21,6 +21,8 @@ export function Header() {
   const t = useTranslations("nav");
   const tHeader = useTranslations("header");
   const pathname = usePathname();
+  const headerRef = useRef<HTMLElement>(null);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
 
@@ -32,10 +34,17 @@ export function Header() {
   }, []);
 
   useEffect(() => {
-    setIsOpen(false);
-  }, [pathname]);
-
-  useEffect(() => {
+    const handleKey = (event: KeyboardEvent) => {
+      if (!isOpen) return;
+      if (event.key === "Escape") { setIsOpen(false); menuButtonRef.current?.focus(); }
+      if (event.key === "Tab") {
+        const items = Array.from(headerRef.current?.querySelectorAll<HTMLElement>("a[href],button") ?? []).filter(el => el.getClientRects().length > 0 && !el.closest("[inert]"));
+        const first = items[0], last = items[items.length - 1];
+        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+      }
+    };
+    document.addEventListener("keydown", handleKey);
     const mainEl = document.querySelector("main");
     const footerEl = document.querySelector("footer");
 
@@ -49,6 +58,7 @@ export function Header() {
     }
 
     return () => {
+      document.removeEventListener("keydown", handleKey);
       document.body.style.overflow = "";
       mainEl?.removeAttribute("inert");
       footerEl?.removeAttribute("inert");
@@ -59,6 +69,8 @@ export function Header() {
 
   return (
     <header
+      ref={headerRef}
+      onClick={(event) => { if ((event.target as HTMLElement).closest("a")) setIsOpen(false); }}
       className={cn(
         "fixed inset-x-0 top-0 z-[9999] transition-all duration-300",
         isOpen
@@ -123,6 +135,7 @@ export function Header() {
         <div className="flex items-center gap-4 xl:hidden">
           <LanguageSwitcher light={isOverHero} />
           <button
+            ref={menuButtonRef}
             type="button"
             className="relative z-[10000] flex h-10 w-10 flex-col items-center justify-center gap-1.5"
             onClick={() => setIsOpen((prev) => !prev)}
@@ -157,6 +170,8 @@ export function Header() {
 
       <div
         id="mobile-menu"
+        inert={!isOpen}
+        onClick={(event) => { if ((event.target as HTMLElement).closest("a")) setIsOpen(false); }}
         className={cn(
           "fixed inset-0 z-[9999] bg-[#FAF8F5] transition-opacity duration-500 xl:hidden",
           isOpen

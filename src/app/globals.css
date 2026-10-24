@@ -94,3 +94,9 @@ body {
 ::selection {
   background-color: color-mix(in srgb, var(--wood) 30%, transparent);
 }
+
+@media (prefers-reduced-motion: reduce) {
+  html, html[data-scroll-behavior="smooth"] { scroll-behavior: auto; }
+  .animate-fade-in-up, .animate-fade-in { animation: none; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}

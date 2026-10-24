@@ -1,3 +1,4 @@
+import { HeroVideo } from "@/components/sections/HeroVideo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ContactSection } from "@/components/sections/ContactSection";
 import { HomeFeatured } from "@/components/sections/HomeFeatured";
@@ -50,16 +51,7 @@ export default async function HomePage({ params }: LocalePageProps) {
       <section className="relative min-h-[92vh] overflow-hidden pt-20">
         <div className="absolute inset-0">
           {heroVideo.available && heroVideo.src ? (
-            <video
-              className="h-full min-h-[92vh] w-full object-cover"
-              src={heroVideo.src}
-              poster={heroVideo.posterSrc ?? undefined}
-              autoPlay
-              muted
-              loop
-              playsInline
-              aria-hidden="true"
-            />
+            <HeroVideo src={heroVideo.src} poster={heroVideo.posterSrc ?? undefined} />
           ) : (
             <RealisationImage
               src={HERO_IMAGE}

@@ -63,9 +63,9 @@ export function PromoVideoCard({
   showCaption = true,
 }: PromoVideoCardProps) {
   const titleId = useId();
+  const dialogRef = useRef<HTMLDialogElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const [isOpen, setIsOpen] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
 
   const closeModal = useCallback(() => {
     const video = videoRef.current;
@@ -78,13 +78,10 @@ export function PromoVideoCard({
   const openModal = useCallback(() => setIsOpen(true), []);
 
   useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  useEffect(() => {
     if (!isOpen) return;
 
     const unlockScroll = lockPageScroll();
+    dialogRef.current?.showModal();
 
     const handleKeyDown = (event: KeyboardEvent) => {
       if (event.key === "Escape") closeModal();
@@ -109,12 +106,12 @@ export function PromoVideoCard({
 
   const modal =
     isOpen &&
-    isMounted &&
     createPortal(
-      <div
-        className="fixed inset-0 z-[20000] overflow-hidden bg-black"
-        role="dialog"
-        aria-modal="true"
+      <dialog
+        ref={dialogRef}
+        onCancel={closeModal}
+        onClose={closeModal}
+        className="fixed inset-0 m-0 h-dvh max-h-none w-screen max-w-none border-0 p-0 overflow-hidden bg-black backdrop:bg-black"
         aria-labelledby={titleId}
       >
         <p id={titleId} className="sr-only">
@@ -151,7 +148,7 @@ export function PromoVideoCard({
             playsInline
           />
         </div>
-      </div>,
+      </dialog>,
       document.body,
     );
 

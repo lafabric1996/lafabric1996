@@ -37,8 +37,8 @@ export function createPageMetadata({
   const pageTitle = title
     ? `${title} | La Fab'ric 1996`
     : resolvedLocale === "fr"
-      ? "La Fab'ric 1996 | Ébénisterie et rénovation haut de gamme"
-      : "La Fab'ric 1996 | Premium Woodworking & Renovation";
+      ? "La Fab'ric 1996 | Ébénisterie sur mesure dans les Laurentides"
+      : "La Fab'ric 1996 | Custom Cabinetmaking in the Laurentians";
 
   const url = getLocalizedUrl(resolvedLocale, pathname);
 
