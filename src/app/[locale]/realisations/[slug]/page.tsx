@@ -5,6 +5,7 @@ import { ProjectDetailGallery } from "@/components/realisations/ProjectDetailGal
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
 import { Section } from "@/components/ui/Section";
+import { BreadcrumbJsonLd, ProjectJsonLd } from "@/components/seo/PageJsonLd";
 import { createPageMetadata } from "@/lib/metadata";
 import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
@@ -50,9 +51,18 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
   const categoryLabel = t(
     `categories.${project.category}` as `categories.${ProjectCategory}`,
   );
+  const tNav = await getTranslations("nav");
 
   return (
     <>
+      <BreadcrumbJsonLd
+        locale={locale}
+        trail={[
+          { name: tNav("realisations"), href: "/realisations" },
+          { name: project.title },
+        ]}
+      />
+      <ProjectJsonLd locale={locale} project={project} />
       <section className="pt-20">
         <Container className="py-16 lg:py-24">
           <Button

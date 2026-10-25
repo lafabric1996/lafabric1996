@@ -40,6 +40,10 @@
     "contact": {
       "title": "Contact",
       "description": "Contactez La Fab'ric 1996 pour discuter de votre projet de cuisine, salle de bain, mobilier intégré ou ébénisterie sur mesure."
+    },
+    "presse": {
+      "title": "Presse et reconnaissances",
+      "description": "Les projets dont nous avons fabriqué l'ébénisterie sont publiés et primés. Revue de presse de La Fab'ric 1996, Val-Morin."
     }
   },
   "nav": {
@@ -56,7 +60,8 @@
     "mobile": "Navigation mobile",
     "footer": "Navigation",
     "expertises": "Expertises",
-    "contactUs": "Nous contacter →"
+    "contactUs": "Nous contacter →",
+    "presse": "Presse"
   },
   "header": {
     "homeAriaLabel": "La Fab'ric 1996 — Accueil",
@@ -556,5 +561,18 @@
     "accept": "Accepter",
     "decline": "Refuser",
     "settings": "Préférences de confidentialité"
+  },
+  "pressePage": {
+    "eyebrow": "Presse",
+    "title": "Nos réalisations dans la presse",
+    "description": "Nous fabriquons l'ébénisterie de projets conçus par des bureaux d'architecture dont le travail est publié au Canada, au Royaume-Uni, au Japon et ailleurs. Voici où on les retrouve.",
+    "disclaimer": "Les prix et les articles ci-dessous récompensent les projets et les bureaux d'architecture qui les ont conçus. La Fab'ric 1996 en a fabriqué l'ébénisterie.",
+    "awardsTitle": "Reconnaissances",
+    "awardName": "Prix d'excellence en architecture",
+    "pressTitle": "Parutions",
+    "architectLabel": "Architecte",
+    "projectLabel": "Projet",
+    "viewProject": "Voir le projet",
+    "readArticle": "Lire l'article"
   }
 }

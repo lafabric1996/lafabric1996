@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { ServicePageLayout } from "@/components/sections/ServicePageLayout";
+import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/seo/PageJsonLd";
 import { createPageMetadata } from "@/lib/metadata";
 import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
@@ -25,9 +26,21 @@ export default async function CuisinePage({ params }: LocalePageProps) {
   const { locale } = await params;
   setRequestLocale(asLocale(locale));
   const t = await getTranslations("cuisinePage");
+  const tNav = await getTranslations("nav");
+  const tSeo = await getTranslations("metadata.cuisine");
 
   return (
     <>
+      <BreadcrumbJsonLd
+        locale={locale}
+        trail={[{ name: tNav("cuisine"), href: "/cuisine" }]}
+      />
+      <ServiceJsonLd
+        locale={locale}
+        pathname="/cuisine"
+        serviceType={tSeo("title")}
+        description={tSeo("description")}
+      />
       <ServicePageLayout
         heroSrc="/realisations/projet-lantier/selection-20261004/photo-01.webp"
         eyebrow={t("eyebrow")}

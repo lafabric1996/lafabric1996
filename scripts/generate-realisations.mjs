@@ -247,6 +247,20 @@ function sanitizePublicFilename(filename) {
     .replace(/-+/g, "-");
 }
 
+const CATEGORY_LABELS = {
+  cuisine: "Cuisine",
+  "salle-de-bain": "Salle de bain",
+  "mobilier-integre": "Mobilier int\u00e9gr\u00e9",
+  resurfacage: "Resurfa\u00e7age",
+};
+
+/* Texte alternatif : le nom du projet seul se r\u00e9p\u00e9tait sur toutes les images
+   d'une m\u00eame galerie. La cat\u00e9gorie d\u00e9tect\u00e9e le distingue un minimum. */
+function buildAltText(folderName, category) {
+  const label = CATEGORY_LABELS[category];
+  return label ? `${label} \u2014 ${folderName}` : folderName;
+}
+
 function copyProjectImage(file, targetDir, slug, folderName, order) {
   const safeName = buildPublicFilename(file);
   const targetPath = path.join(targetDir, safeName);
@@ -255,7 +269,7 @@ function copyProjectImage(file, targetDir, slug, folderName, order) {
   return {
     src: `/realisations/${slug}/${safeName}`,
     filename: file.filename,
-    alt: folderName,
+    alt: buildAltText(folderName, detectImageCategory(file.filename)),
     category: detectImageCategory(file.filename),
     order,
   };

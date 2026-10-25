@@ -13,49 +13,49 @@
         {
           "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-principale-revisee.webp",
           "filename": "photo-principale-revisee.webp",
-          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-03.webp",
           "filename": "photo-03.webp",
-          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 2
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-04.webp",
           "filename": "photo-04.webp",
-          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 3
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-05.webp",
           "filename": "photo-05.webp",
-          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 4
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-06.webp",
           "filename": "photo-06.webp",
-          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 5
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-07.webp",
           "filename": "photo-07.webp",
-          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 6
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-08.webp",
           "filename": "photo-08.webp",
-          "alt": "Projet La Lumineuse — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet La Lumineuse — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 7
         }
@@ -73,35 +73,35 @@
         {
           "src": "/realisations/ann-prud-homme-designer-projet-sa/selection-20261020/photo-02.webp",
           "filename": "photo-02.webp",
-          "alt": "Projet SA — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet SA — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-sa/selection-20261020/photo-01.webp",
           "filename": "photo-01.webp",
-          "alt": "Projet SA — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet SA — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 2
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-sa/selection-20261020/photo-03.webp",
           "filename": "photo-03.webp",
-          "alt": "Projet SA — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet SA — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 3
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-sa/selection-20261020/photo-04.webp",
           "filename": "photo-04.webp",
-          "alt": "Projet SA — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet SA — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 4
         },
         {
           "src": "/realisations/ann-prud-homme-designer-projet-sa/selection-20261020/photo-05.webp",
           "filename": "photo-05.webp",
-          "alt": "Projet SA — Ann Prud'homme Designer",
+          "alt": "Cuisine — Projet SA — Ann Prud'homme Designer",
           "category": "cuisine",
           "order": 5
         }
@@ -113,46 +113,46 @@
       "slug": "construction-mad-projet-circle",
       "title": "Projet Circle — Construction MAD",
       "category": "residential",
-      "cover": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.jpg",
+      "cover": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.webp",
       "imageCount": 6,
       "images": [
         {
-          "src": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.jpg",
+          "src": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.webp",
           "filename": "cuisine-vue-ensemble.jpg",
           "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 1
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/apres/cuisine-ilot.jpg",
+          "src": "/realisations/construction-mad-projet-circle/apres/cuisine-ilot.webp",
           "filename": "cuisine-ilot.jpg",
           "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 2
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/apres/ilot-tiroirs.jpg",
+          "src": "/realisations/construction-mad-projet-circle/apres/ilot-tiroirs.webp",
           "filename": "ilot-tiroirs.jpg",
           "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 3
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/apres/rangement-chene.jpg",
+          "src": "/realisations/construction-mad-projet-circle/apres/rangement-chene.webp",
           "filename": "rangement-chene.jpg",
           "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 4
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/apres/niche-bar.jpg",
+          "src": "/realisations/construction-mad-projet-circle/apres/niche-bar.webp",
           "filename": "niche-bar.jpg",
           "alt": "Projet Circle — Construction MAD",
           "category": null,
           "order": 5
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/apres/passage-chene.jpg",
+          "src": "/realisations/construction-mad-projet-circle/apres/passage-chene.webp",
           "filename": "passage-chene.jpg",
           "alt": "Projet Circle — Construction MAD",
           "category": null,
@@ -226,48 +226,48 @@
       "slug": "divers",
       "title": "Réalisations diverses",
       "category": "residential",
-      "cover": "/realisations/divers/IMG_0008p.jpg",
+      "cover": "/realisations/divers/IMG_0008p.webp",
       "imageCount": 6,
       "images": [
         {
-          "src": "/realisations/divers/IMG_0008p.jpg",
+          "src": "/realisations/divers/IMG_0008p.webp",
           "filename": "IMG_0008p.jpg",
-          "alt": "Divers",
+          "alt": "Réalisations diverses",
           "category": null,
           "order": 1
         },
         {
-          "src": "/realisations/divers/IMG_0012p.jpg",
+          "src": "/realisations/divers/IMG_0012p.webp",
           "filename": "IMG_0012p.jpg",
-          "alt": "Divers",
+          "alt": "Réalisations diverses",
           "category": null,
           "order": 2
         },
         {
-          "src": "/realisations/divers/IMG_0051p.jpg",
+          "src": "/realisations/divers/IMG_0051p.webp",
           "filename": "IMG_0051p.jpg",
-          "alt": "Divers",
+          "alt": "Réalisations diverses",
           "category": null,
           "order": 3
         },
         {
-          "src": "/realisations/divers/IMG_1693p.jpg",
+          "src": "/realisations/divers/IMG_1693p.webp",
           "filename": "IMG_1693p.jpg",
-          "alt": "Divers",
+          "alt": "Réalisations diverses",
           "category": null,
           "order": 4
         },
         {
-          "src": "/realisations/divers/IMG_2143.JPEG",
+          "src": "/realisations/divers/IMG_2143.webp",
           "filename": "IMG_2143.JPEG",
-          "alt": "Divers",
+          "alt": "Réalisations diverses",
           "category": null,
           "order": 5
         },
         {
-          "src": "/realisations/divers/IMG_2144.JPEG",
+          "src": "/realisations/divers/IMG_2144.webp",
           "filename": "IMG_2144.JPEG",
-          "alt": "Divers",
+          "alt": "Réalisations diverses",
           "category": null,
           "order": 6
         }
@@ -285,77 +285,77 @@
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-01.webp",
           "filename": "Reference.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Reference",
+          "alt": "Cuisine — Projet Takacsy — Entre 4 Murs",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-02.webp",
           "filename": "Warm Oak Kitchen and Glass Entryway.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Warm Oak Kitchen and Glass Entryway",
+          "alt": "Cuisine — Projet Takacsy — Entre 4 Murs",
           "category": "cuisine",
           "order": 2
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-03.webp",
           "filename": "Entrée.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Entrée",
+          "alt": "Mobilier intégré — Projet Takacsy — Entre 4 Murs",
           "category": "mobilier-integre",
           "order": 3
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-04.webp",
           "filename": "Bar.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Bar",
+          "alt": "Mobilier intégré — Projet Takacsy — Entre 4 Murs",
           "category": "mobilier-integre",
           "order": 4
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-05.webp",
           "filename": "Mudroom.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Mudroom",
+          "alt": "Mobilier intégré — Projet Takacsy — Entre 4 Murs",
           "category": "mobilier-integre",
           "order": 5
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-06.webp",
           "filename": "Vanite maitre.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Vanite maitre",
+          "alt": "Salle de bain — Projet Takacsy — Entre 4 Murs",
           "category": "salle-de-bain",
           "order": 6
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-07.webp",
           "filename": "chambre.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — chambre",
+          "alt": "Mobilier intégré — Projet Takacsy — Entre 4 Murs",
           "category": "mobilier-integre",
           "order": 7
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-08.webp",
           "filename": "Salle eau.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Salle eau",
+          "alt": "Salle de bain — Projet Takacsy — Entre 4 Murs",
           "category": "salle-de-bain",
           "order": 8
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-09.webp",
           "filename": "Rangement.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Rangement",
+          "alt": "Mobilier intégré — Projet Takacsy — Entre 4 Murs",
           "category": "mobilier-integre",
           "order": 9
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-10.webp",
           "filename": "TV.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — TV",
+          "alt": "Mobilier intégré — Projet Takacsy — Entre 4 Murs",
           "category": "mobilier-integre",
           "order": 10
         },
         {
           "src": "/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-11.webp",
           "filename": "Bunk bed.png",
-          "alt": "Projet Takacsy — Entre 4 Murs — Bunk bed",
+          "alt": "Mobilier intégré — Projet Takacsy — Entre 4 Murs",
           "category": "mobilier-integre",
           "order": 11
         }
@@ -373,63 +373,63 @@
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0933.webp",
           "filename": "IMG_0933.png",
-          "alt": "Maison dans les bois — La Shed Architecture — cuisine",
+          "alt": "Cuisine — Maison dans les bois — La Shed Architecture",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0934.webp",
           "filename": "IMG_0934.png",
-          "alt": "Maison dans les bois — La Shed Architecture — cuisine",
+          "alt": "Cuisine — Maison dans les bois — La Shed Architecture",
           "category": "cuisine",
           "order": 2
         },
         {
           "src": "/realisations/la-shed-architecture-maison-dans-les-bois/selection-20261023/IMG_0935.webp",
           "filename": "IMG_0935.png",
-          "alt": "Maison dans les bois — La Shed Architecture — cuisine",
+          "alt": "Cuisine — Maison dans les bois — La Shed Architecture",
           "category": "cuisine",
           "order": 3
         },
         {
-          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0936.png",
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0936.webp",
           "filename": "IMG_0936.png",
-          "alt": "La Shed Architecture Maison dans les bois",
+          "alt": "Maison dans les bois — La Shed Architecture",
           "category": null,
           "order": 4
         },
         {
-          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0937.png",
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0937.webp",
           "filename": "IMG_0937.png",
-          "alt": "La Shed Architecture Maison dans les bois",
+          "alt": "Maison dans les bois — La Shed Architecture",
           "category": null,
           "order": 5
         },
         {
-          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0938.png",
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0938.webp",
           "filename": "IMG_0938.png",
-          "alt": "La Shed Architecture Maison dans les bois",
+          "alt": "Maison dans les bois — La Shed Architecture",
           "category": null,
           "order": 6
         },
         {
-          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0927.png",
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0927.webp",
           "filename": "IMG_0927.png",
-          "alt": "La Shed Architecture Maison dans les bois",
+          "alt": "Maison dans les bois — La Shed Architecture",
           "category": null,
           "order": 7
         },
         {
-          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0929.png",
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0929.webp",
           "filename": "IMG_0929.png",
-          "alt": "La Shed Architecture Maison dans les bois",
+          "alt": "Maison dans les bois — La Shed Architecture",
           "category": null,
           "order": 8
         },
         {
-          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0930.png",
+          "src": "/realisations/la-shed-architecture-maison-dans-les-bois/PNG-IMG_0930.webp",
           "filename": "IMG_0930.png",
-          "alt": "La Shed Architecture Maison dans les bois",
+          "alt": "Maison dans les bois — La Shed Architecture",
           "category": null,
           "order": 9
         }
@@ -441,41 +441,41 @@
       "slug": "metric-kenauk-montebello",
       "title": "Projet Kenauk — Metric, Montebello",
       "category": "cuisine",
-      "cover": "/realisations/metric-kenauk-montebello/cover.png",
+      "cover": "/realisations/metric-kenauk-montebello/cover.webp",
       "imageCount": 6,
       "images": [
         {
-          "src": "/realisations/metric-kenauk-montebello/Cuisine-.png",
+          "src": "/realisations/metric-kenauk-montebello/Cuisine-.webp",
           "filename": "Cuisine .png",
-          "alt": "Metric Kenauk Montebello",
+          "alt": "Cuisine — Projet Kenauk — Metric, Montebello",
           "category": "cuisine",
           "order": 1
         },
         {
-          "src": "/realisations/metric-kenauk-montebello/cuisine-f.png",
+          "src": "/realisations/metric-kenauk-montebello/cuisine-f.webp",
           "filename": "cuisine f.png",
-          "alt": "Metric Kenauk Montebello",
+          "alt": "Cuisine — Projet Kenauk — Metric, Montebello",
           "category": "cuisine",
           "order": 2
         },
         {
-          "src": "/realisations/metric-kenauk-montebello/cuisine-f3.png",
+          "src": "/realisations/metric-kenauk-montebello/cuisine-f3.webp",
           "filename": "cuisine f3.png",
-          "alt": "Metric Kenauk Montebello",
+          "alt": "Cuisine — Projet Kenauk — Metric, Montebello",
           "category": "cuisine",
           "order": 3
         },
         {
-          "src": "/realisations/metric-kenauk-montebello/cuisine-f5.png",
+          "src": "/realisations/metric-kenauk-montebello/cuisine-f5.webp",
           "filename": "cuisine f5.png",
-          "alt": "Metric Kenauk Montebello",
+          "alt": "Cuisine — Projet Kenauk — Metric, Montebello",
           "category": "cuisine",
           "order": 4
         },
         {
-          "src": "/realisations/metric-kenauk-montebello/cuisine-f6.png",
+          "src": "/realisations/metric-kenauk-montebello/cuisine-f6.webp",
           "filename": "cuisine f6.png",
-          "alt": "Metric Kenauk Montebello",
+          "alt": "Cuisine — Projet Kenauk — Metric, Montebello",
           "category": "cuisine",
           "order": 5
         }
@@ -487,55 +487,55 @@
       "slug": "mr-foucault",
       "title": "Projet Foucault",
       "category": "residential",
-      "cover": "/realisations/mr-foucault/cover.jpg",
+      "cover": "/realisations/mr-foucault/cover.webp",
       "imageCount": 8,
       "images": [
         {
-          "src": "/realisations/mr-foucault/1.jpg",
+          "src": "/realisations/mr-foucault/1.webp",
           "filename": "1.jpg",
-          "alt": "Mr Foucault",
+          "alt": "Projet Foucault",
           "category": null,
           "order": 1
         },
         {
-          "src": "/realisations/mr-foucault/3.jpg",
+          "src": "/realisations/mr-foucault/3.webp",
           "filename": "3.jpg",
-          "alt": "Mr Foucault",
+          "alt": "Projet Foucault",
           "category": null,
           "order": 2
         },
         {
-          "src": "/realisations/mr-foucault/4.jpg",
+          "src": "/realisations/mr-foucault/4.webp",
           "filename": "4.jpg",
-          "alt": "Mr Foucault",
+          "alt": "Projet Foucault",
           "category": null,
           "order": 3
         },
         {
-          "src": "/realisations/mr-foucault/5.jpg",
+          "src": "/realisations/mr-foucault/5.webp",
           "filename": "5.jpg",
-          "alt": "Mr Foucault",
+          "alt": "Projet Foucault",
           "category": null,
           "order": 4
         },
         {
-          "src": "/realisations/mr-foucault/6.jpg",
+          "src": "/realisations/mr-foucault/6.webp",
           "filename": "6.jpg",
-          "alt": "Mr Foucault",
+          "alt": "Projet Foucault",
           "category": null,
           "order": 5
         },
         {
-          "src": "/realisations/mr-foucault/7.jpg",
+          "src": "/realisations/mr-foucault/7.webp",
           "filename": "7.jpg",
-          "alt": "Mr Foucault",
+          "alt": "Projet Foucault",
           "category": null,
           "order": 6
         },
         {
-          "src": "/realisations/mr-foucault/8.jpg",
+          "src": "/realisations/mr-foucault/8.webp",
           "filename": "8.jpg",
-          "alt": "Mr Foucault",
+          "alt": "Projet Foucault",
           "category": null,
           "order": 7
         }
@@ -553,130 +553,130 @@
         {
           "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4837.webp",
           "filename": "IMG_4837.webp",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 1
         },
         {
           "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4838.webp",
           "filename": "IMG_4838.webp",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 2
         },
         {
           "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4839.webp",
           "filename": "IMG_4839.webp",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 3
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4846.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4846.webp",
           "filename": "IMG_4846.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 4
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4840.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4840.webp",
           "filename": "IMG_4840.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 5
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4835.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4835.webp",
           "filename": "IMG_4835.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 6
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4841.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4841.webp",
           "filename": "IMG_4841.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 7
         },
         {
           "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4842.webp",
           "filename": "IMG_4842.webp",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 8
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4843.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4843.webp",
           "filename": "IMG_4843.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 9
         },
         {
           "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4847.webp",
           "filename": "IMG_4847.webp",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 10
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4848.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4848.webp",
           "filename": "IMG_4848.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 11
         },
         {
           "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4849.webp",
           "filename": "IMG_4849.webp",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 12
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4850.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4850.webp",
           "filename": "IMG_4850.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 13
         },
         {
-          "src": "/realisations/mu-architecture-l-albatros/IMG_4851.jpg",
+          "src": "/realisations/mu-architecture-l-albatros/IMG_4851.webp",
           "filename": "IMG_4851.jpg",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 14
         },
         {
           "src": "/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4852.webp",
           "filename": "IMG_4852.webp",
-          "alt": "Mu Architecture L'Albatros",
+          "alt": "L'Albatros — Mu Architecture",
           "category": null,
           "order": 15
         }
       ],
       "beforeAfterPairs": [],
-      "description": null
+      "description": "Un chalet de 6 900 pi² posé sur une pente abrupte au bout du lac Xavier, à La Conception, conçu par Mu Architecture. L'ébénisterie en chêne blanc traverse toute la maison : la cuisine et son îlot courbe à plan facetté, le cellier vitré pleine hauteur, la vanité suspendue à lavabo intégré, la tête de lit et ses tables de nuit flottantes aux arêtes arrondies, et le long mur de rangement du corridor. Portes sans poignée, prises de doigt usinées dans la masse, veinage suivi d'un caisson à l'autre."
     },
     {
       "slug": "mu-architecture-the-lantern",
       "title": "The Lantern — Mu Architecture",
       "category": "residential",
-      "cover": "/realisations/mu-architecture-the-lantern/cover.jpg",
+      "cover": "/realisations/mu-architecture-the-lantern/cover.webp",
       "imageCount": 3,
       "images": [
         {
-          "src": "/realisations/mu-architecture-the-lantern/2e-etage.png",
+          "src": "/realisations/mu-architecture-the-lantern/2e-etage.webp",
           "filename": "2e étage.png",
-          "alt": "Mu Architecture The Lantern",
+          "alt": "The Lantern — Mu Architecture",
           "category": null,
           "order": 1
         },
         {
-          "src": "/realisations/mu-architecture-the-lantern/20201005_093534.jpg",
+          "src": "/realisations/mu-architecture-the-lantern/20201005_093534.webp",
           "filename": "20201005_093534.jpg",
-          "alt": "Mu Architecture The Lantern",
+          "alt": "The Lantern — Mu Architecture",
           "category": null,
           "order": 2
         }
@@ -688,27 +688,27 @@
       "slug": "projet-constantineau-tremblant",
       "title": "Projet Constantineau — Mont-Tremblant",
       "category": "residential",
-      "cover": "/realisations/projet-constantineau-tremblant/cover.jpeg",
+      "cover": "/realisations/projet-constantineau-tremblant/cover.webp",
       "imageCount": 4,
       "images": [
         {
-          "src": "/realisations/projet-constantineau-tremblant/IMG_0711.JPEG",
+          "src": "/realisations/projet-constantineau-tremblant/IMG_0711.webp",
           "filename": "IMG_0711.JPEG",
-          "alt": "Projet Constantineau Tremblant",
+          "alt": "Projet Constantineau — Mont-Tremblant",
           "category": null,
           "order": 1
         },
         {
-          "src": "/realisations/projet-constantineau-tremblant/IMG_0713.JPEG",
+          "src": "/realisations/projet-constantineau-tremblant/IMG_0713.webp",
           "filename": "IMG_0713.JPEG",
-          "alt": "Projet Constantineau Tremblant",
+          "alt": "Projet Constantineau — Mont-Tremblant",
           "category": null,
           "order": 2
         },
         {
-          "src": "/realisations/projet-constantineau-tremblant/IMG_0715.JPEG",
+          "src": "/realisations/projet-constantineau-tremblant/IMG_0715.webp",
           "filename": "IMG_0715.JPEG",
-          "alt": "Projet Constantineau Tremblant",
+          "alt": "Projet Constantineau — Mont-Tremblant",
           "category": null,
           "order": 3
         }
@@ -720,48 +720,48 @@
       "slug": "yh2-contre-jour",
       "title": "Contre-Jour — YH2",
       "category": "mobilier-integre",
-      "cover": "/realisations/yh2-contre-jour/cover.png",
+      "cover": "/realisations/yh2-contre-jour/cover.webp",
       "imageCount": 7,
       "images": [
         {
-          "src": "/realisations/yh2-contre-jour/Cuisine.png",
+          "src": "/realisations/yh2-contre-jour/Cuisine.webp",
           "filename": "Cuisine.png",
-          "alt": "Yh2 Contre-Jour",
+          "alt": "Cuisine — Contre-Jour — YH2",
           "category": "cuisine",
           "order": 1
         },
         {
-          "src": "/realisations/yh2-contre-jour/Cuisine-2.png",
+          "src": "/realisations/yh2-contre-jour/Cuisine-2.webp",
           "filename": "Cuisine 2.png",
-          "alt": "Yh2 Contre-Jour",
+          "alt": "Cuisine — Contre-Jour — YH2",
           "category": "cuisine",
           "order": 2
         },
         {
-          "src": "/realisations/yh2-contre-jour/Salle-de-bain.png",
+          "src": "/realisations/yh2-contre-jour/Salle-de-bain.webp",
           "filename": "Salle de bain.png",
-          "alt": "Yh2 Contre-Jour",
+          "alt": "Salle de bain — Contre-Jour — YH2",
           "category": "salle-de-bain",
           "order": 3
         },
         {
-          "src": "/realisations/yh2-contre-jour/Bureau.png",
+          "src": "/realisations/yh2-contre-jour/Bureau.webp",
           "filename": "Bureau.png",
-          "alt": "Yh2 Contre-Jour",
+          "alt": "Mobilier intégré — Contre-Jour — YH2",
           "category": "mobilier-integre",
           "order": 4
         },
         {
-          "src": "/realisations/yh2-contre-jour/Chambre.png",
+          "src": "/realisations/yh2-contre-jour/Chambre.webp",
           "filename": "Chambre.png",
-          "alt": "Yh2 Contre-Jour",
+          "alt": "Mobilier intégré — Contre-Jour — YH2",
           "category": "mobilier-integre",
           "order": 5
         },
         {
-          "src": "/realisations/yh2-contre-jour/salon.png",
+          "src": "/realisations/yh2-contre-jour/salon.webp",
           "filename": "salon.png",
-          "alt": "Yh2 Contre-Jour",
+          "alt": "Mobilier intégré — Contre-Jour — YH2",
           "category": "mobilier-integre",
           "order": 6
         }
@@ -773,33 +773,33 @@
       "slug": "yh2-la-luge",
       "title": "La Luge — YH2",
       "category": "mobilier-integre",
-      "cover": "/realisations/yh2-la-luge/cover.png",
+      "cover": "/realisations/yh2-la-luge/cover.webp",
       "imageCount": 4,
       "images": [
         {
-          "src": "/realisations/yh2-la-luge/Entree-2.png",
+          "src": "/realisations/yh2-la-luge/Entree-2.webp",
           "filename": "Entrée 2.png",
-          "alt": "Yh2 La Luge",
+          "alt": "Mobilier intégré — La Luge — YH2",
           "category": "mobilier-integre",
           "order": 1
         },
         {
-          "src": "/realisations/yh2-la-luge/Entree-3.png",
+          "src": "/realisations/yh2-la-luge/Entree-3.webp",
           "filename": "Entrée 3.png",
-          "alt": "Yh2 La Luge",
+          "alt": "Mobilier intégré — La Luge — YH2",
           "category": "mobilier-integre",
           "order": 2
         },
         {
-          "src": "/realisations/yh2-la-luge/Entree.png",
+          "src": "/realisations/yh2-la-luge/Entree.webp",
           "filename": "Entrée.png",
-          "alt": "Yh2 La Luge",
+          "alt": "Mobilier intégré — La Luge — YH2",
           "category": "mobilier-integre",
           "order": 3
         }
       ],
       "beforeAfterPairs": [],
-      "description": null
+      "description": "Une résidence secondaire de 120 m² posée dans la forêt à Saint-Lin-Laurentides, conçue par yh2. Dans un volume aussi petit, le mobilier intégré n'est pas un ajout : c'est la structure même de l'espace habitable. Les blocs de rangement en bois pâle, l'îlot et la banquette se fondent dans le revêtement de bois des murs et du plafond, et montent jusqu'à la pleine hauteur."
     },
     {
       "slug": "yh2-les-blocs-de-bois",
@@ -811,35 +811,35 @@
         {
           "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-9.webp",
           "filename": "Les_blocs_de_bois_yh2_9.png",
-          "alt": "Les Blocs de Bois — YH2",
+          "alt": "Cuisine — Les Blocs de Bois — YH2",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-10.webp",
           "filename": "Les_blocs_de_bois_yh2_10.png",
-          "alt": "Les Blocs de Bois — YH2",
+          "alt": "Mobilier intégré — Les Blocs de Bois — YH2",
           "category": "mobilier-integre",
           "order": 2
         },
         {
           "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-7.webp",
           "filename": "Les_blocs_de_bois_yh2_7.png",
-          "alt": "Les Blocs de Bois — YH2",
+          "alt": "Mobilier intégré — Les Blocs de Bois — YH2",
           "category": "mobilier-integre",
           "order": 3
         },
         {
           "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-11.webp",
           "filename": "Les_blocs_de_bois_yh2_11.png",
-          "alt": "Les Blocs de Bois — YH2",
+          "alt": "Salle de bain — Les Blocs de Bois — YH2",
           "category": "salle-de-bain",
           "order": 4
         },
         {
           "src": "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-15.webp",
           "filename": "Les_blocs_de_bois_yh2_15.png",
-          "alt": "Les Blocs de Bois — YH2",
+          "alt": "Mobilier intégré — Les Blocs de Bois — YH2",
           "category": "mobilier-integre",
           "order": 5
         }
@@ -851,96 +851,96 @@
       "slug": "yh2-maison-aube",
       "title": "Maison Aubé — YH2",
       "category": "residential",
-      "cover": "/realisations/yh2-maison-aube/cover.png",
+      "cover": "/realisations/yh2-maison-aube/selection-20261023/photo-722.webp",
       "imageCount": 13,
       "images": [
         {
           "src": "/realisations/yh2-maison-aube/selection-20261023/photo-230.webp",
           "filename": "230-Maison_Aubé.png",
-          "alt": "Maison Aubé — YH2",
+          "alt": "Cuisine — Maison Aubé — YH2",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/yh2-maison-aube/selection-20261023/photo-715.webp",
           "filename": "715-Maison_Aubé.png",
-          "alt": "Maison Aubé — YH2",
+          "alt": "Salle de bain — Maison Aubé — YH2",
           "category": "salle-de-bain",
           "order": 2
         },
         {
           "src": "/realisations/yh2-maison-aube/selection-20261023/photo-722.webp",
           "filename": "722-Maison_Aubé.png",
-          "alt": "Maison Aubé — YH2",
+          "alt": "Cuisine — Maison Aubé — YH2",
           "category": "cuisine",
           "order": 3
         },
         {
           "src": "/realisations/yh2-maison-aube/selection-20261023/photo-762.webp",
           "filename": "762-Maison_Aubé.png",
-          "alt": "Maison Aubé — YH2",
+          "alt": "Mobilier intégré — Maison Aubé — YH2",
           "category": "mobilier-integre",
           "order": 4
         },
         {
           "src": "/realisations/yh2-maison-aube/selection-20261023/photo-549.webp",
           "filename": "549-Maison_Aubé(1).png",
-          "alt": "Maison Aubé — YH2",
+          "alt": "Mobilier intégré — Maison Aubé — YH2",
           "category": "mobilier-integre",
           "order": 5
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6539.JPEG",
+          "src": "/realisations/yh2-maison-aube/IMG_6539.webp",
           "filename": "IMG_6539.JPEG",
-          "alt": "Yh2 Maison Aube",
+          "alt": "Maison Aubé — YH2",
           "category": null,
           "order": 6
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6540.JPEG",
+          "src": "/realisations/yh2-maison-aube/IMG_6540.webp",
           "filename": "IMG_6540.JPEG",
-          "alt": "Yh2 Maison Aube",
+          "alt": "Maison Aubé — YH2",
           "category": null,
           "order": 7
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6541.JPEG",
+          "src": "/realisations/yh2-maison-aube/IMG_6541.webp",
           "filename": "IMG_6541.JPEG",
-          "alt": "Yh2 Maison Aube",
+          "alt": "Maison Aubé — YH2",
           "category": null,
           "order": 8
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6542.JPEG",
+          "src": "/realisations/yh2-maison-aube/IMG_6542.webp",
           "filename": "IMG_6542.JPEG",
-          "alt": "Yh2 Maison Aube",
+          "alt": "Maison Aubé — YH2",
           "category": null,
           "order": 9
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6543.JPEG",
+          "src": "/realisations/yh2-maison-aube/IMG_6543.webp",
           "filename": "IMG_6543.JPEG",
-          "alt": "Yh2 Maison Aube",
+          "alt": "Maison Aubé — YH2",
           "category": null,
           "order": 10
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6544.JPEG",
+          "src": "/realisations/yh2-maison-aube/IMG_6544.webp",
           "filename": "IMG_6544.JPEG",
-          "alt": "Yh2 Maison Aube",
+          "alt": "Maison Aubé — YH2",
           "category": null,
           "order": 11
         },
         {
-          "src": "/realisations/yh2-maison-aube/IMG_6547.JPEG",
+          "src": "/realisations/yh2-maison-aube/IMG_6547.webp",
           "filename": "IMG_6547.JPEG",
-          "alt": "Yh2 Maison Aube",
+          "alt": "Maison Aubé — YH2",
           "category": null,
           "order": 12
         }
       ],
       "beforeAfterPairs": [],
-      "description": null
+      "description": "Une maison de 1811 sur la rivière des Mille Îles, à Saint-Eustache, restaurée et agrandie par yh2. Le projet a reçu un Prix d'excellence en architecture de l'Ordre des architectes du Québec en 2026. L'ébénisterie en chêne blanc se glisse contre les murs de pierre d'origine : mur de rangement pleine hauteur, îlot à panneaux pleins sur socle en retrait, vanité à fronts adoucis posée sur pieds apparents, et volume de tête de lit cannelé qui sert de cloison. Dans une maison de deux siècles où rien n'est d'équerre, chaque pièce a été relevée sur place avant d'être fabriquée."
     },
     {
       "slug": "yh2-triptyque",
@@ -952,14 +952,14 @@
         {
           "src": "/realisations/yh2-triptyque/selection-20261023/photo-4.webp",
           "filename": "Triptyque_YH2-4 (1).png",
-          "alt": "Triptyque — YH2",
+          "alt": "Cuisine — Triptyque — YH2",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/yh2-triptyque/selection-20261023/photo-5.webp",
           "filename": "Triptyque_YH2-5 (1).png",
-          "alt": "Triptyque — YH2",
+          "alt": "Cuisine — Triptyque — YH2",
           "category": "cuisine",
           "order": 2
         }
@@ -971,34 +971,34 @@
       "slug": "yves-a-lefebvre-projet-la-pointe",
       "title": "Projet La Pointe — Yves A. Lefebvre",
       "category": "mobilier-integre",
-      "cover": "/realisations/yves-a-lefebvre-projet-la-pointe/cover.png",
+      "cover": "/realisations/yves-a-lefebvre-projet-la-pointe/cover.webp",
       "imageCount": 5,
       "images": [
         {
-          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Salle-de-bain.png",
+          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Salle-de-bain.webp",
           "filename": "Salle de bain.png",
-          "alt": "Yves A. Lefebvre projet La Pointe",
+          "alt": "Salle de bain — Projet La Pointe — Yves A. Lefebvre",
           "category": "salle-de-bain",
           "order": 1
         },
         {
-          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Chambre-2.png",
+          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Chambre-2.webp",
           "filename": "Chambre 2.png",
-          "alt": "Yves A. Lefebvre projet La Pointe",
+          "alt": "Mobilier intégré — Projet La Pointe — Yves A. Lefebvre",
           "category": "mobilier-integre",
           "order": 2
         },
         {
-          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Chambre.png",
+          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Chambre.webp",
           "filename": "Chambre.png",
-          "alt": "Yves A. Lefebvre projet La Pointe",
+          "alt": "Mobilier intégré — Projet La Pointe — Yves A. Lefebvre",
           "category": "mobilier-integre",
           "order": 3
         },
         {
-          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Entree.png",
+          "src": "/realisations/yves-a-lefebvre-projet-la-pointe/Entree.webp",
           "filename": "Entrée.png",
-          "alt": "Yves A. Lefebvre projet La Pointe",
+          "alt": "Mobilier intégré — Projet La Pointe — Yves A. Lefebvre",
           "category": "mobilier-integre",
           "order": 4
         }
@@ -1017,42 +1017,42 @@
         {
           "src": "/realisations/projet-lantier/selection-20261004/photo-01.webp",
           "filename": "Warm Oak Minimalist Kitchen.png",
-          "alt": "Projet Lantier",
+          "alt": "Cuisine — Projet Lantier",
           "category": "cuisine",
           "order": 1
         },
         {
           "src": "/realisations/projet-lantier/selection-20261004/photo-02.webp",
           "filename": "Modern Oak Kitchen Island.png",
-          "alt": "Projet Lantier",
+          "alt": "Cuisine — Projet Lantier",
           "category": "cuisine",
           "order": 2
         },
         {
           "src": "/realisations/projet-lantier/selection-20261004/photo-03.webp",
           "filename": "Scandinavian Kitchen with Warm Oak Tones.png",
-          "alt": "Projet Lantier",
+          "alt": "Cuisine — Projet Lantier",
           "category": "cuisine",
           "order": 3
         },
         {
           "src": "/realisations/projet-lantier/selection-20261004/photo-04.webp",
           "filename": "Warm Minimalist Oak Kitchen Interior.png",
-          "alt": "Projet Lantier",
+          "alt": "Cuisine — Projet Lantier",
           "category": "cuisine",
           "order": 4
         },
         {
           "src": "/realisations/projet-lantier/selection-20261004/photo-05.webp",
           "filename": "Modern Oak Pantry and Wine Alcove.png",
-          "alt": "Projet Lantier",
+          "alt": "Cuisine — Projet Lantier",
           "category": "cuisine",
           "order": 5
         },
         {
           "src": "/realisations/projet-lantier/selection-20261004/photo-06.webp",
           "filename": "Modern Walnut Pantry with Quartz Counters.png",
-          "alt": "Projet Lantier",
+          "alt": "Cuisine — Projet Lantier",
           "category": "cuisine",
           "order": 6
         }

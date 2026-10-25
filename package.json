@@ -9,7 +9,8 @@
     "lint": "eslint",
     "generate:realisations": "node scripts/generate-realisations.mjs",
     "generate:resurfacage": "node scripts/generate-resurfacage.mjs",
-    "sync:video": "node scripts/sync-promo-video.mjs"
+    "sync:video": "node scripts/sync-promo-video.mjs",
+    "optimize:images": "node scripts/optimize-images.mjs"
   },
   "dependencies": {
     "next": "16.2.9",

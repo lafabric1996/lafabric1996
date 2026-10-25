@@ -33,6 +33,10 @@ export const routing = defineRouting({
       en: "/built-in-furniture",
     },
     "/services": "/services",
+    "/presse": {
+      fr: "/presse",
+      en: "/press",
+    },
     "/a-propos": {
       fr: "/a-propos",
       en: "/about",

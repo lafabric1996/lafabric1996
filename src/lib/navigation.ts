@@ -8,6 +8,7 @@ export type NavLabelKey =
   | "salleDeBain"
   | "mobilierIntegre"
   | "services"
+  | "presse"
   | "aPropos"
   | "contact";
 
@@ -31,6 +32,7 @@ export const mainNavigation: NavItem[] = [
 export const footerNavigation: NavItem[] = [
   { labelKey: "realisations", href: "/realisations" },
   { labelKey: "services", href: "/services" },
+  { labelKey: "presse", href: "/presse" },
   { labelKey: "aPropos", href: "/a-propos" },
   { labelKey: "contact", href: "/contact" },
 ];

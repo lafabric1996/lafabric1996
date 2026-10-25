@@ -8,8 +8,10 @@ import type { NavItem } from "@/lib/navigation";
 
 const headerNavigation: NavItem[] = [
   { labelKey: "realisations", href: "/realisations" },
+  { labelKey: "cuisine", href: "/cuisine" },
+  { labelKey: "salleDeBain", href: "/salle-de-bain" },
+  { labelKey: "mobilierIntegre", href: "/mobilier-integre" },
   { labelKey: "resurfacage", href: "/resurfacage" },
-  { labelKey: "services", href: "/services" },
   { labelKey: "aPropos", href: "/a-propos" },
 ];
 import { cn } from "@/lib/utils";

@@ -8,6 +8,7 @@ import { Container } from "@/components/ui/Container";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/seo/PageJsonLd";
 import { createPageMetadata } from "@/lib/metadata";
 import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
@@ -58,6 +59,8 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
   const { locale } = await params;
   setRequestLocale(asLocale(locale));
   const t = await getTranslations("resurfacagePage");
+  const tNav = await getTranslations("nav");
+  const tSeo = await getTranslations("metadata.resurfacage");
   const tCommon = await getTranslations("common");
 
   const pairs = getAllResurfacagePairs();
@@ -95,6 +98,16 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
 
   return (
     <>
+      <BreadcrumbJsonLd
+        locale={locale}
+        trail={[{ name: tNav("resurfacage"), href: "/resurfacage" }]}
+      />
+      <ServiceJsonLd
+        locale={locale}
+        pathname="/resurfacage"
+        serviceType={tSeo("title")}
+        description={tSeo("description")}
+      />
       {/* 1. Hero — comparateur avant/après */}
       <section className="relative pt-24 pb-20 md:pt-28 md:pb-28">
         <Container>

@@ -40,6 +40,10 @@
     "contact": {
       "title": "Contact",
       "description": "Contact La Fab'ric 1996 to discuss your kitchen, bathroom, built-in furniture or custom woodworking project."
+    },
+    "presse": {
+      "title": "Press & Recognition",
+      "description": "The projects we build cabinetry for are published and award-winning. Press coverage for La Fab'ric 1996, Val-Morin, Quebec."
     }
   },
   "nav": {
@@ -56,7 +60,8 @@
     "mobile": "Mobile navigation",
     "footer": "Navigation",
     "expertises": "Expertise",
-    "contactUs": "Contact us →"
+    "contactUs": "Contact us →",
+    "presse": "Press"
   },
   "header": {
     "homeAriaLabel": "La Fab'ric 1996 — Home",
@@ -556,5 +561,18 @@
     "accept": "Accept",
     "decline": "Decline",
     "settings": "Privacy preferences"
+  },
+  "pressePage": {
+    "eyebrow": "Press",
+    "title": "Our work in the press",
+    "description": "We build the cabinetry for projects designed by architecture studios whose work is published in Canada, the United Kingdom, Japan and beyond. Here is where you will find them.",
+    "disclaimer": "The awards and articles below recognise the projects and the architecture studios that designed them. La Fab'ric 1996 built their cabinetry.",
+    "awardsTitle": "Recognition",
+    "awardName": "Award of Excellence in Architecture",
+    "pressTitle": "Press coverage",
+    "architectLabel": "Architect",
+    "projectLabel": "Project",
+    "viewProject": "View project",
+    "readArticle": "Read the article"
   }
 }
