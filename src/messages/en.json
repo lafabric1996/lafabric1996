@@ -2,15 +2,15 @@
   "metadata": {
     "siteName": "La Fab'ric 1996",
     "defaultTitle": "Cabinetmaking in the Laurentians | La Fab’ric 1996",
-    "defaultDescription": "Custom cabinetmaking in Val-Morin, in the Laurentians: kitchen cabinets, vanities, built-in furniture and cabinet refacing. Discover La Fab’ric since 1996.",
+    "defaultDescription": "Architectural cabinetmaking in Val-Morin: custom kitchens and built-in furniture for substantial residential projects. Cabinet refacing expertise.",
     "titleSuffix": "Custom Cabinetmaking",
     "home": {
       "title": "Cabinetmaking in the Laurentians",
-      "description": "Custom cabinetmaking in Val-Morin, in the Laurentians: kitchen cabinets, vanities, built-in furniture and cabinet refacing. Discover La Fab’ric since 1996."
+      "description": "Architectural cabinetmaking in Val-Morin: custom kitchens and built-in furniture for substantial residential projects. Cabinet refacing expertise."
     },
     "realisations": {
       "title": "Custom Cabinetmaking Projects",
-      "description": "Explore custom kitchens, vanities and built-in furniture made with architects and designers. View La Fab’ric projects and photo galleries.",
+      "description": "Explore our substantial residential projects: custom kitchens and built-in furniture made with architects and designers.",
       "projectDescription": "{project}: explore this La Fab’ric 1996 project in photos and discover our custom cabinetmaking work."
     },
     "resurfacage": {
@@ -21,17 +21,13 @@
       "title": "Custom Kitchen Cabinets in Val-Morin",
       "description": "Kitchen cabinets designed and built to measure in our Val-Morin workshop. Planning, materials, storage and installation with La Fab’ric."
     },
-    "salleDeBain": {
-      "title": "Bathroom Vanities & Cabinetry",
-      "description": "Custom bathroom vanities and storage. La Fab’ric designs and builds your cabinetry in its Laurentians workshop."
-    },
     "mobilierIntegre": {
       "title": "Custom Built-in Furniture",
       "description": "Built-in shelving, desks and storage designed for your space. Discover custom cabinetmaking by La Fab’ric in Val-Morin, in the Laurentians."
     },
     "services": {
       "title": "Cabinetmaking & Refacing",
-      "description": "Custom kitchens, vanities, built-in furniture and cabinet refacing. A team based in the Laurentians, ready to discuss your project."
+      "description": "Custom kitchens, architectural cabinetmaking, built-in furniture and cabinet refacing. A team based in the Laurentians."
     },
     "aPropos": {
       "title": "Our Val-Morin Workshop Since 1996",
@@ -39,7 +35,7 @@
     },
     "contact": {
       "title": "Contact",
-      "description": "Contact La Fab'ric 1996 to discuss your kitchen, bathroom, built-in furniture or custom woodworking project."
+      "description": "Tell us about your substantial residential cabinetmaking project or cabinet refacing needs."
     },
     "presse": {
       "title": "Press & Recognition",
@@ -90,7 +86,7 @@
     "hero": {
       "eyebrow": "Woodworking & refacing · Val-Morin, Laurentians",
       "title": "Built in our own workshop since 1996",
-      "subtitle": "Custom kitchens, bathrooms and built-in furniture. Plus cabinet refacing, to transform your kitchen without replacing everything.",
+      "subtitle": "Custom kitchens and built-in furniture for substantial residential projects. Plus cabinet refacing, to transform your kitchen without replacing everything.",
       "primaryCta": "Get a quote",
       "secondaryCta": "View our projects",
       "imageAlt": "Custom oak kitchen — Bergevin project, architect Dany Courchesne"
@@ -110,7 +106,7 @@
       "description": "Two ways to approach your kitchen, depending on your project and your budget.",
       "custom": {
         "title": "Custom woodworking",
-        "description": "Kitchens, bathrooms, built-in furniture and architectural woodworking, drawn and built for your space.",
+        "description": "Kitchens and built-in furniture designed together for substantial residential projects, in collaboration with your architect or designer.",
         "cta": "View the projects",
         "imageAlt": "Custom kitchen — L'Albatros, Mu Architecture"
       },
@@ -188,11 +184,6 @@
         "description": "Cabinets, storage and details designed for your space and built in our workshop.",
         "cta": "Explore our kitchens"
       },
-      "bathroom": {
-        "title": "Vanities and bathrooms",
-        "description": "Custom vanities and storage made to fit your bathroom.",
-        "cta": "Explore our vanities"
-      },
       "builtIn": {
         "title": "Built-in furniture",
         "description": "Bookcases, desks and storage designed to fit your architecture.",
@@ -200,7 +191,7 @@
       },
       "customWoodwork": {
         "title": "Custom Cabinetry",
-        "description": "Kitchens, bathrooms and built-in furniture: we create custom cabinetry tailored to your space, needs and style.",
+        "description": "Architectural cabinetmaking conceived for the whole residence: kitchen, wall treatments and built-in furniture designed as a cohesive whole.",
         "cta": "View our projects"
       },
       "residential": {
@@ -222,7 +213,7 @@
   "aboutPreview": {
     "eyebrow": "About",
     "title": "Over 30 years of Quebec expertise",
-    "paragraph1": "La Fab'ric 1996 is a recognized Quebec company for quality work in cabinet refacing, kitchen renovation, bathrooms, built-in furniture and custom woodworking.",
+    "paragraph1": "La Fab'ric 1996 creates substantial residential cabinetmaking projects: custom kitchens, built-in furniture and architectural details. Its refacing team also transforms existing cabinets.",
     "paragraph2": "Every project is approached with rigour, attention to detail and a constant focus on premium finishing.",
     "cta": "Discover our story",
     "workshopPhoto": "Workshop photo coming soon"
@@ -241,7 +232,7 @@
   "realisations": {
     "eyebrow": "Portfolio",
     "title": "Our Projects",
-    "description": "Discover a selection of residential projects by La Fab'ric 1996 in kitchens, bathrooms and built-in furniture.",
+    "description": "Discover a selection of substantial residential projects, where kitchens and built-in furniture form a cohesive whole.",
     "backToGallery": "Back to projects",
     "emptyFilter": "No projects in this category yet.",
     "categories": {
@@ -411,7 +402,8 @@
         }
       ],
       "kitchenLink": "Explore our custom kitchens",
-      "phone": "Speak with our refacing team"
+      "phone": "Speak with our refacing team",
+      "phoneNumber": "819 322-1041, extension 2"
     }
   },
   "cuisinePage": {
@@ -429,7 +421,7 @@
       },
       "renovation": {
         "title": "A kitchen built for you",
-        "imageLabel": "A kitchen built for you",
+        "imageLabel": "Custom wood kitchen — Maison Aubé, YH2",
         "p1": "We design and build your new cabinets around your dimensions, storage needs and daily routines.",
         "p2": "Each kitchen is designed to harmonize with your lifestyle and the architecture of your space."
       },
@@ -448,43 +440,16 @@
       "cta": "Discuss my new kitchen"
     }
   },
-  "salleDeBainPage": {
-    "eyebrow": "Bathroom",
-    "title": "Custom vanities and storage",
-    "description": "Vanities and storage designed for your bathroom, with close attention to dimensions and everyday use.",
-    "ctaTitle": "Planning a custom vanity?",
-    "ctaDescription": "Contact us to discuss your project and receive a tailored quote.",
-    "blocks": {
-      "design": {
-        "title": "Custom Design",
-        "imageLabel": "Custom Design",
-        "p1": "Each bathroom is planned according to your needs, available space and style.",
-        "p2": "The layout is optimized to combine ease of use with premium aesthetics."
-      },
-      "vanity": {
-        "title": "Vanities and Storage",
-        "imageLabel": "Vanities and Storage",
-        "p1": "We design vanities and integrated storage solutions to maximize every inch.",
-        "p2": "Custom furniture ensures a cohesive, durable result."
-      },
-      "materials": {
-        "title": "Finishes and Materials",
-        "imageLabel": "Finishes and Materials",
-        "p1": "Material and finish selection is essential for an elegant, durable result.",
-        "p2": "We help you select surfaces, colours and hardware to suit the way you use your cabinetry."
-      }
-    }
-  },
   "mobilierIntegrePage": {
     "eyebrow": "Built-in Furniture",
     "title": "Custom solutions for every space",
-    "description": "Optimize your interior with built-in furniture designed and built to your exact dimensions.",
+    "description": "Built-in furniture designed for your residence as a whole, in harmony with its architecture and overall design.",
     "ctaTitle": "Need custom furniture?",
     "ctaDescription": "Tell us about your project and we will propose a solution adapted to your space.",
     "blocks": {
       "storage": {
         "title": "Smart Storage",
-        "imageLabel": "Smart Storage",
+        "imageLabel": "Black storage furniture against a wood wall — L’Albatros, MU Architecture",
         "p1": "Custom closets, bookcases, desks and storage integrate harmoniously into your décor.",
         "p2": "Each piece is built to meet a specific need while maintaining a refined aesthetic."
       },
@@ -492,7 +457,7 @@
         "title": "Architectural Integration",
         "imageLabel": "Architectural Integration",
         "p1": "Built-in furniture adapts to the architectural constraints of your space.",
-        "p2": "We ensure every element harmonizes with existing volumes and materials."
+        "p2": "Within a comprehensive residential project, this continuity can extend into bathrooms, with vanities coordinated with the overall design. These elements form part of the complete cabinetmaking scope."
       },
       "craftsmanship": {
         "title": "Custom fabrication",
@@ -590,7 +555,7 @@
       "addressValue": "5804 Boulevard Labelle, Val-Morin, QC J0T 2R0",
       "phone": "Phone",
       "phoneValue": "(819) 322-1041",
-      "phoneResurfacingValue": "(819) 507-1041 — Refacing",
+      "phoneResurfacingValue": "819 322-1041, option 2 — Refacing",
       "email": "Email",
       "emailValue": "info@lafabric.ca",
       "hours": "Business hours",
@@ -602,8 +567,7 @@
     "areaServed": "Laurentians",
     "knowsAbout": [
       "Cabinet refacing",
-      "Kitchen renovation",
-      "Bathrooms",
+      "Custom kitchens",
       "Built-in furniture",
       "Custom woodworking"
     ]

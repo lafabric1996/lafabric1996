@@ -2,15 +2,15 @@
   "metadata": {
     "siteName": "La Fab'ric 1996",
     "defaultTitle": "Ébénisterie dans les Laurentides | La Fab’ric 1996",
-    "defaultDescription": "Ébénisterie sur mesure à Val-Morin, dans les Laurentides : armoires de cuisine, vanités, mobilier intégré et resurfaçage. Découvrez La Fab’ric depuis 1996.",
+    "defaultDescription": "Ébénisterie architecturale à Val-Morin : cuisines sur mesure et mobilier intégré pour des projets résidentiels d’envergure. Expertise en resurfaçage d’armoires.",
     "titleSuffix": "Ébénisterie sur mesure",
     "home": {
       "title": "Ébénisterie dans les Laurentides",
-      "description": "Ébénisterie sur mesure à Val-Morin, dans les Laurentides : armoires de cuisine, vanités, mobilier intégré et resurfaçage. Découvrez La Fab’ric depuis 1996."
+      "description": "Ébénisterie architecturale à Val-Morin : cuisines sur mesure et mobilier intégré pour des projets résidentiels d’envergure. Expertise en resurfaçage d’armoires."
     },
     "realisations": {
       "title": "Réalisations en ébénisterie sur mesure",
-      "description": "Découvrez nos cuisines, vanités et meubles intégrés sur mesure, réalisés avec des architectes et designers. Explorez les projets de La Fab’ric en photos.",
+      "description": "Découvrez nos projets résidentiels d’envergure : cuisines et mobilier intégré sur mesure, réalisés avec des architectes et designers.",
       "projectDescription": "{project} : découvrez cette réalisation de La Fab’ric 1996 en photos et explorez notre savoir-faire en ébénisterie sur mesure."
     },
     "resurfacage": {
@@ -21,17 +21,13 @@
       "title": "Armoires de cuisine sur mesure à Val-Morin",
       "description": "Des armoires de cuisine conçues et fabriquées sur mesure dans notre atelier de Val-Morin. Plans, matériaux, rangement et installation avec La Fab’ric."
     },
-    "salleDeBain": {
-      "title": "Vanités et mobilier de salle de bain",
-      "description": "Vanités, meubles-lavabos et rangements de salle de bain sur mesure. La Fab’ric conçoit et fabrique votre mobilier dans son atelier des Laurentides."
-    },
     "mobilierIntegre": {
       "title": "Mobilier intégré sur mesure",
       "description": "Bibliothèques, bureaux et rangements intégrés adaptés à votre espace. Découvrez l’ébénisterie sur mesure de La Fab’ric, à Val-Morin dans les Laurentides."
     },
     "services": {
       "title": "Ébénisterie et resurfaçage",
-      "description": "Cuisines sur mesure, vanités, mobilier intégré et resurfaçage d’armoires. Une équipe établie dans les Laurentides, à l’écoute de votre projet."
+      "description": "Cuisines sur mesure, ébénisterie architecturale, mobilier intégré et resurfaçage d’armoires. Une équipe établie dans les Laurentides."
     },
     "aPropos": {
       "title": "Notre atelier à Val-Morin depuis 1996",
@@ -39,7 +35,7 @@
     },
     "contact": {
       "title": "Contact",
-      "description": "Contactez La Fab'ric 1996 pour discuter de votre projet de cuisine, salle de bain, mobilier intégré ou ébénisterie sur mesure."
+      "description": "Parlez-nous de votre projet d’ébénisterie résidentielle d’envergure ou de resurfaçage d’armoires."
     },
     "presse": {
       "title": "Presse et reconnaissances",
@@ -90,7 +86,7 @@
     "hero": {
       "eyebrow": "Ébénisterie et resurfaçage · Val-Morin, Laurentides",
       "title": "Fabriqué dans notre atelier depuis 1996",
-      "subtitle": "Cuisines, salles de bain et mobilier intégré sur mesure, fabriqués dans notre atelier. Notre expertise en resurfaçage d’armoires vous permet aussi de transformer votre cuisine sans tout remplacer.",
+      "subtitle": "Cuisines sur mesure et mobilier intégré pour des projets résidentiels d’envergure, fabriqués dans notre atelier. Notre expertise en resurfaçage d’armoires vous permet aussi de transformer votre cuisine sans tout remplacer.",
       "primaryCta": "Obtenir une soumission",
       "secondaryCta": "Voir nos réalisations",
       "imageAlt": "Cuisine en chêne sur mesure — Projet Bergevin, Dany Courchesne architecte"
@@ -110,7 +106,7 @@
       "description": "Deux façons de travailler votre cuisine, selon votre projet et votre budget.",
       "custom": {
         "title": "Ébénisterie sur mesure",
-        "description": "Cuisines, salles de bain, mobilier intégré et ébénisterie architecturale, dessinés et fabriqués pour votre espace.",
+        "description": "Cuisines et mobilier intégré conçus ensemble pour des projets résidentiels d’envergure, en collaboration avec votre architecte ou designer.",
         "cta": "Voir les réalisations",
         "imageAlt": "Cuisine sur mesure — L'Albatros, Mu Architecture"
       },
@@ -188,11 +184,6 @@
         "description": "Des armoires, rangements et détails conçus pour votre espace et fabriqués dans notre atelier.",
         "cta": "Découvrir nos cuisines"
       },
-      "bathroom": {
-        "title": "Vanités et salles de bain",
-        "description": "Des meubles-lavabos et rangements sur mesure, adaptés aux dimensions de votre salle de bain.",
-        "cta": "Découvrir les vanités"
-      },
       "builtIn": {
         "title": "Mobilier intégré",
         "description": "Bibliothèques, bureaux et rangements pensés pour s’intégrer à votre architecture.",
@@ -200,7 +191,7 @@
       },
       "customWoodwork": {
         "title": "Ébénisterie sur mesure",
-        "description": "Cuisines, salles de bain et mobilier intégré : nous fabriquons des aménagements sur mesure, adaptés à votre espace, à vos besoins et à votre style.",
+        "description": "Une ébénisterie architecturale cohérente à l’échelle de la résidence : cuisine, habillages et mobilier intégré conçus comme un ensemble.",
         "cta": "Voir nos réalisations"
       },
       "residential": {
@@ -222,7 +213,7 @@
   "aboutPreview": {
     "eyebrow": "À propos",
     "title": "Plus de 30 ans d'expertise québécoise",
-    "paragraph1": "La Fab'ric 1996 est une entreprise québécoise reconnue pour la qualité de son travail en resurfaçage d'armoires, rénovation de cuisines, salles de bain, mobilier intégré et ébénisterie sur mesure.",
+    "paragraph1": "La Fab'ric 1996 réalise des projets d’ébénisterie résidentielle d’envergure : cuisines sur mesure, mobilier intégré et détails architecturaux. Son équipe de resurfaçage transforme également les armoires existantes.",
     "paragraph2": "Chaque projet est abordé avec rigueur, attention aux détails et un souci constant de la finition haut de gamme.",
     "cta": "Découvrir notre histoire",
     "workshopPhoto": "Photo de l'atelier à venir"
@@ -241,7 +232,7 @@
   "realisations": {
     "eyebrow": "Portfolio",
     "title": "Nos réalisations",
-    "description": "Découvrez une sélection de projets résidentiels réalisés par La Fab'ric 1996 en cuisine, salle de bain et mobilier intégré.",
+    "description": "Découvrez une sélection de projets résidentiels d’envergure, où cuisine et mobilier intégré forment un ensemble cohérent.",
     "backToGallery": "Retour aux réalisations",
     "emptyFilter": "Aucun projet dans cette catégorie pour le moment.",
     "categories": {
@@ -411,7 +402,8 @@
         }
       ],
       "kitchenLink": "Découvrir nos cuisines sur mesure",
-      "phone": "Parler à notre équipe de resurfaçage"
+      "phone": "Parler à notre équipe de resurfaçage",
+      "phoneNumber": "819 322-1041, poste 2"
     }
   },
   "cuisinePage": {
@@ -429,7 +421,7 @@
       },
       "renovation": {
         "title": "Une cuisine fabriquée pour vous",
-        "imageLabel": "Une cuisine fabriquée pour vous",
+        "imageLabel": "Cuisine en bois sur mesure — Maison Aubé, YH2",
         "p1": "Nous concevons et fabriquons vos nouvelles armoires selon vos dimensions, vos besoins de rangement et vos habitudes.",
         "p2": "Chaque cuisine est pensée pour s'harmoniser avec votre mode de vie et l'architecture de votre espace."
       },
@@ -448,43 +440,16 @@
       "cta": "Discuter de ma nouvelle cuisine"
     }
   },
-  "salleDeBainPage": {
-    "eyebrow": "Salle de bain",
-    "title": "Vanités et rangements sur mesure",
-    "description": "Des meubles-lavabos et des rangements conçus pour votre salle de bain, avec une attention particulière aux dimensions et à l’usage quotidien.",
-    "ctaTitle": "Un projet de vanité sur mesure ?",
-    "ctaDescription": "Contactez-nous pour discuter de votre projet et obtenir une soumission adaptée.",
-    "blocks": {
-      "design": {
-        "title": "Conception sur mesure",
-        "imageLabel": "Conception sur mesure",
-        "p1": "Chaque salle de bain est planifiée en fonction de vos besoins, de l'espace disponible et de votre style.",
-        "p2": "L'agencement est optimisé pour allier confort d'utilisation et esthétique haut de gamme."
-      },
-      "vanity": {
-        "title": "Vanités et rangement",
-        "imageLabel": "Vanités et rangement",
-        "p1": "Nous concevons des vanités et solutions de rangement intégrées pour maximiser chaque centimètre.",
-        "p2": "Le mobilier sur mesure permet d'obtenir un rendu cohérent et durable."
-      },
-      "materials": {
-        "title": "Finitions et matériaux",
-        "imageLabel": "Finitions et matériaux",
-        "p1": "Le choix des matériaux et des finitions est essentiel pour un résultat élégant et résistant.",
-        "p2": "Nous choisissons avec vous les surfaces, les teintes et la quincaillerie en fonction de l’utilisation de votre mobilier."
-      }
-    }
-  },
   "mobilierIntegrePage": {
     "eyebrow": "Mobilier intégré",
     "title": "Des solutions sur mesure pour chaque espace",
-    "description": "Optimisez votre intérieur avec du mobilier intégré conçu et fabriqué selon vos dimensions exactes.",
+    "description": "Du mobilier intégré conçu à l’échelle de votre résidence, en harmonie avec son architecture et votre projet d’ensemble.",
     "ctaTitle": "Besoin de mobilier sur mesure ?",
     "ctaDescription": "Expliquez-nous votre projet et nous vous proposerons une solution adaptée à votre espace.",
     "blocks": {
       "storage": {
         "title": "Rangements intelligents",
-        "imageLabel": "Rangements intelligents",
+        "imageLabel": "Mobilier de rangement noir sur mur de bois — L’Albatros, MU Architecture",
         "p1": "Placards, bibliothèques, bureaux et rangements sur mesure s'intègrent harmonieusement à votre décor.",
         "p2": "Chaque pièce est fabriquée pour répondre à un besoin précis tout en conservant une esthétique raffinée."
       },
@@ -492,7 +457,7 @@
         "title": "Intégration architecturale",
         "imageLabel": "Intégration architecturale",
         "p1": "Le mobilier intégré s'adapte aux contraintes architecturales de votre espace.",
-        "p2": "Nous veillons à ce que chaque élément s'harmonise avec les volumes et les matériaux existants."
+        "p2": "Dans un projet résidentiel global, cette continuité peut se prolonger jusque dans les salles de bain, avec des vanités coordonnées à l’ensemble. Ces éléments font partie du mandat d’ébénisterie complet."
       },
       "craftsmanship": {
         "title": "Fabrication sur mesure",
@@ -590,7 +555,7 @@
       "addressValue": "5804 Boulevard Labelle, Val-Morin, QC J0T 2R0",
       "phone": "Téléphone",
       "phoneValue": "(819) 322-1041",
-      "phoneResurfacingValue": "(819) 507-1041 — Resurfaçage",
+      "phoneResurfacingValue": "819 322-1041, option 2 — Resurfaçage",
       "email": "Courriel",
       "emailValue": "info@lafabric.ca",
       "hours": "Heures d'ouverture",
@@ -602,8 +567,7 @@
     "areaServed": "Laurentides",
     "knowsAbout": [
       "Resurfaçage d'armoires de cuisine",
-      "Rénovation de cuisines",
-      "Salles de bain",
+      "Cuisines sur mesure",
       "Mobilier intégré",
       "Ébénisterie sur mesure"
     ]

@@ -6,6 +6,10 @@ const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 const nextConfig: NextConfig = {
   async redirects() {
     const legacy = [
+      { source: "/salle-de-bain", destination: "/mobilier-integre", permanent: true },
+      { source: "/fr/salle-de-bain", destination: "/mobilier-integre", permanent: true },
+      { source: "/en/bathroom", destination: "/en/built-in-furniture", permanent: true },
+      { source: "/en/salle-de-bain", destination: "/en/built-in-furniture", permanent: true },
       { source: "/contact", destination: "/#contact", permanent: true },
       { source: "/fr/contact", destination: "/#contact", permanent: true },
       { source: "/en/contact", destination: "/en#contact", permanent: true },

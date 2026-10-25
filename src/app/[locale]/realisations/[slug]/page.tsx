@@ -114,7 +114,6 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
         <div className="mt-6 flex flex-wrap gap-4">
           <Button href="/cuisine" variant="outline">{tNav("cuisine")}</Button>
           <Button href="/mobilier-integre" variant="outline">{tNav("mobilierIntegre")}</Button>
-          <Button href="/salle-de-bain" variant="outline">{tNav("salleDeBain")}</Button>
         </div>
       </Section>
       <CTABanner primaryLabel={t("projectCta")} primaryHref={{ pathname: "/", query: { service: "ebenisterie", projet: project.slug }, hash: "contact" }} />

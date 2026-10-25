@@ -10,7 +10,6 @@ const staticPathnames = [
   "/realisations",
   "/resurfacage",
   "/cuisine",
-  "/salle-de-bain",
   "/mobilier-integre",
   "/services",
   "/presse",

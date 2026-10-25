@@ -46,7 +46,7 @@ export function AnalyticsConsent() {
     const onClick = (event: MouseEvent) => {
       const anchor = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href^="tel:"]') : null;
       if (!anchor) return;
-      trackContactEvent("contact_phone_click", anchor.href.includes("5071041") ? "resurfacage" : "ebenisterie");
+      trackContactEvent("contact_phone_click", anchor.dataset.service === "resurfacage" ? "resurfacage" : "ebenisterie");
     };
     document.addEventListener("click", onClick);
     return () => document.removeEventListener("click", onClick);

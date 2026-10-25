@@ -8,7 +8,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
 
-const BLOCK_IMAGES = ["/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.webp", "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.webp", "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-principale-revisee.webp"];
+const BLOCK_IMAGES = ["/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.webp", "/realisations/yh2-maison-aube/selection-20261023/photo-722.webp", "/realisations/ann-prud-homme-designer-projet-la-lumineuse/selection-20261020/photo-principale-revisee.webp"];
 
 const BLOCK_KEYS = ["resurfacing", "renovation", "finishes"] as const;
 

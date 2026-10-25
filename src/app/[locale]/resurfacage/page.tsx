@@ -167,7 +167,7 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
         </div>
         <div className="mt-10 flex flex-wrap items-center gap-6">
           <Button href="/cuisine" variant="outline">{t("guide.kitchenLink")}</Button>
-          <a className="underline underline-offset-4" href="tel:+18195071041">{t("guide.phone")} : 819 507-1041</a>
+          <a className="underline underline-offset-4" href="tel:+18193221041;ext=2" data-service="resurfacage">{t("guide.phone")} : {t("guide.phoneNumber")}</a>
         </div>
       </Section>
       {/* 2. Transformations */}

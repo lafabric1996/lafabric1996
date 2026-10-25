@@ -55,7 +55,7 @@ export async function ContactSection() {
                 </p>
                 <p className="mt-1 text-sm text-muted">
                   <a
-                    href="tel:+18195071041"
+                    href="tel:+18193221041;ext=2" data-service="resurfacage"
                     className="transition-colors hover:text-foreground"
                   >
                     {t("info.phoneResurfacingValue")}
