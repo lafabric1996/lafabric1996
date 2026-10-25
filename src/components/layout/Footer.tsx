@@ -9,6 +9,7 @@ export function Footer() {
   const tFooter = useTranslations("footer");
   const tMeta = useTranslations("metadata");
   const tContact = useTranslations("contactPage");
+  const tTerritory = useTranslations("territory");
   const currentYear = new Date().getFullYear();
 
   return (
@@ -91,6 +92,7 @@ export function Footer() {
             </h3>
             <div className="mt-6 space-y-2 text-sm leading-relaxed text-white/60">
               <p>{tContact("info.addressValue")}</p>
+              <p><a className="hover:text-white" href="tel:+18195071041">{tContact("info.phoneResurfacingValue")}</a></p>
               <p>
                 <a
                   href="tel:+18193221041"
@@ -117,6 +119,10 @@ export function Footer() {
           </div>
         </div>
 
+        <div className="mt-12 border-t border-white/10 pt-8 text-sm text-white/70">
+          <p>{tTerritory("woodwork")}</p>
+          <p className="mt-2">{tTerritory("refacing")}</p>
+        </div>
         <div className="mt-16 flex flex-col gap-4 border-t border-white/10 pt-8 md:flex-row md:items-center md:justify-between">
           <p className="text-xs text-white/40">
             © {currentYear} {tMeta("siteName")}. {tFooter("rights")}

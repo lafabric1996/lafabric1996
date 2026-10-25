@@ -175,21 +175,21 @@ export function Header() {
         inert={!isOpen}
         onClick={(event) => { if ((event.target as HTMLElement).closest("a")) setIsOpen(false); }}
         className={cn(
-          "fixed inset-0 z-[9999] bg-[#FAF8F5] transition-opacity duration-500 xl:hidden",
+          "fixed inset-0 z-[9999] overflow-y-auto bg-[#FAF8F5] transition-opacity duration-500 xl:hidden",
           isOpen
             ? "pointer-events-auto opacity-100"
             : "pointer-events-none opacity-0",
         )}
         aria-hidden={!isOpen}
       >
-        <Container className="flex h-full flex-col justify-center pb-24 pt-28">
-          <nav className="flex flex-col gap-6" aria-label={t("mobile")}>
+        <Container className="flex min-h-full flex-col justify-center pb-12 pt-28">
+          <nav className="flex flex-col gap-4" aria-label={t("mobile")}>
             {headerNavigation.map((item, index) => (
               <Link
                 key={item.href}
                 href={item.href}
                 className={cn(
-                  "font-display text-4xl tracking-tight transition-colors hover:text-wood",
+                  "font-display text-3xl tracking-tight transition-colors hover:text-wood",
                   pathname === item.href ? "text-wood" : "text-foreground",
                 )}
                 style={{ animationDelay: `${index * 50}ms` }}

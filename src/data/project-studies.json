@@ -1,0 +1,86 @@
+{
+  "mu-architecture-l-albatros": {
+    "fr": {
+      "intro": "L’Albatros, conçu par Mu Architecture à La Conception : une ébénisterie en chêne blanc qui se prolonge de la cuisine aux espaces de rangement.",
+      "sections": [
+        {
+          "title": "Une ébénisterie qui traverse la maison",
+          "text": "La cuisine et son îlot courbe, le cellier vitré, la vanité suspendue, la tête de lit et le rangement du corridor composent cet ensemble sur mesure."
+        },
+        {
+          "title": "Les détails de fabrication",
+          "text": "Les portes sans poignée, les prises de doigt usinées et la continuité du veinage d’un caisson à l’autre donnent son unité au mobilier."
+        }
+      ]
+    },
+    "en": {
+      "intro": "L’Albatros, designed by Mu Architecture in La Conception: white oak cabinetry extending from the kitchen to the storage spaces.",
+      "sections": [
+        {
+          "title": "Cabinetry throughout the home",
+          "text": "The kitchen and curved island, glazed wine cellar, floating vanity, headboard and hallway storage form this custom collection."
+        },
+        {
+          "title": "Fabrication details",
+          "text": "Handleless doors, machined finger pulls and continuous grain from one cabinet to the next bring the cabinetry together."
+        }
+      ]
+    }
+  },
+  "yh2-maison-aube": {
+    "fr": {
+      "intro": "Maison Aubé, avec yh2 à Saint-Eustache : des aménagements sur mesure en chêne blanc au contact des murs de pierre d’origine.",
+      "sections": [
+        {
+          "title": "Des volumes adaptés à la maison",
+          "text": "Le projet comprend notamment du rangement pleine hauteur, un îlot, une vanité et une tête de lit cannelée qui sert de cloison."
+        },
+        {
+          "title": "Une fabrication à partir des mesures sur place",
+          "text": "Les particularités de cette maison ancienne ont demandé des relevés sur place avant la fabrication des pièces d’ébénisterie."
+        }
+      ]
+    },
+    "en": {
+      "intro": "Maison Aubé, with yh2 in Saint-Eustache: custom white oak furnishings alongside the original stone walls.",
+      "sections": [
+        {
+          "title": "Cabinetry fitted to the home",
+          "text": "The project includes full-height storage, an island, a vanity and a fluted headboard that also acts as a partition."
+        },
+        {
+          "title": "Built from on-site measurements",
+          "text": "The characteristics of this historic house required on-site measurements before the cabinetry was fabricated."
+        }
+      ]
+    }
+  },
+  "yh2-la-luge": {
+    "fr": {
+      "intro": "La Luge, conçue par yh2 à Saint-Lin-Laurentides : du mobilier intégré pensé dans la continuité de l’architecture.",
+      "sections": [
+        {
+          "title": "Le rangement dans un espace compact",
+          "text": "Les blocs de rangement, l’îlot et la banquette participent à l’organisation de cette résidence secondaire de 120 m²."
+        },
+        {
+          "title": "La continuité du bois",
+          "text": "Le mobilier en bois pâle se fond dans le revêtement des murs et du plafond, avec des rangements qui montent à pleine hauteur."
+        }
+      ]
+    },
+    "en": {
+      "intro": "La Luge, designed by yh2 in Saint-Lin-Laurentides: built-in furniture that follows the architecture.",
+      "sections": [
+        {
+          "title": "Storage in a compact space",
+          "text": "Storage units, the island and the bench help organize this 120 m² secondary residence."
+        },
+        {
+          "title": "Continuity of the wood",
+          "text": "Pale wood furniture blends with the wall and ceiling finishes, with storage extending to full height."
+        }
+      ]
+    }
+  }
+}

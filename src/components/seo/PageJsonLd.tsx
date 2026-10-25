@@ -1,3 +1,4 @@
+import { serviceAreas } from "@/lib/service-areas";
 import { getTranslations } from "next-intl/server";
 import { getPathname } from "@/i18n/navigation";
 import { asLocale } from "@/lib/i18n-server";
@@ -77,7 +78,7 @@ export async function ServiceJsonLd({
   description: string;
 }) {
   const resolved = asLocale(locale);
-  const tJson = await getTranslations({ locale: resolved, namespace: "jsonLd" });
+  const refacing = pathname === "/resurfacage";
 
   return (
     <JsonLdScript
@@ -87,11 +88,8 @@ export async function ServiceJsonLd({
         serviceType,
         description,
         url: absoluteUrl(resolved, pathname),
-        provider: { "@id": BUSINESS_ID },
-        areaServed: {
-          "@type": "AdministrativeArea",
-          name: tJson("areaServed"),
-        },
+        provider: { "@id": refacing ? `${SITE_URL}/#refacing-business` : BUSINESS_ID },
+        areaServed: serviceAreas(refacing, resolved),
       }}
     />
   );

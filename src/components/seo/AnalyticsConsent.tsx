@@ -1,5 +1,6 @@
 "use client";
 
+import { trackContactEvent } from "@/lib/analytics";
 import Script from "next/script";
 import { useEffect, useSyncExternalStore } from "react";
 import { useTranslations } from "next-intl";
@@ -41,6 +42,15 @@ export function AnalyticsConsent() {
       w.gtag?.("consent", "update", { analytics_storage: "granted", ad_storage: "denied", ad_user_data: "denied", ad_personalization: "denied" });
     }
   }, [consent]);
+  useEffect(() => {
+    const onClick = (event: MouseEvent) => {
+      const anchor = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href^="tel:"]') : null;
+      if (!anchor) return;
+      trackContactEvent("contact_phone_click", anchor.href.includes("5071041") ? "resurfacage" : "ebenisterie");
+    };
+    document.addEventListener("click", onClick);
+    return () => document.removeEventListener("click", onClick);
+  }, []);
   return <>
     {consent === "accepted" ? <Script id="lafabric-analytics" src={`https://www.googletagmanager.com/gtag/js?id=${ID}`} strategy="afterInteractive" onReady={() => {
       // Keep staging visits out of the existing production property.
