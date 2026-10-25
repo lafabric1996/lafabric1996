@@ -8,6 +8,8 @@ type BeforeAfterSliderProps = {
   beforeSrc: string;
   afterSrc: string;
   beforeLabel: string;
+  beforeAlt?: string;
+  afterAlt?: string;
   afterLabel: string;
   ariaLabel: string;
   className?: string;
@@ -23,6 +25,8 @@ export function BeforeAfterSlider({
   beforeSrc,
   afterSrc,
   beforeLabel,
+  beforeAlt,
+  afterAlt,
   afterLabel,
   ariaLabel,
   className,
@@ -120,7 +124,7 @@ export function BeforeAfterSlider({
     >
       <Image
         src={afterSrc}
-        alt={afterLabel}
+        alt={afterAlt ?? afterLabel}
         fill
         sizes="(max-width: 768px) 100vw, 80vw"
         className="object-cover"
@@ -133,7 +137,7 @@ export function BeforeAfterSlider({
       >
         <Image
           src={beforeSrc}
-          alt={beforeLabel}
+          alt={beforeAlt ?? beforeLabel}
           fill
           sizes="(max-width: 768px) 100vw, 80vw"
           className="object-cover"

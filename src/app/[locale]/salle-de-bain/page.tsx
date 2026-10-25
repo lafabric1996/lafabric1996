@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { CTABanner } from "@/components/sections/CTABanner";
 import { ServicePageLayout } from "@/components/sections/ServicePageLayout";
+import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/seo/PageJsonLd";
 import { createPageMetadata } from "@/lib/metadata";
 import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
@@ -25,9 +26,21 @@ export default async function SalleDeBainPage({ params }: LocalePageProps) {
   const { locale } = await params;
   setRequestLocale(asLocale(locale));
   const t = await getTranslations("salleDeBainPage");
+  const tNav = await getTranslations("nav");
+  const tSeo = await getTranslations("metadata.salleDeBain");
 
   return (
     <>
+      <BreadcrumbJsonLd
+        locale={locale}
+        trail={[{ name: tNav("salleDeBain"), href: "/salle-de-bain" }]}
+      />
+      <ServiceJsonLd
+        locale={locale}
+        pathname="/salle-de-bain"
+        serviceType={tSeo("title")}
+        description={tSeo("description")}
+      />
       <ServicePageLayout
         heroSrc="/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-11.webp"
         eyebrow={t("eyebrow")}

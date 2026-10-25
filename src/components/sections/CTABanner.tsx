@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
-import type { StaticPathname } from "@/i18n/routing";
+import type { ComponentProps } from "react";
+import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui/Button";
 import { Section } from "@/components/ui/Section";
 
@@ -7,7 +8,7 @@ type CTABannerProps = {
   title?: string;
   description?: string;
   primaryLabel?: string;
-  primaryHref?: StaticPathname;
+  primaryHref?: ComponentProps<typeof Link>["href"];
 };
 
 export function CTABanner({

@@ -8,6 +8,7 @@ export type NavLabelKey =
   | "salleDeBain"
   | "mobilierIntegre"
   | "services"
+  | "presse"
   | "aPropos"
   | "contact";
 
@@ -31,20 +32,23 @@ export const mainNavigation: NavItem[] = [
 export const footerNavigation: NavItem[] = [
   { labelKey: "realisations", href: "/realisations" },
   { labelKey: "services", href: "/services" },
+  { labelKey: "presse", href: "/presse" },
   { labelKey: "aPropos", href: "/a-propos" },
   { labelKey: "contact", href: "/contact" },
 ];
 
 export const serviceNavigation: NavItem[] = [
+  { labelKey: "resurfacage", href: "/resurfacage" },
   { labelKey: "cuisine", href: "/cuisine" },
   { labelKey: "salleDeBain", href: "/salle-de-bain" },
   { labelKey: "mobilierIntegre", href: "/mobilier-integre" },
 ];
 
 export const serviceGridItems = [
-  { key: "customWoodwork", href: "/realisations" as const },
+  { key: "kitchen", href: "/cuisine" as const },
+  { key: "bathroom", href: "/salle-de-bain" as const },
+  { key: "builtIn", href: "/mobilier-integre" as const },
   { key: "resurfacing", href: "/resurfacage" as const },
-  { key: "projectSupport", href: "/contact" as const },
 ] as const;
 
 export const portfolioCategoryKeys = [

@@ -14,11 +14,11 @@
       "projectDescription": "{project}: explore this La Fab’ric 1996 project in photos and discover our custom cabinetmaking work."
     },
     "resurfacage": {
-      "title": "Cabinet Refacing in the Laurentians",
-      "description": "Transform kitchen or bathroom cabinets while keeping their existing structure. Discover cabinet refacing by La Fab’ric in the Laurentians."
+      "title": "Kitchen Cabinet Refacing",
+      "description": "Transform your kitchen while keeping suitable cabinet boxes. Explore our cabinet refacing expertise and request your estimate."
     },
     "cuisine": {
-      "title": "Custom Kitchen Cabinets",
+      "title": "Custom Kitchen Cabinets in Val-Morin",
       "description": "Kitchen cabinets designed and built to measure in our Val-Morin workshop. Planning, materials, storage and installation with La Fab’ric."
     },
     "salleDeBain": {
@@ -31,7 +31,7 @@
     },
     "services": {
       "title": "Cabinetmaking & Refacing",
-      "description": "Custom cabinetmaking and cabinet refacing: La Fab’ric supports your project from material selection to installation, in the Laurentians and across Quebec."
+      "description": "Custom kitchens, vanities, built-in furniture and cabinet refacing. A team based in the Laurentians, ready to discuss your project."
     },
     "aPropos": {
       "title": "Our Val-Morin Workshop Since 1996",
@@ -40,6 +40,10 @@
     "contact": {
       "title": "Contact",
       "description": "Contact La Fab'ric 1996 to discuss your kitchen, bathroom, built-in furniture or custom woodworking project."
+    },
+    "presse": {
+      "title": "Press & Recognition",
+      "description": "The projects we build cabinetry for are published and award-winning. Press coverage for La Fab'ric 1996, Val-Morin, Quebec."
     }
   },
   "nav": {
@@ -56,7 +60,8 @@
     "mobile": "Mobile navigation",
     "footer": "Navigation",
     "expertises": "Expertise",
-    "contactUs": "Contact us →"
+    "contactUs": "Contact us →",
+    "presse": "Press"
   },
   "header": {
     "homeAriaLabel": "La Fab'ric 1996 — Home",
@@ -179,16 +184,19 @@
         "cta": "Explore cabinet refacing"
       },
       "kitchen": {
-        "title": "Kitchen Renovation",
-        "description": "Design and build custom kitchens tailored to your daily life and space."
+        "title": "Custom kitchens",
+        "description": "Cabinets, storage and details designed for your space and built in our workshop.",
+        "cta": "Explore our kitchens"
       },
       "bathroom": {
-        "title": "Bathrooms",
-        "description": "Functional, refined layouts from initial planning to final finishing."
+        "title": "Vanities and bathrooms",
+        "description": "Custom vanities and storage made to fit your bathroom.",
+        "cta": "Explore our vanities"
       },
       "builtIn": {
-        "title": "Built-in Furniture",
-        "description": "Custom solutions to optimize every corner of your interior."
+        "title": "Built-in furniture",
+        "description": "Bookcases, desks and storage designed to fit your architecture.",
+        "cta": "Explore built-in furniture"
       },
       "customWoodwork": {
         "title": "Custom Cabinetry",
@@ -252,12 +260,14 @@
       "previous": "Previous photo",
       "next": "Next photo",
       "counter": "{current} / {total}"
-    }
+    },
+    "projectCta": "Discuss a similar project",
+    "relatedServices": "Services for your project"
   },
   "servicesPage": {
     "eyebrow": "Services",
-    "title": "Complete support, from concept to finishing",
-    "description": "La Fab'ric 1996 offers a full range of services for your premium residential projects in Quebec.",
+    "title": "Our cabinetmaking and refacing services",
+    "description": "Custom cabinetmaking and cabinet refacing: two specialties for your project, from design to installation.",
     "heroPhoto": "Cabinetry consultation in the showroom with plans and material samples",
     "processEyebrow": "Process",
     "processTitle": "Our Working Method",
@@ -287,10 +297,10 @@
       "afterLabel": "After",
       "sliderHint": "Drag the slider to reveal the transformation.",
       "sliderAriaLabel": "Before and after comparison: drag to compare",
-      "title": "Give your kitchen a whole new life.",
-      "description": "Transform the look of your kitchen while keeping its existing structure. A lasting, elegant and affordable solution, without a full renovation.",
+      "title": "Kitchen cabinet refacing",
+      "description": "Transform your kitchen while keeping its existing structure. For five years, La Fab’ric Resurfaçage inc. has helped clients give their cabinets a new life.",
       "primaryCta": "See the transformations",
-      "secondaryCta": "Request a quote"
+      "secondaryCta": "Request a kitchen assessment"
     },
     "transformations": {
       "eyebrow": "Our transformations",
@@ -309,7 +319,7 @@
       "cards": {
         "economical": {
           "title": "More affordable",
-          "description": "Up to twice as affordable as a full renovation."
+          "description": "Up to half the cost of a new kitchen."
         },
         "durable": {
           "title": "Lasting quality",
@@ -369,21 +379,53 @@
     "finalCta": {
       "title": "Like this transformation?",
       "description": "We can do the same with your kitchen.",
-      "cta": "Get a free estimate"
+      "cta": "Request a free estimate"
+    },
+    "guide": {
+      "title": "Is refacing right for your kitchen?",
+      "intro": "Also known as cabinet refacing, this approach changes the appearance of your kitchen without replacing every cabinet. Here is what to consider.",
+      "items": [
+        {
+          "title": "Cabinet boxes worth keeping",
+          "text": "We assess the condition of the cabinet boxes and the existing layout. If their structure suits the project, they can form the basis of the transformation."
+        },
+        {
+          "title": "Doors, fronts and details",
+          "text": "We work with you to select new doors, drawer fronts, finishes and hardware. The assessment identifies which elements to keep and which to replace."
+        },
+        {
+          "title": "What determines the price",
+          "text": "The number of doors and drawers, materials, hardware and requested changes affect the cost. Assessing your kitchen allows us to prepare an estimate for your project."
+        },
+        {
+          "title": "Refacing or a new kitchen?",
+          "text": "Do you like your current kitchen layout? Refacing may be an option. If you want to change the layout completely or the cabinet boxes are damaged, a new kitchen may be more suitable."
+        },
+        {
+          "title": "Wood, melamine or thermofoil",
+          "text": "Tell us your cabinet material and its condition when you contact us. We assess the possibilities rather than recommending the same treatment for every kitchen."
+        },
+        {
+          "title": "Let’s discuss your project",
+          "text": "Based in the Laurentians, we take on projects according to their scope and location. Tell us about yours."
+        }
+      ],
+      "kitchenLink": "Explore our custom kitchens",
+      "phone": "Speak with our refacing team"
     }
   },
   "cuisinePage": {
     "eyebrow": "Kitchen",
-    "title": "Custom kitchens and refacing",
-    "description": "Revitalize your kitchen or design an entirely new space, with a constant focus on quality and finishing.",
+    "title": "Custom kitchen cabinets",
+    "description": "A kitchen designed for your space and the way you use it, built in our Val-Morin workshop.",
     "ctaTitle": "Have a kitchen project in mind?",
     "ctaDescription": "Tell us about your space and expectations. We will guide you to the best solution.",
     "blocks": {
       "resurfacing": {
-        "title": "Cabinet Refacing",
-        "imageLabel": "Cabinet Refacing",
-        "p1": "Refacing transforms the appearance of your existing cabinets without replacing them entirely.",
-        "p2": "This solution offers a durable, elegant result while preserving your current kitchen structure."
+        "title": "Layout and storage",
+        "imageLabel": "Custom kitchen — Circle project",
+        "p1": "A custom kitchen starts with your needs: preparing meals, organizing accessories and moving comfortably.",
+        "p2": "We design cabinets and storage to fit your space and your daily routines."
       },
       "renovation": {
         "title": "A kitchen built for you",
@@ -397,6 +439,13 @@
         "p1": "Materials, hardware and finishing details are carefully selected for a refined result.",
         "p2": "Wood species, finishes and hardware are chosen with you, based on your space and how you use it."
       }
+    },
+    "comparison": {
+      "title": "Would you rather keep your existing kitchen?",
+      "text": "If the cabinet boxes and layout suit your project, explore refacing to transform your kitchen without replacing everything.",
+      "link": "Explore cabinet refacing",
+      "projects": "See our projects",
+      "cta": "Discuss my new kitchen"
     }
   },
   "salleDeBainPage": {
@@ -487,8 +536,8 @@
   },
   "contactPage": {
     "eyebrow": "Contact",
-    "title": "Let's talk about your project",
-    "description": "Fill out the form below or use our contact details to reach us. We will respond as soon as possible.",
+    "title": "Tell us about your project",
+    "description": "Tell us your municipality and what you would like to keep or transform. We will explore the possibilities for your project with you.",
     "form": {
       "firstName": "First name",
       "firstNamePlaceholder": "Your first name",
@@ -508,8 +557,8 @@
         "woodworking": "Cabinetmaking"
       },
       "message": "Message",
-      "messagePlaceholder": "Describe your project...",
-      "submit": "Send message",
+      "messagePlaceholder": "Describe your kitchen or project, what you would like to keep and what you would like to change.",
+      "submit": "Send my project request",
       "submitting": "Sending...",
       "successMessage": "Thank you! Your message has been sent. We'll get back to you shortly.",
       "errors": {
@@ -518,7 +567,21 @@
         "serverError": "Something went wrong while sending. Please try again or reach us by phone.",
         "tooLong": "Please shorten your entries: the message is limited to 5,000 characters."
       },
-      "fallback": "You can also email or call us directly."
+      "fallback": "You can also email or call us directly.",
+      "municipality": "Project municipality",
+      "municipalityPlaceholder": "Municipality where your project is located",
+      "source": "How did you hear about us? (optional)",
+      "sources": {
+        "unknown": "Select an answer",
+        "google": "Google search",
+        "google_ads": "Google ad",
+        "referral": "Referral",
+        "social": "Social media",
+        "returning": "Returning customer",
+        "other": "Other"
+      },
+      "photosHint": "You can email photos to info@lafabric.ca with your name and municipality.",
+      "reference": "Your request reference"
     },
     "info": {
       "title": "Contact Information",
@@ -536,7 +599,7 @@
     }
   },
   "jsonLd": {
-    "areaServed": "Quebec",
+    "areaServed": "Laurentians",
     "knowsAbout": [
       "Cabinet refacing",
       "Kitchen renovation",
@@ -556,5 +619,22 @@
     "accept": "Accept",
     "decline": "Decline",
     "settings": "Privacy preferences"
+  },
+  "pressePage": {
+    "eyebrow": "Press",
+    "title": "Our work in the press",
+    "description": "We build the cabinetry for projects designed by architecture studios whose work is published in Canada, the United Kingdom, Japan and beyond. Here is where you will find them.",
+    "disclaimer": "The awards and articles below recognise the projects and the architecture studios that designed them. La Fab'ric 1996 built their cabinetry.",
+    "awardsTitle": "Recognition",
+    "awardName": "Award of Excellence in Architecture",
+    "pressTitle": "Press coverage",
+    "architectLabel": "Architect",
+    "projectLabel": "Project",
+    "viewProject": "View project",
+    "readArticle": "Read the article"
+  },
+  "territory": {
+    "title": "Tell us about your project",
+    "description": "Based in the Laurentians, we take on projects according to their scope and location. Tell us about yours."
   }
 }

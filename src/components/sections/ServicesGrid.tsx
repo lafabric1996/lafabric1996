@@ -15,7 +15,7 @@ export function ServicesGrid() {
         title={t("title")}
         description={t("description")}
       />
-      <div className="mt-16 grid gap-6 lg:grid-cols-3">
+      <div className="mt-16 grid gap-6 md:grid-cols-2">
         {serviceGridItems.map((service, index) => (
           <AnimatedReveal key={service.key} delay={index * 80}>
             <Link

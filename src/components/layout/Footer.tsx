@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import { footerNavigation } from "@/lib/navigation";
+import { footerNavigation, serviceNavigation } from "@/lib/navigation";
 import { Container } from "@/components/ui/Container";
 
 export function Footer() {
@@ -9,12 +9,13 @@ export function Footer() {
   const tFooter = useTranslations("footer");
   const tMeta = useTranslations("metadata");
   const tContact = useTranslations("contactPage");
+  const tTerritory = useTranslations("territory");
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="border-t border-border bg-foreground text-background">
       <Container className="py-16 lg:py-20">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-1">
             <Link
               href="/"
@@ -69,10 +70,29 @@ export function Footer() {
 
           <div>
             <h3 className="text-xs font-medium uppercase tracking-[0.2em] text-wood-light">
+              {tNav("expertises")}
+            </h3>
+            <ul className="mt-6 space-y-3">
+              {serviceNavigation.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="text-sm text-white/70 transition-colors hover:text-white"
+                  >
+                    {tNav(item.labelKey)}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="text-xs font-medium uppercase tracking-[0.2em] text-wood-light">
               {tFooter("coordinates")}
             </h3>
             <div className="mt-6 space-y-2 text-sm leading-relaxed text-white/60">
               <p>{tContact("info.addressValue")}</p>
+              <p><a className="hover:text-white" href="tel:+18195071041">{tContact("info.phoneResurfacingValue")}</a></p>
               <p>
                 <a
                   href="tel:+18193221041"
@@ -99,6 +119,9 @@ export function Footer() {
           </div>
         </div>
 
+        <div className="mt-12 border-t border-white/10 pt-8 text-sm text-white/70">
+          <p>{tTerritory("description")}</p>
+        </div>
         <div className="mt-16 flex flex-col gap-4 border-t border-white/10 pt-8 md:flex-row md:items-center md:justify-between">
           <p className="text-xs text-white/40">
             © {currentYear} {tMeta("siteName")}. {tFooter("rights")}

@@ -13,6 +13,7 @@ const staticPathnames = [
   "/salle-de-bain",
   "/mobilier-integre",
   "/services",
+  "/presse",
   "/a-propos",
 ] as const satisfies readonly StaticPathname[];
 

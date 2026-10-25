@@ -1,6 +1,8 @@
 "use client";
 
-import { useActionState } from "react";
+import { useSearchParams } from "next/navigation";
+import { trackContactEvent } from "@/lib/analytics";
+import { useActionState, useRef } from "react";
 import { useTranslations } from "next-intl";
 import { sendContactMessage, type ContactFormState } from "@/lib/actions/contact";
 import { Button } from "@/components/ui/Button";
@@ -9,13 +11,27 @@ const initialState: ContactFormState = { status: "idle" };
 
 export function ContactForm() {
   const t = useTranslations("contactPage.form");
+  const search = useSearchParams();
+  const requestId = useRef<string | null>(null);
+  const trackedRequest = useRef<string | null>(null);
+  const selectedService = search.get("service");
   const [state, formAction, pending] = useActionState(
-    sendContactMessage,
+    async (previous: ContactFormState, data: FormData) => {
+      requestId.current ??= crypto.randomUUID();
+      data.set("requestId", requestId.current);
+      const result = await sendContactMessage(previous, data);
+      if (result.status === "success" && result.requestId && trackedRequest.current !== result.requestId) {
+        trackedRequest.current = result.requestId;
+        trackContactEvent("generate_lead", data.get("service") === "resurfacage" ? "resurfacage" : "ebenisterie");
+      }
+      return result;
+    },
     initialState,
   );
 
   return (
     <form className="space-y-6" action={formAction}>
+      <input type="hidden" name="projectReference" value={search.get("projet") ?? ""} />
       <div aria-hidden="true" className="hidden">
         <label htmlFor="website">Website</label>
         <input id="website" name="website" type="text" tabIndex={-1} autoComplete="off" />
@@ -108,7 +124,8 @@ export function ContactForm() {
           name="service"
           required
           className="w-full border border-border bg-background px-4 py-3 text-foreground transition-colors focus:border-wood focus:outline-none"
-          defaultValue=""
+          key={selectedService}
+          defaultValue={selectedService === "ebenisterie" || selectedService === "resurfacage" ? selectedService : ""}
         >
           <option value="" disabled>
             {t("selectService")}
@@ -118,6 +135,16 @@ export function ContactForm() {
         </select>
       </div>
 
+      <div>
+        <label htmlFor="municipality" className="mb-2 block text-xs font-medium uppercase tracking-[0.15em] text-muted">{t("municipality")}</label>
+        <input id="municipality" name="municipality" required maxLength={120} autoComplete="address-level2" placeholder={t("municipalityPlaceholder")} className="w-full border border-border bg-background px-4 py-3 focus:border-wood focus:outline-none" />
+      </div>
+      <div>
+        <label htmlFor="source" className="mb-2 block text-xs font-medium uppercase tracking-[0.15em] text-muted">{t("source")}</label>
+        <select id="source" name="source" defaultValue="unknown" className="w-full border border-border bg-background px-4 py-3">
+          {(["unknown", "google", "google_ads", "referral", "social", "returning", "other"] as const).map((key) => <option key={key} value={key}>{t(`sources.${key}`)}</option>)}
+        </select>
+      </div>
       <div>
         <label
           htmlFor="message"
@@ -136,16 +163,18 @@ export function ContactForm() {
         />
       </div>
 
+      <p className="text-sm text-muted">{t("photosHint")}</p>
       <p aria-live="polite" className="text-sm text-muted">
         {state.status === "success" && t("successMessage")}
         {state.status === "error" &&
           t(`errors.${state.errorKey ?? "serverError"}`)}
       </p>
 
+      {state.status === "success" && state.requestId ? <p className="break-all text-sm">{t("reference")} : {state.requestId}</p> : null}
       {state.status === "error" ? <p className="text-sm">
         {t("fallback")} <a className="underline" href="mailto:info@lafabric.ca">info@lafabric.ca</a> · <a className="underline" href="tel:+18193221041">819 322-1041</a>
       </p> : null}
-      <Button type="submit" size="lg" disabled={pending}>
+      <Button type="submit" size="lg" disabled={pending || state.status === "success"}>
         {pending ? t("submitting") : t("submit")}
       </Button>
     </form>

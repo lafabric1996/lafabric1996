@@ -8,6 +8,7 @@ import { Container } from "@/components/ui/Container";
 import { ImagePlaceholder } from "@/components/ui/ImagePlaceholder";
 import { Section } from "@/components/ui/Section";
 import { SectionHeader } from "@/components/ui/SectionHeader";
+import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/seo/PageJsonLd";
 import { createPageMetadata } from "@/lib/metadata";
 import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
@@ -58,6 +59,8 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
   const { locale } = await params;
   setRequestLocale(asLocale(locale));
   const t = await getTranslations("resurfacagePage");
+  const tNav = await getTranslations("nav");
+  const tSeo = await getTranslations("metadata.resurfacage");
   const tCommon = await getTranslations("common");
 
   const pairs = getAllResurfacagePairs();
@@ -79,7 +82,7 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
       after: "/resurfacage/accueil/apres.webp",
     },
     ...pairs.slice(4).map((pair) =>
-      pair.before === "/resurfacage/christian-simon/avant-5.jpg"
+      pair.before === "/resurfacage/christian-simon/avant-5.webp"
         ? { ...pair, after: "/resurfacage/transformation-finale-20261016/apres.webp" }
         : pair,
     ),
@@ -95,6 +98,16 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
 
   return (
     <>
+      <BreadcrumbJsonLd
+        locale={locale}
+        trail={[{ name: tNav("resurfacage"), href: "/resurfacage" }]}
+      />
+      <ServiceJsonLd
+        locale={locale}
+        pathname="/resurfacage"
+        serviceType={tSeo("title")}
+        description={tSeo("description")}
+      />
       {/* 1. Hero — comparateur avant/après */}
       <section className="relative pt-24 pb-20 md:pt-28 md:pb-28">
         <Container>
@@ -103,6 +116,8 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
               <BeforeAfterSlider
                 beforeSrc={heroPair.before}
                 afterSrc={heroPair.after}
+                beforeAlt={`${beforeLabel} — ${t("hero.title")}`}
+                afterAlt={`${afterLabel} — ${t("hero.title")}`}
                 beforeLabel={beforeLabel}
                 afterLabel={afterLabel}
                 ariaLabel={sliderAriaLabel}
@@ -132,7 +147,7 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
               >
                 {t("hero.primaryCta")}
               </a>
-              <Button href="/contact" size="lg">
+              <Button href={{ pathname: "/", query: { service: "resurfacage" }, hash: "contact" }} size="lg">
                 {t("hero.secondaryCta")}
               </Button>
             </div>
@@ -140,6 +155,21 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
         </Container>
       </section>
 
+      <Section variant="surface">
+        <SectionHeader title={t("guide.title")} description={t("guide.intro")} />
+        <div className="mt-10 grid gap-8 md:grid-cols-2">
+          {(t.raw("guide.items") as { title: string; text: string }[]).map((item) => (
+            <div key={item.title} className="border-t border-border pt-6">
+              <h3 className="font-display text-2xl">{item.title}</h3>
+              <p className="mt-3 leading-relaxed text-muted">{item.text}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-10 flex flex-wrap items-center gap-6">
+          <Button href="/cuisine" variant="outline">{t("guide.kitchenLink")}</Button>
+          <a className="underline underline-offset-4" href="tel:+18195071041">{t("guide.phone")} : 819 507-1041</a>
+        </div>
+      </Section>
       {/* 2. Transformations */}
       <Section id="transformations" containerClassName="scroll-mt-24">
         <SectionHeader
@@ -153,6 +183,8 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
               <BeforeAfterSlider
                 beforeSrc={pair.before}
                 afterSrc={pair.after}
+                beforeAlt={`${beforeLabel} — ${t("hero.title")}`}
+                afterAlt={`${afterLabel} — ${t("hero.title")}`}
                 beforeLabel={beforeLabel}
                 afterLabel={afterLabel}
                 ariaLabel={sliderAriaLabel}
@@ -252,7 +284,7 @@ export default async function ResurfacagePage({ params }: LocalePageProps) {
         title={t("finalCta.title")}
         description={t("finalCta.description")}
         primaryLabel={t("finalCta.cta")}
-        primaryHref="/contact"
+        primaryHref={{ pathname: "/", query: { service: "resurfacage" }, hash: "contact" }}
       />
     </>
   );

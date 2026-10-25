@@ -4,6 +4,8 @@ import type { Locale, StaticPathname } from "@/i18n/routing";
 import { routing } from "@/i18n/routing";
 
 const BASE_URL = "https://www.lafabric.ca";
+/* Image de partage utilisée quand la page n'en fournit pas la sienne. */
+const DEFAULT_OG_IMAGE = "/images/hero-atelier-20261024.jpg";
 
 type ProjectPathnameWithParams = {
   pathname: "/realisations/[slug]";
@@ -42,6 +44,8 @@ export function createPageMetadata({
 
   const url = getLocalizedUrl(resolvedLocale, pathname);
 
+  const ogImage = image ?? DEFAULT_OG_IMAGE;
+
   const languages: Record<string, string> = {};
   for (const loc of routing.locales) {
     languages[loc === "fr" ? "fr-CA" : "en-CA"] = getLocalizedUrl(loc, pathname);
@@ -64,13 +68,13 @@ export function createPageMetadata({
       siteName: "La Fab'ric 1996",
       locale: resolvedLocale === "fr" ? "fr_CA" : "en_CA",
       type: "website",
-      images: image ? [{ url: image }] : undefined,
+      images: [{ url: ogImage }],
     },
     twitter: {
       card: "summary_large_image",
       title: pageTitle,
       description,
-      images: image ? [image] : undefined,
+      images: [ogImage],
     },
     robots: {
       index: true,

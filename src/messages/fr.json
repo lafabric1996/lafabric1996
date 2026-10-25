@@ -14,11 +14,11 @@
       "projectDescription": "{project} : découvrez cette réalisation de La Fab’ric 1996 en photos et explorez notre savoir-faire en ébénisterie sur mesure."
     },
     "resurfacage": {
-      "title": "Resurfaçage d’armoires dans les Laurentides",
-      "description": "Transformez vos armoires de cuisine ou de salle de bain en conservant leur structure. Découvrez le resurfaçage de La Fab’ric dans les Laurentides."
+      "title": "Resurfaçage d’armoires de cuisine",
+      "description": "Transformez votre cuisine en conservant les caissons adaptés au projet. Découvrez notre expertise en resurfaçage et demandez votre estimation."
     },
     "cuisine": {
-      "title": "Armoires de cuisine sur mesure",
+      "title": "Armoires de cuisine sur mesure à Val-Morin",
       "description": "Des armoires de cuisine conçues et fabriquées sur mesure dans notre atelier de Val-Morin. Plans, matériaux, rangement et installation avec La Fab’ric."
     },
     "salleDeBain": {
@@ -31,7 +31,7 @@
     },
     "services": {
       "title": "Ébénisterie et resurfaçage",
-      "description": "Ébénisterie sur mesure et resurfaçage d’armoires : La Fab’ric vous accompagne du choix des matériaux à l’installation, dans les Laurentides et au Québec."
+      "description": "Cuisines sur mesure, vanités, mobilier intégré et resurfaçage d’armoires. Une équipe établie dans les Laurentides, à l’écoute de votre projet."
     },
     "aPropos": {
       "title": "Notre atelier à Val-Morin depuis 1996",
@@ -40,6 +40,10 @@
     "contact": {
       "title": "Contact",
       "description": "Contactez La Fab'ric 1996 pour discuter de votre projet de cuisine, salle de bain, mobilier intégré ou ébénisterie sur mesure."
+    },
+    "presse": {
+      "title": "Presse et reconnaissances",
+      "description": "Les projets dont nous avons fabriqué l'ébénisterie sont publiés et primés. Revue de presse de La Fab'ric 1996, Val-Morin."
     }
   },
   "nav": {
@@ -56,7 +60,8 @@
     "mobile": "Navigation mobile",
     "footer": "Navigation",
     "expertises": "Expertises",
-    "contactUs": "Nous contacter →"
+    "contactUs": "Nous contacter →",
+    "presse": "Presse"
   },
   "header": {
     "homeAriaLabel": "La Fab'ric 1996 — Accueil",
@@ -179,16 +184,19 @@
         "cta": "Découvrir le resurfaçage"
       },
       "kitchen": {
-        "title": "Rénovation de cuisines",
-        "description": "Conception et réalisation de cuisines sur mesure, pensées pour votre quotidien et votre espace."
+        "title": "Cuisines sur mesure",
+        "description": "Des armoires, rangements et détails conçus pour votre espace et fabriqués dans notre atelier.",
+        "cta": "Découvrir nos cuisines"
       },
       "bathroom": {
-        "title": "Salles de bain",
-        "description": "Aménagements fonctionnels et raffinés, du plan initial à la finition."
+        "title": "Vanités et salles de bain",
+        "description": "Des meubles-lavabos et rangements sur mesure, adaptés aux dimensions de votre salle de bain.",
+        "cta": "Découvrir les vanités"
       },
       "builtIn": {
         "title": "Mobilier intégré",
-        "description": "Solutions sur mesure pour optimiser chaque recoin de votre intérieur."
+        "description": "Bibliothèques, bureaux et rangements pensés pour s’intégrer à votre architecture.",
+        "cta": "Découvrir le mobilier"
       },
       "customWoodwork": {
         "title": "Ébénisterie sur mesure",
@@ -252,12 +260,14 @@
       "previous": "Photo précédente",
       "next": "Photo suivante",
       "counter": "{current} / {total}"
-    }
+    },
+    "projectCta": "Discuter d’un projet semblable",
+    "relatedServices": "Les services pour votre projet"
   },
   "servicesPage": {
     "eyebrow": "Services",
-    "title": "Un accompagnement complet, du concept à la finition",
-    "description": "La Fab'ric 1996 offre une gamme complète de services pour vos projets résidentiels haut de gamme au Québec.",
+    "title": "Nos services d’ébénisterie et de resurfaçage",
+    "description": "Ébénisterie sur mesure et resurfaçage d’armoires : deux expertises pour votre projet, de la conception à l’installation.",
     "heroPhoto": "Consultation en ébénisterie dans la salle de montre, avec plans et échantillons de matériaux",
     "processEyebrow": "Processus",
     "processTitle": "Notre méthode de travail",
@@ -287,10 +297,10 @@
       "afterLabel": "Après",
       "sliderHint": "Glissez le curseur pour découvrir la transformation.",
       "sliderAriaLabel": "Comparateur avant après : glissez pour comparer",
-      "title": "Redonnez une nouvelle vie à votre cuisine.",
-      "description": "Transformez l'apparence de votre cuisine en conservant sa structure existante. Une solution durable, élégante et économique, sans entreprendre une rénovation complète.",
+      "title": "Resurfaçage d’armoires de cuisine",
+      "description": "Transformez votre cuisine en conservant sa structure existante. Depuis cinq ans, La Fab’ric Resurfaçage inc. vous accompagne pour redonner vie à vos armoires.",
       "primaryCta": "Voir les transformations",
-      "secondaryCta": "Demander une soumission"
+      "secondaryCta": "Faire évaluer ma cuisine"
     },
     "transformations": {
       "eyebrow": "Nos transformations",
@@ -309,7 +319,7 @@
       "cards": {
         "economical": {
           "title": "Plus économique",
-          "description": "Jusqu'à deux fois moins cher qu'une rénovation complète."
+          "description": "Jusqu’à deux fois moins cher qu’une cuisine neuve."
         },
         "durable": {
           "title": "Qualité durable",
@@ -369,21 +379,53 @@
     "finalCta": {
       "title": "Vous aimez cette transformation ?",
       "description": "Nous pouvons faire la même chose avec votre cuisine.",
-      "cta": "Obtenir une estimation gratuite"
+      "cta": "Demander une estimation gratuite"
+    },
+    "guide": {
+      "title": "Le resurfaçage convient-il à votre cuisine?",
+      "intro": "Aussi appelé refacing, le resurfaçage permet de changer l’apparence de votre cuisine sans remplacer toutes les armoires. Voici les points à examiner avant de choisir.",
+      "items": [
+        {
+          "title": "Des caissons à conserver",
+          "text": "Nous évaluons l’état des caissons et l’aménagement existant. Si leur structure convient au projet, ils peuvent servir de base à la transformation."
+        },
+        {
+          "title": "Les portes, façades et détails",
+          "text": "Le choix des nouvelles portes, des façades de tiroirs, des finis et de la quincaillerie se fait avec vous. L’évaluation précise les éléments à conserver et ceux à remplacer."
+        },
+        {
+          "title": "Ce qui détermine le prix",
+          "text": "Le nombre de portes et de tiroirs, les matériaux, la quincaillerie et les modifications souhaitées influencent le coût. Une évaluation de votre cuisine permet de préparer une estimation adaptée."
+        },
+        {
+          "title": "Resurfaçage ou cuisine neuve?",
+          "text": "Vous aimez la disposition de votre cuisine? Le resurfaçage peut être une option. Si vous souhaitez repenser complètement l’aménagement ou si les caissons sont endommagés, une cuisine neuve peut être plus appropriée."
+        },
+        {
+          "title": "Bois, mélamine ou thermoplastique",
+          "text": "Indiquez le matériau de vos armoires et leur état lors de votre demande. Nous déterminerons les possibilités après évaluation, plutôt que de proposer le même traitement à toutes les cuisines."
+        },
+        {
+          "title": "Discutons de votre projet",
+          "text": "Établis dans les Laurentides, nous réalisons des projets selon leur nature et leur emplacement. Parlez-nous du vôtre."
+        }
+      ],
+      "kitchenLink": "Découvrir nos cuisines sur mesure",
+      "phone": "Parler à notre équipe de resurfaçage"
     }
   },
   "cuisinePage": {
     "eyebrow": "Cuisine",
-    "title": "Cuisines sur mesure et resurfaçage",
-    "description": "Redonnez vie à votre cuisine ou concevez un espace entièrement neuf, avec un souci constant de la qualité et de la finition.",
+    "title": "Armoires de cuisine sur mesure",
+    "description": "Une cuisine pensée pour votre espace et votre façon de l’utiliser, fabriquée dans notre atelier de Val-Morin.",
     "ctaTitle": "Un projet de cuisine en tête ?",
     "ctaDescription": "Parlez-nous de votre espace et de vos attentes. Nous vous guiderons vers la meilleure solution.",
     "blocks": {
       "resurfacing": {
-        "title": "Resurfaçage d'armoires",
-        "imageLabel": "Resurfaçage d'armoires",
-        "p1": "Le resurfaçage permet de transformer l'apparence de vos armoires existantes sans les remplacer entièrement.",
-        "p2": "Cette solution offre un résultat durable et élégant, tout en respectant la structure de votre cuisine actuelle."
+        "title": "Aménagement et rangement",
+        "imageLabel": "Cuisine sur mesure — projet Circle",
+        "p1": "Une cuisine sur mesure commence par vos besoins : préparer les repas, ranger les accessoires et circuler facilement.",
+        "p2": "Nous concevons les armoires et les rangements selon les dimensions de votre espace et vos habitudes."
       },
       "renovation": {
         "title": "Une cuisine fabriquée pour vous",
@@ -397,6 +439,13 @@
         "p1": "Matériaux, quincaillerie et détails de finition sont sélectionnés avec soin pour un rendu raffiné.",
         "p2": "Les essences, les teintes et la quincaillerie sont choisies avec vous, selon votre espace et l'usage que vous en faites."
       }
+    },
+    "comparison": {
+      "title": "Vous préférez conserver votre cuisine?",
+      "text": "Si les caissons et la disposition conviennent à votre projet, découvrez le resurfaçage pour transformer votre cuisine sans tout remplacer.",
+      "link": "Découvrir le resurfaçage",
+      "projects": "Voir nos réalisations",
+      "cta": "Discuter de ma nouvelle cuisine"
     }
   },
   "salleDeBainPage": {
@@ -487,8 +536,8 @@
   },
   "contactPage": {
     "eyebrow": "Contact",
-    "title": "Parlons de votre projet",
-    "description": "Remplissez le formulaire ci-dessous ou utilisez nos coordonnées pour nous joindre. Nous vous répondrons dans les meilleurs délais.",
+    "title": "Parlez-nous de votre projet",
+    "description": "Indiquez votre municipalité et ce que vous souhaitez conserver ou transformer. Nous évaluerons avec vous les possibilités pour votre projet.",
     "form": {
       "firstName": "Prénom",
       "firstNamePlaceholder": "Votre prénom",
@@ -508,8 +557,8 @@
         "woodworking": "Ébénisterie"
       },
       "message": "Message",
-      "messagePlaceholder": "Décrivez votre projet...",
-      "submit": "Envoyer le message",
+      "messagePlaceholder": "Décrivez votre cuisine ou votre projet, les éléments à conserver et les changements souhaités.",
+      "submit": "Envoyer ma demande de projet",
       "submitting": "Envoi en cours...",
       "successMessage": "Merci! Votre message a été envoyé. Nous vous répondrons sous peu.",
       "errors": {
@@ -518,7 +567,21 @@
         "serverError": "Une erreur est survenue lors de l'envoi. Veuillez réessayer ou nous joindre par téléphone.",
         "tooLong": "Veuillez raccourcir les champs : le message est limité à 5 000 caractères."
       },
-      "fallback": "Vous pouvez aussi nous écrire directement ou nous téléphoner."
+      "fallback": "Vous pouvez aussi nous écrire directement ou nous téléphoner.",
+      "municipality": "Municipalité du projet",
+      "municipalityPlaceholder": "Municipalité où se situe votre projet",
+      "source": "Comment nous avez-vous connus? (facultatif)",
+      "sources": {
+        "unknown": "Sélectionnez une réponse",
+        "google": "Recherche Google",
+        "google_ads": "Annonce Google",
+        "referral": "Recommandation",
+        "social": "Réseaux sociaux",
+        "returning": "Déjà client",
+        "other": "Autre"
+      },
+      "photosHint": "Vous pourrez transmettre des photos par courriel à info@lafabric.ca en indiquant votre nom et votre municipalité.",
+      "reference": "Référence de votre demande"
     },
     "info": {
       "title": "Coordonnées",
@@ -536,7 +599,7 @@
     }
   },
   "jsonLd": {
-    "areaServed": "Québec",
+    "areaServed": "Laurentides",
     "knowsAbout": [
       "Resurfaçage d'armoires de cuisine",
       "Rénovation de cuisines",
@@ -556,5 +619,22 @@
     "accept": "Accepter",
     "decline": "Refuser",
     "settings": "Préférences de confidentialité"
+  },
+  "pressePage": {
+    "eyebrow": "Presse",
+    "title": "Nos réalisations dans la presse",
+    "description": "Nous fabriquons l'ébénisterie de projets conçus par des bureaux d'architecture dont le travail est publié au Canada, au Royaume-Uni, au Japon et ailleurs. Voici où on les retrouve.",
+    "disclaimer": "Les prix et les articles ci-dessous récompensent les projets et les bureaux d'architecture qui les ont conçus. La Fab'ric 1996 en a fabriqué l'ébénisterie.",
+    "awardsTitle": "Reconnaissances",
+    "awardName": "Prix d'excellence en architecture",
+    "pressTitle": "Parutions",
+    "architectLabel": "Architecte",
+    "projectLabel": "Projet",
+    "viewProject": "Voir le projet",
+    "readArticle": "Lire l'article"
+  },
+  "territory": {
+    "title": "Parlez-nous de votre projet",
+    "description": "Établis dans les Laurentides, nous réalisons des projets selon leur nature et leur emplacement. Parlez-nous du vôtre."
   }
 }

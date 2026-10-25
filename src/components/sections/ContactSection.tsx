@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import { getTranslations } from "next-intl/server";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { AnimatedReveal } from "@/components/ui/AnimatedReveal";
@@ -18,7 +19,7 @@ export async function ContactSection() {
 
       <div className="mx-auto mt-16 grid max-w-6xl gap-16 lg:grid-cols-5">
         <AnimatedReveal className="lg:col-span-3">
-          <ContactForm />
+          <Suspense><ContactForm /></Suspense>
         </AnimatedReveal>
 
         <AnimatedReveal delay={150} className="lg:col-span-2">
