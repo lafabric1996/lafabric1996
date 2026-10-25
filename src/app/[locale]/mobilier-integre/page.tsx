@@ -6,7 +6,7 @@ import { createPageMetadata } from "@/lib/metadata";
 import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
 
-const BLOCK_IMAGES = ["/realisations/entre-4-murs-projet-takacsy/selection-20261020/photo-03.webp", "/realisations/yh2-maison-aube/selection-20261023/photo-762.webp", "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-15.webp"];
+const BLOCK_IMAGES = ["/realisations/mu-architecture-l-albatros/IMG_4835.webp", "/realisations/yh2-maison-aube/selection-20261023/photo-762.webp", "/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-15.webp"];
 
 const BLOCK_KEYS = ["storage", "integration", "craftsmanship"] as const;
 
@@ -45,7 +45,7 @@ export default async function MobilierIntegrePage({ params }: LocalePageProps) {
         description={tSeo("description")}
       />
       <ServicePageLayout
-        heroSrc="/realisations/yh2-les-blocs-de-bois/selection-20261023/photo-15.webp"
+        heroSrc="/realisations/mu-architecture-l-albatros/retouches-20261023/IMG_4852.webp"
         eyebrow={t("eyebrow")}
         title={t("title")}
         description={t("description")}

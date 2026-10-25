@@ -22,7 +22,6 @@ export const mainNavigation: NavItem[] = [
   { labelKey: "realisations", href: "/realisations" },
   { labelKey: "resurfacage", href: "/resurfacage" },
   { labelKey: "cuisine", href: "/cuisine" },
-  { labelKey: "salleDeBain", href: "/salle-de-bain" },
   { labelKey: "mobilierIntegre", href: "/mobilier-integre" },
   { labelKey: "services", href: "/services" },
   { labelKey: "aPropos", href: "/a-propos" },
@@ -40,13 +39,12 @@ export const footerNavigation: NavItem[] = [
 export const serviceNavigation: NavItem[] = [
   { labelKey: "resurfacage", href: "/resurfacage" },
   { labelKey: "cuisine", href: "/cuisine" },
-  { labelKey: "salleDeBain", href: "/salle-de-bain" },
   { labelKey: "mobilierIntegre", href: "/mobilier-integre" },
 ];
 
 export const serviceGridItems = [
   { key: "kitchen", href: "/cuisine" as const },
-  { key: "bathroom", href: "/salle-de-bain" as const },
+  { key: "customWoodwork", href: "/realisations" as const },
   { key: "builtIn", href: "/mobilier-integre" as const },
   { key: "resurfacing", href: "/resurfacage" as const },
 ] as const;

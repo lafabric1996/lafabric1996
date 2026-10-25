@@ -75,7 +75,7 @@ export async function JsonLd() {
         "@id": `${SITE_URL}/#refacing-business`,
         name: "La Fab’ric Resurfaçage inc.",
         url: `${SITE_URL}${locale === "en" ? "/en/refacing" : "/resurfacage"}`,
-        telephone: "+1-819-507-1041",
+        telephone: "+1-819-322-1041 ext. 2",
         email: tContact("info.emailValue"),
         address: structuredData.address,
         areaServed: serviceAreas(locale),
