@@ -1,7 +1,5 @@
-// Territory confirmed by François on 2026-10-25. Montréal is refacing only.
-export function serviceAreas(refacing: boolean, locale: string) {
-  return [
-    { "@type": "AdministrativeArea", name: locale === "en" ? "Laurentians" : "Laurentides" },
-    ...(refacing ? [{ "@type": "City", name: "Montréal" }] : []),
-  ];
+// Shared regional focus; projects elsewhere are considered individually.
+// Do not publish a separate Montréal service area for either company.
+export function serviceAreas(locale: string) {
+  return [{ "@type": "AdministrativeArea", name: locale === "en" ? "Laurentians" : "Laurentides" }];
 }

@@ -120,8 +120,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/10 pt-8 text-sm text-white/70">
-          <p>{tTerritory("woodwork")}</p>
-          <p className="mt-2">{tTerritory("refacing")}</p>
+          <p>{tTerritory("description")}</p>
         </div>
         <div className="mt-16 flex flex-col gap-4 border-t border-white/10 pt-8 md:flex-row md:items-center md:justify-between">
           <p className="text-xs text-white/40">

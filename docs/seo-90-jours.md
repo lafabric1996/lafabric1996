@@ -4,15 +4,14 @@
 
 - Conserver « Jusqu’à deux fois moins cher » : comparaison avec une cuisine neuve, validée par l'entreprise sur cinq années d'activité en resurfaçage.
 - Conserver la promesse de transformation rapide.
-- La Fab’ric 1996 inc. : ébénisterie dans les Laurentides. Ne pas cibler Montréal pour ce service.
-- La Fab’ric Resurfaçage inc. : Laurentides et Montréal.
-- Consigne Git antérieure : ne pas toucher à main. Changements sur seo-octobre, à publier après levée de cette restriction.
+- Correction confirmée par François : un seul positionnement régional pour les deux entreprises. Établis dans les Laurentides; projets évalués selon leur nature et leur emplacement. Montréal n’est ni exclue ni annoncée comme marché ciblé.
+- François a autorisé la finalisation, les vérifications et la publication après cette correction.
 
 ## Travail implémenté sur la branche
 
 - Contenus, titres et descriptions FR/EN; guide resurfaçage (admissibilité, prix, matériaux, choix avec cuisine neuve).
 - Cuisine centrée sur le neuf; liens entre services, réalisations et demande de projet.
-- Présentation distincte des entreprises, téléphones et territoires visibles et dans les données structurées.
+- Présentation distincte des entreprises et téléphones; positionnement régional commun dans les textes et données structurées.
 - Trois fiches enrichies et traduites : Albatros, Maison Aubé et La Luge. Source : descriptions existantes de src/data/project-descriptions.json dans le patch approuvé; aucune nouvelle réalisation, certification ou citation client inventée.
 - Formulaire : municipalité requise, source déclarée facultative, présélection du service et référence du projet consulté.
 - Courriel : société destinataire, référence unique, source déclarée et municipalité. Acheminement inchangé : info; info + louis pour le resurfaçage.
@@ -38,7 +37,7 @@ Un classeur séparé des sources du site comporte un onglet par entreprise et un
 
 | Échéance | Travail | Mesure | Dépendance |
 |---|---|---|---|
-| 0–30 jours | Publier les changements approuvés; vérifier réception et événement; commencer le registre | Demandes uniques et qualifiées par société, source et municipalité | Autorisation de main ou publication distincte; accès Google |
+| 0–30 jours | Publier les changements approuvés; vérifier réception et événement; commencer le registre | Demandes uniques et qualifiées par société, source et municipalité | Publication; accès Google |
 | 31–60 jours | Exploiter les requêtes organiques; enrichir les projets selon dossiers réels; vérifier fiches locales | Clics organiques pertinents, soumissions, territoire | Search Console et données commerciales |
 | 61–90 jours | Comparer les cohortes et corriger les points de friction; mesurer Core Web Vitals | Contrats, valeur signée, taux sur demandes qualifiées; coûts publicitaires séparés | Données suffisantes et périodes comparables |
 

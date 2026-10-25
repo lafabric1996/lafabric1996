@@ -14,8 +14,8 @@
       "projectDescription": "{project}: explore this La Fab’ric 1996 project in photos and discover our custom cabinetmaking work."
     },
     "resurfacage": {
-      "title": "Cabinet Refacing — Laurentians and Montréal",
-      "description": "Transform your kitchen while keeping suitable cabinet boxes. Cabinet refacing in the Laurentians and Montréal. Request your estimate."
+      "title": "Kitchen Cabinet Refacing",
+      "description": "Transform your kitchen while keeping suitable cabinet boxes. Explore our cabinet refacing expertise and request your estimate."
     },
     "cuisine": {
       "title": "Custom Kitchen Cabinets in Val-Morin",
@@ -31,7 +31,7 @@
     },
     "services": {
       "title": "Cabinetmaking & Refacing",
-      "description": "Custom kitchens, vanities and built-in furniture in the Laurentians. Cabinet refacing in the Laurentians and Montréal."
+      "description": "Custom kitchens, vanities, built-in furniture and cabinet refacing. A team based in the Laurentians, ready to discuss your project."
     },
     "aPropos": {
       "title": "Our Val-Morin Workshop Since 1996",
@@ -267,7 +267,7 @@
   "servicesPage": {
     "eyebrow": "Services",
     "title": "Our cabinetmaking and refacing services",
-    "description": "La Fab’ric 1996 inc. provides custom cabinetmaking in the Laurentians. La Fab’ric Resurfaçage inc. transforms your cabinets in the Laurentians and Montréal.",
+    "description": "Custom cabinetmaking and cabinet refacing: two specialties for your project, from design to installation.",
     "heroPhoto": "Cabinetry consultation in the showroom with plans and material samples",
     "processEyebrow": "Process",
     "processTitle": "Our Working Method",
@@ -298,7 +298,7 @@
       "sliderHint": "Drag the slider to reveal the transformation.",
       "sliderAriaLabel": "Before and after comparison: drag to compare",
       "title": "Kitchen cabinet refacing",
-      "description": "Transform your kitchen while keeping its existing structure. For five years, La Fab’ric Resurfaçage inc. has served projects in the Laurentians and Montréal.",
+      "description": "Transform your kitchen while keeping its existing structure. For five years, La Fab’ric Resurfaçage inc. has helped clients give their cabinets a new life.",
       "primaryCta": "See the transformations",
       "secondaryCta": "Request a kitchen assessment"
     },
@@ -406,8 +406,8 @@
           "text": "Tell us your cabinet material and its condition when you contact us. We assess the possibilities rather than recommending the same treatment for every kitchen."
         },
         {
-          "title": "Our service area",
-          "text": "La Fab’ric Resurfaçage inc. serves the Laurentians and Montréal. Include your municipality so we can arrange the next step for your project."
+          "title": "Let’s discuss your project",
+          "text": "Based in the Laurentians, we take on projects according to their scope and location. Tell us about yours."
         }
       ],
       "kitchenLink": "Explore our custom kitchens",
@@ -417,7 +417,7 @@
   "cuisinePage": {
     "eyebrow": "Kitchen",
     "title": "Custom kitchen cabinets",
-    "description": "A kitchen designed for your space and the way you use it, built in our Val-Morin workshop. We carry out custom cabinetmaking projects in the Laurentians.",
+    "description": "A kitchen designed for your space and the way you use it, built in our Val-Morin workshop.",
     "ctaTitle": "Have a kitchen project in mind?",
     "ctaDescription": "Tell us about your space and expectations. We will guide you to the best solution.",
     "blocks": {
@@ -442,7 +442,7 @@
     },
     "comparison": {
       "title": "Would you rather keep your existing kitchen?",
-      "text": "If the cabinet boxes and layout suit your project, explore refacing. This service is available in the Laurentians and Montréal.",
+      "text": "If the cabinet boxes and layout suit your project, explore refacing to transform your kitchen without replacing everything.",
       "link": "Explore cabinet refacing",
       "projects": "See our projects",
       "cta": "Discuss my new kitchen"
@@ -537,7 +537,7 @@
   "contactPage": {
     "eyebrow": "Contact",
     "title": "Tell us about your project",
-    "description": "Tell us your municipality and what you would like to keep or transform. Cabinetmaking in the Laurentians; refacing in the Laurentians and Montréal.",
+    "description": "Tell us your municipality and what you would like to keep or transform. We will explore the possibilities for your project with you.",
     "form": {
       "firstName": "First name",
       "firstNamePlaceholder": "Your first name",
@@ -569,7 +569,7 @@
       },
       "fallback": "You can also email or call us directly.",
       "municipality": "Project municipality",
-      "municipalityPlaceholder": "e.g. Val-David, Montréal",
+      "municipalityPlaceholder": "Municipality where your project is located",
       "source": "How did you hear about us? (optional)",
       "sources": {
         "unknown": "Select an answer",
@@ -634,8 +634,7 @@
     "readArticle": "Read the article"
   },
   "territory": {
-    "title": "Two specialties, a team ready to listen",
-    "woodwork": "La Fab’ric 1996 inc. — Custom cabinetmaking in the Laurentians.",
-    "refacing": "La Fab’ric Resurfaçage inc. — Cabinet refacing in the Laurentians and Montréal."
+    "title": "Tell us about your project",
+    "description": "Based in the Laurentians, we take on projects according to their scope and location. Tell us about yours."
   }
 }

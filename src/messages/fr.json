@@ -14,8 +14,8 @@
       "projectDescription": "{project} : découvrez cette réalisation de La Fab’ric 1996 en photos et explorez notre savoir-faire en ébénisterie sur mesure."
     },
     "resurfacage": {
-      "title": "Resurfaçage d’armoires — Laurentides et Montréal",
-      "description": "Transformez votre cuisine en conservant ses caissons adaptés au projet. Resurfaçage dans les Laurentides et à Montréal. Demandez votre estimation."
+      "title": "Resurfaçage d’armoires de cuisine",
+      "description": "Transformez votre cuisine en conservant les caissons adaptés au projet. Découvrez notre expertise en resurfaçage et demandez votre estimation."
     },
     "cuisine": {
       "title": "Armoires de cuisine sur mesure à Val-Morin",
@@ -31,7 +31,7 @@
     },
     "services": {
       "title": "Ébénisterie et resurfaçage",
-      "description": "Cuisines sur mesure, vanités et mobilier intégré dans les Laurentides. Resurfaçage d’armoires dans les Laurentides et à Montréal."
+      "description": "Cuisines sur mesure, vanités, mobilier intégré et resurfaçage d’armoires. Une équipe établie dans les Laurentides, à l’écoute de votre projet."
     },
     "aPropos": {
       "title": "Notre atelier à Val-Morin depuis 1996",
@@ -267,7 +267,7 @@
   "servicesPage": {
     "eyebrow": "Services",
     "title": "Nos services d’ébénisterie et de resurfaçage",
-    "description": "La Fab’ric 1996 inc. réalise vos projets d’ébénisterie sur mesure dans les Laurentides. La Fab’ric Resurfaçage inc. transforme vos armoires dans les Laurentides et à Montréal.",
+    "description": "Ébénisterie sur mesure et resurfaçage d’armoires : deux expertises pour votre projet, de la conception à l’installation.",
     "heroPhoto": "Consultation en ébénisterie dans la salle de montre, avec plans et échantillons de matériaux",
     "processEyebrow": "Processus",
     "processTitle": "Notre méthode de travail",
@@ -298,7 +298,7 @@
       "sliderHint": "Glissez le curseur pour découvrir la transformation.",
       "sliderAriaLabel": "Comparateur avant après : glissez pour comparer",
       "title": "Resurfaçage d’armoires de cuisine",
-      "description": "Transformez votre cuisine en conservant sa structure existante. Depuis cinq ans, La Fab’ric Resurfaçage inc. accompagne vos projets dans les Laurentides et à Montréal.",
+      "description": "Transformez votre cuisine en conservant sa structure existante. Depuis cinq ans, La Fab’ric Resurfaçage inc. vous accompagne pour redonner vie à vos armoires.",
       "primaryCta": "Voir les transformations",
       "secondaryCta": "Faire évaluer ma cuisine"
     },
@@ -406,8 +406,8 @@
           "text": "Indiquez le matériau de vos armoires et leur état lors de votre demande. Nous déterminerons les possibilités après évaluation, plutôt que de proposer le même traitement à toutes les cuisines."
         },
         {
-          "title": "Notre territoire",
-          "text": "La Fab’ric Resurfaçage inc. dessert les Laurentides et Montréal. Indiquez votre municipalité pour organiser la prochaine étape de votre projet."
+          "title": "Discutons de votre projet",
+          "text": "Établis dans les Laurentides, nous réalisons des projets selon leur nature et leur emplacement. Parlez-nous du vôtre."
         }
       ],
       "kitchenLink": "Découvrir nos cuisines sur mesure",
@@ -417,7 +417,7 @@
   "cuisinePage": {
     "eyebrow": "Cuisine",
     "title": "Armoires de cuisine sur mesure",
-    "description": "Une cuisine pensée pour votre espace et votre façon de l’utiliser, fabriquée dans notre atelier de Val-Morin. Nous réalisons vos projets d’ébénisterie dans les Laurentides.",
+    "description": "Une cuisine pensée pour votre espace et votre façon de l’utiliser, fabriquée dans notre atelier de Val-Morin.",
     "ctaTitle": "Un projet de cuisine en tête ?",
     "ctaDescription": "Parlez-nous de votre espace et de vos attentes. Nous vous guiderons vers la meilleure solution.",
     "blocks": {
@@ -442,7 +442,7 @@
     },
     "comparison": {
       "title": "Vous préférez conserver votre cuisine?",
-      "text": "Si les caissons et la disposition conviennent à votre projet, découvrez le resurfaçage. Ce service est offert dans les Laurentides et à Montréal.",
+      "text": "Si les caissons et la disposition conviennent à votre projet, découvrez le resurfaçage pour transformer votre cuisine sans tout remplacer.",
       "link": "Découvrir le resurfaçage",
       "projects": "Voir nos réalisations",
       "cta": "Discuter de ma nouvelle cuisine"
@@ -537,7 +537,7 @@
   "contactPage": {
     "eyebrow": "Contact",
     "title": "Parlez-nous de votre projet",
-    "description": "Indiquez votre municipalité et ce que vous souhaitez conserver ou transformer. Ébénisterie dans les Laurentides; resurfaçage dans les Laurentides et à Montréal.",
+    "description": "Indiquez votre municipalité et ce que vous souhaitez conserver ou transformer. Nous évaluerons avec vous les possibilités pour votre projet.",
     "form": {
       "firstName": "Prénom",
       "firstNamePlaceholder": "Votre prénom",
@@ -569,7 +569,7 @@
       },
       "fallback": "Vous pouvez aussi nous écrire directement ou nous téléphoner.",
       "municipality": "Municipalité du projet",
-      "municipalityPlaceholder": "Ex. : Val-David, Montréal",
+      "municipalityPlaceholder": "Municipalité où se situe votre projet",
       "source": "Comment nous avez-vous connus? (facultatif)",
       "sources": {
         "unknown": "Sélectionnez une réponse",
@@ -634,8 +634,7 @@
     "readArticle": "Lire l'article"
   },
   "territory": {
-    "title": "Deux expertises, une équipe à votre écoute",
-    "woodwork": "La Fab’ric 1996 inc. — Ébénisterie sur mesure dans les Laurentides.",
-    "refacing": "La Fab’ric Resurfaçage inc. — Resurfaçage d’armoires dans les Laurentides et à Montréal."
+    "title": "Parlez-nous de votre projet",
+    "description": "Établis dans les Laurentides, nous réalisons des projets selon leur nature et leur emplacement. Parlez-nous du vôtre."
   }
 }

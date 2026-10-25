@@ -89,7 +89,7 @@ export async function ServiceJsonLd({
         description,
         url: absoluteUrl(resolved, pathname),
         provider: { "@id": refacing ? `${SITE_URL}/#refacing-business` : BUSINESS_ID },
-        areaServed: serviceAreas(refacing, resolved),
+        areaServed: serviceAreas(resolved),
       }}
     />
   );

@@ -55,7 +55,7 @@ export async function JsonLd() {
         closes: "17:00",
       },
     ],
-    areaServed: serviceAreas(false, locale),
+    areaServed: serviceAreas(locale),
     knowsAbout: knowsAbout.filter((_, index) => index !== 0),
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -78,7 +78,7 @@ export async function JsonLd() {
         telephone: "+1-819-507-1041",
         email: tContact("info.emailValue"),
         address: structuredData.address,
-        areaServed: serviceAreas(true, locale),
+        areaServed: serviceAreas(locale),
         knowsAbout: [knowsAbout[0]],
       }] }).replace(/</g, "\\u003c") }}
     />
