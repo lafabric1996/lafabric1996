@@ -1,7 +1,7 @@
 {
   "generatedAt": "2026-07-06T23:25:32.666Z",
   "projectCount": 19,
-  "imageCount": 130,
+  "imageCount": 129,
   "projects": [
     {
       "slug": "ann-prud-homme-designer-projet-la-lumineuse",
@@ -114,7 +114,7 @@
       "title": "Projet Circle — Dany Courchesne Architecte",
       "category": "residential",
       "cover": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.webp",
-      "imageCount": 6,
+      "imageCount": 5,
       "images": [
         {
           "src": "/realisations/construction-mad-projet-circle/apres/cuisine-vue-ensemble.webp",
@@ -124,39 +124,32 @@
           "order": 1
         },
         {
-          "src": "/realisations/construction-mad-projet-circle/apres/cuisine-ilot.webp",
-          "filename": "cuisine-ilot.jpg",
-          "alt": "Projet Circle — Dany Courchesne Architecte",
-          "category": null,
-          "order": 2
-        },
-        {
           "src": "/realisations/construction-mad-projet-circle/apres/ilot-tiroirs.webp",
           "filename": "ilot-tiroirs.jpg",
           "alt": "Projet Circle — Dany Courchesne Architecte",
           "category": null,
-          "order": 3
+          "order": 2
         },
         {
           "src": "/realisations/construction-mad-projet-circle/apres/rangement-chene.webp",
           "filename": "rangement-chene.jpg",
           "alt": "Projet Circle — Dany Courchesne Architecte",
           "category": null,
-          "order": 4
+          "order": 3
         },
         {
           "src": "/realisations/construction-mad-projet-circle/apres/niche-bar.webp",
           "filename": "niche-bar.jpg",
           "alt": "Projet Circle — Dany Courchesne Architecte",
           "category": null,
-          "order": 5
+          "order": 4
         },
         {
           "src": "/realisations/construction-mad-projet-circle/apres/passage-chene.webp",
           "filename": "passage-chene.jpg",
           "alt": "Projet Circle — Dany Courchesne Architecte",
           "category": null,
-          "order": 6
+          "order": 5
         }
       ],
       "beforeAfterPairs": [],
