@@ -14,6 +14,7 @@ const headerNavigation: NavItem[] = [
   { labelKey: "aPropos", href: "/a-propos" },
 ];
 import { cn } from "@/lib/utils";
+import { PHONE_MAIN_HREF, PHONE_REFACING_HREF } from "@/lib/phone";
 import { LanguageSwitcher } from "@/components/layout/LanguageSwitcher";
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
@@ -67,6 +68,11 @@ export function Header() {
   }, [isOpen]);
 
   const isOverHero = pathname === "/" && !isScrolled && !isOpen;
+  // Sur la page resurfaçage, le numéro affiché et composé est le poste 2.
+  const isRefacing = pathname === "/resurfacage";
+  const phoneHref = isRefacing ? PHONE_REFACING_HREF : PHONE_MAIN_HREF;
+  const phoneLabel = tHeader(isRefacing ? "phoneRefacing" : "phoneMain");
+  const phoneService = isRefacing ? "resurfacage" : "ebenisterie";
 
   return (
     <header
@@ -100,7 +106,7 @@ export function Header() {
         </Link>
 
         <nav
-          className="hidden items-center gap-6 xl:flex"
+          className="hidden items-center gap-4 2xl:flex"
           aria-label={t("main")}
         >
           {headerNavigation.map((item) => (
@@ -121,10 +127,20 @@ export function Header() {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-6 xl:flex">
+        <div className="hidden items-center gap-4 2xl:flex">
+          <a
+            href={phoneHref}
+            data-service={phoneService}
+            className={cn(
+              "whitespace-nowrap text-sm font-medium tabular-nums transition-colors",
+              isOverHero ? "text-white hover:text-white/80" : "text-foreground hover:text-wood",
+            )}
+          >
+            {phoneLabel}
+          </a>
           <LanguageSwitcher light={isOverHero} />
           <Button
-            href="/contact"
+            href={isRefacing ? { pathname: "/resurfacage", hash: "contact" } : "/contact"}
             size="sm"
             variant={isOverHero ? "ghost" : "primary"}
             className={isOverHero ? "text-white! hover:text-white/80!" : undefined}
@@ -133,7 +149,20 @@ export function Header() {
           </Button>
         </div>
 
-        <div className="flex items-center gap-4 xl:hidden">
+        <div className="flex items-center gap-4 2xl:hidden">
+          <a
+            href={phoneHref}
+            data-service={phoneService}
+            aria-label={`${tHeader("callUs")} — ${phoneLabel}`}
+            className={cn(
+              "flex h-10 w-10 items-center justify-center transition-colors",
+              isOverHero ? "text-white hover:text-white/80" : "text-foreground hover:text-wood",
+            )}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true">
+              <path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" />
+            </svg>
+          </a>
           <LanguageSwitcher light={isOverHero} />
           <button
             ref={menuButtonRef}
@@ -174,7 +203,7 @@ export function Header() {
         inert={!isOpen}
         onClick={(event) => { if ((event.target as HTMLElement).closest("a")) setIsOpen(false); }}
         className={cn(
-          "fixed inset-0 z-[9999] overflow-y-auto bg-[#FAF8F5] transition-opacity duration-500 xl:hidden",
+          "fixed inset-0 z-[9999] overflow-y-auto bg-[#FAF8F5] transition-opacity duration-500 2xl:hidden",
           isOpen
             ? "pointer-events-auto opacity-100"
             : "pointer-events-none opacity-0",
@@ -198,7 +227,7 @@ export function Header() {
             ))}
           </nav>
           <div className="mt-12">
-            <Button href="/contact" size="lg" className="w-full">
+            <Button href={isRefacing ? { pathname: "/resurfacage", hash: "contact" } : "/contact"} size="lg" className="w-full">
               {tHeader("requestQuote")}
             </Button>
           </div>

@@ -63,7 +63,10 @@
     "homeAriaLabel": "La Fab'ric 1996 — Home",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "requestQuote": "Request a quote"
+    "requestQuote": "Request a quote",
+    "callUs": "Call La Fab'ric",
+    "phoneMain": "819 322-1041",
+    "phoneRefacing": "819 322-1041, ext. 2"
   },
   "footer": {
     "tagline": "Over 30 years of experience in custom woodworking and kitchen refacing, dedicated to projects built to last.",
@@ -291,7 +294,7 @@
       "title": "Kitchen cabinet refacing",
       "description": "Transform your kitchen while keeping its existing structure. For five years, La Fab’ric Resurfaçage inc. has helped clients give their cabinets a new life.",
       "primaryCta": "See the transformations",
-      "secondaryCta": "Request a kitchen assessment"
+      "secondaryCta": "Request a quote"
     },
     "transformations": {
       "eyebrow": "Our transformations",
@@ -370,7 +373,9 @@
     "finalCta": {
       "title": "Like this transformation?",
       "description": "We can do the same with your kitchen.",
-      "cta": "Request a free estimate"
+      "cta": "Request a quote",
+      "eyebrow": "Quote",
+      "formDescription": "Tell us about your kitchen: our refacing team will call you back to discuss it and plan a visit. Quotes are free of charge."
     },
     "guide": {
       "title": "Is refacing right for your kitchen?",
@@ -555,7 +560,7 @@
       "addressValue": "5804 Boulevard Labelle, Val-Morin, QC J0T 2R0",
       "phone": "Phone",
       "phoneValue": "(819) 322-1041",
-      "phoneResurfacingValue": "819 322-1041, option 2 — Refacing",
+      "phoneResurfacingValue": "819 322-1041, ext. 2 — Refacing",
       "email": "Email",
       "emailValue": "info@lafabric.ca",
       "hours": "Business hours",
@@ -579,7 +584,7 @@
     "projects": "View projects"
   },
   "analyticsConsent": {
-    "text": "With your permission, we use Google Analytics to measure visits to this website. You can decline and continue browsing.",
+    "text": "With your permission, we use Google Analytics to measure visits to this website, and Google Ads to see which ads lead to a quote request. No personalized advertising. You can decline and continue browsing.",
     "accept": "Accept",
     "decline": "Decline",
     "settings": "Privacy preferences"

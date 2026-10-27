@@ -1,3 +1,4 @@
+import { PHONE_MAIN_NUMBER, PHONE_REFACING_NUMBER } from "@/lib/phone";
 import { serviceAreas } from "@/lib/service-areas";
 import { getLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
@@ -27,7 +28,7 @@ export async function JsonLd() {
     name: "La Fab’ric 1996 inc.",
     description: t("defaultDescription"),
     url: SITE_URL,
-    telephone: "+1-819-322-1041",
+    telephone: PHONE_MAIN_NUMBER,
     email: tContact("info.emailValue"),
     foundingDate: "1996",
     logo: `${SITE_URL}/images/logo-lafabric.png`,
@@ -75,7 +76,7 @@ export async function JsonLd() {
         "@id": `${SITE_URL}/#refacing-business`,
         name: "La Fab’ric Resurfaçage inc.",
         url: `${SITE_URL}${locale === "en" ? "/en/refacing" : "/resurfacage"}`,
-        telephone: "+1-819-322-1041 ext. 2",
+        telephone: PHONE_REFACING_NUMBER,
         email: tContact("info.emailValue"),
         address: structuredData.address,
         areaServed: serviceAreas(locale),

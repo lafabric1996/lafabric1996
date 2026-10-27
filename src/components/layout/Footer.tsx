@@ -1,3 +1,4 @@
+import { PHONE_MAIN_HREF, PHONE_REFACING_HREF } from "@/lib/phone";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -92,10 +93,10 @@ export function Footer() {
             </h3>
             <div className="mt-6 space-y-2 text-sm leading-relaxed text-white/60">
               <p>{tContact("info.addressValue")}</p>
-              <p><a className="hover:text-white" href="tel:+18193221041;ext=2" data-service="resurfacage">{tContact("info.phoneResurfacingValue")}</a></p>
+              <p><a className="hover:text-white" href={PHONE_REFACING_HREF} data-service="resurfacage">{tContact("info.phoneResurfacingValue")}</a></p>
               <p>
                 <a
-                  href="tel:+18193221041"
+                  href={PHONE_MAIN_HREF}
                   className="transition-colors hover:text-white"
                 >
                   {tContact("info.phoneValue")}
