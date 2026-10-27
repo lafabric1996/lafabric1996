@@ -63,7 +63,10 @@
     "homeAriaLabel": "La Fab'ric 1996 — Accueil",
     "openMenu": "Ouvrir le menu",
     "closeMenu": "Fermer le menu",
-    "requestQuote": "Demander une soumission"
+    "requestQuote": "Demander une soumission",
+    "callUs": "Appeler La Fab'ric",
+    "phoneMain": "819 322-1041",
+    "phoneRefacing": "819 322-1041, poste 2"
   },
   "footer": {
     "tagline": "Plus de 30 ans d'expérience en ébénisterie sur mesure et en resurfaçage de cuisines, au service de projets qui traversent le temps.",
@@ -291,7 +294,7 @@
       "title": "Resurfaçage d’armoires de cuisine",
       "description": "Transformez votre cuisine en conservant sa structure existante. Depuis cinq ans, La Fab’ric Resurfaçage inc. vous accompagne pour redonner vie à vos armoires.",
       "primaryCta": "Voir les transformations",
-      "secondaryCta": "Faire évaluer ma cuisine"
+      "secondaryCta": "Demander une soumission"
     },
     "transformations": {
       "eyebrow": "Nos transformations",
@@ -370,7 +373,9 @@
     "finalCta": {
       "title": "Vous aimez cette transformation ?",
       "description": "Nous pouvons faire la même chose avec votre cuisine.",
-      "cta": "Demander une estimation gratuite"
+      "cta": "Demander une soumission",
+      "eyebrow": "Soumission",
+      "formDescription": "Décrivez-nous votre cuisine : notre équipe de resurfaçage vous rappelle pour en discuter et planifier une visite. La soumission est sans frais."
     },
     "guide": {
       "title": "Le resurfaçage convient-il à votre cuisine?",
@@ -555,7 +560,7 @@
       "addressValue": "5804 Boulevard Labelle, Val-Morin, QC J0T 2R0",
       "phone": "Téléphone",
       "phoneValue": "(819) 322-1041",
-      "phoneResurfacingValue": "819 322-1041, option 2 — Resurfaçage",
+      "phoneResurfacingValue": "819 322-1041, poste 2 — Resurfaçage",
       "email": "Courriel",
       "emailValue": "info@lafabric.ca",
       "hours": "Heures d'ouverture",
@@ -579,7 +584,7 @@
     "projects": "Voir les réalisations"
   },
   "analyticsConsent": {
-    "text": "Nous utilisons Google Analytics, avec votre accord, pour mesurer la fréquentation du site. Vous pouvez refuser et continuer votre visite.",
+    "text": "Avec votre accord, nous utilisons Google Analytics pour mesurer la fréquentation du site, et Google Ads pour savoir quelles annonces mènent à une demande de soumission. Aucune publicité personnalisée. Vous pouvez refuser et continuer votre visite.",
     "accept": "Accepter",
     "decline": "Refuser",
     "settings": "Préférences de confidentialité"

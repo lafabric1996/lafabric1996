@@ -48,7 +48,7 @@ assert.equal((await sendContactMessage({}, data())).status, 'error');
 const events = [];
 let consent = 'declined';
 const location = { hostname: 'www.lafabric.ca' };
-const { trackContactEvent } = load('src/lib/analytics.ts', { window: { gtag: (...args) => events.push(args) }, location, localStorage: { getItem: () => consent } });
+const { trackContactEvent } = load('src/lib/analytics.ts', { window: { gtag: (...args) => events.push(args) }, location, localStorage: { getItem: (key) => key === "lafabric-analytics-consent-v2" ? consent : null } });
 trackContactEvent('generate_lead', 'resurfacage'); assert.equal(events.length, 0);
 consent = 'accepted'; location.hostname = 'preview.vercel.app';
 trackContactEvent('generate_lead', 'resurfacage'); assert.equal(events.length, 0);

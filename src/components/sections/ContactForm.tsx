@@ -1,7 +1,7 @@
 "use client";
 
 import { useSearchParams } from "next/navigation";
-import { trackContactEvent } from "@/lib/analytics";
+import { trackContactEvent, type ContactService } from "@/lib/analytics";
 import { useActionState, useRef } from "react";
 import { useTranslations } from "next-intl";
 import { sendContactMessage, type ContactFormState } from "@/lib/actions/contact";
@@ -9,12 +9,12 @@ import { Button } from "@/components/ui/Button";
 
 const initialState: ContactFormState = { status: "idle" };
 
-export function ContactForm() {
+export function ContactForm({ defaultService }: { defaultService?: ContactService } = {}) {
   const t = useTranslations("contactPage.form");
   const search = useSearchParams();
   const requestId = useRef<string | null>(null);
   const trackedRequest = useRef<string | null>(null);
-  const selectedService = search.get("service");
+  const selectedService = defaultService ?? search.get("service") ?? null;
   const [state, formAction, pending] = useActionState(
     async (previous: ContactFormState, data: FormData) => {
       requestId.current ??= crypto.randomUUID();
