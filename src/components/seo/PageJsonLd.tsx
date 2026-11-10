@@ -99,9 +99,11 @@ export async function ServiceJsonLd({
 export function ProjectJsonLd({
   locale,
   project,
+  architecturalProject = false,
 }: {
   locale: string;
   project: RealisationProject;
+  architecturalProject?: boolean;
 }) {
   const resolved = asLocale(locale);
   const href: ProjectHref = {
@@ -116,7 +118,8 @@ export function ProjectJsonLd({
         "@type": "CreativeWork",
         name: project.title,
         url: absoluteUrl(resolved, href),
-        creator: { "@id": BUSINESS_ID },
+        creator: architecturalProject ? { "@type": "Organization", name: "YH2 Architecture", url: "https://www.yh2architecture.com/" } : { "@id": BUSINESS_ID },
+        ...(architecturalProject ? { contributor: { "@id": BUSINESS_ID } } : {}),
         ...(project.description ? { description: project.description } : {}),
         image: [project.cover, ...project.images.slice(0, 9).map((i) => i.src)]
           .filter((src, index, all) => all.indexOf(src) === index)
