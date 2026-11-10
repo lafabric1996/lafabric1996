@@ -68,6 +68,14 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
     `categories.${project.category}` as `categories.${ProjectCategory}`,
   );
   const tNav = await getTranslations("nav");
+  const studySection = study ? <Section variant="surface">
+        <div className="grid gap-10 md:grid-cols-2">
+          {study.sections.map((section) => <div key={section.title}>
+            <h2 className="font-display text-3xl">{section.title}</h2>
+            <p className="mt-4 leading-relaxed text-muted">{section.text}</p>
+          </div>)}
+        </div>
+      </Section> : null;
 
   return (
     <>
@@ -117,19 +125,14 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
         <a href="https://www.yh2architecture.com/fr/projets/maison-aube" target="_blank" rel="noopener noreferrer" className="mt-3 inline-block text-sm underline underline-offset-4">{tAube("architectLink")} ↗</a>
       </Container> : null}
 
-      {study ? <Section variant="surface">
-        <div className="grid gap-10 md:grid-cols-2">
-          {study.sections.map((section) => <div key={section.title}>
-            <h2 className="font-display text-3xl">{section.title}</h2>
-            <p className="mt-4 leading-relaxed text-muted">{section.text}</p>
-          </div>)}
-        </div>
-      </Section> : null}
+      {!isAube ? studySection : null}
       {isAube ? <ProjectAwards slug={slug} /> : null}
       <Section>
         {isAube ? <div className="mb-10"><h2 className="font-display text-3xl md:text-4xl">{tAube("galleryTitle")}</h2><p className="mt-4 text-muted">{tAube("galleryText")}</p></div> : null}
         <ProjectDetailGallery images={images} projectTitle={project.title} cover={project.cover} />
       </Section>
+
+      {isAube ? studySection : null}
 
       {isAube ? <Section variant="surface">
         <div className="max-w-3xl">
