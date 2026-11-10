@@ -15,6 +15,7 @@ type PromoVideoCardProps = {
   className?: string;
   /** À désactiver quand le titre est déjà affiché à côté de la carte. */
   showCaption?: boolean;
+  landscape?: boolean;
 };
 
 function lockPageScroll() {
@@ -61,6 +62,7 @@ export function PromoVideoCard({
   ariaLabel,
   className,
   showCaption = true,
+  landscape = false,
 }: PromoVideoCardProps) {
   const titleId = useId();
   const dialogRef = useRef<HTMLDialogElement>(null);
@@ -158,7 +160,7 @@ export function PromoVideoCard({
         <button
           type="button"
           onClick={openModal}
-          className="group relative block aspect-[4/5] w-full overflow-hidden rounded-2xl shadow-[0_8px_32px_-8px_rgba(0,0,0,0.14)] transition-shadow duration-500 hover:shadow-[0_16px_48px_-8px_rgba(0,0,0,0.18)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood/40 focus-visible:ring-offset-2"
+          className={cn(landscape ? "aspect-video" : "aspect-[4/5]", "group relative block w-full overflow-hidden rounded-2xl shadow-[0_8px_32px_-8px_rgba(0,0,0,0.14)] transition-shadow duration-500 hover:shadow-[0_16px_48px_-8px_rgba(0,0,0,0.18)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-wood/40 focus-visible:ring-offset-2")}
           aria-label={playLabel}
         >
           <Image
@@ -174,6 +176,7 @@ export function PromoVideoCard({
               <PlayIcon className="h-7 w-7 sm:h-8 sm:w-8" />
             </span>
           </span>
+          {landscape ? <span className="absolute inset-x-0 bottom-0 bg-linear-to-t from-black/80 to-transparent px-4 pb-4 pt-10 text-center text-sm font-medium text-white">{playLabel}</span> : null}
         </button>
 
         {showCaption && (

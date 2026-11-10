@@ -127,6 +127,7 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
 
       {!isAube ? studySection : null}
       {isAube ? <ProjectAwards slug={slug} /> : null}
+      <ProjectVideo slug={slug} />
       <Section>
         {isAube ? <div className="mb-10"><h2 className="font-display text-3xl md:text-4xl">{tAube("galleryTitle")}</h2><p className="mt-4 text-muted">{tAube("galleryText")}</p></div> : null}
         <ProjectDetailGallery images={images} projectTitle={project.title} cover={project.cover} />
@@ -142,7 +143,6 @@ export default async function ProjectDetailPage({ params }: ProjectPageProps) {
           <a href="https://www.youtube.com/watch?v=egzuchDIRKs" target="_blank" rel="noopener noreferrer" className="mt-6 inline-block border-b border-foreground pb-2 text-sm hover:text-wood">{tAube("interviewLink")} ↗<span className="sr-only"> — {tAube("newTab")}</span></a>
         </div>
       </Section> : null}
-      <ProjectVideo slug={slug} />
 
       <Section variant="surface">
         <h2 className="font-display text-3xl">{t("relatedServices")}</h2>

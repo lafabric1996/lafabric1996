@@ -91,19 +91,22 @@ export default async function HomePage({ params }: LocalePageProps) {
                 {t("hero.secondaryCta")}
               </Button>
             </div>
+            <a href="#film-maison-aube" className="mt-6 inline-block text-sm text-white underline underline-offset-4 hover:text-white/80">
+              {locale === "fr" ? "Voir le film de la Maison Aubé — 36 secondes" : "Watch the Maison Aubé film — 36 seconds"}
+            </a>
           </div>
         </Container>
       </section>
 
       {/* 2. Bande de preuves */}
       <ProofBar />
+      <ProjectVideo slug="yh2-maison-aube" home />
 
       {/* 3. Les deux métiers */}
       <TwoTrades />
 
       {/* 4. Réalisations */}
       <HomeFeatured />
-      <ProjectVideo slug="yh2-maison-aube" home />
 
       {/* 5. Marie-Mai, pleine largeur */}
       {promoVideo.available && promoVideo.src && promoVideo.posterSrc ? (
