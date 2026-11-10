@@ -1,3 +1,4 @@
+import { MaisonAubeFeature } from "@/components/sections/MaisonAubeFeature";
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { RealisationImage } from "@/components/realisations/RealisationImage";
@@ -27,24 +28,7 @@ export async function HomeFeatured() {
         />
       </div>
 
-      <AnimatedReveal className="mt-12">
-        <Link
-          href={{ pathname: "/realisations/[slug]", params: { slug: lead.slug } }}
-          className="group block"
-        >
-          <div className="relative aspect-[16/10] overflow-hidden bg-surface lg:aspect-[21/9]">
-            <RealisationImage
-              src={lead.cover}
-              alt={lead.title}
-              sizes="100vw"
-              className="transition-transform duration-700 group-hover:scale-[1.02]"
-            />
-          </div>
-          <h3 className="mt-5 font-display text-3xl tracking-tight transition-opacity group-hover:opacity-70 lg:text-4xl">
-            {lead.title}
-          </h3>
-        </Link>
-      </AnimatedReveal>
+      <MaisonAubeFeature />
 
       <div className="mt-12 grid gap-8 md:grid-cols-2 lg:gap-10">
         {rest.map((project, index) => (

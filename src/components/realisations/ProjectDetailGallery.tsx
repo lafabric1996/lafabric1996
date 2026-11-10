@@ -10,12 +10,13 @@ type ProjectDetailGalleryProps = {
   images: RealisationImageType[];
   projectTitle: string;
   cover: string;
+  coverAlt?: string;
   variant?: "grid" | "cover";
 };
 
 const controlClass = "flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/15 text-3xl text-white transition-colors hover:bg-white/30 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white";
 
-export function ProjectDetailGallery({ images, projectTitle, cover, variant = "grid" }: ProjectDetailGalleryProps) {
+export function ProjectDetailGallery({ images, projectTitle, cover, coverAlt, variant = "grid" }: ProjectDetailGalleryProps) {
   const t = useTranslations("realisations.lightbox");
   const tCommon = useTranslations("common");
   const dialogRef = useRef<HTMLDialogElement>(null);
@@ -55,7 +56,7 @@ export function ProjectDetailGallery({ images, projectTitle, cover, variant = "g
       {variant === "cover" ? (
         <button type="button" onClick={() => openPhoto(cover)} aria-label={t("open", { number: 1 })} aria-haspopup="dialog"
           className="relative block aspect-[21/9] w-full cursor-zoom-in overflow-hidden bg-surface focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-foreground">
-          <RealisationImage src={cover} alt={projectTitle} priority sizes="100vw" />
+          <RealisationImage src={cover} alt={coverAlt || projectTitle} priority sizes="100vw" />
           <span className="absolute right-4 bottom-4 bg-black/65 px-4 py-2 text-sm text-white" aria-hidden="true">{t("enlarge")}</span>
         </button>
       ) : (
@@ -115,7 +116,7 @@ export function ProjectDetailGallery({ images, projectTitle, cover, variant = "g
               }}
               onTouchCancel={() => { touchStart.current = null; }}>
               <RealisationImage key={activePhoto} src={activePhoto} objectFit="contain" sizes="100vw"
-                alt={`${projectTitle} — ${t("counter", { current: activeIndex + 1, total: photos.length })}`} />
+                alt={images.find(image => image.src === activePhoto)?.alt || projectTitle} />
             </div>
             {photos.length > 1 ? (
               <div className="flex shrink-0 justify-center gap-6 pt-4">

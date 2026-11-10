@@ -1,3 +1,4 @@
+import { ProjectVideo } from "@/components/realisations/ProjectVideo";
 import { HeroVideo } from "@/components/sections/HeroVideo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ContactSection } from "@/components/sections/ContactSection";
@@ -102,6 +103,7 @@ export default async function HomePage({ params }: LocalePageProps) {
 
       {/* 4. Réalisations */}
       <HomeFeatured />
+      <ProjectVideo slug="yh2-maison-aube" home />
 
       {/* 5. Marie-Mai, pleine largeur */}
       {promoVideo.available && promoVideo.src && promoVideo.posterSrc ? (

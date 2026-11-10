@@ -29,28 +29,60 @@
   },
   "yh2-maison-aube": {
     "fr": {
-      "intro": "Maison Aubé, avec yh2 à Saint-Eustache : des aménagements sur mesure en chêne blanc au contact des murs de pierre d’origine.",
+      "intro": "À Saint-Eustache, La Fab’ric a fabriqué l’ébénisterie sur mesure en chêne blanc de la Maison Aubé, une résidence de 1811 restaurée et agrandie par YH2 Architecture.",
       "sections": [
         {
-          "title": "Des volumes adaptés à la maison",
-          "text": "Le projet comprend notamment du rangement pleine hauteur, un îlot, une vanité et une tête de lit cannelée qui sert de cloison."
+          "title": "Une maison de 1811, une nouvelle vie",
+          "text": "Au bord de la rivière des Mille Îles, la Maison Aubé traverse les générations depuis plus de deux siècles. La transformation conçue par YH2 Architecture remet en valeur la pierre et la charpente de la résidence patrimoniale, tout en l’ouvrant à de nouveaux usages. Un passage vitré relie la maison ancienne à un agrandissement contemporain."
         },
         {
-          "title": "Une fabrication à partir des mesures sur place",
-          "text": "Les particularités de cette maison ancienne ont demandé des relevés sur place avant la fabrication des pièces d’ébénisterie."
+          "title": "La contribution de La Fab’ric",
+          "text": "La Fab’ric a réalisé les éléments d’ébénisterie sur mesure du projet architectural de YH2. Notre contribution se lit dans la cuisine, les rangements intégrés et le mobilier de la chambre : des pièces fabriquées pour prendre place dans cet ensemble résidentiel, au service de la conception des architectes."
+        },
+        {
+          "title": "Le chêne blanc, de la cuisine aux rangements",
+          "text": "Dans la cuisine, l’îlot et le rangement pleine hauteur donnent au chêne blanc une présence continue. Les grandes surfaces de bois accompagnent les usages quotidiens et mettent en relation les différents espaces. Contre la pierre ancienne, le dessin épuré de l’ébénisterie apporte une lecture contemporaine sans effacer le caractère de la maison."
+        },
+        {
+          "title": "Une tête de lit qui organise l’espace",
+          "text": "Dans la chambre, le volume de la tête de lit cannelée sert aussi de cloison. Le rythme de sa surface et la présence du bois font du mobilier un élément à part entière de l’aménagement. Cette approche prolonge le travail d’ébénisterie au-delà de la cuisine, à l’échelle de la résidence."
+        },
+        {
+          "title": "Relever, fabriquer, ajuster",
+          "text": "Les mesures prises sur place ont guidé la fabrication des pièces d’ébénisterie. Dans une maison ancienne, la rencontre entre le mobilier neuf et les surfaces existantes demande une attention particulière aux dimensions, aux raccords et à l’ajustement. Le sur-mesure permet ici de travailler avec le bâtiment tel qu’il est, plutôt que de lui imposer des modules standards."
+        },
+        {
+          "title": "L’ébénisterie dans la continuité de l’architecture",
+          "text": "Pierre ancienne et bois clair se côtoient sans se confondre. Les aménagements fabriqués par La Fab’ric accompagnent la transformation de YH2 : ils relient les fonctions, offrent du rangement et donnent une place au mobilier dans la composition des pièces. Une réalisation qui illustre notre travail au sein de projets résidentiels conçus avec des architectes."
         }
       ]
     },
     "en": {
-      "intro": "Maison Aubé, with yh2 in Saint-Eustache: custom white oak furnishings alongside the original stone walls.",
+      "intro": "La Fab’ric crafted the custom white oak cabinetry for Maison Aubé in Saint-Eustache, an 1811 heritage home restored and extended by YH2 Architecture.",
       "sections": [
         {
-          "title": "Cabinetry fitted to the home",
-          "text": "The project includes full-height storage, an island, a vanity and a fluted headboard that also acts as a partition."
+          "title": "An 1811 home, renewed for family life",
+          "text": "Set beside the Mille Îles River, Maison Aubé has been part of family life for more than two centuries. YH2 Architecture’s transformation brings the historic stonework and timber structure into focus while making room for new ways of living. A glazed passage connects the original house to a contemporary addition."
         },
         {
-          "title": "Built from on-site measurements",
-          "text": "The characteristics of this historic house required on-site measurements before the cabinetry was fabricated."
+          "title": "La Fab’ric’s contribution",
+          "text": "La Fab’ric fabricated the custom cabinetry and built-in furniture for YH2’s architectural project. Our work extends through the kitchen, integrated storage and bedroom furnishings, with pieces made to fit the residence and support the architects’ design."
+        },
+        {
+          "title": "White oak throughout the kitchen and storage",
+          "text": "The kitchen island and full-height cabinetry give white oak a continuous presence. Broad wood surfaces support everyday use and connect the living spaces. Set against the old stone walls, the clean lines of the cabinetry introduce a contemporary layer while preserving the home’s character."
+        },
+        {
+          "title": "A headboard that shapes the room",
+          "text": "The fluted headboard also serves as a partition. Its rhythm and material presence make the furniture part of the room’s architecture. This approach carries the cabinetry beyond the kitchen, creating a cohesive relationship between furnishings and the home as a whole."
+        },
+        {
+          "title": "Measured on site, made to fit",
+          "text": "On-site measurements informed the fabrication of the cabinetry. In a historic house, bringing new furniture together with existing surfaces calls for careful attention to dimensions, junctions and fit. Custom fabrication allows the pieces to respond to the building as it stands, rather than relying on standard modules."
+        },
+        {
+          "title": "Cabinetry as part of the architecture",
+          "text": "Old stone and pale wood retain their distinct character while working together. La Fab’ric’s cabinetry supports YH2’s transformation by linking functions, providing storage and giving built-in furniture a place in the composition of each room. The project reflects our contribution to architect-designed residential work."
         }
       ]
     }

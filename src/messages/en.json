@@ -600,10 +600,50 @@
     "architectLabel": "Architect",
     "projectLabel": "Project",
     "viewProject": "View project",
-    "readArticle": "Read the article"
+    "readArticle": "Read the article",
+    "officialSource": "View the official source"
   },
   "territory": {
     "title": "Tell us about your project",
     "description": "Based in the Laurentians, we take on projects according to their scope and location. Tell us about yours."
+  },
+  "maisonAube": {
+    "eyebrow": "Architectural cabinetry",
+    "title": "Maison Aubé",
+    "location": "Saint-Eustache · An 1811 heritage home",
+    "featureTitle": "White oak meets historic stone.",
+    "featureText": "A heritage home reimagined by YH2 Architecture, with custom cabinetry by La Fab’ric throughout the kitchen, storage areas and built-in furnishings.",
+    "badge": "Architecture recognised with two awards in 2026",
+    "shortAwards": "OAQ 2026 · MŌNUMA 2026",
+    "attribution": "Awards recognise YH2’s architectural project. Custom cabinetry: La Fab’ric 1996.",
+    "discover": "Explore our contribution",
+    "awardsTitle": "Two architectural honours in 2026",
+    "source": "View the official source",
+    "architect": "Architecture: YH2 — Yiacouvakis Hamelin Architectes",
+    "photoCredit": "Photographer credited by YH2: Maxime Brouillet.",
+    "architectLink": "The project on YH2’s website",
+    "galleryTitle": "A closer look at the cabinetry",
+    "galleryText": "Explore the kitchen, storage and built-in furniture. Select any photograph for a larger view.",
+    "interviewEyebrow": "The architects’ perspective",
+    "interviewTitle": "YH2 on Maison Aubé",
+    "interviewText": "Hear from YH2 in this interview about Maison Aubé, offering another perspective on the architecture behind our cabinetry work.",
+    "interviewLink": "Watch the interview on YouTube",
+    "newTab": "Opens in a new tab",
+    "seoTitle": "Maison Aubé — Custom Cabinetry for YH2",
+    "seoDescription": "Custom white oak cabinetry by La Fab’ric for Maison Aubé in Saint-Eustache, designed by YH2 and recognised by the OAQ and MŌNUMA awards in 2026.",
+    "imageAlts": {
+      "photo-230": "White oak kitchen beside the stone walls of Maison Aubé",
+      "photo-715": "Wood cabinetry beneath a basin at Maison Aubé",
+      "photo-722": "Kitchen, island and white oak storage behind the dining table at Maison Aubé",
+      "photo-762": "Fluted wood headboard in the bedroom at Maison Aubé",
+      "photo-549": "Passage lined with wood panels at Maison Aubé",
+      "IMG_6539": "Overall view of the kitchen and island at Maison Aubé",
+      "IMG_6540": "White oak island in front of full-height cabinetry",
+      "IMG_6541": "White oak cabinet fronts and the kitchen island countertop",
+      "IMG_6542": "Built-in storage beneath the timber structure at Maison Aubé",
+      "IMG_6543": "Low cabinetry beneath the beams at Maison Aubé",
+      "IMG_6544": "Storage unit beside the stairs and stone wall",
+      "IMG_6547": "Open kitchen storage with integrated shelving"
+    }
   }
 }

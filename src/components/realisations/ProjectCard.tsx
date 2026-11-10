@@ -17,6 +17,7 @@ export function ProjectCard({
   priority = false,
 }: ProjectCardProps) {
   const tCommon = useTranslations("common");
+  const tAube = useTranslations("maisonAube");
   return (
     <Link
       href={{ pathname: "/realisations/[slug]", params: { slug: project.slug } }}
@@ -26,7 +27,7 @@ export function ProjectCard({
         <div className="relative aspect-[4/5] overflow-hidden bg-surface">
           {project.cover ? <RealisationImage
             src={project.cover}
-            alt={project.title}
+            alt={project.slug === "yh2-maison-aube" ? tAube("imageAlts.photo-722") : project.title}
             priority={priority}
             sizes={portraitImageSizes}
             className="transition-transform duration-700 group-hover:scale-[1.03]"
@@ -47,6 +48,7 @@ export function ProjectCard({
           >
             {project.title}
           </h3>
+          {project.slug === "yh2-maison-aube" ? <p className="mt-2 text-sm text-wood">{tAube("badge")}</p> : null}
         </div>
       </article>
     </Link>

@@ -68,9 +68,9 @@ export function getProjectsByCategory(
  * complète.
  */
 const featuredProjectSlugs = [
+  "yh2-maison-aube",
   "mu-architecture-l-albatros",
   "construction-mad-projet-circle",
-  "yh2-maison-aube",
 ] as const;
 
 export function getFeaturedProjects(): RealisationProject[] {

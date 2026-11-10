@@ -26,6 +26,9 @@ export type PressMention = {
 };
 
 export type Award = {
+  id: string;
+  name: { fr: string; en: string };
+  category?: { fr: string; en: string };
   year: string;
   organisation: string;
   organisationUrl: string;
@@ -56,9 +59,20 @@ export const pressProjects: PressProject[] = [
 /** Vérifié sur oaq.com/laureats2026 et sur Canadian Architect. */
 export const awards: Award[] = [
   {
+    id: "oaq-2026-aube",
+    name: { fr: "Prix d’excellence en architecture 2026", en: "2026 Award of Excellence in Architecture" },
     year: "2026",
     organisation: "Ordre des architectes du Québec",
     organisationUrl: "https://www.oaq.com/laureats2026/",
+    projectSlug: "yh2-maison-aube",
+  },
+  {
+    id: "monuma-2026-aube",
+    name: { fr: "Prix MŌNUMA 2026 — Lauréat", en: "2026 MŌNUMA Awards — Winner" },
+    category: { fr: "Architecture — Résidentiel — Rénovation — 1 M$ et plus", en: "Architecture — Residential — Renovation — $1 million and over" },
+    year: "2026",
+    organisation: "MŌNUMA",
+    organisationUrl: "https://monuma.ca/les-laureats/",
     projectSlug: "yh2-maison-aube",
   },
 ];

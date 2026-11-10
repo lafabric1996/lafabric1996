@@ -600,10 +600,50 @@
     "architectLabel": "Architecte",
     "projectLabel": "Projet",
     "viewProject": "Voir le projet",
-    "readArticle": "Lire l'article"
+    "readArticle": "Lire l'article",
+    "officialSource": "Consulter la source officielle"
   },
   "territory": {
     "title": "Parlez-nous de votre projet",
     "description": "Établis dans les Laurentides, nous réalisons des projets selon leur nature et leur emplacement. Parlez-nous du vôtre."
+  },
+  "maisonAube": {
+    "eyebrow": "Ébénisterie architecturale",
+    "title": "Maison Aubé",
+    "location": "Saint-Eustache · Résidence de 1811",
+    "featureTitle": "Le chêne blanc rencontre la pierre ancienne.",
+    "featureText": "Une résidence patrimoniale transformée par YH2 Architecture. La Fab’ric y a fabriqué l’ébénisterie sur mesure, de la cuisine aux rangements et au mobilier intégré.",
+    "badge": "Projet architectural primé en 2026",
+    "shortAwards": "OAQ 2026 · MŌNUMA 2026",
+    "attribution": "Distinctions du projet architectural de YH2. Ébénisterie sur mesure : La Fab’ric 1996.",
+    "discover": "Découvrir notre contribution",
+    "awardsTitle": "Deux reconnaissances architecturales en 2026",
+    "source": "Consulter la source officielle",
+    "architect": "Architecture : YH2 — Yiacouvakis Hamelin Architectes",
+    "photoCredit": "Photographe crédité par YH2 : Maxime Brouillet.",
+    "architectLink": "Le projet présenté par YH2",
+    "galleryTitle": "L’ébénisterie en images",
+    "galleryText": "Cuisine, rangements et mobilier intégré : découvrez les détails et agrandissez chaque photo.",
+    "interviewEyebrow": "Le regard des architectes",
+    "interviewTitle": "YH2 parle de la Maison Aubé",
+    "interviewText": "Découvrez le projet à travers cette entrevue avec YH2. Un autre regard sur l’architecture qui accueille notre ébénisterie.",
+    "interviewLink": "Voir l’entrevue sur YouTube",
+    "newTab": "Nouvel onglet",
+    "seoTitle": "Maison Aubé — Ébénisterie sur mesure avec YH2",
+    "seoDescription": "Ébénisterie en chêne blanc par La Fab’ric pour la Maison Aubé à Saint-Eustache, conçue par YH2 et reconnue aux prix OAQ et MŌNUMA 2026.",
+    "imageAlts": {
+      "photo-230": "Cuisine en chêne blanc et murs de pierre de la Maison Aubé",
+      "photo-715": "Meuble en bois sous vasque à la Maison Aubé",
+      "photo-722": "Cuisine, îlot et rangements en chêne blanc derrière la table de la Maison Aubé",
+      "photo-762": "Tête de lit cannelée en bois dans la chambre de la Maison Aubé",
+      "photo-549": "Passage bordé de panneaux de bois à la Maison Aubé",
+      "IMG_6539": "Vue d’ensemble de la cuisine et de l’îlot de la Maison Aubé",
+      "IMG_6540": "Îlot en chêne blanc devant les rangements pleine hauteur",
+      "IMG_6541": "Façades en chêne blanc et comptoir de l’îlot de cuisine",
+      "IMG_6542": "Rangements intégrés sous la charpente de la Maison Aubé",
+      "IMG_6543": "Mobilier bas sous les poutres de la Maison Aubé",
+      "IMG_6544": "Meuble de rangement près de l’escalier et du mur de pierre",
+      "IMG_6547": "Rangement de cuisine ouvert avec étagères intégrées"
+    }
   }
 }
