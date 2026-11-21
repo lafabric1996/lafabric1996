@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { getPathname } from "@/i18n/navigation";
 import type { Locale, StaticPathname } from "@/i18n/routing";
 import { routing } from "@/i18n/routing";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 
-const BASE_URL = "https://www.lafabric.ca";
 /* Image de partage utilisée quand la page n'en fournit pas la sienne. */
 const DEFAULT_OG_IMAGE = "/images/hero-atelier-20261024.jpg";
 
@@ -25,7 +25,7 @@ type PageMetadataOptions = {
 
 function getLocalizedUrl(locale: Locale | string, pathname: PathnameOption = "/"): string {
   const path = getPathname({ locale: locale as Locale, href: pathname });
-  return `${BASE_URL}${path}`;
+  return `${SITE_URL}${path}`;
 }
 
 export function createPageMetadata({
@@ -36,11 +36,12 @@ export function createPageMetadata({
   image,
 }: PageMetadataOptions): Metadata {
   const resolvedLocale = locale as Locale;
-  const pageTitle = title
-    ? `${title} | La Fab'ric 1996`
-    : resolvedLocale === "fr"
-      ? "La Fab'ric 1996 | Ébénisterie sur mesure dans les Laurentides"
-      : "La Fab'ric 1996 | Custom Cabinetmaking in the Laurentians";
+  const subject = title || (resolvedLocale === "fr"
+    ? "Ébénisterie sur mesure dans les Laurentides"
+    : "Custom Cabinetmaking in the Laurentians");
+  const pageTitle = pathname === "/" || !title
+    ? `${SITE_NAME} | ${subject}`
+    : `${subject} | ${SITE_NAME}`;
 
   const url = getLocalizedUrl(resolvedLocale, pathname);
 
@@ -56,7 +57,7 @@ export function createPageMetadata({
   return {
     title: pageTitle,
     description,
-    metadataBase: new URL(BASE_URL),
+    metadataBase: new URL(SITE_URL),
     alternates: {
       canonical: url,
       languages,
@@ -65,7 +66,7 @@ export function createPageMetadata({
       title: pageTitle,
       description,
       url,
-      siteName: "La Fab'ric 1996",
+      siteName: SITE_NAME,
       locale: resolvedLocale === "fr" ? "fr_CA" : "en_CA",
       type: "website",
       images: [{ url: ogImage }],

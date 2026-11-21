@@ -1,4 +1,5 @@
 import { ProjectVideo } from "@/components/realisations/ProjectVideo";
+import { WebSiteJsonLd } from "@/components/seo/PageJsonLd";
 import { HeroVideo } from "@/components/sections/HeroVideo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ContactSection } from "@/components/sections/ContactSection";
@@ -46,6 +47,7 @@ export default async function HomePage({ params }: LocalePageProps) {
 
   return (
     <>
+      <WebSiteJsonLd />
       <ScrollToContact />
 
       {/* 1. Hero */}
