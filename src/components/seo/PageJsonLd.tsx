@@ -1,11 +1,11 @@
 import { serviceAreas } from "@/lib/service-areas";
+import { SITE_NAME, SITE_URL } from "@/lib/site";
 import { getTranslations } from "next-intl/server";
 import { getPathname } from "@/i18n/navigation";
 import { asLocale } from "@/lib/i18n-server";
 import type { Locale, StaticPathname } from "@/i18n/routing";
 import type { RealisationProject } from "@/lib/realisations";
 
-const SITE_URL = "https://www.lafabric.ca";
 /** Même identifiant que le bloc HomeAndConstructionBusiness de <JsonLd />. */
 const BUSINESS_ID = `${SITE_URL}/#business`;
 
@@ -24,7 +24,40 @@ function JsonLdScript({ data }: { data: unknown }) {
   return (
     <script
       type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
+      dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }}
+    />
+  );
+}
+
+export function WebSiteJsonLd() {
+  return (
+    <JsonLdScript
+      data={{
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": `${SITE_URL}/#website`,
+        url: `${SITE_URL}/`,
+        name: SITE_NAME,
+        alternateName: ["La Fab'ric", "La Fabric"],
+        publisher: { "@id": BUSINESS_ID },
+        inLanguage: ["fr-CA", "en-CA"],
+      }}
+    />
+  );
+}
+
+export function HomePageImageJsonLd({ locale, image }: { locale: Locale; image: string }) {
+  const url = absoluteUrl(locale, "/");
+  return (
+    <JsonLdScript
+      data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": `${url}#webpage`,
+        url,
+        isPartOf: { "@id": `${SITE_URL}/#website` },
+        primaryImageOfPage: new URL(image, SITE_URL).href,
+      }}
     />
   );
 }

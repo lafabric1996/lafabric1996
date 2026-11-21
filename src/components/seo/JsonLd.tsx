@@ -1,9 +1,8 @@
 import { PHONE_MAIN_NUMBER, PHONE_REFACING_NUMBER } from "@/lib/phone";
 import { serviceAreas } from "@/lib/service-areas";
+import { SITE_URL } from "@/lib/site";
 import { getLocale } from "next-intl/server";
 import { getTranslations } from "next-intl/server";
-
-const SITE_URL = "https://www.lafabric.ca";
 
 const WEEKDAYS = [
   "Monday",
