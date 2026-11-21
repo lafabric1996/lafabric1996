@@ -46,6 +46,22 @@ export function WebSiteJsonLd() {
   );
 }
 
+export function HomePageImageJsonLd({ locale, image }: { locale: Locale; image: string }) {
+  const url = absoluteUrl(locale, "/");
+  return (
+    <JsonLdScript
+      data={{
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "@id": `${url}#webpage`,
+        url,
+        isPartOf: { "@id": `${SITE_URL}/#website` },
+        primaryImageOfPage: new URL(image, SITE_URL).href,
+      }}
+    />
+  );
+}
+
 type Crumb = { name: string; href?: Href };
 
 /**

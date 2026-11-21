@@ -1,5 +1,5 @@
 import { ProjectVideo } from "@/components/realisations/ProjectVideo";
-import { WebSiteJsonLd } from "@/components/seo/PageJsonLd";
+import { HomePageImageJsonLd, WebSiteJsonLd } from "@/components/seo/PageJsonLd";
 import { HeroVideo } from "@/components/sections/HeroVideo";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { ContactSection } from "@/components/sections/ContactSection";
@@ -21,6 +21,9 @@ import { asLocale } from "@/lib/i18n-server";
 import type { LocalePageProps } from "@/lib/page-props";
 import { getPromoVideo } from "@/lib/promo-video";
 import { getHeroVideo } from "@/lib/hero-video";
+import { getProjectBySlug } from "@/lib/realisations";
+
+const HOME_PREVIEW_IMAGE = getProjectBySlug("yh2-maison-aube")?.cover;
 
 export async function generateMetadata({ params }: LocalePageProps) {
   const { locale } = await params;
@@ -31,6 +34,7 @@ export async function generateMetadata({ params }: LocalePageProps) {
     title: t("title"),
     description: t("description"),
     pathname: "/",
+    image: HOME_PREVIEW_IMAGE,
   });
 }
 
@@ -48,6 +52,7 @@ export default async function HomePage({ params }: LocalePageProps) {
   return (
     <>
       <WebSiteJsonLd />
+      {HOME_PREVIEW_IMAGE && <HomePageImageJsonLd locale={asLocale(locale)} image={HOME_PREVIEW_IMAGE} />}
       <ScrollToContact />
 
       {/* 1. Hero */}
